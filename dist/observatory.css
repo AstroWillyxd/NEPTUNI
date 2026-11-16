@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+/* NEPTUNI · Observatorio. The explorer is one dark stage: the 3D canvas, its labels and the
+   NOMAD HUD share the same space, glass and motion. Photographic backdrops and model
+   lighting stay as tuned per mission; only the frame around them changes.
+   The tokens are global so the chronology shares the same HUD language. */
+:root{
+ --hud-bg:#05070b;--hud-ink:#eef3f9;--hud-soft:rgba(226,235,246,.76);--hud-dim:rgba(208,220,235,.54);--hud-faint:rgba(208,220,235,.14);--hud-hair:rgba(208,220,235,.09);
+ --hud-warm:#ffb46e;--hud-warm-rgb:255,180,110;--hud-cool:#8ec6ff;--hud-cool-rgb:142,198,255;
+ --hud-impact:#ff8a6b;--hud-lost:#b7a5ff;--hud-preserved:#9fd8c8;
+ --hud-accent:var(--hud-warm);--hud-accent-rgb:var(--hud-warm-rgb);
+ --hud-glass:rgba(6,9,14,.56);--hud-glass-line:rgba(208,220,235,.15);
+ --ease-out:cubic-bezier(.16,1,.3,1);--ease-spring:cubic-bezier(.34,1.42,.5,1);--ease-io:cubic-bezier(.65,0,.35,1);
+ --font-mono:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;--font-display:'Space Grotesk',Inter,Arial,sans-serif;
+}
+/* Historia speaks in a warm human tone; Ingeniería switches the whole stage to signal blue. */
+#explorador .explorer-layout{--hud-accent:var(--hud-warm);--hud-accent-rgb:var(--hud-warm-rgb)}
+#explorador .explorer-layout[data-hud-mode=engineering]{--hud-accent:var(--hud-cool);--hud-accent-rgb:var(--hud-cool-rgb)}
+body.exploring{background:#040609;color:var(--hud-ink,#eef3f9)}
+body.exploring main{background:#040609}
+
+/* Title strip */
+#explorador .explorer-top{position:relative;display:flex;align-items:center;justify-content:space-between;gap:14px 28px;min-height:0;margin:0;padding:18px 28px 16px;background:linear-gradient(180deg,#080b11,var(--hud-bg));border:0}
+#explorador .explorer-top::after{content:'';position:absolute;left:28px;right:28px;bottom:0;height:1px;background:linear-gradient(90deg,transparent,var(--hud-faint) 18%,var(--hud-faint) 82%,transparent)}
+#explorador .explorer-heading{min-width:0}
+#explorador .explorer-top .eyebrow{display:flex;align-items:center;gap:10px;margin:0 0 6px;font:500 10.5px/1.5 var(--font-mono);letter-spacing:.22em;color:var(--hud-dim)}
+#explorador .eyebrow-signal{flex:none;width:6px;height:6px;border-radius:50%;background:var(--hud-warm);animation:hud-ping 2.6s var(--ease-out) infinite}
+#explorador .explorer-top h1{margin:0;font:500 clamp(24px,2.3vw,34px)/1.08 var(--font-display);letter-spacing:-.035em;color:var(--hud-ink);overflow-wrap:anywhere}
+#explorador .mission-select{display:flex;flex-direction:row;align-items:center;gap:14px;margin:0;font:500 10px/1.4 var(--font-mono);letter-spacing:.18em;text-transform:uppercase;color:var(--hud-dim)}
+#explorador .mission-select select{appearance:none;-webkit-appearance:none;min-height:44px;width:auto;min-width:240px;max-width:340px;padding:10px 44px 10px 18px;border-radius:999px;border:1px solid var(--hud-glass-line);background:rgba(255,255,255,.035) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23cfdbe8' stroke-width='1.3'/%3E%3C/svg%3E") no-repeat right 18px center/11px 8px;color:var(--hud-ink);font:500 15px/1.2 var(--font-display);letter-spacing:-.01em;text-transform:none;color-scheme:dark;cursor:pointer;transition:border-color .45s var(--ease-out),background-color .45s var(--ease-out)}
+#explorador .mission-select select:hover{border-color:rgba(var(--hud-warm-rgb),.5);background-color:rgba(255,255,255,.06)}
+#explorador .mission-select select:focus-visible{outline:2px solid var(--hud-warm);outline-offset:3px}
+#explorador .mission-select option{background:#0b0f16;color:#eef3f9}
+
+/* Stage: viewer and HUD meet without a border. */
+#explorador .explorer-layout{position:relative;gap:0;background:var(--hud-bg)}
+#explorador .explorer-layout:not(.mariner-layout){grid-template-columns:minmax(0,1fr) 400px;height:calc(100dvh - var(--explorer-header-height,162px) - var(--explorer-title-height,98px));min-height:600px}
+#explorador .explorer-layout:fullscreen{background:var(--hud-bg)}
+#explorador .viewer-wrap{border:0;border-radius:0}
+
+/* Under the canvas: cinematic vignette, engineering blueprint and the isolation sweep. */
+.hud-stage-fx{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.hud-stage-fx>i{position:absolute;inset:0;display:block}
+.hud-stage-fx::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 80% 70% at 50% 46%,rgba(18,40,70,.10),rgba(6,14,28,.42));opacity:0;transition:opacity 1s var(--ease-out)}
+.fx-vignette{background:radial-gradient(130% 96% at 50% 46%,transparent 54%,rgba(4,6,10,.4) 82%,rgba(4,6,10,.68) 100%),linear-gradient(90deg,transparent 82%,rgba(5,7,11,.5) 100%),linear-gradient(180deg,rgba(4,6,10,.42) 0%,transparent 17%,transparent 80%,rgba(4,6,10,.5) 100%)}
+.fx-grid{opacity:0;background-image:linear-gradient(rgba(var(--hud-cool-rgb),.11) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--hud-cool-rgb),.11) 1px,transparent 1px),linear-gradient(rgba(var(--hud-cool-rgb),.05) 1px,transparent 1px),linear-gradient(90deg,rgba(var(--hud-cool-rgb),.05) 1px,transparent 1px);background-size:120px 120px,120px 120px,24px 24px,24px 24px;background-position:center;-webkit-mask-image:radial-gradient(ellipse 72% 66% at 50% 50%,#000 25%,transparent 88%);mask-image:radial-gradient(ellipse 72% 66% at 50% 50%,#000 25%,transparent 88%);transition:opacity 1s var(--ease-out)}
+.explorer-layout[data-hud-mode=engineering] .fx-grid,.explorer-layout[data-hud-mode=engineering] .hud-stage-fx::before{opacity:1}
+.hud-stage-fx>.fx-sweep{inset:auto 0;top:-32%;height:32%;opacity:0;background:linear-gradient(180deg,transparent,rgba(var(--hud-accent-rgb),.08) 70%,rgba(var(--hud-accent-rgb),.34) 98%,rgba(255,255,255,.55) 100%)}
+.hud-stage-fx.is-scanning>.fx-sweep{animation:hud-sweep 1.25s var(--ease-io) both}
+/* Above the canvas, clear of the hardware: four corner brackets lock onto the stage. */
+.hud-brackets{position:absolute;inset:0;z-index:3;pointer-events:none}
+.hud-brackets i{position:absolute;width:16px;height:16px;opacity:0;border:0 solid rgba(var(--hud-accent-rgb),.95);transition:opacity .6s var(--ease-out)}
+.hud-brackets i:nth-child(1){top:8px;left:8px;border-top-width:1.5px;border-left-width:1.5px;--from:-12px,-12px}
+.hud-brackets i:nth-child(2){top:8px;right:8px;border-top-width:1.5px;border-right-width:1.5px;--from:12px,-12px}
+.hud-brackets i:nth-child(3){bottom:8px;left:8px;border-bottom-width:1.5px;border-left-width:1.5px;--from:-12px,12px}
+.hud-brackets i:nth-child(4){bottom:8px;right:8px;border-bottom-width:1.5px;border-right-width:1.5px;--from:12px,12px}
+.viewer-wrap.hud-locked .hud-brackets i{opacity:.5}
+.hud-brackets.is-scanning i{animation:hud-lock .95s var(--ease-out) both}
+
+/* Viewer chrome: one glass language for readouts, controls and part labels. */
+#explorador .inspection-instruction{top:16px;left:16px;display:flex;align-items:center;gap:10px;max-width:calc(100% - 32px);padding:8px 14px 8px 12px;border-radius:999px;border:1px solid var(--hud-glass-line);background:var(--hud-glass);-webkit-backdrop-filter:blur(14px) saturate(1.3);backdrop-filter:blur(14px) saturate(1.3);color:var(--hud-ink);text-shadow:none;font:500 10px/1.3 var(--font-mono);letter-spacing:.18em;transition:border-color .6s var(--ease-out),background-color .6s var(--ease-out)}
+#explorador .inspection-instruction .readout-mode{flex:none;font-weight:500;transition:color .5s}
+#explorador .inspection-instruction .readout-detail{min-width:0;margin:0;padding-left:12px;border-left:1px solid var(--hud-faint);font:500 12px/1.3 Inter,Arial,sans-serif;letter-spacing:0;color:var(--hud-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#explorador .live-dot{flex:none;width:6px;height:6px;border-radius:50%;background:var(--hud-accent);animation:hud-ping 2.4s var(--ease-out) infinite}
+#explorador .inspection-instruction.is-locked{border-color:rgba(var(--hud-accent-rgb),.5);background:rgba(8,11,17,.74)}
+#explorador .inspection-instruction.is-locked .readout-mode{color:var(--hud-accent)}
+#explorador .inspection-instruction.is-locked .readout-detail{color:var(--hud-ink)}
+#explorador .inspection-instruction.is-locked .live-dot{width:8px;height:8px;background:transparent;box-shadow:inset 0 0 0 1.5px var(--hud-accent),0 0 10px rgba(var(--hud-accent-rgb),.6);animation:none}
+#explorador .viewer-top{left:16px;right:16px;color:var(--hud-soft);text-shadow:none;font:500 10px/1.4 var(--font-mono);letter-spacing:.16em}
+#explorador .viewer-top span{padding:5px 10px;border-radius:999px;background:rgba(6,9,14,.42);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+#explorador .viewer-bottom{left:16px;right:16px;bottom:16px;color:var(--hud-soft)}
+#explorador .viewer-bottom>span{max-width:300px;font:400 11.5px/1.45 Inter,Arial,sans-serif;letter-spacing:.01em;color:var(--hud-soft);text-shadow:0 1px 8px rgba(0,0,0,.8)}
+#explorador .viewer-actions{gap:6px}
+#explorador .viewer-actions .outline-button{min-height:38px;padding:9px 15px;border-radius:999px;border:1px solid var(--hud-glass-line);background:var(--hud-glass);-webkit-backdrop-filter:blur(14px) saturate(1.3);backdrop-filter:blur(14px) saturate(1.3);color:var(--hud-ink);font:500 12px/1.2 Inter,Arial,sans-serif;letter-spacing:.01em;transition:border-color .45s var(--ease-out),background-color .45s var(--ease-out),transform .5s var(--ease-spring)}
+#explorador .viewer-actions .outline-button:hover:not(:disabled){border-color:rgba(var(--hud-accent-rgb),.55);background:rgba(12,15,22,.82);transform:translateY(-1px)}
+#explorador .viewer-actions .outline-button[aria-pressed=true]{border-color:rgba(var(--hud-accent-rgb),.7);background:rgba(var(--hud-accent-rgb),.16);color:#fff}
+#explorador .viewer-actions .outline-button:disabled{opacity:.35}
+#explorador .viewer-caption{left:16px;max-width:min(360px,calc(100% - 32px));padding:10px 14px;border-radius:14px;border:1px solid var(--hud-glass-line);background:var(--hud-glass);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);color:var(--hud-soft);font-size:12.5px;line-height:1.55;box-shadow:none}
+#explorador .model-loading{top:50%;left:50%;width:auto;max-width:min(420px,85%);transform:translate(-50%,-50%);padding:14px 24px 17px;border-radius:18px;border:1px solid var(--hud-glass-line);background:rgba(6,9,14,.74);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);color:var(--hud-ink);font:500 11px/1.5 var(--font-mono);letter-spacing:.14em;text-transform:uppercase;overflow:hidden;z-index:4}
+#explorador .model-loading::after{content:'';position:absolute;left:24px;right:24px;bottom:8px;height:1px;background:linear-gradient(90deg,transparent,var(--hud-accent),transparent) no-repeat;background-size:40% 100%;animation:hud-load 1.6s var(--ease-io) infinite}
+#explorador .scene-background-credit{color:rgba(226,235,246,.5);text-shadow:0 1px 3px rgba(0,0,0,.85)}
+#explorador .model-note{margin:0;padding:14px 28px 20px;background:var(--hud-bg);border-top:1px solid var(--hud-hair);color:var(--hud-dim);font-size:12px;line-height:1.7}
+
+/* Part labels drawn by the 3D viewers. */
+#explorador .sj-label{border-radius:16px;border:1px solid var(--hud-glass-line);background:rgba(7,10,16,.6);-webkit-backdrop-filter:blur(12px) saturate(1.35);backdrop-filter:blur(12px) saturate(1.35);color:var(--hud-ink);font:500 12.5px/1.3 Inter,Arial,sans-serif;letter-spacing:.005em;text-shadow:none;box-shadow:0 6px 24px rgba(0,0,0,.28);transition:border-color .35s var(--ease-out),background-color .35s var(--ease-out),box-shadow .35s var(--ease-out)}
+#explorador .sj-label::before{content:'';display:inline-block;width:6px;height:6px;margin:0 8px 1px 0;border-radius:50%;background:rgba(var(--hud-accent-rgb),.9);box-shadow:0 0 0 3px rgba(var(--hud-accent-rgb),.16);vertical-align:middle}
+#explorador .sj-label:hover,#explorador .sj-label:focus-visible{border-color:rgba(var(--hud-accent-rgb),.6);background:rgba(10,13,20,.84);box-shadow:0 0 0 3px rgba(var(--hud-accent-rgb),.14),0 8px 28px rgba(0,0,0,.35)}
+#explorador .sj-label:focus-visible{outline:2px solid rgba(var(--hud-accent-rgb),.85);outline-offset:2px}
+#explorador .sj-label[aria-pressed=true]{border-color:rgba(var(--hud-accent-rgb),.8);background:linear-gradient(rgba(var(--hud-accent-rgb),.2),rgba(var(--hud-accent-rgb),.2)),rgba(7,10,16,.82);box-shadow:0 0 0 3px rgba(var(--hud-accent-rgb),.16),0 8px 28px rgba(0,0,0,.35)}
+#explorador .sj-leaders line,#explorador .sj-leaders path{stroke:#8ea3b8;opacity:.78}
+#explorador .sj-leaders circle{fill:var(--hud-accent);stroke:#05070b}
+#explorador .sj-selector{color:var(--hud-dim)}
+#explorador .sj-selector select{appearance:none;-webkit-appearance:none;min-height:40px;padding:8px 36px 8px 15px;border-radius:999px;border:1px solid var(--hud-glass-line);background:var(--hud-glass) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 8'%3E%3Cpath d='M1 1.5l5 5 5-5' fill='none' stroke='%23cfdbe8' stroke-width='1.3'/%3E%3C/svg%3E") no-repeat right 15px center/10px 7px;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);color:var(--hud-ink);font:500 12.5px/1.2 Inter,Arial,sans-serif;color-scheme:dark;cursor:pointer}
+#explorador .sj-selector select:hover{border-color:rgba(var(--hud-accent-rgb),.5)}
+#explorador .sj-tools button,#explorador .sj-tools-menu summary{border:1px solid var(--hud-glass-line);background:var(--hud-glass);-webkit-backdrop-filter:blur(14px) saturate(1.3);backdrop-filter:blur(14px) saturate(1.3);color:var(--hud-ink);border-radius:999px;transition:border-color .35s var(--ease-out),background-color .35s var(--ease-out)}
+#explorador .sj-tools button:hover:not(:disabled),#explorador .sj-tools-menu summary:hover{border-color:rgba(var(--hud-accent-rgb),.55);background:rgba(12,15,22,.84);outline:none}
+#explorador .sj-tools button[aria-pressed=true]{border-color:rgba(var(--hud-accent-rgb),.7);background:rgba(var(--hud-accent-rgb),.16)}
+#explorador .sj-tools-options{border:1px solid var(--hud-glass-line);border-radius:16px;background:rgba(8,11,17,.92);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px);box-shadow:0 18px 50px rgba(0,0,0,.45)}
+#explorador .sj-tools-options button,#explorador .sj-tools-options .sj-model-action{border-radius:10px;border-color:transparent;background:transparent;color:var(--hud-ink);text-align:left}
+#explorador .sj-tools-options button:hover:not(:disabled){background:rgba(255,255,255,.06);border-color:transparent}
+#explorador .sj-animation-label{color:var(--hud-soft)}
+#explorador .sj-animation-label select{border-color:var(--hud-glass-line);background:#0b0f16;color:var(--hud-ink);color-scheme:dark}
+#explorador .sj-animation-status{color:var(--hud-soft);text-shadow:0 1px 8px rgba(0,0,0,.8)}
+#explorador .hotspot{background:rgba(var(--hud-accent-rgb),.9)!important;border-color:#05070b!important}
+#explorador .hotspot-label{border-color:var(--hud-glass-line);background:rgba(7,10,16,.62);color:var(--hud-ink);text-shadow:none;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+#explorador .hotspot-leader{background:#8ea3b8}
+
+@keyframes hud-ping{0%{box-shadow:0 0 0 0 rgba(var(--hud-accent-rgb,255,180,110),.55)}70%,100%{box-shadow:0 0 0 9px rgba(var(--hud-accent-rgb,255,180,110),0)}}
+@keyframes hud-sweep{0%{opacity:0;transform:translateY(0)}12%{opacity:1}82%{opacity:1}100%{opacity:0;transform:translateY(420%)}}
+@keyframes hud-lock{0%{opacity:0;transform:translate(var(--from))}55%{opacity:1}100%{opacity:.5;transform:none}}
+@keyframes hud-load{from{background-position:-60% 0}to{background-position:160% 0}}
+
+@media(min-width:1800px){#explorador .explorer-layout:not(.mariner-layout){grid-template-columns:minmax(0,1fr) 440px}}
+@media(max-width:1100px){#explorador .explorer-layout:not(.mariner-layout){grid-template-columns:minmax(0,1fr) 340px}}
+@media(max-width:760px){
+ #explorador .explorer-top{flex-direction:column;align-items:stretch;padding:18px 18px 16px}
+ #explorador .explorer-top::after{left:18px;right:18px}
+ #explorador .mission-select{flex-direction:column;align-items:stretch;gap:8px}
+ #explorador .mission-select select{min-width:0;max-width:none;width:100%}
+ #explorador .explorer-layout:not(.mariner-layout){height:auto;min-height:0}
+ .fx-vignette{background:radial-gradient(130% 96% at 50% 46%,transparent 54%,rgba(4,6,10,.4) 82%,rgba(4,6,10,.66) 100%),linear-gradient(180deg,rgba(4,6,10,.42) 0%,transparent 16%,transparent 78%,rgba(5,7,11,.7) 100%)}
+ #explorador .inspection-instruction{top:12px;left:12px;max-width:calc(100% - 24px)}
+ #explorador .viewer-actions .outline-button,#explorador .sj-selector select{min-height:44px}
+}

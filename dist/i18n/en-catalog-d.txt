@@ -1,0 +1,476 @@
+# NEPTUNI · English · catálogo de piezas: descripciones (1)
+mp7g7lq An octagonal cross-shaped structure with the throttleable engine in the center, four tanks in the square bays and equipment in the triangular corner bays. It stayed on the Moon as the launch pad for the ascent stage.
+qn9qxns Two pairs of parallel beams with webs at ±27 in, upper and lower decks and closing bulkheads, plus the fittings that join it to the ascent stage. Layout documented; thicknesses reconstructed.
+1fiyz71 Multilayer aluminized Kapton blankets (amber, reddish amber, black and silver) and a lower shield against the engine plume. When the stage is opened they move apart to show the inside. The distribution of colors per panel is reconstructed.
+qxdzrz8 Two Aerozine 50 tanks and two nitrogen tetroxide tanks in the square bays between the beams, around the engine. The LM structures guide is inconsistent about which pair of bays holds the oxidizer; the tank shape is approximate.
+9u3q180 A 9,870 lbf throttleable engine burning hypergolic propellants, with an ablative chamber and a radiation-cooled niobium nozzle. Thrust and gimbal documented; nozzle profile reconstructed.
+sv8fhg7 A radiation-cooled niobium extension with a 1.52 m exit diameter. The diameter follows the reference model; the profile curve is inferred.
+uh1e31z The engine could tilt up to 6° to follow the center of mass. The gimbal is documented; the shape of the ring and actuators is inferred.
+fdrlmkq Pipes running from the four tanks to the throttleable engine's valve assembly. The feed is documented; routing and diameters inferred.
+aecdmuq Helium, water and gaseous oxygen tanks and descent batteries in the corner bays. General location documented; exact shape and position inferred.
+cx6ak7g Doppler radar and altimeter under the descent stage; it gave altitude and speed to the guidance computer. Shape and position reconstructed.
+pmfbgxm A modular storage unit in the forward left compartment, on a fold-down panel that served as a workbench. It held the TV camera, the tripod, the tools, the SWC and the two sample boxes.
+qc871lp Two sealed aluminum boxes carried in the MESA: one for the bulk sample and one for the documented samples and the core tubes. At the end of the EVA they were lifted into the cabin with the equipment conveyor (LEC) and came back to Earth with the samples. Dimensions from the sampling tool catalog; layout in the MESA reconstructed.
+ionmuzh A two-person pressurized cabin, a midsection with the ascent engine tanks, a docking tunnel and an aft equipment bay. It lifted off from the Moon with Armstrong and Aldrin.
+q064nta A thermal and micrometeoroid shield of multilayer Mylar and aluminum skin, set apart from the pressurized cabin, with triangular windows. Faceted shape reconstructed from the NASA model and photographs.
+z6vzgz6 A square 32 × 32 in (0.81 m) hatch through which the astronauts crawled out to the porch wearing their suits and PLSS backpacks. It opened inward. The opening direction and the hinge mechanism shown are reconstructions.
+snh4rz2 Upper tunnel of ≈ 32 in with the hatch and the probe-and-drogue ring, and a docking target on top of the cabin. Existence and diameters documented; details reconstructed.
+mw4k06f The commander's and LM pilot's panels and the central pedestal with the DSKY. Their existence and general layout are documented; the instruments drawn are representative.
+efs5dsl The crew's interface with the guidance computer, on the pedestal between the two stations. Existence and function documented; appearance representative.
+72vmrla An attitude controller (ACA) for the right hand and a thrust/translation controller (TTCA) for the left at each station, and elastic restraints that held the astronauts while standing. Existence documented; shape and mounting approximate.
+a275v2b Cabin floor and the ascent engine cover, which stuck up about 18 in into the midsection. Layout inferred.
+3cf7r4d A fixed-thrust hypergolic engine without a gimbal, which fired only once to lift off using the descent stage as a launch pad. It sat recessed in the central cavity of the descent stage. Nozzle shape reconstructed.
+8hlhy15 An open frame behind the midsection with ascent stage batteries, environmental control components and gaseous oxygen tanks, covered by thermal blankets. General contents documented; layout reconstructed.
+y65rj31 The two PLSS backpacks with their OPS, stowed at the back of the cabin, and the cameras: the 16 mm one in the LM pilot's window and the Hasselblad. Existence documented; positions inferred.
+9mm8ssk The layout of Tranquility Base during the EVA: flag, EASEP experiments, solar wind sheet, TV camera on its tripod, tools, LEC conveyor and commemorative package. On the exterior these items appear stowed. Inventory and distances documented; directions reconstructed.
+qtmak0m A 3 × 5 ft (0.91 × 1.52 m) nylon flag with a top hem holding a crossbar, so it would look like it was waving in the vacuum. The pole and crossbar were one-inch gold anodized aluminum tubes in two telescoping sections. On Apollo 11 the crossbar didn't fully extend, which left the ripples seen in the photographs. Aldrin set it about 27 ft (8.2 m) from the LM's axis; the pole went only about 7 in into the ground and the liftoff blast knocked it over. Dimensions and distance documented; direction reconstructed.
+rw9cr2d A double-walled tube (stainless steel outside, an aluminum layer, Thermoflex insulation and several layers of Kapton) mounted next to the left side of the ladder. It kept the flag below about 82 °C while the engine plume reached ≈ 1,090 °C in the last seconds of the descent. It stayed on the leg. Composition and location documented; dimensions reconstructed.
+0suclhu The first seismometer installed on another celestial body. A cylindrical sensor about 23 × 29 cm, with three long-period seismometers and one short-period, under a hat-shaped thermal shield; it was powered by six solar panels in two wings. Aldrin placed it 16.8 m south of the LM, leveled with a ball level and aligned using a gnomon's shadow. It sent data for a few weeks. Dimensions from the Smithsonian qualification model; housing color and antenna reconstructed.
+mnkz89j A 45 cm square panel with 100 fused-silica corner reflectors 3.8 cm across, recessed 1.9 cm to protect them. It returns laser pulses fired from Earth and is still used to measure the Earth–Moon distance to within centimeters; it's the only Apollo 11 experiment still working. Aldrin pointed it at Earth with a sun compass, about 18 m from the LM. Dimensions, number of cubes and position documented; base and mount reconstructed.
+v92g4zl A 1.40 × 0.30 m aluminum sheet hung from a telescoping mast and turned toward the Sun to catch solar wind ions. Aldrin deployed it before planting the flag; it was exposed for 77 minutes and the sheet came back to Earth to be analyzed at the University of Bern. It was designed by the University of Bern (Switzerland). Dimensions, orientation and stowage in the MESA documented; mast height and position on the ground reconstructed.
+youg6oa A black-and-white slow-scan camera that rode in the MESA and broadcast Armstrong's first step as he came down the ladder. Afterwards it was mounted on a tripod away from the LM, connected by a 100 ft cable, for a fixed view of the rest of the EVA. It stayed on the Moon. Existence, cable and abandonment documented; shape, distance and direction of the tripod reconstructed.
+l56fxsg A folding tripod, stowed in the MESA (LM-5 stowage list, 1.74 lb), on which the TV camera was mounted for the fixed view of the EVA. Height reconstructed.
+v4f0xao A 100 ft (30.5 m) cable connecting the camera to the descent stage. It was left lying on the regolith. Length documented; routing reconstructed.
+p99yoe8 A large box-shaped scoop (39 cm), an extension handle, tongs, a hammer, two core tubes with a 2 cm inner diameter and a gnomon. They were used to collect the bulk sample and the documented samples; the tubes were driven in with the hammer. The scoop, tongs, hammer, handle and gnomon stayed on the Moon. Types and dimensions from the tool catalog; their stowage in the MESA appears on the LM-5 list. The inner layout of the MESA and the positions on the ground are reconstructions.
+zpussfo A looped strap, like a pulley clothesline, to raise and lower equipment between the hatch and the ground without carrying it down the ladder: that's how the sample boxes and cameras went up. It traveled in a bag in the cabin and was left on the Moon. Existence and use documented; routing reconstructed.
+0p9ycwi A small bag left on the ground at the end of the EVA holding the silicon disk with goodwill messages from world leaders, a gold olive branch, the Apollo 1 patch in memory of Grissom, White and Chaffee and two medals honoring Gagarin and Komarov. Contents documented; shape and position next to the ladder reconstructed.
+7ibep0c Four cantilevered legs with a crushable honeycomb main strut, secondary struts, 37 in footpads and probes on three of them; the front leg carries the ladder, the porch and the plaque.
+cyuijy1 Outer cylinder and inner rod; the aluminum honeycomb cartridge crushes permanently when it takes the load. Diameters reconstructed from the NASA model.
+yzpwicp A 37 in (0.94 m) footpad joined to the main strut by a ball joint, so it could adapt to the slope of the ground. The gold covering reproduces the Kapton blankets visible in surface photographs.
+h6yttez Support trusses fixed to the body, secondary struts and the deploy-and-lock mechanism. Existence documented; geometry from the NASA model.
+ioch6jo A 1.71 m rod hanging below the footpad that lit the «Lunar Contact» light when it touched the ground, the signal to shut down the engine. After landing it was left bent on the ground; the bent shape is a visual reconstruction.
+fagwxvp A ladder mounted on the front leg's strut, from the porch down to near the footpad, which Armstrong and Aldrin climbed down to the surface. Number of rungs and spacing reconstructed.
+f071840 An outside platform mounted on the front truss, just below the hatch, from which the astronauts backed out toward the ladder. Handrails and dimensions reconstructed.
+uyvrhpt A 9 × 7⅝ in stainless steel plaque fixed to the ladder between the third and fourth rungs from the bottom, curved to wrap around the leg without getting in the way. It remains on the Moon with the descent stage. It bears the text «Here men from the planet Earth first set foot upon the Moon, July 1969 A.D. We came in peace for all mankind», Earth's two hemispheres and the signatures of Armstrong, Collins, Aldrin and Nixon (the hemispheres and signatures are not reproduced here).
+y1vgr6n A 26 in steerable S-band antenna, VHF, flight and EVA antennas, and the S-band electronics in the aft bay.
+idoy968 A 26 in (0.66 m) dish antenna that carried voice, telemetry and the television signal of the first step to Earth. It could be pointed on two axes.
+1kiz4ej A truss extending over the upper right of the midsection and a two-axis mount for pointing at Earth. Location documented; geometry reconstructed.
+u0nnsrt S-band transceiver. Existence documented; position in the aft bay and shape inferred.
+7ckya1z S-band power amplifier and coaxial cables to the antenna. Existence documented; position, shape and routing inferred.
+5gedl9o Two VHF flight antennas for talking to the command module, two S-band flight antennas for the omnidirectional link with Earth and one VHF antenna for extravehicular activity communications. The number of flight antennas is documented; their shape and position are taken from the NASA model.
+25k2ozk The LM guidance computer, alignment telescope and rendezvous radar. The radar is visible on top of the cabin; the computer and the telescope are inside the ascent stage.
+iu9futt A Block II AGC measuring 24 × 12.5 × 6.5 in and weighing 70 lb. Dimensions and technology documented; the structures guide places it in the midsection and the exact mounting point is inferred.
+xgkhpl9 About 2,800 NOR circuits in flat packages soldered to boards, with wire wrap potted in epoxy. The number and layout of the blocks shown are representative, not a drawing of the trays.
+bzqiso6 A 36,864-word read-only memory woven from wires that passed through or around ferrite cores. Capacity documented; the number and shape of the modules shown are representative.
+lehtn83 A digital computer about 61 × 32 × 17 cm and 32 kg, with about 2,800 NOR-gate integrated circuits in flat packages, soldered to boards, interconnected by wire wrap and then potted in epoxy, 2,048 words of erasable memory and 36,864 of core rope memory. The LM structures guide places it in the midsection; the exact mounting point and internal layout are shown approximately. The DSKY on the console was its interface with the crew.
+vba9uc5 A periscope for sighting stars and aligning the guidance system's inertial platform. Position in the cabin roof inferred.
+aktsork A two-axis steerable antenna on top of the cabin that tracked the command module's transponder from 80 ft to 400 nautical miles. Function and range documented; shape reconstructed.
+c8fge60 Four quads of four 100 lbf thrusters mounted on trusses at the corners of the ascent stage, and deflectors that protected the descent stage from their plumes.
+swafia0 One of the four thruster quads mounted on arms at 90° to each other. Each quad has four 100 lbf (445 N) thrusters: two vertical and two horizontal. Two independent feed systems supplied half of the thrusters in each quad. The mount geometry is reconstructed.
+3aw3mpx Angled plates that protected the descent stage from the plume of the downward-pointing RCS thrusters. Taken from the NASA model; their exact shape is approximate.
+cs9c3ab Explore this mission's own optical system, its detectors, drives and connections.
+ih2q7d2 A steerable mirror scanned a vertical line; rotation in azimuth completed the image. Use the rotation control to see the scanning principle.
+5wmmrxt The lens had a 0.95 cm aperture and a 5.37 cm focal length. The visible lenses explain the optical path; its exact prescription has not been recovered.
+8ut9jtd Lenses and solid rings spread apart to explain the assembly.
+2m32smr Twelve channels of photodiodes and filters, not a CCD array that takes an instant photo. Their fine layout in this cutaway is explanatory.
+is8f60j Torque actuators, bearings and the angular resolution of the scan. Winding and tooth geometry is illustrative.
+ifagxfx Solid copper conductors and the actuator's inner shaft.
+wdbepnd Period circuit boards, pins, passives, traces and connection loops. They do not reproduce a public manufacturing netlist.
+xmn84v7 The vertical window, the seals and the CO₂ nozzle protect the scanning mechanism.
+yya8z27 The 10 cm magnifying mirror and the magnetic target were used to look at samples and check the images. They are science equipment: they don't connect the radio to the antenna.
+qjxxxnp A magnifying reflector for looking at material collected by the sampler. The small mount is reconstructed from the diagrams.
+
+yxjjvxx The mechanism collected and positioned samples. This view shows its supports and connections.
+kfbicet The boom positioned the collector head in azimuth, elevation and extension. It shows the tube with its lengthwise seam, supports and base mechanism.
+zl61pyk The collector head picked up material and could work as a scoop and a small backhoe.
+7zbvykv A motor in the rear cylinder flipped the collector head over to deliver samples. The outer geometry follows figure 107 of NASA RP-1027.
+ixrgbb6 The sieve in the lid separated material. Its holes are modeled in 3D; the hole pattern is approximate.
+txjmz2q The small tool underneath helped with digging; the brush cleaned the magnet assembly.
+8hxeyhv The solenoid opened, closed and vibrated the lid. The 1973 study documents 8.8 Hz pulses; no flight operation is simulated.
+l8kmimj Instruments on the collector head to investigate magnetic and physical properties.
+1klug4y Explanatory cutaway of the drive; the windings, shaft and contacts are modeled in 3D.
+mdthwaz Connections and clamps on the boom. The fine routes are reconstructed approximately.
+4h40cnm Viking used two SNAP-19 generators: heat from the radioisotope, thermoelectric conversion and cooling fins.
+cjfk1hd Plutonium-238 supplied heat inside a capsule with graphite protection. Its inner shape is shown in an explanatory way.
+zifco0h Each SNAP-19 had six modules of fifteen thermoelectric pairs. They turned heat into electricity with no moving parts.
+nom75ht The six fins belong to the generator's metal radiator. They are not a solar panel.
+ll3u9mb Housing, ribbed end caps and a 26-pin connector; its finish represents the radiator alloy.
+782tg4v Stitched outer cover and its fasteners; it is removed to reveal the radiator.
+zpd14yi Viking's three biology experiments studied soil samples. Their results did not confirm life.
+aauaen0 Sample chamber, gas supplies and chromatographic analysis; explanatory internal geometry.
+jbt4jh8 Four test cells received samples and labeled nutrients. The chemical result alone did not confirm life.
+24zqnpz Incubation and pyrolysis cells, gas supply and carbon measurement.
+jbf7nre Restrained ducts and period electronics with passives, contacts and traces; their fine details are explanatory.
+0sxwzn6 Opening it separates the cover, boards, power supply and harnesses. The architecture is explained through its known functions; the internal details are not flight CAD.
+dvc66f8 Two channels for guidance, control and sequencing. Boards with period packages, axial passives, contacts and explanatory 3D traces.
+shnpqih The traces explain connections; not all flight netlists and locations are publicly known.
+mkzj676 Each GCSC had 18K 24-bit words of plated-wire memory. The visible grid explains that principle; it is not ferrite-ring memory.
+mw4h48g Conversion of RTG power, battery charging and power distribution. An illustrative board of the documented subsystem is shown.
+387bcyw Two assemblies held two batteries each: four batteries of 30 V nominal, 24 cells and 8 Ah per battery. They supplied the power peaks. The fine layout of cells and terminals is explanatory.
+c2d293g The loops follow the opening between boards, avoiding floating connections that don't move.
+7wa5dnp The struts, joints and footpads steadied the spacecraft after landing.
+8xbt1ja The impact crushed aluminum honeycomb. It didn't work like a spring that bounces back. The demonstration shows that principle, without computing flight loads.
+skuuw8y Hollow aluminum cells that absorb energy by crushing.
+e95scbz The three footpads form a triangle about 2.21 m on each side.
+d2yqfqu Tie rods, ball joints and load limiters join the supports to the body. The pins and the stroke indicator follow the photographs.
+60u9vgi The reflector, feed and radio linked the vehicle with its communication links.
+h5k9g3f A 76.2 cm steerable reflector, with a central feed and rear supports. The orientation is a representative pose, not the pointing on a specific sol.
+6havhp0 The bent deployable mount and the elevation/azimuth drives pointed the antenna. The nominal mast was 55.88 cm. The rear housings and the fine harness routes are visual reconstructions.
+bz86noa Transponder, amplification and control. The PCB illustrates technology of the era, without claiming its exact flight connections.
+n23rkvs The coax loop follows the opening and keeps the link between the reflector and the radio.
+19mkoaz The UHF link relayed data through the orbiter. Its antenna was on the side between legs 1 and 3, not on top of the RTG cover.
+d67flo7 Eight crossed-dipole elements and a ground plane. It sat on the main fitting of leg 3; it wasn't a rod on top of the insulation.
+hhd0q22 The open view shows the tanks, chamber, nozzle, valves and feed lines.
+9m1mogs Spherical titanium tanks with a 57.9 cm inner diameter. The descent system used slosh and anti-vortex baffles, without a separating diaphragm. The cutaway and the shape of the baffles are educational.
+vzyegkc Three variable-thrust engines spread their exhaust through eighteen nozzles to disturb the ground less.
+5wk56h6 Two pairs of small engines controlled roll during the descent. Their envelope is reconstructed from figures 72–74.
+jfd06k5 Explanatory assembly of the descent feed valves and ports.
+pzdnl7e Pipes modeled in 3D with visible fittings; their fine internal routes are approximate.
+xbabozp Viking's deployable boom carried hot-film wind sensors and three temperature thermocouples. Explore its supports and connections.
+ggj773g Two perpendicular hot-film sensors and a quadrant sensor worked out speed and direction. Three thermocouples measured temperature.
+2q1qzxe The boom deployed with a torsion spring and was held by latches.
+ovqtnx7 Heating control, signal conditioning and connection of the sensors. Explanatory electronic detail.
+0bb9s46 Viking combined three ovens and a GCMS chromatograph/spectrometer with X-ray fluorescence to analyze what the soil was made of. The internal cutaways are explanatory.
+a4gu54c Pyrolysis prepared the samples so compounds could be identified in the chromatograph and spectrometer.
+hvjiudk Columns and carrier gas flow; the coils show their function, with approximate dimensions.
+mgc1os1 Separating and identifying molecules from their masses.
+h4pgghm The X-ray fluorescence analysis used four counters and Fe-55 / Cd-109 sources.
+dyat5oc Period PCBs, connectors, passives and traces illustrating the electronic control.
+mykf3qt The cover is removed step by step so you can tell the analysis groups apart.
+zl7x5q9 The warm electronics box (WEB) is the central structure: composite honeycomb panels insulated with aerogel. The equipment deck (RED) closes it on top and holds the mast, three antennas, the calibration targets and the fixed solar panel. Under a front shelf is the arm's stowage space.
+xk5s1n4 A thermal enclosure that protects the batteries, electronics and the Mini-TES spectrometer. It combines insulation, waste heat, eight RHUs and electric heaters.
+fqxgbtg Composite panels with a gold outer skin. The panel and skin thickness are inferred; the material is documented.
+lid0beg Silica aerogel that reduces the WEB's heat loss during the Martian night.
+zoyslh8 Cable pass-throughs in the rear wall; number and position inferred.
+97fxt4u A C-channel with tabs for the turret's «T», a hook for the elbow and a mount for the pyrotechnic cable cutter that released the arm after landing.
+31menfn An 8 × 8 cm sundial with a 6 cm post, gray rings and four color chips. Children's drawings on the sides of the base.
+u25v023 Capture and filter magnets at the base of the PMA and a sweep magnet next to the Pancam calibration target. A fourth set is on the RAT.
+74yoq6i Bundles visible in flight photographs between the mast, the antennas and the WEB. Approximate routing.
+gxwn79d A springless rocker-bogie suspension with a passive differential: each rocker carries the front wheel and a bogie with the middle and rear wheels. The beams are welded, tapered titanium boxes. The suspension folded for launch with three break points and six joints that locked when deployed.
+l9nmmsf A front rocker to the front wheel and a rear rocker with a welded «knee» up to the bogie pivot. Tapered box beams, typical wall 1 mm (1.5 mm at the seam).
+0echcgm A single-use fork-and-clevis joint on 52 mm Torlon bushings. It locks with a ratchet after turning 39° while the rover stands up.
+m86vjii The front rocker's motorized joint: it swung each front wheel 180° from its upside-down stowed position. A 100 mm × Ø80 mm body with a Maxon RE020 motor and a 5-stage planetary gearbox.
+xdewyqp Housing for the cross axle that joins each rocker to the body. Its lengthwise position is inferred from the origin of the rover's mechanical frame (29 cm ahead of the middle axle).
+kmi7ppw Each bogie shares the load between the middle and rear wheels. The rear section telescopes: the rear wheel extended it 17 cm and locked it in the last step of the deployment.
+z6u5ccn A rear section that slides inside the front one on rollers with Belleville washers; the ratchet clicks into a window in the front bogie.
+8y6x2ak The passive differential forces the two rockers to turn in opposite directions and sets the body's pitch at the average. The sources confirm a differential with links and a «differential interface» on each rocker; the rear bar and the links shown are an inferred layout.
+oi293eu A representative assembly of the four steered corners: steering actuator, strut, drive actuator and wheel.
+
+0hkwjrj A steering actuator above the wheel: a vertical axis through the center of the wheel. The four outer wheels steer independently; the middle ones don't.
+6ngj22g A titanium strut running down the inside of the wheel to the drive actuator.
+v9vhrpt Each of the six wheels has its own actuator inside the hub. The sources consulted don't publish the winding, gear ratio or gear layout: only the envelope and the interface are shown.
+5yes3go A crowned black anodized aluminum rim with crosswise grousers and curved spokes that absorb shocks. Diameter 26.2 cm at the center and 23.2 cm at the edges; 16 cm wide.
+cce3q9o The middle wheels don't steer. Their axle lines up with the origin of the MER navigation frame.
+pg67ol9 Polyimide-wrapped bundles that follow the beams to the actuators, with service loops at the moving joints. The exact routing is reconstructed from photographs.
+svl6eij One fixed panel on top of the RED and five folding wings: the two front ones and the rear one hinged to the deck, and two rear side wings hinged to the front ones. In total 1.3 m² of GaInP/GaAs/Ge triple-junction cells.
+n1gyafc Each cell has its own cover glass; there is no continuous sheet over the panel. Thickness not documented.
+x9d6qv0 Three stacked photovoltaic layers: gallium indium phosphide, gallium arsenide and germanium. The size and number of cells in this grid are a visual estimate.
+4dhyetz Contacts between neighboring cells that form the panel's strings. Representative layout.
+2qy99uc Composite panels with a shiny metal underside (the rear Hazcams catch reflections in it). The hinges let the wings fold inside the landing module.
+gghj3om The Mini-TES spectrometer sits inside the WEB and uses the hollow mast as a periscope. The head mirror is aimed with the PMA's elevation and can look from +30° to −50°. It is a different instrument from the cameras.
+p60r4vk A Michelson interferometer with a ±0.25 mm moving mirror and a 978 nm reference laser. The internal layout is a reconstruction within the documented envelope.
+cqfabad A 6.35 cm primary. It is shown looking up the mast's axis (orientation INFERRED).
+p2skjd9 Beam splitter, fixed mirror and moving mirror. Geometry INFERRED.
+07vo8r4 Uncooled thermal detector; position inferred.
+95xwema The instrument's electronics; educational layout with no invented traces.
+pwumuby A 23.5 × 16.3 × 15.5 cm envelope.
+f5lhgmm Located 10.7 cm to the right of the PMA head's axis (NAIF). It turns with the PMA's elevation.
+rjgs750 Educational diagram: radiation enters through the head mirror, travels down the hollow mast and reaches the telescope. It's a diagram, not a part.
+2wem7v6 One external target on the deck, with grooves 1.73 mm deep and 1.2 mm apart, and another internal one in the mast assembly.
+u0kf5sk The mast lifts the cameras to 1.54 m. On the bar are the two science Pancams at the ends (30 cm baseline, 1° toe-in) and the two engineering Navcams in the middle (20 cm baseline). The mast turns 370° in azimuth and the bar 194° in elevation.
+dtj5n99 A fixed-focus lens (hyperfocal at 3 m) with discrete spherical elements. It has no zoom. The internal position of each lens is an educational representation.
+rdlgppx Each Pancam has an 8-position wheel with 11 mm interference filters. L1 is empty; 13 filters are for geology and 2 for the Sun. «Turn filters» moves it one position (45°).
+dx8g0et A 1024 × 2048-pixel frame-transfer CCD (1024 × 1024 active) and an electronics box shared by the rover's nine cameras.
+4tp28w7 A short sunshade and internal baffles against stray light.
+jq1jqyb Engineering cameras with a 650 nm red filter, used to plan drives and for autonomous navigation.
+icdw8rh An aligned titanium mount that carries the four cameras on the elevation head.
+l7ma4af Elevation actuator. Its axis is 1.38 m above the ground; the cameras sit 15 cm higher.
+5oxjve4 A hollow tube that works as Mini-TES's periscope. It traveled folded on the deck and was raised after landing.
+nvus8t5 Helical wiring that follows the azimuth rotation, and the cameras' flex circuits.
+1lsxwlh A five-degree-of-freedom arm: shoulder azimuth and elevation, elbow, wrist and turret. It places the microscope, the two spectrometers and the RAT on rocks and soil. It travels folded under a front shelf. This stowed pose is a reconstruction consistent with the documented volume.
+aonjdm8 Brushed DC motors with a magnetoresistive encoder. All start with 3 planetary stages; the shoulder and elbow add a harmonic drive, the wrist and turret two more planetary stages.
+gi039p9 Elbow cutaway based on figure 5 of the IPS paper. The order of the components is documented; their dimensions are inferred.
+61jdbch Titanium housing and shafts to match the thermal shrinkage of the bearings and gears.
+e9vndgs A brushed DC motor, a 2-channel encoder and a 4-position magnetic brake.
+bqrmr65 A reduction shared by all five joints. The ratio is not published.
+y5sanqd A cup-type harmonic gear with S-shaped teeth: a circular spline and a flex-spline.
+iy1d4xr A potentiometer for absolute position and a Teflon O-ring against dust.
+jvvryde It protects the flex cable loop that runs through the joint.
+4q0nckd More than 200 conductors in continuous flex strips about 3 m long, with service loops at each joint.
+elrdz6r A brush on the forearm for cleaning the grinding heads. Approximate position.
+cid4haj Four tools around the turret axis, with orientations from NAIF: MI 0°, RAT 90°, Mössbauer 190°, APXS 270°.
+d6kme1h A fixed-focus camera: the arm is its focusing mechanism. It has a motorized Kapton cover and a spring-loaded contact sensor. It has no zoom.
+jrjk382 A probe with a coil spring that can bend 90° and finds small spots accurately.
+ub7x5ks A cylindrical head with curium-244 alpha sources and a silicon drift detector in a coaxial layout. Its doors open when it's pressed against a surface; inside is a gold target on Kapton. It is not Sojourner's deployable APXS.
+m9fbakm Coaxial layout documented; the number of sources is inferred.
+cq5h2q6 Documented components in an inferred layout.
+j8g8ab2 A wheel with two diamond-resin heads spins at ≈3,000 rpm while slowly tracing a circle. That way it opens a 45 mm area up to 5 mm deep. It also brushes and carries magnets. It doesn't drill or take cores.
+ll91cxu Two curved 6.35 mm heads at the ends of a bar; they trace a 23.37 mm circle.
+n3h8wg0 They sweep away the grinding debris.
+00dcj6k They collect magnetic dust from the ground rocks.
+93pcprq Inside the WEB are the electronics module (REM), two lithium-ion batteries, the IMU and eight RHUs. The radio electronics are mounted on the sides of the REM. The functions are documented; the layout of cards and components is inferred.
+1utldux A computer based on the RAD6000, a radiation-hardened version of the PowerPC. This card and its position are an educational representation, not the flight circuit.
+dqk6tvx Period ceramic packages. Their number and position do not reproduce the flight board.
+g2yq3cx 128 MB of RAM and 256 MB of flash, plus smaller non-volatile memory.
+pd4bqhi The motor control card closes the loops with encoders and potentiometers (cited for the IDD).
+ny9citr It regulates the power from the panels and controls battery charging. Regulation is not in the panels.
+cxi3cql Two rechargeable 8 A·h batteries. They must be above −20 °C to discharge and above 0 °C to charge. The internal cells are not modeled.
+4pus8kw Eight ≈1 W RHUs, the size of a C battery. They only provide heat, not electricity: the MER rovers got their electricity from the solar panels. The location of the heaters in the model is approximate.
+9lq7zk6 IMU mounted on the REM according to DESCANSO figure 7-14.
+1dp27o9 Bundles between the batteries, the REM and the bulkhead. Routing inferred.
+wya8a5v On the surface, the MER rovers used the steerable high-gain antenna (HGA) and the low-gain antenna (RLGA) in X-band. A 19 cm UHF monopole linked them to the orbiters. The HGA is a flat array of printed dipoles.
+chogq5r A steerable panel on a two-axis gimbal on the RED. Its phase center is 0.363 m from the base (NAIF).
+d6c51wt A 0.28 m radiating face. The dipole grid shows the principle, not the flight pattern.
+n31lxlv An aluminum plaque of about 15 cm on the back of Spirit's HGA, honoring the crew of the space shuttle Columbia. It is a marking unique to Spirit.
+4oqqv31 Azimuth and elevation actuators with an arm. The HGA could only be used after the rover was deployed.
+bdtwpwd A horn on top of a circular waveguide. It was the shortest section of a stack of horns that included the cruise and descent ones, already separated on the surface.
+kw9uaej The SDST transponder, two SSPA amplifiers, the diplexer and the switches are on one side of the REM; the UHF transceiver and its diplexer on the other. The box sizes are inferred.
+8k5kx91 Two redundant solid-state amplifiers; SSPA-A was used on the surface.
+yebji8u A functional diagram of the lines to the antennas. It is not the physical routing of the conductors.
+db0pu4l Two fixed stereo pairs of hazard cameras with 124° fisheye lenses, on titanium mounts on the front and rear faces of the WEB. The front pair also watches the arm's work.
+8ft7olr Tilted 45° downward to see the IDD's work area.
+colan9k NAIF position (0.6062; −0.0434; −0.2349) m.
+hp02kbi NAIF position (0.6058; 0.0551; −0.2353) m.
+
+m8g4fvt It keeps the 10 cm stereo baseline and the alignment between cameras (<0.25°).
+9hq1sus Tilted 35° downward. The rear solar panel blocks the top 12° of its image.
+gbxno7b Looking backward: its «left» is on the rover's +Y side.
+53vm51g Two hydrazine tanks · Twelve engines in three banks · Eight radar patch antennas · Distribution and ducts. The spacecraft stays as context; press a part to lift it. Check the evidence: documented architecture, adjusted dimensions and educational internal details.
+yc5kjbw Two tanks fed the twelve pulsed descent engines. Envelope and supports reconstructed; the lines follow their connections when a tank is lifted.
+xa393oc The inspection lifts the tank as a whole; it doesn't simulate opening the flight vessel.
+ib38zc8 Twelve engines grouped in three banks of four, with their mounts and valves.
+9emrirj Thin wall, throat, exit, joint and valve housing; small dimensions matched to figure 2-36.
+1bayeji Eight antennas sent and received four beams: one nadir and three to the sides. The CAD figure uses identification colors, not flight colors.
+t59vsmf It separates one antenna and its mount to study the layout underneath.
+0ljpqp5 The feed function is documented. The fine route of the manifold is educational, connected to the tank and valve terminals.
+sk1tob9 Links and coatings · Joints and actuators · Two-chamber scoop and acquisition · RAC camera: optics and two illuminators · TECP probe: body and 15 mm needles · Harness and tied-down loops · Heaters and thermal protection. The spacecraft stays as context; press a part to lift it. Check the evidence: documented architecture, adjusted dimensions and educational internal details.
+wr42fqa Tubular aluminum links, titanium fittings and thermal patches according to JPL figure 2. The arm is shown extended; the pose is representative. The integration biobarrier no longer wraps the links.
+yeetxrr Four degrees of freedom: two at the shoulder, one at the elbow and one at the wrist. The DC motor and reduction principle is shown.
+629s956 The motor lifts out so you can study its housing, winding and reduction.
+i4k5mrp An open scoop with two separate chambers, delivery through a slotted funnel and two blades. The rasp is at the back and bottom, not on a closed box.
+pb1004w A 78 × 61 × 62 mm head fixed to the forearm. A bench with three bulkheads, a BG40 window, sapphire protection, focusing optics and 112 LEDs; educational electronic traces.
+msqfhue Three bulkheads and side frames hold the optics and electronics. Overall dimensions documented; fine lightening cutouts reconstructed.
+oysfl18 A 2 mm BG40 window and an open sapphire cover. Lifting it lets you see both layers.
+mrdupl4 Guides, actuators and the optical cell. Four double-Gauss lenses; the curvatures are shown without claiming a flight optical prescription.
+j0zjgc4 Two sets with 28 red, 28 green and 56 blue LEDs. The fine placement is reconstructed visually.
+kwdk4pr Detector and board in the rear compartment. The PCB shows packages, contacts and educational traces; it doesn't reproduce the flight artwork.
+8h1zhlr Four short needles characterize the soil. The documented total length is 118.76 mm; the needles are 15 mm long.
+yadkxfd Four 15 mm needles with a base of about 3 mm, 7 mm apart.
+80gm3km Envelope and side mounting; the cutaway gives access to the educational board.
+yhkbduu The two loops end in physical connectors and follow the joints. Their radii and fine routing are educational.
+gukqcjx The JPL engineering model shows the tubular links and their fittings. Heaters and tapes are shown; the transport biobarrier is not confused with a housing of the deployed arm.
+2mokf5k Eight inlets, sieves and ovens · Ports and gas lines · Magnetic sector spectrometer · Electronics, vias and connectors · Insulation and bolted housing. The spacecraft stays as context; press a part to lift it. Check the evidence: documented architecture, adjusted dimensions and educational internal details.
+wvgn4t0 Two tilted faces with four inlets per face and two leaves per inlet fed eight single-use ovens. The ovens are cylinders about 1 cm × 2 mm; they are kept at metric scale.
+e7r1qqq A real oven is tiny. This view enlarges it with the camera, without increasing its size inside the model.
+gog36br The door and the mesh controlled sample delivery; one of the eight inlets is shown.
+gg86x3x Nitrogen carrier gas carried the gases to the analyzer. The tubes stay connected when the instrument is lifted. The fine routes are educational.
+hpmybbr Ionization and magnetic separation made it possible to analyze the gases. The envelope and internal detail are a reconstruction based on its documented principle.
+md458q9 Control circuits with contacts, vias, traces and passives. It doesn't claim to have the PCB manufacturing design.
+d8flgab Four wet chemistry cells · Optical microscope and light · Atomic force microscope · Wheel and 69 sample surfaces · Common electronics and connections · Housing and insulation. The spacecraft stays as context; press a part to lift it. Check the evidence: documented architecture, adjusted dimensions and educational internal details.
+tu5klxr Four cells mixed water and soil to analyze ions. Each cell had an actuator, a beaker and a set of sensors.
+9f6ceii One cell is highlighted; 26 contacts/sensors are shown as an educational architecture, without claiming their manufacturing layout.
+mibmozr The sample opening and its lid are connected to the actuator. Fittings and fine dimensions are matched to the photograph.
+u2m11sk The fixed optics and RGB/UV lighting looked at particles. No giant board is added inside the lens.
+mm7wi0d Eight tips can measure the surface of the particles. The mount and cantilever are shown with educational detail.
+nn8cyg9 The eight tips can be told apart; their shape and fine spacing are educational.
+beb6g58 The wheel presented 60 sampling surfaces and nine calibration surfaces to the microscopes. Its geometric stacking is reconstructed from the documentation.
+r3f3tlg An educational representation of MECA's common electronics, with vias, contacts and tied-down harnesses. The complete optical readout also depended on the lander's electronics.
+m3x3ida The real box measures about 35 × 25 × 15 cm. Insulation, lids, seals and fasteners replace the plain block.
+e5uozln Photovoltaic cells and interconnects · Individual cell cover glasses · Membrane, ribs and distribution · Hub and electrical connection. The spacecraft stays as context; press a part to lift it. Check the evidence: documented architecture, adjusted dimensions and educational internal details.
+39fsbem Separate cells with thickness and folding gaps. A build adapted from the InSight UltraFlex inspection, with Phoenix's own scale and contacts. The PBR finish represents the material; it is not a photograph or a certified historic cell count.
+u7p0ojs Positions of the light islands traced from PIA09701; the fine outline and its relief are a visual reconstruction.
+aawacn5 An educational separation of one sector of the geometry. The fine dimensions are matched visually to the Phoenix references.
+ovtbzrb Each cell has optical protection; there's no big rigid cover over the wing. The lift and the stronger tint help identify the layer: they're educational aids, not a deployment or a flight color.
+45q6svr Ten flexible sectors, ribs, edge, ribbons and the hub outlet. The small shapes are reconstructed from photographs, not manufacturing drawings.
+s0vomgj The wing's joint and electrical outlet. Regulation stays in the spacecraft's power system; no fictional flight board is added inside the panel.
+nlksbjr RAD6000 processor and readout · Power distribution · Arm interface · Two 25 Ah Li-ion batteries · Connected services · Electronics box and insulation · Upper electronics box. The spacecraft stays as context; press a part to lift it. Check the evidence: documented architecture, adjusted dimensions and educational internal details.
+89nfzmc The RAD6000 processor coordinated the mission. This PCB details packages, contacts, vias and solder joints, without presenting them as the flight layout.
+nonhzrp Ceramic, pins and connections with educational geometry.
+bcwp43d Traces, vias and passives show how a PCB is made and connected; its circuit is not a certified historic copy.
+izfxdvw Power control with a PCB, connectors and small components. Educational internal layout.
+gtpzytq The arm documentation identifies two PCBs in the PEB. An interface and power board is shown to explain that architecture.
+r9yfsrx Two battery assemblies kept the lander running. No undocumented number of internal cells is added.
+ybkwg4z The loops join boards, batteries and feedthroughs. They follow the terminals while the parts lift.
+5n7bdwv Panels of real thickness, seal, insulation, flanges and fasteners, separating step by step during the inspection.
+tle4rrd Figure 1-13 identifies the Upper PEB on the deck. Its envelope is reconstructed; no internal PCB is assumed without documentation.
+20n0uzq Lenses, mirrors and stereo optics · Two CCDs and readout · Dual filter wheel · Housing, cover and gimbal. The spacecraft stays as context; press a part to lift it. Check the evidence: documented architecture, adjusted dimensions and educational internal details.
+7wvr2pf The glass and rings lift out of the barrel. Their number, curvature and optical recipe are presented as educational.
+ggd5tgz Two 1024 × 1024-pixel CCDs recorded the images. The PCB and fine routing in the cutaway are educational.
+b41oou4 Twelve positions per eye on a coupled dual wheel. The rotate option moves both sets together.
+mkdz286 The horizontal head includes a cover, clamps, front optics and a mount. Proportions matched to PIA11223.
+8ky6u90 Receiving reflector telescope · Nd:YAG emitter, KTP and vertical output · Mast, temperature and wind · Readout and connections · Housing and anodized frame. The spacecraft stays as context; press a part to lift it. Check the evidence: documented architecture, adjusted dimensions and educational internal details.
+r5adalw The receiver points straight up and uses mirrors and a central support. It is not a CCD camera with a generic lens train.
+nbvyyt6 The mirrors and the support are reconstructed from the photograph of the instrument without its cover.
+zo0nxgo Two detection paths separate the signals; their fine packages are approximate.
+td0udss The Nd:YAG laser produces 1064 nm and the KTP generates 532 nm. The calibration drawing identifies the optical path; mounts and mirrors are matched visually.
+sh826kv The crystals and their mounts are pulled apart to study their function; the fine sizes are educational.
+my4z9uf Three sensors at different heights and a wind indicator complement the LIDAR. The mast stays attached to its base.
+vizdcqa An educational control board with vias, contacts and connectors. The services stay attached during the inspection.
+lmy5cxy The gold frame appears in the photograph of the open LIDAR; its outer cover is insulated.
+honzd9i Struts, fittings and absorption · Footpads and ground joints · Tie rods and joints. The spacecraft stays as context; press a part to lift it. Check the evidence: documented architecture, adjusted dimensions and educational internal details.
+3drg1xh Three struts connected to the deck, with sleeves and cartridges. No visible spring is invented as a historic mechanism.
+4kcvgb3 The cutaway keeps the thin wall and the guide. The internal detail of the cartridge is educational.
+j9cxucj Bring a footpad closer to check its ribs and its joint with the end of the strut.
+t4n2e2t A reconstruction of the deployed assembly. The WTS shield, the RWEB insulation and the vacuum sphere come apart before the sensors and supports are shown. On the spacecraft, SEIS and WTS were carried separately.
+
+3hl58n0 The cover goes over SEIS once it's set down on the ground. Its skirt limits wind and temperature swings.
+ho2vj64 The wind shield's skirt, shown separate from the cover.
+bozlv2u The shield's white surface and its edge; it keeps the shape of the reconstruction.
+f113qp7 Supports that keep the shield on the ground; educational separation.
+qoep8ca The inner thermal cover surrounds the sensors; it is different from the vacuum enclosure.
+ti1dzet The insulation blanket is shown without changing its geometry.
+mkdxous Ring, markings and fasteners from the visual reconstruction.
+minbh33 The three VBBs sit in an evacuated spherical container. Opening it at the equator is a teaching cutaway; the flight container was welded shut.
+k6hnwxt A teaching cutaway of the evacuated container. The flight sphere was welded shut.
+fqoyuzw The lower part of the container and the equatorial joint.
+nwd4m3n A representation of the joint; it is not a removable flight lid.
+z7weydw The three sensors are spaced 120° apart and their sensitive directions form a tetrahedral arrangement, about 30° above horizontal. It is not the 35.26° Galperin configuration. Their mechanics follow the photographs and the published CAD.
+ictani2 The proof mass, the flexible pivot and the electromagnetic feedback form an inverted pendulum. Manufacturing tolerances are not shown.
+k9ss6ku The proof mass of the matching VBB pendulum; shape reconstructed from the technical publication.
+144fqn7 An individual sensor inside the vacuum sphere. Its parts keep the geometry of the reconstruction.
+5mjrntk The pendulum frame, reconstructed from the technical figures.
+8qe8o3b The pendulum's moving mass. The lift is for inspection; it is not its operating travel.
+00czzou A geometric representation of the pendulum's support.
+zhtuujl Explanatory geometry of the feedback assembly; it does not reproduce manufacturing tolerances.
+8iz98hc Connections already present in the sensor's visual reconstruction.
+ckar22b Three short-period sensors are mounted outside the sphere, on the leveling ring.
+3gimtdo A short-period sensor shown by its outer housing.
+hk62pb3 Modeled connection and fastening elements, with approximate fine detail.
+wcflvos Three linear actuators adjust the tilt. You can see the bellows, the fasteners and the pointed feet.
+lpvgkv3 A ring that links the three leveling supports.
+tm5impi Actuator, bellows and foot already present in the reconstruction.
+4ly9frl Three proximity modules connect the VBBs. Their covers and connectors follow the published diagram; the inner layout is not invented.
+rkubuay Housing and connector of the matching proximity module. It contains no fictional PCB.
+hrkwvhs The module's housing, reconstructed visually.
+68a8g5j Connection elements present in the model.
+t2727x3 The tether connects the instrument to the lander's electronics. The documented section near the sensor is shown, without cables hanging arbitrarily.
+qvsx32f A ribbon that connects the instrument to the lander; fine routing reconstructed visually.
+q1u0byg Visible retainers of the connection ribbon.
+9f1epz3 The active face, back membrane and interconnects of the ten-sided panel. The protective glass is shown cell by cell; there is no large rigid sheet over the whole panel.
+p8cxn2s The cells are spread over ten flexible sectors. The number and fine dimensions of this geometry are matched visually to the photographs, without claiming a manufacturing drawing.
+7glzzbt A sector of the existing geometry. The separation is for inspection; it doesn't show a real disassembly of the membrane.
+3j1hjgv Each cell gets optical protection. Separating the cover glasses is for teaching, not a deployment mechanism.
+f8dpifq Radial buses attached to the membrane; no fictional regulator board is added inside the panel.
+muy9nh1 A visual reconstruction of the central support; unpublished internal mechanisms stay closed.
+j9jscqp The reconstruction's outer hub geometry.
+qlt6uca Outer support; the unpublished internal mechanism stays closed.
+azp1nxf Fasteners already present in the visual reconstruction.
+qiqjwn1 NASA geometry preserved: shoulder, elbow, wrist, IDC camera, scoop and grapple. The exploded view shows the outer assemblies; the inside of the motors is not invented.
+qaobezk The arm's base joint; the structure and actuator come from the NASA resource.
+a5w6aes The arm is 1.8 m long and has four motors. The separation is for teaching; it doesn't simulate a maintenance procedure.
+bv512rq The arm camera inspected the deck and the work area. Its housing, mount and lens keep the NASA geometry.
+75d0ct2 Outer assembly preserved from the NASA resource. No lenses or internal detector are shown without documented geometry.
+3unds7a The cover from the original NASA model, separated for visual inspection.
+f4436rp Explore the five fingers and the central body separately. The real grapple opens its fingers with a paraffin actuator; the separation movements in this view are educational.
+x98zsc6 One of the grapple's five metal fingers. It keeps its original mesh, orientation and finish. It lifts so you can look at it; it doesn't simulate a flight opening.
+k6pmftq Housing and suspension visible on the NASA model. JPL documents a paraffin actuator; its interior is not included in this resource and is not invented.
+1lx3hs1 The original end assembly, which connects the arm to the camera, the scoop and the grapple.
+gk5sjfv Scoop geometry preserved from the NASA model.
+rv0x5yw An outer element of the end assembly in the NASA resource. No unconfirmed internal function is assigned to it.
+dqqov80 The EBox is installed inside the lander's thermal enclosure. This exploded view reproduces the published card architecture; the SEIS-AC face uses the real photograph of the circuit, without inventing copper traces.
+42zgoa5 Back cover of the electronics box.
+3y7jvd4 A surface taken from the photograph published in figure 58: contacts, hybrid components and visible connections. The depth of the packages is reconstructed visually.
+46n146m The surface keeps the real photograph from figure 58. The traces that appear in it are not replaced by an invented circuit.
+o97vsmz Volumes reconstructed over the packages visible in the technical photograph.
+y01fkfo Blocks identified visually in the photograph; no number of hidden contacts is assumed.
+d1nb91u The first connector block, keeping the photographic cutout.
+cm85hfw The second connector block, keeping the photographic cutout.
+wh0b7cy Outer geometry of the connectors visible in the photographic reconstruction.
+ukxouf2 A conductor matched to the route visible in the photograph; it is not an electronic netlist.
+2raqipg Card holder geometry already present in the reconstruction. The unpublished circuit is not replaced with invented components.
+rhl2wzk Fasteners from the visual reconstruction; positions and fine sizes are approximate.
+z0tjch3 Each VBB has a feedback card. No unpublished trace layout is claimed.
+pvmarvq The SP-FB module identified in the manufacturer's exploded view.
+abei882 Electronics for the SEIS actuators and leveling.
+fclpfji Redundant SEIS control; the assembly's location comes from figure 20.
+ufrypgv Conversion and power modules identified on the drawing.
+y06eean Two medium-gain horns pointing in opposite directions and a helical UHF antenna. Their real orientation and spacing on the deck are preserved.
+dsn5a1i The horns face east and west in the planned orientation. RISE measures how Mars rotates through the direct link.
+38ryi8k Horn and outer mount preserved from the NASA model. The separation is for inspection, not an orbital deployment.
+xduancb The helical antenna talks to the orbiters. The cover stays closed: the hidden helix and the internal electronics are not invented.
+zgisbag Struts, fittings, the foot joint and the footpad preserved from the NASA model. A complete support is shown; no fictional elastic spring is added.
+u68eqdr The lander rests on three legs with impact absorption. The outer mechanisms are preserved; there is no complete public drawing of the internal cartridge in this reconstruction.
+vpgouh5 HP³'s support structure, handle, conductors and cover preserved from the NASA model. The probe did not reach its planned science depth; a successful penetration is not shown.
+kfxrkkh The arm placed this structure on the ground. It keeps the geometry of the NASA resource.
+nfd8x6z A context camera under the deck, two wind and temperature assemblies and a pressure inlet. The outer hardware is preserved, without making up internal detectors.
+y2ba4zx The fixed camera watches the deployment area from under the edge of the lander.
+xfze94t Two sets of environmental sensors accompany the seismic measurement.
+nfe7eda One of the two outer assemblies from the NASA resource. Its hidden electronics are not reconstructed without documentation.
+dflqkim The inlet of the atmospheric pressure system; it helps relate environmental disturbances to the SEIS record.
+799uequ The underside view from the NASA resource: structure, thermal enclosure and propulsion assemblies. The twelve descent engines use hydrazine; no internal network of valves or tanks is invented.
+
+78w562i The press kit distinguishes electronics inside the WEB from external equipment under the deck: radar, inertial unit, radiometer and magnetometer. Which small box in the 3D resource is which is not confirmed.
+wes9l7l The 10.5 × 15 cm elliptical mirror aimed the view before the lenses. Surveyor III's camera had a small hood on top. Its opening lets you follow the mirror, filters, lenses and detector.
+wme59tw The wheel had three filters and a clear position. It lifts above the lens; the Turn filters control lets you see its four sectors.
+g0pi8yu The lens could zoom from 25 to 100 mm and set its iris from f/4 to f/22. The focal-plane shutter sat between the lens and the vidicon. The small lenses in the cutaway are explanatory.
+dmatcuo The iris controls how much light reaches the detector. The glass groups are spread apart to make them easier to inspect; they are not a certified optical prescription.
+fhtr6af The image formed on a photoconductive surface and an electron beam read it. The cutaway includes the glass envelope, contacts and explanatory electrodes.
+rkdqz9k The contacts and electrodes illustrate the tube's electronic readout. The internal detail and its dimensions are approximate.
+0mn3h7v The electromechanical mechanism aimed the mirror. The winding, rotor and gears are an explanatory reconstruction.
+hhxiqcx The copper winding, the shaft and the rotor are kept so you can study an electric actuator.
+oj0ozf2 The board conditions the vidicon's readout. The traces and connectors are explanatory; the flex follows the board and the tube when they separate.
+wyq43aw First it is shown closed. Then the cover is removed slowly so the location of the components stays easy to read.
+b7z0c6v A soil mechanics sampler: a scoop and a pantograph to dig into and test the regolith. It was not a chemistry lab or a sample delivery system.
+33cwfi3 NASA figure 5-1 identifies the azimuth, elevation, retraction and scoop door motors. Their windings and drives in the cutaway are explanatory.
+zl7rxrt You can tell apart the shaft, the winding and the drive of an electric actuator. Internal dimensions are approximate.
+9h2n7qu The scoop of about 12 × 5 cm had a motor-driven door. It was used for penetration tests, trenches and impacts on the lunar soil, not for delivering samples to a chemistry lab.
+9gaf75q The door separates so you can see the scoop, the pivot axis and the flex. The movement in this inspection is for teaching.
+kvjg17n Surveyor III's arm was a pantograph: crossed links and passive pivots let it extend and retract. This pose shows a partial extension. It is not a serial arm with motors at each crossing.
+fm4vwty The base links the drives to the vehicle. The mounts and fasteners are an approximate photographic reconstruction.
+jq4ymh9 The leg keeps its joints: inverted tripod, A-frame, lock, shock absorber with strain gauges and honeycomb footpad. The exploded footpad is educational.
+kk7u1br The upper column combines a shock absorber and a spring; the strain gauges measured the axial load.
+iqfo6or The two lower tie rods and the A-frame share the attachment points; no rod ends without support.
+03sjqbb The footpad spread the load. The honeycomb could absorb energy by crushing; cell size and number are educational.
+hldbjoy A teaching section of the honeycomb structure, not an impact simulation.
+3q7369n Two separate thermal compartments. A held communications, the main battery and charging; B held command decoding, signal processing and regulation. The internal modules, traces and connections are educational.
+93780zd The two receivers and transmitters were housed in compartment A. One module for each function is shown to study how it was built; not the whole flight inventory.
+uk9bezq NASA describes printed circuits, plated holes and Teflon wiring. This layout and the choice of small packages are educational.
+gtkimnv Documented functions of compartment B; no modern microprocessor is invented.
+pbct5io Period printed-circuit geometry to explain components and contacts; it is not Surveyor's netlist.
+ytqwtra Charging the main battery and the boost converter were separate functions located in A and B.
+xp3z6uo Compartment A held the rechargeable main battery. The closed volume and retention are shown; its cell layout is not invented.
+www3w5p The trays spread heat; aluminized Mylar and radiating surfaces regulated the temperature.
+znmkezg The harnesses keep their ends tied to the modules during the exploded view. The internal layout is educational.
+euikpym A single solar panel on the A/SPP positioner. The exploded view separates the cells, optical protection, frame and interconnects; it is not to be confused with the flat antenna underneath.
+pl9ionm The active face makes electricity. The visible subdivision reproduces its appearance; it does not certify the historic number of cells.
+efevsrp An educational section of the protection, separated cell by cell to understand the assembly.
+t498svm The connections carry the power toward regulation and the batteries. The fine wiring detail is approximate.
+wllpw3k Surveyor used a flat high-gain antenna and two omnidirectional antennas on booms. The receiver and transmitter were in thermal compartment A, not inside this panel.
+tmryo9g A steerable flat antenna; it was not a parabolic reflector. The internal radiating elements are not reconstructed without a drawing.
+g4b32ex A connection at the back of the panel. The fine routing is approximate.
+hehq5wn Historic flight configuration: a central solid retro-rocket and three small vernier engines. The retro-rocket separated before landing, which is why it doesn't appear on the exterior on the surface.
+futwk6w Three throttleable engines finished the descent. Engine 1 could be pointed; engines 2 and 3 were fixed.
+1enk9i5 Two feed valves next to the chamber, as in the photograph in figure IV-34.
+kngt0o4 A section of the wall is removed to show the continuous duct. The injector holes are an educational representation.
+rwasuhc Six tanks of equal volume: three for fuel and three for oxidizer. The lids of the selected pair open without being mistaken for electronics boxes.
+n0hs4w8 Helium pressurized the feed to the vernier engines; it was not fuel.
+oqh7s3w A central solid motor with a spherical case 37 inches (0.9398 m) in diameter. It separated after braking. It is not part of the probe on the surface.
+ww15a55 The propellant is solid, not liquid. The cutaway illustrates its central chamber; it does not reproduce a formulation or a manufactured grain.
+q0zlobo A continuous profile reconstructed from the section in figure IV-37.
+gavg2z6 Mounts near the lower hinges and the motor's release by explosive nuts.
+7rasffw The lines join the tank outlets, the engine feed and the helium distribution. Their fine routing approximates the NASA diagram.
+s2qnl57 The 50 Ah primary auxiliary battery was outside the thermal compartments. It supplemented the 180 Ah rechargeable main battery in compartment A. The electrode cutaway is educational.
+pv38fob No public drawing of its individual cells has been recovered. This section shows the principle of stacked electrodes without claiming their real number.
+4z9qpgs The auxiliary battery is identified in figures IV-1 and IV-20. Outer shape and fasteners reconstructed from those references.
+1hivi3i The connection keeps the terminal and the block linked while it opens; it does not show the original wiring diagram.
+6rhagd2 The Canopus sensor provided a star reference for orientation during the trip. The exterior model also identifies the radar altimeter/Doppler antennas under the frame and the nitrogen tank for attitude control.
+twvinv9 The sensor's position is documented in figure IV-1. The fine shape of the sunshade and housing is a visual reconstruction.
+gu1of5m The documentation consulted cannot confirm its manufactured optical/electronic assembly. An explanatory block, labeled as such, is shown.
+afcol90 The plate and its fasteners link the sensor to the frame; fine dimensions approximate.
+mjulpu7 Get close to the wheel, the suspension and its actuators. The motor's internal geometry is explanatory.
+cf98fkl A ¼ hp series-wound DC motor. The housing opens to show a 3D winding; the inside is a teaching cutaway.
+vinyd27 Conductors, rotor and insulation. The number of turns is explanatory.
+jriadmy The shaft carries the motion to the transmission.
+lkxrsq5 The circular spline, flexspline and wave generator explain the documented harmonic drive. The visible teeth are not a manufacturing drawing.
+1nmdfdt Zinc-coated steel mesh over aluminum disks and rims. The titanium chevrons cover about half of the contact surface. The mesh physically reaches the rim.
+jrqyvc9 The suspension arms, pivots and axle housing stay attached.
+tpp7dsu The LRV had one steering motor for each axle. This view brings together the axle actuator and one wheel to study its function; it doesn't mean four steering motors.
+sojyvop The power loop keeps its ends connected during the separation. The fine routing is explanatory.
+afmh6xb Explore the T-shaped controller, the instruments and the two 36 V batteries that powered the lunar rover.
+95fhsg9 The controller was fixed to the central support between the seats. It controlled drive, steering and braking.
+uro7w8k Two non-rechargeable 36 V, 121 Ah batteries, with thermal covers and radiators. The exposed electrodes are an educational diagram; no flight cell count is claimed.
+f57d26f Indicators and switches on their mechanical mount. The panel lifts while the harness stays attached.
+csyji8e Power loops, connectors and clamps of the assembly; their fine routing is approximate.
+qaqt1fc The parabolic mesh focused the television and communications link with Earth.
+hsjyocv The feed sits at the reflector's focus and its supports reach the structure. The coaxial cable ends in real connectors.
+5z67dfw Traces, vias, devices and connectors in an explanatory reconstruction of the era's electronics.
+278hlfu The amplification assembly and connection loops. The internal details and fine routing are explanatory.
+zutki6h A 6:1 zoom and a synchronized filter wheel for field-sequential color television. The number and curvature of the lenses are explanatory.
+p0k2b1m The Silicon Intensifier Target turned the image into the television signal; it was not a modern CCD sensor.
+0y2656t The GCTA assembly included the camera, a pan/tilt mount and TCU electronics, on a mount anchored to the rover.
+clnxwho Drive motor and shaft. Internal winding and transmission are illustrative.
+dahvrmz Panels formed with flanges, ribs and fasteners. They lift without changing the position of their mounts.
+n4kh5sz Double arms, torsion bars and fasteners join the chassis to the wheels.
+xg8yt74 The side harness is held with clamps; its fine routing is reconstructed visually.
+tk8tev6 Four steel-mesh wheels with titanium chevrons, each with its own 0.25 hp motor and 80:1 harmonic drive, double-wishbone suspension with torsion bars, and Ackermann steering front and rear.
+h8z31zg A 36 V, 0.25 hp series DC motor in each wheel, sealed at 7.5 psi. Existence and characteristics documented; housing reconstructed.

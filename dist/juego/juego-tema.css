@@ -1,0 +1,86 @@
+/* Juego «Control desde la Tierra» · paleta «Despegue» (v7), igual que el sitio:
+   blanco #FEFEFE, rojo #E2011C y amarillo #FFC300, con crema, rubor, naranja y tinta rojiza.
+   Se carga después de juego.css; el terreno marciano del tablero no cambia. Para volver a la
+   paleta oscura basta con quitar este archivo de index.html. */
+:root{color-scheme:light;
+  --bg:#fefefe; --bg2:#fff; --panel:#fff8e3; --line:rgba(40,22,26,.12); --text:#28161a; --muted:#5f4a4e;
+  --brand:#e2011c; --brand-hi:#f3263d; --brand-ink:#fff; --mars:#f26a0f; --gold:#ffc300; --danger:#e2011c;
+  --ink:#28161a; --red-deep:#a30016; --cream:#fff8e3; --blush:#ffeff1; --yellow-deep:#c99700}
+html{background:var(--bg)}
+body{background:radial-gradient(60% 45% at 92% 0%,rgba(255,195,0,.2),transparent 70%),radial-gradient(50% 40% at 0% 100%,rgba(226,1,28,.06),transparent 70%),var(--bg)}
+:focus-visible{outline-color:var(--red-deep)}
+::selection{background:#ffc300;color:#28161a}
+
+.g-top{background:rgba(254,254,254,.93);border-bottom:1px solid var(--line);box-shadow:0 6px 24px rgba(140,40,20,.06)}
+.g-logo{border-bottom-color:var(--brand);box-shadow:0 10px 24px rgba(140,40,20,.14)}
+.g-top-title{color:var(--red-deep)}
+.g-back{background:#fff;border:2px solid rgba(40,22,26,.14);color:var(--ink)}
+.g-back:hover{background:var(--blush)}
+.g-eyebrow{color:var(--red-deep)}
+.g-eyebrow i{background:linear-gradient(90deg,#e2011c,#f26a0f 55%,#ffc300);box-shadow:none}
+
+.g-btn-main{background:var(--brand);color:#fff;box-shadow:0 5px 0 var(--red-deep),0 12px 26px rgba(226,1,28,.24)}
+.g-btn-main:hover:not(:disabled){background:var(--brand-hi)}
+.g-btn-main:active:not(:disabled){transform:translateY(4px);box-shadow:0 1px 0 var(--red-deep)}
+.g-btn-ghost{background:#fff;border:2px solid rgba(40,22,26,.14);color:var(--ink)}
+.g-btn-ghost:hover:not(:disabled){background:var(--blush)}
+.g-link{color:var(--red-deep)}
+
+/* Presentación */
+.g-intro h1{color:var(--ink)}
+.g-intro h1 span{width:fit-content;color:var(--brand);-webkit-text-stroke:0;padding-right:.06em;
+  background:linear-gradient(transparent 60%,rgba(255,195,0,.82) 60% 90%,transparent 90%)}
+.g-lead{color:var(--muted)}
+.g-lead b{color:var(--ink)}
+.g-rules li{background:#fff;border:2px solid rgba(40,22,26,.07);color:var(--muted);box-shadow:0 2px 0 rgba(40,22,26,.04),0 10px 24px rgba(140,40,20,.08)}
+.g-rules b{color:var(--ink)}
+.g-rule-n{background:var(--gold);color:var(--ink);box-shadow:0 3px 0 var(--yellow-deep)}
+.g-intro-art{filter:drop-shadow(0 24px 34px rgba(80,20,10,.3))}
+.g-intro-art img{border-color:#fff}
+
+/* Tablero (el terreno se queda marciano) */
+.g-board{border:3px solid #fff;box-shadow:0 0 0 2px rgba(40,22,26,.1),10px 10px 0 var(--gold),0 26px 50px rgba(140,40,20,.2)}
+.g-range{border-color:rgba(255,195,0,.9);background:radial-gradient(circle,rgba(255,195,0,.1),rgba(255,195,0,.02) 70%)}
+.r-target{stroke:var(--gold)}
+.g-target::before{border-color:var(--gold)}
+.g-target span{color:var(--gold)}
+.g-apxs{fill:var(--gold);stroke:#5a3b00}
+.g-apxs-wave{border-color:var(--gold)}
+.g-ghost-dot{color:var(--ink)}
+.g-ghost-dot::before{background:rgba(255,195,0,.92);box-shadow:0 0 12px rgba(255,195,0,.8)}
+.g-beam i{background:var(--gold);box-shadow:0 0 10px var(--gold)}
+.lg-target{outline-color:var(--gold)}
+.lg-range{border-color:var(--gold)}
+
+/* Panel lateral */
+.g-day h2{color:var(--ink)}
+.g-goal{color:var(--muted)}
+.g-goal b{color:var(--brand)}
+.g-guide p{background:#fff;color:var(--ink);border:2px solid var(--ink);box-shadow:4px 4px 0 var(--brand)}
+.g-cmd{background:#fff;border:2px solid rgba(40,22,26,.14);color:var(--ink);box-shadow:0 3px 0 rgba(40,22,26,.12)}
+.g-cmd:hover:not(:disabled){background:var(--blush);border-color:rgba(226,1,28,.4)}
+.g-cmd-apxs{background:var(--cream);border-color:var(--gold);color:var(--ink)}
+.g-cmd-apxs:hover:not(:disabled){background:#ffefbf}
+.g-program{background:var(--cream);border:2px solid rgba(40,22,26,.06)}
+.g-program-head h3{color:var(--ink)}
+.g-queue li{background:#fff;border-color:rgba(40,22,26,.14);color:var(--ink)}
+.g-queue li span{background:var(--blush);color:var(--red-deep)}
+.g-queue li.q-A{border-color:var(--gold);color:var(--ink);background:#fff6d6}
+.g-btn-send{background:var(--gold);color:var(--ink);box-shadow:0 5px 0 var(--yellow-deep),0 12px 26px rgba(232,155,0,.26)}
+.g-btn-send:hover:not(:disabled){background:#ffd54a}
+
+/* Resultado y final */
+.g-dialog{background:#fff;color:var(--ink);border:3px solid var(--gold);box-shadow:0 40px 100px rgba(40,22,26,.4)}
+.g-dialog::backdrop{background:rgba(40,22,26,.5)}
+.g-dialog>p{color:var(--muted)}
+.g-stars span{color:rgba(40,22,26,.15)}
+.g-fact{background:var(--cream);border:2px solid var(--gold);color:var(--ink)}
+.g-fact b{color:var(--brand)}
+.g-cert{background:#fffdf6;border-color:#f2d58a;box-shadow:0 30px 70px rgba(140,40,20,.22)}
+.g-cert-name{color:var(--brand)}
+.g-end-side input{background:#fff;border:2px solid rgba(40,22,26,.18);color:var(--ink)}
+.g-end-side input:focus{outline-color:var(--brand)}
+.g-foot{color:var(--muted)}
+@media (max-width:900px){
+  .g-board-wrap{background:linear-gradient(var(--bg) 85%,rgba(254,254,254,0))}
+}

@@ -1,0 +1,937 @@
+# NEPTUNI · English · catálogo de piezas: nombres (1)
+mon2fqu Cruciform structure
+f88rnfo Thermal blankets and lower shield
+hu0ai5s Propellant tanks
+b0d3vtt Descent engine (DPS)
+mvrzgch Nozzle profile
+wy353zc Gimbal ring and actuators
+9k3xfkb Valves and feed
+t0a2tjq Equipment in the triangular bays
+bi1ktdk Landing radar antenna
+zg2masa MESA and sample boxes
+cmqw9ul Sample boxes (2)
+utp8z3a Science bay (SEQ)
+9u69p41 Hull, midsection and lower shield
+ball9zt Forward hatch
+91ns6gy Tunnel and docking target
+rel5y4r Panels and instruments
+9vg12qa DSKY keyboard and display
+te80v0d Indicators and switches
+m833ayr Astronaut controls and restraints
+cjjq14m Floor and engine cover
+yadltmb Ascent engine (APS)
+lcz0md8 Aft equipment bay
+5bsh0bh Stowed equipment: backpacks and cameras
+9fgjqng Surface equipment (EVA)
+ya6784q Flag
+z43w5ka Flag thermal case
+3rwfyu2 Passive seismometer (PSEP)
+h56z1qm Laser retroreflector (LRRR)
+xyz9cqu Solar wind sheet (SWC)
+lqg6jws TV camera and tripod
+9icnmx5 Tripod
+ccqxbk5 100 ft TV cable
+45e8h5u Geology tools
+cx8t0fp Commemorative package
+khlmp5o Struts and impact absorption
+n2fpqdg Footpads
+jb511qe Trusses, secondary struts and locking
+rxam9t3 Contact probes
+158rfs3 Ladder
+rxukb0f Commemorative plaque
+qg441qe Parabolic reflector
+h75pb0i Arm and gimbal
+jutoh2z Transmitter and receiver
+rnfxk2n Amplifier and connections
+tpwf9s3 VHF, flight and EVA antennas
+jle6f9r Guidance and rendezvous radar
+fa2rjs2 Guidance computer (LGC)
+k29rdko Potted logic modules
+tvf3bll Core rope memory
+dhq8lmm Harnesses and connectors
+148rjfu Cover and mount
+o5974po Alignment telescope (AOT)
+4m563mj Rendezvous radar
+vyymg7w Reaction control (RCS)
+cux0dsr Four thruster quads
+m9oberf Plume deflectors
+1hrn6d1 Mirror and vertical scan
+h9wj8x8 Lens and rings
+smcio3f Lenses, spacers and retainers
+fk9cfgs Twelve silicon photodiodes
+4qgomj9 Drive and transmission
+0wob8ot Winding and rotor
+15ga4us Electronics, thermal control and harness
+rekz24i Housing, window and cleaning
+6m5jqs9 Magnifying mirror and test target
+9vunqcq 10 cm magnifying mirror
+23552b3 Extendable tubular boom
+t6msxr4 Collector head, scoop and teeth
+spkqty3 180° rotation housing
+k3g1yke 2000 µm primary sieve
+pyvz8fk Backhoe and brush
+uoca068 Solenoid and lid hinge
+chp9t7n Magnets and temperature
+p21ultx Motor, rotor and transmission
+f072vyf Collector lid
+vw5cu33 Wiring and retention
+jksw4ky Encapsulated heat source
+km0t818 Six modules / 90 thermocouples
+2u5kell Six cooling fins
+x4lhjb3 Housing and connections
+9d0rm9m Wind cover
+qdhln16 GEX gas exchange
+i5ncd7i LR labeled release / four cells
+js234da PR pyrolytic release
+m4fzmqb Sample distributor
+11wodl4 Ducts, control and PCB
+a9jaff8 Computer and wiring
+grjwdap GCSC computer and redundant channel
+w9b5jyi Packages and signal traces
+knrg3yt Two plated-wire memory units
+xsoxn3r PCDA conditioning and distribution
+c3tmvk6 Four nickel-cadmium batteries
+zcb09fg Housing and thermal mount
+6pmi2ys Struts and honeycomb absorber
+08doccl Honeycomb cartridges
+rq5jfxd A-frames and ball joints
+h5ue3d3 High-gain S-band reflector
+ouh608u Feed, elbow and mast
+srg72su S-band radio and PCB
+2o0okge Board, passives and traces
+nyq3j9i Radio-frequency conductors
+bbjswvn UHF relay antenna
+swwf57a Low-gain S-band antenna
+yndqdyi Descent engines and tanks
+7o7t3et Two hydrazine tanks
+lu0ft7a Three engines / 18 nozzles each
+7mkmmoy Four roll control engines
+59rb7pj Radar altimeter and descent radar
+i2wical Feed valves
+5wjgex7 Ducts and joints
+rv2hmlo Weather and sensors
+e6yie90 Wind and thermocouples
+n4j5ux3 Boom and hinge
+4vjb67p Electronics and traces
+iues12d GCMS and X-ray fluorescence
+doq0vwr Three GCMS ovens
+b5t6fah Chromatography columns
+qpqxil2 Mass spectrometer
+gylunxf Four XRFS proportional counters
+az077p7 Control and copper paths
+u39vgvk Chassis · WEB and deck
+0ge1nxd Warm electronics box (WEB)
+wt52jw9 Honeycomb panels
+dl7qs3p Aerogel insulation
+malvcd4 Bottom panel
+uyy97ph Shelf over the arm bay
+ap6tdsr Bulkhead connectors
+ifywian Equipment deck (RED)
+hnc5vfj IDD restow elements
+uufvico Pancam calibration target
+gn5j0zv Capture, filter and sweep magnets
+cc7ejij Wiring on the deck
+c31ve1u Rocker-bogie mobility
+esfl1xu Rocker-bridge joint and latch
+1rhtduv Rocker deployment actuator (RDA)
+q4wy2ys Rocker pivot on the WEB
+s5i2ftw Telescoping bogie and latch
+5vz9eyu Differential and links
+gejcemw Front left corner
+5oml256 Steering actuator
+zo7z70u Wheel strut
+c9f322n Drive actuator (housing)
+4tue1z4 Aluminum wheel · grousers and flexible spokes
+wlqexwg Middle left wheel (no steering)
+adv76e2 Mobility wiring
+m1mn6fc Triple-junction cells
+indt0nj Substrate and hinges
+0mfjp3t Hinges and latches
+gg59d8s Mini-TES · thermal spectrometer
+zf2bxq6 Spectrometer in the WEB
+mrmagyu Michelson interferometer
+8aehv9p Head scan mirror
+o7mtrn5 Optical path (diagram)
+xexstob Calibration targets
+fjjrz99 PMA mast · Pancam and Navcam
+b4hpfne Pancam optics (Cooke triplet)
+tq7y6l5 Sapphire windows
+qxa8myv 8-filter wheels
+657yrjn CCD detectors and electronics
+t8h5kzd Sunshades and housings
+z5k2qv0 Navcam (navigation stereo pair)
+0d7qzs4 Camera bar
+0nckul6 Elevation head
+cekigzk Mast and azimuth actuator
+arwchs7 Mast wiring
+sl7ysyu IDD arm and instruments
+q18lonc Joints (5 DOF)
+qku21o6 Elbow actuator (documented architecture)
+aqxa1eh Titanium housing
+6vndthz Motor, encoder and brake
+g9tgt3u Three planetary stages
+5pol7dn Harmonic drive
+3z5r6ts Output bearings and shaft
+o1zsbsb Potentiometer and seal
+7453n3h Cable reel cover
+bu36gmu Titanium upper arm and forearm
+4nydwrh Flex cables and service loops
+qf6c5r7 RAT cleaning brush
+iv326bx Instrument turret
+fq318oz Microscopic Imager (MI)
+qgetfrn Kapton dust cover
+rncqlb7 Contact sensor
+u1qngjf APXS spectrometer
+f6rb6hd Dust doors
+iozrv8d Sources and detector
+3y0rsue Mössbauer spectrometer (MIMOS II)
+p1vsmor Contact plate
+snf5ug8 Transducer and detectors
+w17vq29 Rock Abrasion Tool (RAT)
+96n1xea Grinding wheel
+agbplm2 Rotate and revolve brushes
+knc5e09 RAT magnets
+nv8b8sw Avionics and power in the WEB
+esfl73m Electronics module (REM)
+3k46g90 RAD6000 processor card
+eatoyiq Packages (educational layout)
+1o1kkf6 Card connectors
+penmmr5 Memory
+5majouq Motor control
+1bse5yv Power conversion and distribution
+i3abock Lithium-ion batteries
+6b3bxsx Radioisotope heater units (RHU)
+un592kx Inertial measurement unit (IMU)
+i22fcof Cable bundles
+p7kasu3 Telecommunications
+eudcbwe High-gain antenna (HGA)
+c71zrff Printed dipole array
+sh34n6m Back structure
+9bvit8d Plaque in memory of Columbia (Spirit)
+5b3k9pj Two-axis gimbal
+trqae8a Low-gain antenna (RLGA)
+jju6b14 UHF monopole antenna
+w4m3vci Radios in the REM
+nnkf2pc RF path (functional)
+wkcxdde Front and rear Hazcams
+zvv2ddv Front pair
+1e28dsl Front left Hazcam
+3erc8rt Front right Hazcam
+1jeb9ax Titanium alignment mount
+kc57fqz Rear pair
+go00ugv Rear left Hazcam
+q4klttc Rear right Hazcam
+bmczpwg Rear mount
+gydr85s Propulsion and descent radar
+uf2u9qj Two hydrazine tanks
+kgzcr7x Left tank and connection
+j8tlfmd Twelve engines in three banks
+uy7h60h Nozzle and valve of one engine
+8ot8j39 Eight radar patch antennas
+x7c1ill One patch antenna and mounts
+rjesnz2 Distribution and ducts
+iralxj9 Links and coatings
+p2mhrpk Joints and actuators
+encwxiz Elbow actuator
+g4669fg Two-chamber scoop and acquisition
+21eqczo Motorized rasp
+lsayng6 Blades and funnel
+jswd45b RAC camera: optics and two illuminators
+r7qifs9 Optical bench and housing
+lnoasx7 BG40 window and protection
+vuhplqs Focus and four lenses
+j9y3dit Four lenses and retainers
+hbr7675 80- and 32-LED illuminators
+61p426j CCD and Sensor Head Board
+6x9hf2x TECP probe: body and 15 mm needles
+8nq7jnx Four conical needles
+i38uv7q Cover and anchor
+a6vousu Measurement electronics
+tsf2fkv Harness and tied-down loops
+2rcgiu7 Heaters and thermal protection
+lukaxxg TEGA thermal analyzer
+7mytkdi Eight inlets, sieves and ovens
+dou8fh7 Oven and heater to scale
+02vlcxs Doors and sieves
+vsp9j5k Three-blade agitator
+z2qidnt Ports and gas lines
+1syg82j Magnetic sector spectrometer
+fyn54q2 Electronics, vias and connectors
+9so2ld6 Insulation and bolted housing
+f53j8pv MECA · chemistry and microscopy
+tkivcso Four wet chemistry cells
+21nw0oy Beaker and sensors of one cell
+cu9jkvd Inlet and lid
+ro6o281 Optical microscope and light
+ytvvdqj Atomic force microscope
+81pgwnj Tips and cantilever
+qeyl61f Wheel and 69 sample surfaces
+2to9ugi Common electronics and connections
+dthwvc7 Housing and insulation
+b3yjf23 Phoenix solar panels
+r953xv7 Photovoltaic cells and interconnects
+y6olknd Top contacts and ribbons
+b5b26bm Cells · sector 1
+lyeg5do Cells · sector 2
+r3pn57v Cells · sector 3
+90g2bck Cells · sector 4
+chqr0e5 Cells · sector 5
+de19srd Cells · sector 6
+yqpktso Cells · sector 7
+aiyt7pk Cells · sector 8
+
+cfepptg Cells · sector 9
+w6zw2dg Cells · sector 10
+8jmplpe Individual cell cover glasses
+ab4mxrc Membrane, ribs and distribution
+wmrjcwh Ten radial ribs
+0tmlq27 Hub and electrical connection
+eatz6g6 Electronics and batteries
+0b1mqft RAD6000 processor and readout
+6d556im Packages and contacts
+oivzci1 Traces and plated vias
+cy6ak9l Power distribution
+6tghayy Arm interface
+2e1eydp Two 25 Ah Li-ion batteries
+j90130i Connected services
+l1n38uq Electronics box and insulation
+mder0ic Upper electronics box
+24qnx6b Lenses, mirrors and stereo optics
+linuz6l Lenses and retaining rings
+al25ghr Two CCDs and readout
+ritr3hb Dual filter wheel
+nfflxd1 Housing, cover and gimbal
+lzhc27u Receiving reflector telescope
+3ihyhbd Primary and secondary mirror
+vkkn2o6 532 nm PMT and 1064 nm APD
+wrp5nhj Nd:YAG emitter, KTP and vertical output
+zoxwq9p Crystal and frequency conversion
+tm07ly2 Mast, temperature and wind
+71mvx3w Readout and connections
+y4xvudl Housing and anodized frame
+xedu3t9 Landing legs
+vha9jqb Struts, fittings and absorption
+4yz2h48 Sleeve and guide of a strut
+zn0gr4c Footpads and ground joints
+28sxuc6 One footpad
+l67n877 Tie rods and joints
+kldt4am SEIS · sensors and protection
+1ewb8ru WTS wind shield
+jn53lev Flexible skirt
+6389qj7 Shield cover
+vp73wdk Shield supports
+idmzkt3 Orange thermal blanket
+n3jdk1s Handle and top support
+zvmee7e Ring and fasteners
+1mutz35 Vacuum sphere · 198 mm
+43j5szy Upper hemisphere
+l72gy6y Lower hemisphere and joint
+pdf6nda Equatorial joint
+355sva6 Three tilted VBB pendulums
+r22lpyt Mass, pivot and feedback
+q9z77g5 VBB pendulum 1
+q30xy7h Fixed frame
+ddeevsi Electromagnetic feedback
+o5jiyw0 VBB pendulum 2
+5ht6d54 VBB pendulum 3
+80z6yzr Three SP sensors
+ylr3269 SP sensor 1
+1x3oj5w Connector and fasteners
+b6361qr SP sensor 2
+s9217hy SP sensor 3
+84sguvj Leveling, bellows and supports
+6hoi9gv Leveling ring
+n9yhjcp Leveling actuator 1
+tjggc1f Leveling actuator 2
+is8djvd Leveling actuator 3
+dbnyd7s Handle supports
+5mvo9sw Proximity electronics
+zus6rye Proximity module 1
+5rljqzd Outer housing
+8btydot Proximity module 2
+wpjvkl3 Proximity module 3
+09jlxd2 Copper and Kapton flex ribbon
+w80av0f Connection ribbon
+b1xbdrr Ribbon retainers
+9mpl96o UltraFlex solar panel · 2.15 m
+do0fc3l Membrane, rods and edge
+1wb0tyz Hub and deployment mount
+evpwz6o Hub and flanges
+n4mdgbv Deployment mount
+sk9ewi6 Fasteners
+1w02tfk Deployment arm · IDC and grapple
+5642d5x Shoulder and drive
+aitwn8o Forearm and joint
+ncamgxk IDC deployment camera
+ghyg80u IDC housing, optics and mount
+t3bki5f IDC protective cover
+jveicrg Five-finger grapple
+s0j23za Mechanical finger 1
+y4ep3t3 Mechanical finger 2
+k83d62p Mechanical finger 3
+g0mgdnw Mechanical finger 4
+dniy7ex Mechanical finger 5
+fv6wehg Grapple central body
+91neyak Wrist and fittings
+h2wel07 Arm scoop
+1mleyyg Outer retainer
+so8fxu4 SEIS electronics · EBox
+n9n3uf6 Covers and machined frame
+lh21nru Frame and anchors
+zdjvmbw Front cover
+qzi1xww Back cover
+7aymnxh SEIS-AC card · acquisition
+madq9an Substrate and circuit photograph
+fif4shd Hybrid packages and circuits
+wkamryi Two blue connector blocks
+ay1ckia Lower connectors and contacts
+ns2yy8o Visible conductor on the board
+e4mbzpn Card holder and guides
+2nzuti9 Visible fasteners
+h8rdzqx Three VBB feedback cards
+5ak2u1b SP feedback
+4db3jia LVL-MDE leveling control
+nb4rn2j Two SEIS-CTL cards
+ocu85ep Two SEIS-DC cards
+r8oxim4 RISE antennas · UHF radio
+4v2js13 Two X-band horns
+6antagu UHF antenna and mount
+ix9qoaj Landing support and joints
+g0wr85b Strut, joint and footpad
+txs4s4x HP³ · structure and heat probe
+6k92t2j Structure and carrying handle
+hmwe7gp ICC camera · environmental sensors
+4jwa89c ICC context camera
+tyhf9ij TWINS wind and temperature sensors
+h6ujkz0 Pressure inlet
+3stgg3c Underside · equipment and engines
+gky32ce Frame and underside equipment
+rccjtl6 Mirror and pointing
+8t7ymlz Filter wheel
+a9dr2xs Zoom lens and iris
+sswcqlg Iris and optical surfaces
+docbm9x Vidicon tube
+2jdvbl2 Electrodes and contacts
+2cwowbm Electronics and harness
+fhkfkrv Housing and fasteners
+3ect716 Drives and joints
+ez84ar3 Elevation actuator and winding
+ln6zj9r Scoop, door and sampling
+oc9uv23 Door and hinge
+kyw91lg Wiring and clamps
+tjijml7 Extendable pantograph
+t4epjq7 Base and fasteners
+swg2md2 Shock absorber and strain gauges
+py4nsg6 Struts, locking and hinges
+skmfkki Footpad and aluminum honeycomb
+pcr14n3 Aluminum honeycomb
+l6i6xpr Strain gauges and instrumentation line
+w4zwg96 Compartments A/B and wiring
+14ovivr Receiver and transmitter · compartment A
+87hgnk2 Card, passives and traces
+9pzzegm Decoder and signals · compartment B
+n7w4gdw Circuits and connections
+3f7v6m1 Charging and regulation
+0wgg7lb Main rechargeable battery · 180 Ah
+tkz3h5t Insulation, radiators and trays
+si2nuwq Harnesses between modules
+gk3ezz6 Optical protection of the cells
+at5m2h7 Frame and lower supports
+p0y68x8 Contacts and bus bars
+s7diqmc Antennas and positioner
+bjunrms High-gain planar array
+chts2ho Ribs and positioner
+u53uj7e Radio-frequency routing
+j29xdtn Vernier and flight retro-rocket
+xsx5ot0 Vernier engine and nozzle
+lv0ser1 Twin valves and solenoids
+iawc9mt Chamber, injector and nozzle wall
+237guk7 Fuel and oxidizer
+ll606n0 Helium tank
+90zrj17 Main retro-rocket · before separation
+mw8v4hk Solid propellant and chamber
+qwlxrts Retro-rocket nozzle
+swm6j9o Three separation points
+x6psav8 Feed and pressurization
+v49gkq2 Electrochemical block · educational representation
+6z9okr8 Housing, retention and tray
+y81xgq8 Terminals and connection
+ifnekv3 Canopus star sensor
+3jcwbkw Canopus sensor and sunshade
+7uqfwl2 Detector principle · educational
+bpexung Sensor mount
+8tlegjo Mesh wheels and actuators
+qab3pzr Electric motor and rotor
+c9fk8s6 Copper winding
+h3sv9x1 Rotor and shaft
+g1mm3p7 Harmonic reduction
+9hjmfiq Mesh, rim and titanium chevrons
+8n9fz1e Joint and supports
+hu8kldv Axle steering actuator
+f5yfpx3 Assembly wiring
+s61cldh Controls and batteries
+tsv5lso T-shaped hand controller
+uddrkzk Two silver-zinc batteries
+x0t9w66 Driving instruments
+m5oerbe Harness and contacts
+ftvj622 Mesh antenna and radio
+vyybx3d Mesh reflector
+0c0gi8t Feed and supports
+1zilwew Board and radio-frequency contacts
+lrwkzob Television optics and zoom
+ao85okw SIT tube
+3sir0n0 Pan and tilt mount
+7iny817 Zoom drive
+2din8sw Television housing
+w4lk2gm Side rails and cross members
+jhn3ovt Folding hinges
+2zum9wq Aluminum floor panels
+6ene3nu Suspension anchors
+puywfty Chassis harness
+j4of5c7 Electric motor
+7my2xc4 Field winding
+emkqquk Armature and shaft
+d2o4xhw Double-wishbone suspension
+02owjpi Steering actuators
+szrq54b Crew station and controls
+0st6dd6 Navigation and control console
+mklcnpx Seats, belts and footrests
+pzh3trh Console harness
+trwcx5q Payload and tools
+02hctjq Rear pallet
+98gzhc1 Sample bags
+81888eb Core tubes
+9osgits Gnomon with color chart
+mge1303 Self-recording penetrometer
+8dc85qr Buddy SLSS bag
+hir34yx 16 mm movie camera
+7uzaoe7 Stowage bags and safety line
+2s5yybi Mast and pointing
+hjpdx7a Communications relay unit (LCRU)
+yzc108c Low-gain antenna
+ggbd24o Payload cables
+6gt1vg4 Housing and optics
+1uz96pp Batteries, navigation and thermal control
+ygl5zld Gyroscope and navigation processor
+4pvgl4m Dust covers and radiators
+yw254v0 Pressurized container
+a7zdls5 Quartz window
+6pedvd2 610 mm and 80 mm lenses
+wpvdx5r Lenses and rings
+ob4jh4k Optical glass groups
+9lz6a0n Rings and spacers
+2he532v Fold mirror and shutter
+4iz4aad V/H sensor and compensation
+v03ke8n Film and transport
+69lvxrc Shielded supply spool
+bl2h8v9 Camera looper
+wkx6m43 Bimat processor and dryer
+70im67u Scanning readout
+ofe7xoo Scanning tube and photomultiplier
+426fqh5 Photo electronics
+1t7xvpw Solar panels and power
+ct7obji Protective filters
+mo1pwen N-on-P silicon cells
+n7endrd Frame, hinges and wiring
+l155djq Nickel-cadmium battery
+gb1dfyt Charge control and regulator
+3m16psy High-gain reflector
+ocea8r3 Boom and rotation mechanism
+hoca3xm Biconical-discone radiator
+tzat74e Hinge and latch
+ehqfqun Radio-frequency board
+6zb51gg Copper traces and vias
+0ngkw1r Traveling-wave tube amplifier
+8ahsj87 Helix and electron beam
+mqjqvjp Decoder and encoder
+0xw2nyi Multilayer thermal barrier
+dbi835k Camera thermal door
+3a8arl4 Deck radiator
+27vh8kc Engine heat shield
+5ng8vu2 Propulsion and reaction control
+8u793ku Teflon bladders
+f422gtg Nitrogen and regulators
+vfjlvkq Velocity control engine
+j0r8uxk Nozzle
+x9lubuz Valves and lines
+7csnan2 Coil, armature and shutter
+6crcrp1 Gimbal and engine platform
+v5oecoi Nitrogen thrusters
+f41ke3p Environmental experiments
+lgnafs6 Micrometeoroid detectors
+a6xql31 Capsule and microswitch
+
+3jffq93 Radiation dosimeters
+zhgsgy3 Guidance and flight electronics
+9tkstmy Flight programmer
+p27tx4o Packages
+pxx26u5 Traces and small components
+57cpl0s Core memory
+9wu15wz Inertial reference unit
+9p89h12 Gyroscopes and accelerometer
+naghlmv Canopus tracker
+vstz6mo Sun sensors
+ga4jccf Flight control electronics
+5h5nhi5 Equipment covers
+r0qo8q3 Decks and structure
+9owpa6x Equipment deck
+ourhks2 Tubular truss and arch
+3fro4bi Tank ring
+6nvdorj Upper structural module
+y6fxq9x Engine deck
+5ejjvfy Imaging platform
+1ud5uir Narrow- and wide-angle cameras
+drq8fg3 Vidicons and readout
+h7efu6m Covers and fasteners
+cz0k0ed Contacts and spacing between cells
+ydc8j9u Interconnect and backing
+klaq71u Power regulation
+bthhgcg Propulsion system
+410s9ej Chamber, throat and nozzle
+8iijq6j System supports
+90yetoc Sequencer and memory
+2q5x9z4 Packages and pins
+i4vs2y1 Board connectors
+2joiozt Traces, solder joints and small components
+n22i250 Passives and connections
+xd1efg3 26-cell NiCd battery
+bccv61d Ribbons and harnesses
+tm3ry0h Housing and supports
+f7g7a27 Forward heat shield
+7dyllln SIRCA-SPLIT ablative layer
+qichd54 Silicon carbide structure
+upjptp8 Hemispherical back cover
+uulse3f Shield–cover joint
+p1j3gwp Probe seat
+obt0o3z Shielding, potting and connectors
+1g6mmyr UHF antenna
+on89l9l Two batteries · eight Li–SOCl₂ cells
+mngb1wq Battery A · four cells
+bw0ang1 Battery B · four cells
+f6bptbh Aftbody sensors
+olv5vk9 Descent accelerometer
+sl47o5u Sun sensor
+rvivuod Penetrator housing and casing
+qgbxt51 Housing and impact face
+2ss2i44 Penetrator tube
+69kk6k8 Electronics board
+d6sl751 Top cover
+pvss9il Penetrator housing
+sc6qped Side sampling drill
+9jcbkar Micromotor and gearbox
+g4vnphh Drill bit and side guide
+76p1ks0 Heater cup and pyrotechnic seal
+g38e2n7 Ceramic cup and thermistors
+a17jald Lid with pyrotechnic actuator
+ans3rz8 Water experiment (TDL laser)
+jw9h614 Analysis chamber and port
+ciwhaya Tunable diode laser
+ossb4an InGaAs photodetector
+f86ujcx Chamber pressure sensor
+jtwjqal Electronics prism
+unx7cqu AMC microcontroller · HDI module
+j31dmjy Power microelectronics
+3penae2 Water experiment electronics
+dmtt10l Support prism and flex bridge
+73ho97l Impact and temperature sensors
+8zid92w Impact accelerometer
+07fgga6 Platinum thermometers (RTD)
+uy8e8s4 Umbilical termination
+5uqqmu8 Folded flat cable
+22phhxd Outlet to the penetrator
+8i25th6 Stowage container and termination
+9xcuprc 16-bay octagonal bus
+f5b548m Electronics chassis and shear plates
+gyqkfgs Thermal louvers
+ebvczo5 Two 30 A·h NiCd batteries
+hvhkfq6 Blankets for bays 3, 7 and 11
+izhp3q4 Bipropellant propulsion module
+germxd3 MMH and N2O4 tanks
+v4aumia 0.63 m helium sphere
+pa1hl4l 1.3 kN gimbaled engine
+mcfsy7o Isolation, regulation and lines
+t1hk7jw Thermal blanket and SEC controllers
+vrrox0o Four solar wings (eight subpanels)
+75wlswa 2 × 2 cm N-on-P cells
+hc929rf Stabilizers, hinges and dampers
+410og1h Attitude control
+svyxmbv 1.47 m high-gain antenna
+0utlkah UHF relay antenna
+sfrugv1 Scan platform
+pmminu3 VIS A and B cameras (vidicon)
+0wlpp10 Infrared thermal mapper (IRTM)
+rb2vicg Water vapor detector (MAWD)
+v20ri1v VLC adapter and separation
+gmccdsx Pyrotechnic nuts and springs
+l0h3uox Bioshield base (stayed attached to VO-2)
+kexy982 Bioshield cap (launch only)
+m08sbl5 3.5 m aeroshell and heat shield
+34cqdy2 SLA-561 ablator
+2eu58ot Deorbit RCS (4 clusters × 3)
+euhh0rd Entry science
+llq4jmq Radar altimeter antenna
+jwh7gxm Aeroshell joints and spring ejectors
+0o0fifk Base cover and parachute
+72l7gfc Mortar and 16 m parachute
+6dqvdh4 Mortar truss
+ue5k535 Lander folded inside the capsule
+4mfyxi6 Viking 2 lander (VL-2) at Utopia Planitia
+gzz64a0 Hexagonal body and equipment
+9oqxgti GCSC computer, power and radio
+hml1emz Four NiCd batteries
+84mek7u Harnesses and service wiring
+vxezsu8 Three legs with aluminum honeycomb
+o12sd1k Crushable honeycomb cartridges
+mozss25 A-frames and limiters
+0c70ixs Two SNAP-19 generators
+fj33q0j Wind screens
+0i315kk Six radiator fins
+g0lixac 90-thermocouple converter
+ytlfee7 Pu-238 heat source
+1a5h7st Thermal switches
+ofoxw1h Terminal descent
+yvixnzf Three 18-nozzle engines
+ssi4vey Nozzle clusters
+7qztoka Hydrazine tanks
+6gw9s1s Roll control engines
+tnpicfj Radars and pressure sensor
+6akm9eb Surface sampler
+8on11yi Housing and drive
+fqvw29b Gears and motors
+0s1egm1 Folding boom
+5qqgxn9 Sieve and lid
+a0k2nr8 Two facsimile cameras
+ckz8c9l Scan mirror
+6qnkunw Lens and photodiodes
+xcepkxg Window, housing and cleaning
+7eep6nt Base and azimuth drive
+n8otmrb Biology lab (GEX, LR, PR)
+e3hllj6 Gas exchange (GEX)
+5xe5yx7 Labeled release (LR)
+5upfk8u Pyrolytic release (PR)
+gzk9sjg Distributor and hopper
+mcsx6bf Gas chromatograph – mass spectrometer
+d4mk1ng Three ovens and hopper
+vvgmz58 Chromatography column
+u1tptho Mass spectrometer and ion pump
+obmc7pp X-ray fluorescence spectrometer
+9z3a5qs Inlet funnel
+04l72d9 Weather boom
+05ftqrd Wind and temperature sensors
+4u58uo6 Seismometer (working on Viking 2)
+dbpa8a4 Magnets, calibration targets and mirror
+ttgfret S-band and UHF antennas
+mh08xpd High-gain antenna
+rz2642e Warm electronics box (WEB)
+jtufsms Sandwich walls
+e3y2fn0 Left side wall
+s9xp2rw Outer skin · gold Kapton
+sn6k8ev Silica aerogel core
+ocvvgi2 Glass-epoxy spars
+ctjfa6b Radiation barrier
+7ffptmk Low-emissivity inner surface
+ck3tuli Right side wall
+g5n3nzo Rear wall
+wmwc3jv Front wall
+jubd7mc Bottom wall · 32 mm
+hveyn61 Top frame
+kvtd0zg Cable tunnel
+ap7n5aq Structural axial tube
+vy59ys8 Clamp to the electronics frame
+4rw422e Pivot housings
+8u2l8ge Panel supports
+kq4hcdc Solar panel · 0.22 m²
+ygbz4p4 234 GaAs/Ge cells
+ba96udp Interconnects and bars
+38dlyvn Nomex honeycomb substrate
+u7a08pg Honeycomb core
+s74q917 Aerogel plug
+z065tv3 Right side bar
+l7eje65 Left side bar
+z9njo0u Panel front bar
+cixines Lower bumper
+7k2wtjq Color samples
+xxpjv35 MAE experiment
+ehdpd2q Moving glass and arm
+u0zyz1k Electronics · MFEX boards
+mzc6f9c Board set 10159700
+isstaju Computer and I/O board
+anejsk8 Gold ceramic packages
+okt6x3u Circuits and modules
+twfw4lo Ceramic DIP and passives
+9kkojls Power board
+oqevzjl Tantalum capacitors
+kx1vu1n Flex and bulkheads
+ny5y7sp UHF radio modem
+3do20v4 Inertial sensors
+tgwqxx3 QRS11 rate gyro
+ll8ig3v X accelerometer
+8dl85z2 Y accelerometer
+kqsentg Z accelerometer
+t21nndr APXS electronics
+v0gd0ku Internal wiring
+nmsj7c7 Lithium batteries
+zhn6u0r Three D cells
+5mtt88j Battery 3
+tb2nvmv Rear half
+83f2ewn Front half with elbow
+8beef1i Locking spring
+9zghcoq Differential arm
+uxekqfh Bogie beam
+c6c04yp Middle wheel mount
+ws8f08a Front C-strut
+ysgktwg Rear struts
+3ckjdt6 Linkage differential
+cji8pl9 Differential bar
+i03r8ab Left link
+u62wy1r Right link
+mjfyd4z Six wheels
+s9yldww Front left wheel
+rlp4zq5 Rim and lips
+lifzyqw 16 steel cleats
+whqwgxv Outer face and hub
+w3sb046 Middle left wheel
+mwnygw7 Rear left wheel
+at5zgyg Front right wheel
+4m9b3ez Middle right wheel
+rjdvy20 Rear right wheel
+gd5quwb Drive actuators
+69d1x24 Front left actuator
+pl9q15c Maxon RE016 motor
+8xxk9pi Gearbox housing
+zrt85am Inside the actuator
+ljz4goy Rotor with encoder and brake
+m0ii36m Planetary stage 1
+709s2ow Planetary stage 2
+ep5anrw Planetary stage 3
+kgjg4xn Planetary stage 4
+jw7fgud Planetary stage 5
+d4ndrf0 Middle left actuator
+tcsgywf Rear left actuator
+hcbzait Front right actuator
+g6ufbma Middle right actuator
+2fupboh Rear right actuator
+gxjs5ov Four-corner steering
+bxmf8x5 Front left steering
+xu9alx5 Bevel gear, potentiometer and brake
+lhvsfot Rear left steering
+4v8d525 Front right steering
+tfwzjgg Rear right steering
+d66fouz APXS spectrometer and its arm
+qj53ldc Base, motor and gearbox
+w6697lw Parallelogram links
+cbt0rk7 Flexible wrist
+gs2hxm9 Sensor head
+gikq6hz Sources and detectors
+7it03f9 Common mount
+bp3icmq Front stereo pair
+wu7qpzn Left camera #1
+ccg3xqn Window and lenses
+7r739me CCD and its board
+5ymnush Right camera #2
+glwuaph Stripe projectors
+740y083 Laser control board
+adonlot Rear color camera
+pzd8jsx Rear camera #3
+h4ugbdf Hinge and spring
+6j2bk52 Support tube and radiator
+k1eudms External wiring
+ssxmeis Service loops
+bjv1dzi Cameras and front
+4nak6ug APXS and rear camera
+
+# nombres de piezas sin tildes (tercera pasada)
+w6rsrdb LEC conveyor
+u8ryecp Porch
+v2adv7t SNAP-19 generators
+85yseu6 Housing
+mr6znfv Rockers
+0yo86gp Bogies
+f2tzgfs Protective glass
+ux613uv Interconnects
+6ijw203 Cassegrain telescope
+es80xu8 Detector
+u78cypi Housing
+f72at42 SDST transponder
+551r4ft SSPA amplifiers
+xc9v15t UHF transceiver
+wqcwe2m Cover glasses · sector 1
+ala9yp8 Cover glasses · sector 2
+kriw0nw Cover glasses · sector 3
+bb95ph9 Cover glasses · sector 4
+oxb2e0s Cover glasses · sector 5
+34tz3o8 Cover glasses · sector 6
+cgrmwg9 Cover glasses · sector 7
+cnlb031 Cover glasses · sector 8
+tnct5gn Cover glasses · sector 9
+9p0itfg Cover glasses · sector 10
+rciz1lf Flexible edge
+jh1zvko Ribbon · sector 1
+uvs937d Ribbon · sector 2
+awvg6vr Ribbon · sector 3
+3x5hiri Ribbon · sector 4
+tvmq2ta Ribbon · sector 5
+urckeho Ribbon · sector 6
+hil5yz0 Ribbon · sector 7
+agqq3en Ribbon · sector 8
+a4iwzg4 Ribbon · sector 9
+d00s9yp Ribbon · sector 10
+5i1oa8h RWEB insulation
+z1gdkum Proof mass
+l634gtz Pivot
+snad79r Visible connections
+dy2lrqs Ribbons and interconnects
+1pzt60y Blue block 1
+qokwoup Blue block 2
+imuiw5x RISE horn 1
+8odfoze RISE horn 2
+7ltf3es TWINS assembly 1
+1rfgirk TWINS assembly 2
+mh455qv Tool carrier (HTC)
+gjetctj Contacts and interconnects
+u0pwoni Cells
+g370v5g Feed
+s33cx9r Transponder
+jngmsbx Injector
+m7qk7oj Connectors
+0lx92e0 Harnesses
+l5vbhra Internal flex interconnects
+cxn7ugb Semicircular nose
+ssjxzsr Flexible umbilical
+8v5fmrx Viking 2 orbiter (VO-2)
+9jenpzj Orbiter–lander umbilical connectors
+2puiws1 Main struts
+fsd1165 Collector head
+8ii27x1 Proportional counters
+t7jamw0 Eccofoam foam
+bdtzgod Structural belly pan
+n3ol81j RHU heaters
+kb1bi29 Bumper
+59shsvk Spacers
+u87gkbi Interboard flex 10159701
+uzjnf0o External flex 10159526
+d41bm4f External bulkhead
+ynvo4rh Internal flex 10159527
+s7dtz7v Internal bulkhead
+cymemoh Left rocker
+mx2j6tm Left bogie
+npyltj2 Right rocker
+r041xdn Right bogie
+295jvxd WAE band
+74hxqev WAE photodetector
+jorpr18 Transverse link
+gmjetpt Projector #1
+i87enx2 Projector #2
+xqlrfa6 Projector #3
+g16isoo Projector #4
+vgik5eo Projector #5
+fyh3zv3 Left side
+m78v450 Right side
+ilr2ipr NASA/JPL — Mars Exploration Rover Launches, press kit (June 2003)
+qi4bbs4 Taylor, Makovsky, Barbieri, Tung, Estabrook & Thomas — Mars Exploration Rover Telecommunications, DESCANSO Deep Space Communications Monograph Series 13, Ch. 7
+pz1gogw NASA/JPL · PIA11223, SSI head
+0uwkkcy JPL TR 32-1177 · Surveyor III · figure IV-1, p. 32
+4wczxd4 JPL TR 32-1177 · A/SPP positioner · figure IV-18, p. 58
+7zh62er NASA / Boeing · LRV Operations Handbook, NAS8-25145 (part 1)
+b9bu38i NASA RP-1027 vol. I · fig. 17, bioshield (p. 21)
+yme0r5x NASA RP-1027 vol. I · figs. 104–107, sampler (pp. 175–178)

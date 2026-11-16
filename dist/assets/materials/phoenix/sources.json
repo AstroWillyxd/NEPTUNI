@@ -1,0 +1,22 @@
+{
+  "solar": {
+    "source": "https://www.jpl.nasa.gov/images/pia09701-both-solar-arrays-open-on-phoenix-mars-lander/",
+    "image": "PIA09701",
+    "credit": "NASA/JPL/University of Arizona/Lockheed Martin",
+    "method": "Left array, ten measured rim points, triangular rectification and partial colour neutralisation.",
+    "certainty": "VISUALLY_RECONSTRUCTED",
+    "limits": "Illumination and photo-fit errors remain. No manufacturing artwork or independently measured cell pitch."
+  },
+  "foil": {
+    "source": "https://eyes.nasa.gov/assets/static/models/sc_phoenix/cruise/foil_normal.png",
+    "credit": "NASA/JPL-Caltech, Eyes on the Solar System",
+    "method": "Official Phoenix normal map, shared on reconstructed insulation. Macro folds remain geometry.",
+    "limits": "The cruise asset is not the landed spacecraft CAD. Only the foil material is reused."
+  },
+  "solarCell": {
+    "method": "NEPTUNI material study: individual photovoltaic cell finish with subtle collectors and roughness. Not a NASA photograph, flight scan or manufacturing artwork.",
+    "layoutSource": "https://www.jpl.nasa.gov/images/pia09701-both-solar-arrays-open-on-phoenix-mars-lander/",
+    "layoutMethod": "Isolated contact islands traced from the registered historical image; dimensions fitted visually.",
+    "certainty": "VISUALLY_RECONSTRUCTED"
+  }
+}

@@ -1,0 +1,280 @@
+#explorador .explorer-layout {
+  display: grid;
+  gap: clamp(20px, 3vw, 42px);
+}
+
+.mission-guide {
+  background: var(--white);
+  border: 1px solid #ddd6e8;
+  border-radius: 22px;
+  padding: clamp(16px, 2.5vw, 32px);
+  box-shadow: var(--shadow);
+}
+
+.mission-guide-header,
+.mission-guide-mode,
+.mission-guide-pagination,
+.mission-guide-audio,
+.mission-archaeology-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+}
+
+.mission-guide-header,
+.mission-guide-mode,
+.mission-archaeology-header {
+  justify-content: space-between;
+}
+
+.mission-guide-header {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #e9e3ef;
+  margin-bottom: clamp(14px, 2vw, 24px);
+}
+
+.mission-guide-header button,
+.mission-guide-audio button {
+  min-height: 44px;
+  font-size: 16px;
+}
+
+.mission-guide-body {
+  display: grid;
+  grid-template-columns: minmax(205px, 22%) minmax(0, 1fr);
+  align-items: start;
+  gap: clamp(20px, 3vw, 44px);
+}
+
+.mission-guide-character {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: clamp(220px, 21vw, 262px);
+  padding: 0;
+  border: 1px solid #e9e0f4;
+  border-radius: 15px;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 55% 99%, #e8ddf4, #f8f4fc 63%, #fcfaff);
+}
+
+.mission-guide-character .mascot-sprite {
+  width: min(76%, 210px);
+  filter: drop-shadow(0 6px 8px #2c1f4520);
+}
+
+.mission-guide-character:has(.neptunito-stage[data-visible="true"]) .mascot-sprite {
+  visibility: hidden;
+}
+
+.mission-guide-reading { min-width: 0; }
+.mission-guide-mode { min-height: 44px; }
+.mission-guide-pagination { gap: 8px; flex-wrap: nowrap; }
+
+.mission-guide-arrow {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid #dfd5f2;
+  border-radius: 10px;
+  background: #f3edfb;
+  color: #584394;
+}
+
+.mission-guide-arrow:hover:not(:disabled) { background: #e9def8; }
+.mission-guide-arrow:disabled { opacity: .46; }
+
+.mission-guide-arrow::before {
+  content: '';
+  width: 12px;
+  height: 14px;
+  background: currentColor;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+#phase-previous::before { transform: rotate(180deg); }
+#phase-count { font-size: 15px; white-space: nowrap; }
+
+.mission-guide-content {
+  position: relative;
+  margin-top: 7px;
+  min-height: 155px;
+  overflow-wrap: anywhere;
+}
+
+.mission-guide-content.is-opening :is(h2, #nomad-text-output) { visibility: hidden; }
+
+.mission-guide-greeting,
+.archaeology-guide-message {
+  position: relative;
+  width: fit-content;
+  border: 1px solid #dfd2ee;
+  border-radius: 15px;
+  background: #faf6ff;
+  color: #483472;
+  font-weight: 700;
+  line-height: 1.38;
+}
+
+.mission-guide-greeting {
+  position: absolute;
+  inset: 4px auto auto 0;
+  max-width: 29ch;
+  margin: 0;
+  padding: 12px 17px;
+  font-size: clamp(17px, 2vw, 23px);
+}
+
+.mission-guide-greeting::after,
+.archaeology-guide-message::after {
+  content: '';
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  background: inherit;
+  border: solid #dfd2ee;
+  border-width: 0 0 1px 1px;
+}
+
+.mission-guide-greeting::after { top: 16px; left: -6px; transform: rotate(45deg); }
+.mission-guide-content:not(.is-opening) .mission-guide-greeting {
+  position: relative;
+  inset: auto;
+  margin-bottom: 12px;
+}
+.mission-guide-unwritten { color: transparent; user-select: none; }
+
+.mission-guide-content h2 {
+  font-size: clamp(26px, 3vw, 40px);
+  max-width: 32ch;
+}
+
+#nomad-text-output { max-width: 74ch; }
+#nomad-text-output h3 {
+  margin-top: 4px;
+  font-size: 20px;
+  color: #4c397d;
+}
+
+.mission-guide-content .facts {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 5px 0 0;
+  padding: 12px 0;
+}
+
+.mission-guide-audio { margin-top: 14px; }
+.mission-guide-audio #btn-speak-reply,
+.mission-guide-audio #voice-note { margin: 0; }
+.mission-guide-audio #voice-note:empty { display: none; }
+
+#explorador #mission-photo {
+  display: block;
+  margin: 0;
+}
+
+#mission-photo img { max-height: clamp(225px, 35vw, 390px); }
+
+.mission-archaeology-header { margin-bottom: 15px; }
+
+.mission-archaeology-header h2,
+#explorador .component-info h2 {
+  color: var(--ink);
+  font-size: clamp(25px, 3vw, 35px);
+}
+
+#explorador .explorer-stage:not(.viewer-expanded, :fullscreen) {
+  position: relative;
+  grid-template-columns: clamp(190px, 17%, 230px) minmax(0, 1fr);
+  grid-template-areas: "parts viewer";
+}
+
+.archaeology-guide {
+  grid-area: viewer;
+  position: absolute;
+  z-index: 3;
+  right: clamp(12px, 2vw, 24px);
+  bottom: clamp(112px, 17vh, 158px);
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+  pointer-events: none;
+}
+
+.archaeology-guide-message {
+  max-width: 20ch;
+  margin: 0;
+  padding: 10px 12px;
+  font-size: 15px;
+  box-shadow: 0 4px 14px #211a3326;
+}
+
+.archaeology-guide-message::after { right: 31px; bottom: -6px; transform: rotate(-45deg); }
+.archaeology-guide img {
+  display: block;
+  width: clamp(96px, 10vw, 150px);
+  height: auto;
+  filter: drop-shadow(0 5px 5px #211a333f);
+}
+
+.explorer-stage:is(.viewer-expanded, :fullscreen) .archaeology-guide,
+.viewer-wrap:is(.viewer-expanded, :fullscreen) + .archaeology-guide { display: none; }
+
+#explorador .component-info h2 { margin-bottom: 12px; }
+#explorador .component-info h3 { margin: 15px 0 9px; color: var(--ink); font-size: 23px; }
+#explorador .component-info .source-link { display: inline-block; margin-top: 13px; }
+#explorador .mission-references { margin-top: 0; }
+
+@media (max-width: 850px) {
+  .mission-guide-content .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  #explorador .explorer-stage:not(.viewer-expanded, :fullscreen) {
+    grid-template-areas: "parts viewer" "parts guide";
+  }
+  .archaeology-guide {
+    grid-area: guide;
+    position: static;
+    grid-template-columns: minmax(0, auto) auto;
+    align-items: center;
+    justify-content: end;
+    gap: 8px;
+  }
+  .archaeology-guide-message { max-width: 28ch; }
+  .archaeology-guide-message::after {
+    top: calc(50% - 5px);
+    right: -6px;
+    bottom: auto;
+    transform: rotate(-135deg);
+  }
+}
+
+@media (max-width: 720px) {
+  #explorador .explorer-stage:not(.viewer-expanded, :fullscreen) {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "viewer" "guide" "parts";
+  }
+
+  .mission-guide-body {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 12px;
+  }
+
+  .mission-guide-header { gap: 8px; }
+  .mission-guide-header button { font-size: 14px; padding-inline: 12px; }
+  .mission-guide-character { height: 176px; }
+  .mission-guide-character .mascot-sprite { width: 154px; }
+  .mission-guide-greeting::after { top: -6px; left: 24px; transform: rotate(135deg); }
+  .mission-guide-content { min-height: 0; }
+}
+
+.mission-guide-character.is-entering .mascot-sprite { visibility: hidden; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .mission-guide-content { transition: opacity .15s ease; }
+  .mission-guide-content.is-changing { opacity: .35; }
+}

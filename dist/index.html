@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fefefe">
+  <meta name="description" content="NEPTUNI es un museo interactivo de arqueología espacial. Explora 15 misiones históricas de la Luna y Marte.">
+  <title>NEPTUNI · Arqueología espacial</title>
+  <link rel="icon" href="assets/brand/neptuni-official.png">
+  <link rel="stylesheet" href="insight.css?v=20261023v2">
+  <link rel="stylesheet" href="ocean.css?v=20261112ficha">
+  <link rel="stylesheet" href="neptunito-anim/src/neptunito-animator.css">
+  <link rel="stylesheet" href="mission-guide.css?v=20261113saludo">
+  <link rel="stylesheet" href="nx-home.css?v=20261120v7">
+  <link rel="stylesheet" href="nx-ficha.css?v=20261120v7">
+  <link rel="stylesheet" href="nx-home-motion.css?v=20261120v7">
+  <link rel="stylesheet" href="nx-viewer-fx.css?v=20261120v7">
+  <link rel="stylesheet" href="nx-theme.css?v=20261121v8i">
+  <link rel="stylesheet" href="nx-relato.css?v=20261125v12">
+  <script>
+    /* Oculta el título de la portada hasta separarlo en letras (evita un parpadeo). */
+    if (!matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('nx-pre');
+    /* Si se abre con doble clic (file://) el navegador bloquea los módulos y los modelos 3D. */
+    if (location.protocol === 'file:') document.addEventListener('DOMContentLoaded', function () {
+      var d = document.createElement('div'); d.className = 'nx-file-warning'; d.setAttribute('role', 'alert');
+      d.innerHTML = '<strong>Abre NEPTUNI con el servidor local</strong><span>Cierra esta pestaña y haz doble clic en <b>ABRIR_EN_CHROME.cmd</b>, dentro de la carpeta NEPTUNI. Así cargan las misiones y los modelos 3D.</span><a href="juego/index.html">Mientras tanto, prueba el juego →</a>';
+      document.body.prepend(d);
+    });
+  </script>
+  <script>
+    /* Idioma: si se eligió inglés, la página se oculta un instante hasta traducirla (como mucho 3 s). */
+    try { if ((new URLSearchParams(location.search).get('lang') || localStorage.getItem('nx-lang')) === 'en') { document.documentElement.lang = 'en'; document.documentElement.classList.add('nx-i18n-wait'); } } catch (e) {}
+  </script>
+  <style>html.nx-i18n-wait body{opacity:0;animation:nx-i18n-show 0s 3s forwards}@keyframes nx-i18n-show{to{opacity:1}}</style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="header nx-header">
+    <div class="brandline">
+      <a href="#inicio" class="brand nx-logo-tab" aria-label="NEPTUNI, inicio">
+        <img src="assets/brand/neptuni-logo-tab.png" alt="NEPTUNI" width="186" height="30">
+      </a>
+      <button type="button" id="menu-toggle" class="nx-menu-btn" aria-controls="primary-nav" aria-expanded="false">Menú <span aria-hidden="true">☰</span></button>
+    </div>
+    <nav id="primary-nav" aria-label="Navegación principal">
+      <a href="#inicio" data-tab="inicio">Inicio</a>
+      <a href="#modelos" data-tab="modelos">Modelos 3D</a>
+      <a href="#nosotros" data-tab="nosotros">Quiénes somos</a>
+      <a href="juego/index.html" class="nx-nav-game">Juego</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section id="inicio" class="view" aria-labelledby="archive-title">
+      <div class="landing nx-landing nx-play" id="nx-landing">
+        <canvas class="nx-stars" id="nx-stars" aria-hidden="true"></canvas>
+        <div class="landing-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Museo de arqueología espacial</p>
+          <h1 id="archive-title">El espacio guarda <span>buenas historias.</span></h1>
+          <p class="landing-description">Recorre la Luna y Marte a través de las máquinas que llegaron hasta allí. Mira sus fotos, abre sus piezas y descubre cómo cambiaron nuestra forma de explorar.</p>
+          <div class="landing-actions">
+            <a class="button-primary" href="#coleccion">Explorar las misiones <span aria-hidden="true">→</span></a>
+            <a class="outline-button nx-landing-game" href="juego/index.html">Jugar con Sojourner <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <div class="landing-character">
+          <div class="landing-orbits" aria-hidden="true">
+            <span class="hero-orbit orbit-wide"></span><span class="hero-orbit orbit-tilted"></span>
+            <span class="hero-halo"></span>
+            <span class="orbit-star star-one">✦</span><span class="orbit-star star-two">✧</span><span class="orbit-star star-three">✦</span>
+          </div>
+          <button id="hero-neptunito" class="mascot-button hero-mascot" type="button" aria-label="Saludar a Neptunito">
+            <span class="mascot-sprite" data-pose="wave" aria-hidden="true"></span>
+          </button>
+          <p id="hero-note" class="character-note" aria-live="polite">¡Hola, soy Neptunito! <span>Salúdame con un toque.</span></p>
+        </div>
+        <span class="nx-shoot s1" aria-hidden="true"></span><span class="nx-shoot s2" aria-hidden="true"></span><span class="nx-shoot s3" aria-hidden="true"></span>
+        <button type="button" class="nx-scroll-cue" id="nx-scroll-cue"><span class="nx-mouse" aria-hidden="true"><i></i></span>Desliza para explorar</button>
+      </div>
+
+      <!-- Cinta de misiones que se desliza con el scroll -->
+      <div class="nx-marquee" id="nx-marquee" aria-hidden="true"><div class="nx-marquee-row" data-dir="1"></div><div class="nx-marquee-row" data-dir="-1"></div></div>
+
+      <!-- Misión destacada de NEPTUNI: al llegar a ella aparece sola, por partes, en menos de un segundo -->
+      <div class="nx-pin" id="nx-pin">
+        <section class="nx-feature" id="nx-feature" aria-label="Misión destacada: Sojourner / Pathfinder"></section>
+      </div>
+
+      <!-- NEPTUNI en cifras -->
+      <section class="nx-stats" id="nx-stats" aria-label="NEPTUNI en cifras">
+        <p class="nx-stats-kicker"><i aria-hidden="true"></i>El museo en cifras</p>
+        <ul class="nx-stats-list" id="nx-stats-list"></ul>
+      </section>
+
+      <!-- Galería en movimiento: las misiones desfilan; al tocar una se abre su ficha -->
+      <section class="nx-gallery" id="nx-gallery" aria-labelledby="nx-gallery-title">
+        <div class="nx-gallery-head">
+          <p class="nx-stats-kicker"><i aria-hidden="true"></i>Galería en movimiento</p>
+          <h2 id="nx-gallery-title">Cada máquina <span>tiene su historia</span></h2>
+          <p>Toca una misión para abrir su ficha y su modelo 3D. Puedes pausar la galería cuando quieras.</p>
+        </div>
+        <div class="nx-gallery-rows" id="nx-gallery-rows"></div>
+      </section>
+      <div class="nx-more">
+        <a class="nx-more-btn" href="#modelos">
+          <span class="nx-more-glow" aria-hidden="true"></span>
+          <span class="nx-more-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2l8.5 5v10L12 22l-8.5-5V7z"/><path d="M12 22V12M20.5 7L12 12 3.5 7"/></svg></span>
+          <span class="nx-more-text"><b>Descubre más modelos 3D</b><small>15 misiones de la Luna y Marte para girar y explorar</small></span>
+          <span class="nx-more-arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+
+      <!-- Bloque anterior: se conserva oculto porque app.js lo usa internamente -->
+      <div class="nx-legacy" hidden>
+      <section id="coleccion-legacy" class="collection-intro" aria-labelledby="collection-title">
+        <div><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Archivo de misiones</p><h2 id="collection-title">Elige tu próxima misión</h2></div>
+        <div class="world-filters" role="group" aria-label="Filtrar misiones por destino">
+          <button type="button" data-world="Todas" aria-pressed="true">Todas</button>
+          <button type="button" data-world="Luna" aria-pressed="false">Luna</button>
+          <button type="button" data-world="Marte" aria-pressed="false">Marte</button>
+        </div>
+        <div class="collection-meta">
+          <p id="filter-count" aria-live="polite">15 misiones</p>
+        </div>
+      </section>
+      <div class="archive-layout">
+        <aside class="year-rail" aria-label="Seleccionar un año">
+          <p class="rail-title">Años</p>
+          <div id="vertical-years"></div>
+        </aside>
+        <div id="mission-groups"></div>
+      </div>
+      </div>
+    </section>
+
+    <section id="modelos" class="view" aria-labelledby="modelos-title" hidden>
+      <div class="nx-models-head">
+        <p class="nx-kicker"><i aria-hidden="true"></i>Modelos 3D</p>
+        <h1 id="modelos-title">Explora la Luna y Marte <span>en 3D</span></h1>
+        <p>15 máquinas reales, reconstruidas en 3D. Elige una, gírala y deja que Neptunito te cuente su historia.</p>
+      </div>
+      <!-- Carrusel de misiones destacadas -->
+      <section class="nx-carousel" id="destacadas" aria-roledescription="carrusel" aria-label="Misiones destacadas">
+        <div class="nx-slides" id="nx-slides" aria-live="polite"></div>
+        <div class="nx-car-ui">
+          <button type="button" class="nx-car-arrow" id="nx-prev" aria-label="Misión destacada anterior">‹</button>
+          <div class="nx-dots" id="nx-dots" role="group" aria-label="Elegir misión destacada"></div>
+          <button type="button" class="nx-car-arrow" id="nx-next" aria-label="Siguiente misión destacada">›</button>
+          <button type="button" class="nx-car-play" id="nx-play" aria-pressed="true" aria-label="Pausar el carrusel">❚❚</button>
+        </div>
+      </section>
+
+      <div class="nx-rows" id="coleccion">
+        <div class="nx-toolbar">
+          <div>
+            <p class="nx-kicker">Modelos 3D · <span id="nx-count">15 misiones</span></p>
+            <h2 class="nx-archive-title">Elige un destino</h2>
+          </div>
+          <div class="nx-filters" role="group" aria-label="Filtrar misiones por destino">
+            <button type="button" data-world="Todas" aria-pressed="true">Todas</button>
+            <button type="button" data-world="Marte" aria-pressed="false">Marte</button>
+            <button type="button" data-world="Luna" aria-pressed="false">Luna</button>
+          </div>
+        </div>
+        <div id="nx-rows"></div>
+      </div>
+    </section>
+
+    <section id="explorador" class="view" aria-labelledby="explorer-title" hidden>
+      <div class="mission-breadcrumb">
+        <a class="outline-button" href="#coleccion" id="return-to-archive">← Volver a las misiones</a>
+        <label class="mission-select" for="mission-select"><span>Otra misión</span><select id="mission-select"></select></label>
+      </div>
+      <div class="explorer-top">
+        <div><p id="mission-destination" class="eyebrow"></p><h1 id="explorer-title">InSight</h1></div>
+      </div>
+      <div class="explorer-layout">
+        <section class="mission-guide" aria-labelledby="phase-heading" hidden>
+          <div class="mission-guide-header">
+            <span class="eyebrow">Neptunito</span>
+            <button type="button" id="mission-guide-switch" class="outline-button" aria-controls="mission-guide-content">Historia de la misión</button>
+          </div>
+          <div class="mission-guide-body">
+            <button type="button" id="mission-neptunito" class="mission-guide-character" aria-label="Saludar a Neptunito en la misión">
+              <span class="mascot-sprite" data-pose="think" aria-hidden="true"></span>
+            </button>
+            <div class="mission-guide-reading">
+              <div class="mission-guide-mode">
+                <span id="mission-guide-label" class="eyebrow">Descripción general</span>
+                <div id="mission-guide-pagination" class="mission-guide-pagination" role="group" aria-label="Partes de la descripción">
+                  <button type="button" id="phase-previous" class="mission-guide-arrow" aria-label="Parte anterior" aria-controls="mission-guide-content"></button>
+                  <span id="phase-count"></span>
+                  <button type="button" id="phase-next" class="mission-guide-arrow" aria-label="Parte siguiente" aria-controls="mission-guide-content"></button>
+                </div>
+              </div>
+              <div id="mission-guide-content" class="mission-guide-content" aria-live="polite" aria-atomic="true">
+                <p id="mission-guide-greeting" class="mission-guide-greeting" hidden></p>
+                <h2 id="phase-heading"></h2>
+                <div id="nomad-text-output"></div>
+              </div>
+              <div class="mission-guide-audio">
+                <button type="button" id="btn-speak-reply" class="outline-button" aria-pressed="false" hidden>Escuchar</button>
+                <p id="voice-note" role="status"></p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <figure id="mission-photo" class="mission-archive-photo" hidden>
+          <img loading="lazy" decoding="async" alt="">
+          <figcaption><a target="_blank" rel="noopener noreferrer"></a></figcaption>
+        </figure>
+        <section class="mission-archaeology" aria-labelledby="mission-archaeology-title">
+          <div class="mission-archaeology-header">
+            <h2 id="mission-archaeology-title">Arqueología de la misión</h2>
+            <div class="explorer-actions">
+              <button type="button" id="toggle-labels" class="outline-button" aria-pressed="false">Mostrar etiquetas</button>
+              <button type="button" id="lrv3-demo-open" class="outline-button" aria-haspopup="dialog" hidden>Demostraciones del LRV-3</button>
+            </div>
+          </div>
+          <div class="explorer-stage">
+            <div class="viewer-wrap" tabindex="-1" role="region" aria-label="Visor de la misión">
+              <div class="viewer-top" hidden><span id="model-badge"></span><span id="zoom-label"></span></div>
+              <model-viewer id="viewer" camera-controls touch-action="pan-y" shadow-intensity="1.5" shadow-softness="1" exposure="1.1" environment-image="assets/inspection/studio.hdr" camera-orbit="35deg 65deg 105%" min-camera-orbit="auto auto 5%" max-camera-orbit="auto auto 250%" interpolation-decay="140" aria-label="Modelo 3D interactivo"></model-viewer>
+              <div id="viewer-caption" hidden></div>
+              <div id="model-loading" class="model-loading" role="status">Preparando el modelo 3D…</div>
+              <div class="viewer-bottom">
+                <p id="viewer-help">Arrastra para girar. Pellizca o usa la rueda para acercarte.</p>
+                <div class="viewer-actions" aria-label="Controles del visor">
+                  <button type="button" id="back-component" class="outline-button" disabled>Volver una pieza</button>
+                  <button type="button" id="rotate-model" class="outline-button" aria-pressed="false">Órbita automática</button>
+                  <button type="button" id="reset-camera" class="outline-button">Vista completa</button>
+                  <button type="button" id="fullscreen-model" class="outline-button" aria-pressed="false">Ampliar visor</button>
+                </div>
+              </div>
+            </div>
+            <aside class="nx-side" id="nx-side" aria-label="Neptunito te explica la misión">
+              <p id="archaeology-guide-message" class="archaeology-guide-message" hidden></p>
+              <p class="nx-tabs-hint" aria-hidden="true"><img src="neptunito-anim/assets/gestos/gestos_04.png" alt=""><span>Para empezar, elige uno de los cuatro botones.</span></p>
+              <div class="nx-tabs" role="tablist" aria-label="Temas de la misión" id="nx-tabs">
+                <button type="button" role="tab" class="nx-tab" data-tab="see" id="nx-tab-see" aria-selected="false" aria-controls="nx-read"><span class="nx-tab-n" aria-hidden="true">1</span><span class="nx-tab-label">Conoce la nave</span><span class="nx-tab-state" aria-hidden="true"></span></button>
+                <button type="button" role="tab" class="nx-tab" data-tab="mission" id="nx-tab-mission" aria-selected="false" aria-controls="nx-read" tabindex="-1"><span class="nx-tab-n" aria-hidden="true">2</span><span class="nx-tab-label">La misión</span><span class="nx-tab-state" aria-hidden="true"></span></button>
+                <button type="button" role="tab" class="nx-tab" data-tab="findings" id="nx-tab-findings" aria-selected="false" aria-controls="nx-read" tabindex="-1"><span class="nx-tab-n" aria-hidden="true">3</span><span class="nx-tab-label">Los hallazgos</span><span class="nx-tab-state" aria-hidden="true"></span></button>
+                <button type="button" role="tab" class="nx-tab" data-tab="systems" id="nx-tab-systems" aria-selected="false" aria-controls="nx-read" tabindex="-1"><span class="nx-tab-n" aria-hidden="true">4</span><span class="nx-tab-label">Los sistemas</span><span class="nx-tab-state" aria-hidden="true"></span></button>
+              </div>
+              <div class="nx-read" id="nx-read" role="tabpanel" aria-label="Lectura con Neptunito">
+                <div class="nx-menu" id="nx-menu">
+                  <div class="nx-np-stage" id="nx-np" aria-hidden="true"></div>
+                  <div class="nx-menu-copy">
+                    <p class="nx-hello" id="nx-hello"></p>
+                    <button type="button" class="nx-nav-btn primary nx-read-btn" id="nx-read-story" data-read><span aria-hidden="true">📖</span> Leer la historia</button>
+                    <div class="nx-resume" id="nx-resume" hidden></div>
+                  </div>
+                </div>
+                <div class="nx-story" id="nx-story" hidden>
+                  <div class="nx-story-head">
+                    <span class="nx-story-topic" id="nx-head-topic"></span>
+                    <span class="nx-story-step" id="nx-head-step"></span>
+                    <button type="button" class="nx-link-btn" id="nx-chat-skip" aria-pressed="false">Mostrar todo</button>
+                    <span class="nx-story-bar" aria-hidden="true"><i id="nx-progress-fill"></i></span>
+                  </div>
+                  <div class="nx-card-zone" id="nx-card" aria-live="polite" aria-atomic="true"></div>
+                  <details class="nx-history" id="nx-history" hidden>
+                    <summary>Mensajes anteriores <span id="nx-history-n"></span></summary>
+                    <ol class="nx-chat" id="nx-chat"></ol>
+                  </details>
+                </div>
+                <div class="nx-nav" id="nx-nav" hidden>
+                  <button type="button" class="nx-nav-btn" id="nx-step-prev"><span aria-hidden="true">←</span> Anterior</button>
+                  <button type="button" class="nx-nav-btn ghost" id="nx-topics"><span aria-hidden="true">☰</span> Temas</button>
+                  <button type="button" class="nx-nav-btn primary" id="nx-step-next">Continuar <span aria-hidden="true">→</span></button>
+                </div>
+                <p class="sr-only" id="nx-status" role="status"></p>
+              </div>
+            </aside>
+            <section id="component-dock" class="component-dock" aria-label="Componentes de la nave">
+              <button type="button" id="components-toggle" class="outline-button" aria-expanded="false" aria-controls="component-menu">
+                Componentes <span class="disclosure-chevron" aria-hidden="true"></span>
+              </button>
+              <div id="component-menu" class="component-menu" hidden>
+                <div class="component-menu-header">
+                  <button type="button" id="component-up" class="outline-button" hidden>← Nivel anterior</button>
+                  <h2 id="component-menu-heading" tabindex="-1">Sistemas de la nave</h2>
+                </div>
+                <div id="component-menu-scroll" class="component-menu-scroll">
+                  <div id="component-menu-items"></div>
+                  <p id="component-menu-description" hidden></p>
+                  <a id="component-menu-source" class="source-link" target="_blank" rel="noopener noreferrer" hidden></a>
+                  <p id="component-menu-status" role="status"></p>
+                </div>
+                <button id="component-view" type="button" class="outline-button" hidden>Ver en el visor ↑</button>
+              </div>
+            </section>
+          </div>
+        </section>
+        <section class="component-info" aria-labelledby="ship-systems-title" hidden>
+          <h2 id="ship-systems-title">Sistemas de la nave</h2>
+          <div id="breadcrumbs" class="breadcrumbs"></div>
+          <h3 id="component-title" hidden></h3>
+          <p id="component-description"></p>
+          <div id="component-buttons" hidden></div>
+          <div id="component-reading"></div>
+          <div id="component-specs"></div>
+          <a id="mission-source" class="source-link" target="_blank" rel="noopener noreferrer">Consultar fuente NASA →</a>
+        </section>
+        <section class="mission-references" aria-labelledby="mission-references-title">
+          <h2 id="mission-references-title">Fuentes de la misión</h2>
+          <div class="reference-grid">
+            <div>
+              <h3>Narración</h3>
+              <ul id="phase-sources"></ul>
+            </div>
+            <div>
+              <h3>Archivo y reconstrucción</h3>
+              <ul id="mission-reference-links"></ul>
+            </div>
+          </div>
+          <p id="model-note" class="model-note"></p>
+        </section>
+      </div>
+    </section>
+
+    <section id="nosotros" class="view" aria-labelledby="about-title" hidden>
+      <div class="section-head">
+        <div><p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Quiénes somos</p><h1 id="about-title">La ingeniería también <span>tiene memoria.</span></h1></div>
+        <p class="intro">Somos NEPTUNI. Conectamos ingeniería, exploración espacial y divulgación.</p>
+      </div>
+      <div class="about-layout">
+        <section class="about-project" aria-labelledby="project-title">
+          <span class="nx-foot-logo nx-about-logo"><img src="assets/brand/neptuni-logo-tab.png" alt="NEPTUNI" width="186" height="30"></span>
+          <h2 id="project-title">Preservar la historia.<br><span>Comprender la tecnología.</span></h2>
+          <p>Construimos un museo de arqueología espacial para contar las historias de los equipos que quedaron en la Luna y Marte. Reunimos fotografías, documentos y reconstrucciones interactivas para acercar su ingeniería a más personas.</p>
+          <p class="project-context">Proyecto para NASA Space Apps Challenge 2026.</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/neptuni.pe/" target="_blank" rel="noopener noreferrer"><strong>Instagram</strong><span>@neptuni.pe →</span></a>
+            <a href="https://www.linkedin.com/company/neptuni/" target="_blank" rel="noopener noreferrer"><strong>LinkedIn</strong><span>NEPTUNI →</span></a>
+            <a href="mailto:neptuni.pe@gmail.com"><strong>Correo</strong> <span>neptuni.pe@gmail.com</span></a>
+          </div>
+        </section>
+        <section class="crew-panel" aria-labelledby="team-title">
+          <h2 id="team-title">El equipo</h2>
+          <ul class="team-list">
+            <li class="team-member"><span class="crew-avatar" aria-hidden="true">GP</span><h3>Guillermo Pilares</h3></li>
+            <li class="team-member"><span class="crew-avatar" aria-hidden="true">AH</span><h3>Anthony Heredia</h3></li>
+            <li class="team-member"><span class="crew-avatar" aria-hidden="true">TC</span><h3>Thays Cruzado</h3></li>
+            <li class="team-member"><span class="crew-avatar" aria-hidden="true">GT</span><h3>Gianfranco Tolentino</h3></li>
+            <li class="team-member"><span class="crew-avatar" aria-hidden="true">MA</span><h3>Mixu Alarcon</h3></li>
+            <li class="team-member"><span class="crew-avatar" aria-hidden="true">AZ</span><h3>Andrés Zelada</h3></li>
+          </ul>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" aria-label="Información y recursos de NEPTUNI">
+    <div class="footer-main">
+      <div class="footer-identity">
+        <a href="#inicio" aria-label="NEPTUNI, inicio"><span class="nx-foot-logo"><img src="assets/brand/neptuni-logo-tab.png" alt="NEPTUNI" width="186" height="30" loading="lazy"></span></a>
+        <p>Un museo para descubrir las historias que quedaron en la Luna y Marte.</p>
+      </div>
+      <div class="footer-column">
+        <h2>Explora</h2>
+        <a href="#modelos">Modelos 3D</a><a href="juego/index.html">Juego de Sojourner</a><a href="#nosotros">Quiénes somos</a>
+      </div>
+      <div class="footer-column">
+        <h2>Fuentes</h2>
+        <a href="https://science.nasa.gov/" target="_blank" rel="noopener noreferrer">NASA Science →</a>
+        <a href="https://ntrs.nasa.gov/" target="_blank" rel="noopener noreferrer">Archivo técnico NASA →</a>
+        <a href="https://pds.nasa.gov/" target="_blank" rel="noopener noreferrer">Planetary Data System →</a>
+      </div>
+      <div class="footer-column">
+        <h2>Contacto</h2>
+        <a href="mailto:neptuni.pe@gmail.com">neptuni.pe@gmail.com</a>
+        <a href="https://www.instagram.com/neptuni.pe/" target="_blank" rel="noopener noreferrer">Instagram →</a>
+        <a href="https://www.linkedin.com/company/neptuni/" target="_blank" rel="noopener noreferrer">LinkedIn →</a>
+        <button class="button-primary" type="button" id="back-to-top">Volver arriba ↑</button>
+      </div>
+    </div>
+    <div class="footer-bottom"><span>NEPTUNI © 2026</span><p>Proyecto independiente. Cada ficha documenta las fuentes y los límites de su reconstrucción.</p></div>
+  </footer>
+  <dialog id="lrv3-demo" class="lrv3-dialog" aria-labelledby="lrv3-demo-title">
+    <div class="lrv3-dialog-header">
+      <h2 id="lrv3-demo-title">Demostraciones del LRV-3</h2>
+      <button type="button" id="lrv3-demo-close" class="outline-button" autofocus>Cerrar</button>
+    </div>
+    <div id="lrv3-demo-stage" class="lrv3-dialog-stage" aria-label="Visor de mecanismos del LRV-3"></div>
+    <p id="lrv3-demo-status" class="lrv3-dialog-status" role="status"></p>
+    <p>Reconstrucción educativa de los mecanismos del rover. <a href="https://apollojournals.org/alsj/LRVSysHndbkA17.pdf" target="_blank" rel="noopener noreferrer">Manual del LRV-3 · NASA →</a></p>
+  </dialog>
+  <script type="module" src="nx-i18n.js?v=20261125v12"></script>
+  <script type="module" src="app.js?v=20261125v12"></script>
+  <script type="module" src="nx-home.js?v=20261125v12"></script>
+  <script type="module" src="nx-ficha.js?v=20261126v13"></script>
+  <script type="module" src="nx-viewer-fx.js?v=20261126v13"></script>
+  <script type="module" src="nx-landing.js?v=20261125v12"></script>
+  <script type="module" src="nx-home-motion.js?v=20261125v12"></script>
+</body>
+</html>

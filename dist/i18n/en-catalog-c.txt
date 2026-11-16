@@ -1,0 +1,271 @@
+# NEPTUNI · English · catálogo de piezas: pistas, fuentes, pies de foto y notas
+7dr6d1j Tap a part to lift it and pull it out. «Back» puts it back in its assembly.
+exzxc3g Eagle (LM-5) after landing · EVA equipment stowed outside; the «Surface equipment» system shows the EVA layout
+otw1aqd NASA · Apollo 11 Press Kit (NASA Release 69-83K) — Lunar Module section
+sra62x3 Cross-shaped descent stage structure, 10 ft 7 in × 14 ft 1 in, tanks in square bays, support trusses, porch and ladder, crushable honeycomb struts, 37 in footpads, three probes, 26 in S-band antenna, RCS of 4 × 4 100 lbf thrusters, 9,870 lbf throttleable DPS with a 6° gimbal, 3,500 lbf APS, 16 in tunnel, left rear science bay, EASEP, rendezvous radar (80 ft – 400 nmi), masses.
+u5llnae Ascent stage of 2.832 × 4.29 × 4.04 m, cabin volume 6.7 m³, 32 × 32 in hatch, triangular windows, 9.4 m span, 67.2 in probes omitted on leg 1, Kapton blankets (amber, reddish amber, black, silver, yellow), MESA in the forward left compartment.
+86duuz0 A curved 9 × 7⅝ in steel plaque, fixed to the ladder between the 3rd and 4th rungs from the bottom; text and signatures.
+wkm7jsp Outline of the ascent stage, antenna positions, RCS quads, plume deflectors, secondary struts and markings. Included as a comparison layer.
+9rs7fxl Package 1 (seismometer) and 2 (retroreflector) in the science bay, removed with a boom and lanyards or by hand, six solar panels, cylindrical sensor under a hat-shaped cover, ball and bubble levels, sun compass with gnomon, nominal deployment south of the LM with the seismometer base facing north, SWC on a telescoping mast pointed at the Sun (±30°).
+mdnncdm Smithsonian National Air and Space Museum · Passive Seismic Experiment, Apollo (qualification model)
+djzlg3x Pallet of ≈ 23 × 64 × 70 cm, 23 × 28 cm cylindrical sensor, 33 × 186 cm extended solar panel, ≈ 11.5 kg, beryllium, four seismometers, 4.3–7.4 W.
+ae6cw98 Placed 16.8 m (55 ft) from Eagle; solar powered.
+a9ifuhu A 45 cm panel with 100 fused-silica reflectors 3.8 cm across, recessed 1.9 cm; aligned with a sun compass; about 18 m (60 ft) from the LM.
+4m2ot2m A 3 × 5 ft nylon flag with a hem, a two-piece 1 in anodized aluminum pole and crossbar, thermal case next to the left side of the ladder (stainless steel, aluminum, Thermoflex, Kapton), 27 ft from the LM axis, 7 in buried, knocked down by the liftoff.
+0by0fx4 A 1.4 × 0.3 m aluminum sheet from the solar wind experiment, deployed by Aldrin before the flag, 77 minutes of exposure, analyzed in Bern.
+dgthckc A 1 × 4.6 ft (0.30 × 1.40 m) sheet; 77 min of exposure on Apollo 11.
+68txqwa NASA JSC (via Washington University) · Catalog of Apollo Lunar Surface Geological Sampling Tools and Containers
+dxdlowh Large 39 cm scoop with a 15.2 × 9.9 cm pan, short tongs and handle, hammer with a 3.8 cm head, 2 cm core tubes (31.8 cm column), gnomon, 48 × 30 × 20 cm sample boxes.
+y7cejaz Apollo 11 inventory on the surface: seismometer, retroreflector, flag, gold olive branch, Apollo 1 patch, medals, disk, 2 PLSS, LEC, TV camera with 100 ft cable, hammer, large scoop, extension handle, tongs, gnomon.
+i4e7rcx Grumman / NASA (via ibiblio Virtual AGC) · LM Structures Study Guide (Grumman familiarization course)
+qsqr1ki Cabin ≈ 92 in in diameter and 42 in deep, stations 44 in apart, 54 × 45 × 60 in midsection, 32 in hatch, 32 in tunnel, 32 × 45 in platform on the front truss, lowest rung ≈ 36 in above the ground, probe ≈ 53 in below the footpad, beam webs at ±27 in, four RCS quads on trusses, locations of the antennas and the guidance computer in the midsection. Notes inconsistencies about the position of the oxidizer tanks (p. 46 versus p. 48).
+l1ap3qc NASA · LM-5 Structures and Equipment Stowage (Apollo 11 crew course)
+0t07ps9 MESA stowage list (7.2 lb TV camera, 100 ft cable, tripod, hammer, scoop, handle, tongs, gnomon, SWC, sample boxes 1 and 2), strut strokes, thermal protection and EASEP deployment from the science bay.
+qkfh5ss Block II: 24 × 12.5 × 6.5 in, 70 lb, ≈ 2,800 RTL NOR circuits in flat-packs, soldered and wire-wrapped, potted in epoxy, 2,048 erasable words and 36,864 words of rope memory; one DSKY in the LM.
+97dguy1 Lander on the surface · NASA RP-1027 architecture
+1j3qu5b NASA RP-1027 · layout, figures 21, 22 and 93
+76d3y4t NASA RP-1027, figure 93. Location of the lander's instruments.
+qwngr55 NASA RP-1027 · deployable mount and communications
+rhlrpwf NASA RP-1027 · descent propulsion, figures 72–75
+3zyw9bv NASA RP-1027, figure 73. Descent engine: throttle valve, catalyst chamber and eighteen nozzles.
+l8jlr2d NASA RP-1027 · scanning camera, figure 101
+ta6xi8u NASA RP-1027, figure 101. Simplified cutaway of the Viking camera.
+2gw3hnu NASA RP-1027 · sample preparation and distribution
+xtus2sa NASA RP-1027, figure 108. Sample preparation and distribution.
+nwv55s1 NASA RP-1027 · boom unit and collector head, figures 106–107
+l9dhlmf NASA · sampler development (1973), figures 3–6
+gl3zij5 A 1973 development study; checked against the flight configuration in RP-1027.
+ggrol9n NASA/JPL · PIA00565, Viking 1 cover and flag
+049retk NASA/JPL, PIA00565. Image taken on July 26, 1976; flag on the RTG wind cover.
+gngt0hd NASA/JPL · PIA00564, orange harness of the descent engine
+9nel5wc NASA/JPL · PIA00392, cable running along the weather boom
+iiuo7xg Smithsonian · Viking Lander, test article
+m9i84e9 NASA PDS · Viking Lander 1, structure and instruments
+thfadyu Geometric detail available for this part. No internal components are invented without documentation.
+z518sqa JPL technical paper
+15f9l3g Maki et al. (2003) — Mars Exploration Rover engineering cameras, JGR 108(E12) 8071
+9fhd715 technical paper
+dpgk7jd NAIF/JPL SPICE — MER-2 (Spirit) frames kernel mer2_v10.tf (2008-07-02) and structures SPK mer2_struct_ver11.bsp
+401hi95 flight engineering data
+a6m5z2h JPL monograph
+aqaijzf Chapter 2: The Mars Exploration Rover and the Athena Science Payload (thesis, 2015; cites Crisp et al. 2003, Bell et al. 2003, Christensen et al. 2003/2006, Herkenhoff et al. 2003, Rieder et al. 2003, Klingelhöfer et al. 2003, Gorevan et al. 2003)
+z2rul54 secondary source with primary citations
+qc0wgfx PDS documentation
+y9trszk JPL presentation
+b1joqh5 NASA Science — Spirit and Opportunity Rover 3D Model (24883_MER_static, 2019), audited as converted by NEPTUNI v41 (mer-nasa-textured.glb)
+rnww8df official educational model (not flight CAD)
+rjh6ng5 archive photograph (Pancam, approximately true color, 750/530/430 nm filters)
+yg6bsga NASA/JPL — PIA05009: Plaque on Spirit Honors Columbia Astronauts (Navcam, January 2004)
+9wcqn23 flight photograph
+dglg3xj mission page
+qpubaj4 Engineering configuration at the start of operations (January–February 2004): on its six wheels, panels and mast deployed, arm stowed. No dust buildup or later failures.
+vsizkkb Sols 1–~40 (January–February 2004), clean engineering state
+bv0unjo none (start of operations)
+hmvevqm sol 416
+tl26g8t The RAT bit wore out grinding «Joker»; after that it only brushed
+id45532 2006 onward
+herzdzy Front right wheel lost drive; Spirit drove backward dragging it
+602s2v5 Stuck in soft soil at «Troy»
+gsbci1m Mar 22, 2010 (sol 2210)
+a9wxmkb Last communication; mission closed on May 25, 2011
+dhllp78 These later states are dated variants. They are not mixed with the clean configuration from the start of operations.
+nsfr7r3 Opportunity · textured exterior and inspections of the common MER design, with educational reconstructions based on Spirit and Opportunity documentation
+rc47jgt NASA/JPL · PIA10728, arm deployment
+x8mzwpu PIA10728 · elbow deployment. NASA/JPL-Caltech/University of Arizona.
+benwu6f NASA/JPL · PIA10964, real rasp and TECP
+niun2d4 PIA10964 · scoop upside down on Mars. NASA/JPL-Caltech/University of Arizona/Texas A&M.
+5f30pd3 NASA/JPL · PIA10776, TEGA inlets and doors
+0dy7m0f PIA10776 · two leaves per inlet, doors about 10 cm. NASA/JPL-Caltech/University of Arizona/Max Planck Institute.
+q1t8cfn Keller et al. · Phoenix Robotic Arm Camera (2008), figs. 3/6 and tables A1/A2
+a4k7gu2 Zent et al. · Thermal and Electrical Conductivity Probe (2009), figs. 2/4
+0f6zqba NASA/JPL Eyes · Phoenix insulation material
+r54fnya NASA/JPL · PIA10780, TEGA delivery mechanism
+2dq2mfi PIA10780 · TEGA engineering model, sieve removed. Credit: University of Arizona; NASA/JPL release.
+ggzg1sh NASA/JPL · UltraFlex architecture: membrane, cells and ribs
+o7bbmof NASA/JPL · how the Phoenix and InSight panels are related
+fz3ocs0 ATK · 2008 release: 2.1 m Phoenix wings (reproduced)
+eno6mjh NASA/JPL · PIA09701, both panels deployed
+3rw8cqg PIA09701 · deployment of both panels. NASA/JPL/UA/Lockheed Martin.
+mfkem8u NASA/JPL · PIA12106, instruments and cover on Mars
+jtxjjhz PIA12106 · Phoenix's cover on Mars after delivering samples. NASA/JPL-Caltech/University of Arizona/Texas A&M.
+
+jv7rg02 NASA · PIA09203, integration of the science deck
+iyolk03 PIA09203 · integration of the science deck. NASA/JPL-Caltech/University of Arizona.
+5yssk3z SSI team · Phoenix Surface Stereo Imager, LPSC 2008
+1yhspyh PIA11223 · the SSI camera head seen on Mars. NASA/JPL-Caltech/University of Arizona.
+64dqpfm NASA/JPL · PIA10959, scoop and rasp
+ljylajb PIA10959 · technical illustration with a cutaway of Phoenix's scoop and rasp. NASA/JPL-Caltech/University of Arizona.
+8ww8ndl NASA/JPL technical illustration; not a photograph of the equipment. Converted to WebP without changing the content.
+xv4eb4a Phoenix MET · LIDAR calibration, figs. 1–3
+1w9nvoz Phoenix · surface configuration with the arm extended; reconstruction specific to its instruments
+qe7dbff This is the geometric detail available for this part. Undocumented internal elements are not invented.
+2u5sjhr Instruments on the deck · inspection setup before deployment to the ground
+phfuthu JPL TR 32-1177 · thermal layout · figure IV-20, p. 62
+cyzwocg Location of compartments A/B, six tanks, the auxiliary battery and the equipment on the frame.
+fjohdra JPL TR 32-1177 · landing gear · figure IV-16, p. 55
+xrwmp6c Joints of the inverted tripod, A-frame, locking strut, shock absorber and honeycomb footpad.
+apqlenv A solar panel and a flat high-gain antenna on a four-axis positioner; they are not two solar panels.
+nbkfrj7 JPL TR 32-1177 · thermal compartments · table IV-9, p. 59
+kl4a3d1 Equipment inventory for compartments A and B. The fine layout and the traces in the cutaway are educational.
+mmjglnk JPL TR 32-1177 · electrical system and batteries, p. 65
+3lbkabi A 180 Ah rechargeable main battery and a 50 Ah primary auxiliary battery; electrical regulation and distribution.
+5l4yogv JPL TR 32-1177 · vernier propulsion · figures IV-32/33, pp. 71–72
+tgfmtl3 Three vernier engines, three fuel tanks and three oxidizer tanks; pressurized with helium.
+fevenve JPL TR 32-1177 · vernier engine · figure IV-34, p. 73
+4kjk6eu Thrust chamber, nozzle, twin valves and mounts of a vernier engine.
+y06ixiv JPL TR 32-1177 · solid retro-rocket · figure IV-37, p. 76
+icv6qop Main solid-propellant retro-rocket: 37 inches in diameter. It separated after braking.
+v8v8db4 NASA SP-184 · Surveyor Program Results · camera and sampler
+1kl4gjn Final report on the Surveyor instruments. The camera and the sampler had different functions and mechanisms.
+20u06z0 Mission history and the recovery of components by Apollo 12.
+tk9erlo Lunar surface · before the Apollo 12 recovery
+x5lrdpe LRV-1 deployed with the Apollo 15 load (J-1 stowage document)
+utpxe4m Dimensions from fig. 1-1 (9, 72, 90 and 122 in), 462 lb empty, 14/17 in ground clearance, 122 in turning radius, 22°/50° angles, 36 V drive with an 80:1 harmonic drive sealed at 7.5 psi and 9 odometer pulses per revolution, drum brakes, double-wishbone suspension with torsion bars and a damper, 135° folding, T-shaped controller, navigation subsystem (DGU, SPU, IPI, sun shadow device, attitude indicator), payload interfaces.
+rbb3j65 NASA MSFC · Lunar Roving Vehicle (historical summary from Marshall Space Flight Center)
+yz8ef8t 10 ft 2 in long, 44 in high, 7 ft 6 in wheelbase, galvanized wire mesh with titanium chevrons, 36 V silver-zinc batteries, navigation by gyroscope and median odometry, upper/lower console, nylon seats with Velcro, fiberglass fenders, handholds, LCRU and antennas, dust covers; Apollo 15: deployed in 26 min, 3 h 3 min of driving, ≈52 Ah used, front steering not working at first.
+d69somg A three-part 2219 aluminum chassis, stowed in quadrant 1 of the LM, 32 × 9 in wheels with 0.84 mm mesh, 25.5 in inner stop, 0.25 hp motors, 0.1 hp steering, 121 Ah batteries, folding seats, mesh antenna mast at the front, steerable TV camera, radiators with Mylar covers, Apollo 15 usage data (27.76 km).
+ujtu5iz NASA / Boeing · LRV Payload Stowage, J-1 mission (Apollo 15), January 29, 1971
+czcehxu Stowage areas: LCRU, antennas and GCTA at the front (F); 16 mm camera with a 10 mm lens, grip, battery pack and mast on the console (D1); bags under the seats (B, C); inboard and outboard belts; 100 ft safety line, dust and lens brushes behind the seats (A1); tool carrier, 32 in tongs, extension tool, adjustable scoop, hammer, gnomon, color chart, SCB bags, DSBD dispensers, tube caps, 16 and 70 mm magazines, penetrometer and Buddy SLSS on the rear pallet.
+d5jh7xl Large 86 × 54 × 16 cm, 5.9 kg tool carrier, ≈ 80 cm tongs, adjustable-angle scoop (Apollo 15), 29.4 × 29.4 × 10.4 cm rake, 4 cm tubes, gnomon with a color scale, SCB bags and 20-bag DSBDs.
+gock4of Apollo 15 inventory: 16 mm camera with a 10 mm lens and mast, map holder, gnomon bag, safety line, brushes, Buddy SLSS, rear pallet, penetrometer with cones, a Bible left on the dashboard by James Irwin.
+30lfr4b Explanatory geometry: it does not reproduce a manufacturing drawing.
+gi2bbyk Flight configuration in lunar orbit · thermal barrier installed · camera door open
+t6nvpgy Figure 1.1-2: flight configuration with the thermal barrier removed, in two views.
+akxemsw NTRS scan of a NASA technical report; converted to WebP without changing its content.
+w67ft2h NASA Release 66-195 · Lunar Orbiter A press kit (Jul 29, 1966)
+npdwvjn NASA TN D-6266 · Lunar Orbiter micrometeoroid experiments (1971), fig. 1
+jb0stor Figure 1: attitude control and spacecraft axes (−X roll toward the engine, +Y pitch, +Z yaw).
+rdjl8e0 NASA TN D-6266 · micrometeoroid detector, fig. 2
+f5tc5v5 Figure 2: 18.80 cm pressurized half-cylinder, capsule and microswitch.
+iy67nge NASA TN D-6266 · detector positions, fig. 8
+dn1008e Figure 8: view from the small end; 15 positions, 5 double (20 detectors), panels on the diagonals.
+zzsm8wd NASA TM X-56768 · Lunar Orbiter telecommunications system
+uqmeqi3 NASA/LRC P-38987 · the spacecraft during ground tests
+citm5vh Heat shield with crinkled foil, dark and shiny tanks, octagonal panels, dish antenna and biconical antenna.
+koic44l NASA original; web copy published by Drew Ex Machina. Converted to WebP without changing its content.
+qyp3hy0 NASA/Langley L-67-05646 · photographic system without its cover
+h4ts9xo Diagram of the photographic system (Eastman Kodak / NASA)
+vb1y9pi The film's path: supply, exposure, Bimat developing, readout and take-up.
+yfq8r07 Diagram of the film readout (NASA)
+9zra932 Line-scan tube, optics, film and photomultiplier.
+4juku3s Lunar Orbiter thermal control measures (NASA)
+kacpq6p Aluminized Mylar and Dacron barrier, reflective inner wall, painted deck and the photographic system's fins.
+htzotgo NASA · Lunar Orbiter program hardware
+qgs1afh Spacecraft in deployed configuration; matches the CR-782 architecture.
+5ndcoah NASA photograph; converted to WebP without changing its content.
+0of6oq7 NASA CR-782 · clean room operations (Hangar S, Cape Kennedy)
+n8tfo2e Tubular truss and tank ring on flight hardware (printed p. 54).
+ya7cgte Smithsonian NASM A19700318000 · Lunar Orbiter engineering mockup
+0urxnbc Engineering mockup built by Boeing, displayed without its thermal blanket: black tanks and structure, foil door with a white edge, wiring on the back of the panels.
+kcgkk0z Smithsonian NASM photograph (CC0); reduced and converted to WebP. It's a mockup: its finishes are only used when P-38987 or the NASA photograph confirm them.
+gjvx192 LPI · Lunar Orbiter Photographic Atlas of the Moon (NASA SP-206), introduction
+ja9w57v One representative microprobe (Scott and Amundsen shared a design) in entry configuration · closed exterior and educational cutaways during inspection
+xb62b8u Flight probe before impact
+e2fg5h5 NASA/JPL photograph of the hardware; the lab stand is left out of the model.
+e2dj61g Probe installed before the aeroshell was closed
+3rxqtfp NASA/JPL assembly photograph; lab connections are not added to the flight hardware.
+7xqe7rx Assembled flight aeroshell
+djl27az NASA/JPL photograph of the closed capsule.
+85rfos4 Internal modules, connectors and harnesses are representative; the flight wiring is not reproduced.
+fyqu3xk Number of blades and opening angle are representative.
+ag9nvkv Layout of the cells inside the chassis is reconstructed.
+her992y Fig. 140 gives 1.45 m (57 in) including the mounting cap; the 1.40 m dimension from fig. 1 is used.
+sthu6j3 Its position between the base of the tanks and the bus is deduced from figs. 37 and 134.
+as34xw2 Nozzle length and exit diameter (~0.28 m) derived from the 60:1 ratio; not a published dimension.
+7kb3yvi Line routing reconstructed; RP-1027 does not publish isometrics.
+8og3u8c The outer layer's color (amber) is an inference: the archive photographs are black and white.
+qlfwewa The texture places 2 × 2 cm cells at their real size; the exact interconnect pattern is representative.
+oxi2yxo Fitting geometry simplified from fig. 32.
+rpl2qyx NSSDCA gives 9.75 m (32 ft, rounded). The height of the panel plane relative to the bus is a reconstruction.
+mnynicf Layout of the three nozzles at each end is reconstructed; NSSDCA and RP-1027 confirm the total and their location at the ends.
+kzx7y38 The reflector's orientation is representative of cruise; the focal ratio is a reconstruction.
+ha0osg0 Boom length (~1.7 m) measured to scale on fig. 1; there is no written dimension.
+8x39icg Arm length and orientation approximated from fig. 34.
+sm3m7it Internal layout of the telescopes is approximate.
+1i1inwg Bundle routing inferred; they end at connectors and at the support ring.
+s18eag4 Tube and fitting geometry reconstructed; the joint height (Z = 1.39 m) is measured on fig. 1.
+
+xzs7ddp Spherical radius (~2.29 m) measured on fig. 1; number of ribs reconstructed from fig. 8.
+un1y3ed Shell thickness and material are approximate; fig. 17 confirms the equipment module, rods and latch levers.
+gi8qokk Pre-flight color inferred; honeycomb cell size is representative.
+cu9u3bk Tank diameter (~0.38 m) estimated from fig. 68.
+bmiswkb Approximate shape and location.
+jclm3gu Fitting geometry inferred.
+pqzynro Mortar cylinder dimensions are approximate; the packed parachute is shown as a volume.
+2t1ls3n Angular position of the supports is inferred.
+kj72vyj Tilt of the truncated cone (~42°) measured on figs. 8 and 17.
+cr9udkz Folding angles reconstructed from fig. 22 and photograph 75P-110.
+fzliqu6 Box envelopes measured on fig. 21; connectors and bolts are representative.
+e1zdn1s Grouped next to leg 3 according to fig. 21; approximate size.
+vx5umts Plausible routes; they do not reproduce the flight wiring.
+eiceu0k Body height (0.44 m) and ground clearance (0.47 m) kept from the previous model and checked against PIA09703; no written dimension was found.
+nm3c2zh Cell size and cartridge length not published; representative geometry.
+bpf3iw0 Diameters and cylinder/rod proportion estimated from PIA09703.
+gbn7cwn Spacing between pivots reconstructed.
+cluvonp Diameter estimated from PIA00396/PIA09703; the leg resting on the rock is not identified in the sources consulted.
+an2hv9t Approximate shape; the Viking 2 flag is placed as on the PIA09703 model and on Viking 1 (PIA00388).
+b9ks1tq Explanatory internal geometry; not a manufacturing drawing.
+823erac Capsule dimensions are approximate.
+qkncess Location and shape of the thermal connections reconstructed.
+r5hkqxo 3 × 6 nozzle layout and gold finish according to PIA09703; approximate diameters.
+op5crlc Exact position next to the tanks is approximate (fig. 72).
+ksdlx2e Number of teeth and gear ratio not published; they illustrate the principle.
+8yssksk Explanatory internal layout.
+66nfcz1 Diameter (~7 cm) estimated from PIA09703.
+1ke51sy Mesh shown with bars; it does not reproduce the real density.
+ae5fqv0 Maximum reach (~3 m) according to project documentation; the 1.6 m pose is representative.
+m05hnud Mirror size is approximate.
+sxmzivc Number and spacing of lenses are illustrative; RP-1027 does not publish the prescription.
+dz6rab0 Simplified internal layout; cells and ducts are representative.
+dk60cv6 Envelope according to fig. 21; explanatory internal geometry.
+mtwgvvz Position of the funnel on the deck is approximate.
+c0nbuif Fine layout of the sensors is representative.
+4ekr220 Boom length and final height (~1.6 m) are approximate.
+m9nx9tg Envelope and exact position are approximate.
+uig9bp9 Layout of patches and mounts reconstructed (fig. 93, PIA00388).
+bv4em4p Representative diameter and orientation.
+suu0qsl Arm orientation reconstructed.
+issdwit Docked cruise in Mars orbit · inspection modes for the orbiter, the capsule and the lander on the surface
+fpj6o11 NASA RP-1027 vol. II (1980) · fig. 1, VO mechanical configuration (pp. 2–4)
+4b0a9p0 NASA RP-1027 vol. II · fig. 37, 16-bay bus (p. 73)
+mstfv9z NASA RP-1027 vol. II · structure, longerons and VLCA adapter (p. 87)
+ys3gfbs NASA RP-1027 vol. II · figs. 31–32, high-gain antenna and solar panel (p. 69)
+zy6l2ro NASA RP-1027 vol. II · figs. 33–34, low-gain and relay antennas (p. 70)
+vfmlgsc NASA RP-1027 vol. II · solar array, 2 × 2 cm cells (p. 129)
+bfy5k7v NASA RP-1027 vol. II · fig. 134, propulsion module (p. 214)
+gcyrwmf NASA RP-1027 vol. II · fig. 140 and the 0.63 m pressurant tank (pp. 220–221)
+5jii5c3 NASA RP-1027 vol. II · fig. 47, scan platform (p. 83)
+g2xc9xl NASA RP-1027 vol. II · UHF relay antenna, quadrifilar helix (p. 291)
+qlc90ci NASA RP-1027 vol. II · pneumatic modules and nozzles at the panel tips (p. 190)
+qzhoiuj NASA RP-1027 vol. II · thermal louvers with bimetallic actuators (p. 226)
+uglyn6l NASA RP-1027 vol. I (1980) · fig. 8, lander capsule (p. 11)
+guyrx3v NASA RP-1027 vol. I · fig. 19, deceleration system (p. 24)
+v65c2uj NASA RP-1027 vol. I · fig. 21, equipment layout (pp. 26–27)
+08wi2go NASA RP-1027 vol. I · fig. 22, lander leg (p. 29)
+nzt1zlc NASA RP-1027 vol. I · fig. 23, antenna mechanism (p. 30)
+sj099gq NASA RP-1027 vol. I · fig. 28, UHF antenna (p. 39)
+q6qyp1p NASA RP-1027 vol. I · fig. 68, RCS mounted on the aeroshell (p. 128)
+3e2b20w NASA RP-1027 vol. I · figs. 72–74, terminal propulsion (pp. 131–133)
+djdqpb8 NASA RP-1027 vol. I · fig. 86, parachute mortar (p. 146)
+hb3ml67 NASA RP-1027 vol. I · fig. 88, entry science (p. 155)
+9q61ykz NASA RP-1027 vol. I · fig. 93, instrument locations (p. 161)
+dip5cnf NASA RP-1027 vol. I · fig. 101, facsimile camera (p. 169)
+fis4efc NASA RP-1027 vol. I · fig. 102, weather boom (p. 172)
+1tavj0n NASA RP-1027 vol. I · SNAP-19 RTG and batteries (pp. 107–112)
+fmr3fju NASA/KSC 75P-110 · Viking Lander 2 in its aeroshell (1975)
+ueo58xw NASA/KSC 75P-158 · lander and orbiter docked together
+fqu9rxq NASA/KSC 75P-160 · orbiter with folded panels and capsule
+axixhe8 NASA/KSC 75PC-167 · Viking A (Viking 2) encapsulated
+mhskr45 NASA/JPL PIA09703 · Viking lander model (not flight hardware)
+vk2bxfl NASA/JPL PIA00396 · first image from Viking Lander 2 (footpad)
+ifcfx7b NASA/JPL PIA00364 · rocky plain, Viking Lander 2 camera 2
+qk8tbem NASA/ARC P-17690 · Viking 2, low-gain antenna mast
+h2j5ddx NASA NTRS 19730046642 · 53 ft (16.2 m) disk-gap-band parachute
+m14t8n2 NASA NTRS 20080013561 · 3.5 m, 70° Viking aeroshell
+nflh0b1 Smithsonian NASM A19960003000 · Viking Orbiter propulsion system
+1f1qtpt Deployed on the ground · latches locked · antenna raised
+clnpmh8 Rover turning
+48ayk46 Suspension over an obstacle
+zb07os6 Bring the APXS up to a rock
+y41pt0s Bring the APXS down to the soil
+tbjreix Open and close the MAE cover

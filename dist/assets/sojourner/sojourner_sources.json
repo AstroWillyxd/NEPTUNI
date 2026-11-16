@@ -1,0 +1,75 @@
+{
+ "revision": "20261022-v2",
+ "sources": {
+  "JPL-ROB": {
+   "title": "JPL Robotics - Mars Pathfinder rover (Sojourner)",
+   "url": "https://www-robotics.jpl.nasa.gov/what-we-do/flight-projects/pathfinder/",
+   "used": "65 x 48 x 30 cm, 10.5 kg, 6 driven wheels / 4 corner steering, 11 brushed motors (6+4+1), aerogel-insulated chassis, APXS on an extendable mechanism, UHF to lander"
+  },
+  "JPL-SE": {
+   "title": "JPL Robotics - Pathfinder software & electronics",
+   "url": "https://www-robotics.jpl.nasa.gov/what-we-do/flight-projects/pathfinder/software-electronics/",
+   "used": "Intel 8085 computer, five laser stripers, odometry and inertial sensing (via V1 register)"
+  },
+  "PDS-HOST": {
+   "title": "PDS - Mars Pathfinder Rover Description (insthost)",
+   "url": "https://planetarydata.jpl.nasa.gov/img/data/mpfr-m-rvrcam-2-edr-v1.0/mprv_0001/document/insthost.htm",
+   "used": "13 cm wheel, 2000:1 wheel gearing, independent corner steering / turn in place, 0.4 m/min; 3 x 1 W RHUs; 80C85 100 kips; 0.22 m2 array of 13 strings x 18 GaAs cells; 9 LiSOCl2 D cells 150 W-h; 16 W peak; half-duplex UHF modem"
+  },
+  "PDS-CAM": {
+   "title": "PDS - Rover Camera Instrument Description (rcinst)",
+   "url": "https://pds.nasa.gov/data/mpfr-m-apxs-2-edr-v1.0/mprv_0001/document/rcinst.htm",
+   "used": "12.56 cm stereo baseline, ~26 cm height, -22.5 deg front / -41.4 deg aft boresight, FOV, 768 x 484 CCD, sapphire window, ZnSe lens; aft colour camera rotated 90 deg near the APXS"
+  },
+  "NSSDC": {
+   "title": "NASA NSSDCA - Mars Pathfinder Rover (MESURPR)",
+   "url": "https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=MESURPR",
+   "used": "280 x 630 x 480 mm, 130 mm ground clearance, 180 mm stowed height, 10.5 kg, 0.2 m2 of cells, LiSOCl2 D-cell backup"
+  },
+  "NTRS-ADM": {
+   "title": "NTRS 19950020845 - APXS Deployment Mechanism for the Mars Rover (Blomquist, 1995)",
+   "url": "https://ntrs.nasa.gov/api/citations/19950020845/downloads/19950020845.pdf",
+   "used": "one actuated DOF, Maxon brush DC + 2000:1 Globe gearbox, parallel-link arm (front/back/horizontal/transverse links), 90 deg phase, 3-rod flexible wrist +-25 deg (A=0.066, B=0.125, L=0.053 m), 40 mm spacer, 76 mm bumper on 3 plungers with LED sensors, Cerrobend 60 C fail-safe, Negator springs, envelope 0.24 x 0.21 x 0.14 m, < 0.5 kg, reach 0.29 m rocks / 0.05 m below wheels"
+  },
+  "NTRS-WAE": {
+   "title": "NTRS 19980000043 - Wheel Abrasion Experiment (NASA TM 113123)",
+   "url": "https://ntrs.nasa.gov/api/citations/19980000043/downloads/19980000043.pdf",
+   "used": "centre-right wheel, black-anodised Al strip on the tread, 5 patches each of Al/Ni/Pt 200-1000 A, pattern ref/200/ref/300/450/ref/700/1000, 1 cm 7075 photodetector on the bogie, 30 deg incidence, 19.2 mm"
+  },
+  "WIKI-SOJ": {
+   "title": "Wikipedia - Sojourner (rover) (secondary; cites Bickler 1997, Matijevic 1997/98, NASA fact sheets)",
+   "url": "https://en.wikipedia.org/wiki/Sojourner_(rover)",
+   "used": "wheel width 7.9 cm, serrated stainless cleats, 8 cm obstacles, steering potentiometers, 9600 baud UHF modem, aerogel 20 mg/cc, memory map"
+  },
+  "WIKI-RB": {
+   "title": "Wikipedia - Rocker-bogie (secondary)",
+   "url": "https://en.wikipedia.org/wiki/Rocker-bogie",
+   "used": "on Sojourner the front wheels attach to the bogies (MER/MSL: to the rockers)"
+  },
+  "WIKI-MAE": {
+   "title": "Wikipedia - Materials Adherence Experiment (secondary)",
+   "url": "https://en.wikipedia.org/wiki/Materials_Adherence_Experiment",
+   "used": "front-left corner of the solar array; GaAs cell under a removable Suprasil cover glass moved by a shape-memory actuator"
+  },
+  "NASA-GRC": {
+   "title": "NASA Glenn - Mars Pathfinder experiments (MAE, WAE)",
+   "url": "https://www.nasa.gov/centers/glenn/about/history/marspath.html",
+   "used": "WAE: centre section of one wheel coated with Ni, Al, Pt; MAE measures dust on the array"
+  },
+  "ICES": {
+   "title": "JPL - Sojourner overview paper (ICES)",
+   "url": "https://www-robotics.jpl.nasa.gov/media/documents/ICESpaper.pdf",
+   "used": "earlier-configuration dimensions (68 x 48 x 28 cm, 17 cm clearance) - superseded by JPL-ROB/NSSDC"
+  },
+  "PIA00621": {
+   "title": "NASA PIA00621 - Colour mosaic of rover & terrain (sol 1 caption)",
+   "url": "https://pds-rings.seti.org/press_releases/pages/PIA00xxx/PIA00621.html",
+   "used": "rover latched to the petal before deployment; ramps"
+  },
+  "V1": {
+   "title": "NEPTUNI Sojourner V1 package (FUENTES_y_limites.md) - JPL flight photograph pathfinder1-590, PIA00906, PIA01122, PIA00646, PIA01560, PIA15277, JPL-26575AC/BC board photos, NASA TM 107378/107449",
+   "url": "https://robotics.jpl.nasa.gov/media/images/pathfinder1-590.original.jpg",
+   "used": "photographic outlines reused as visual references: perforated suspension plates, dish wheels, WEB stepped deck, array perimeter, antenna proportions and position, camera/laser layout, side harness routes, board silhouettes"
+  }
+ }
+}

@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#fefefe">
+  <meta name="description" content="Juego de NEPTUNI: maneja a Sojourner en Marte enviando órdenes desde la Tierra, como el equipo de la misión Mars Pathfinder.">
+  <title>Control desde la Tierra · Juego Sojourner · NEPTUNI</title>
+  <link rel="icon" href="../assets/brand/neptuni-official.png">
+  <link rel="stylesheet" href="juego.css?v=20261130v16">
+  <script>try { if ((new URLSearchParams(location.search).get('lang') || localStorage.getItem('nx-lang')) === 'en') { document.documentElement.lang = 'en'; document.documentElement.classList.add('nx-i18n-wait'); } } catch (e) {}</script>
+  <style>html.nx-i18n-wait body{opacity:0;animation:nx-i18n-show 0s 3s forwards}@keyframes nx-i18n-show{to{opacity:1}}</style>
+</head>
+<body>
+  <header class="g-top">
+    <a class="g-logo" href="../index.html#inicio" aria-label="Volver a NEPTUNI"><img src="../assets/brand/neptuni-logo-tab.png" alt="NEPTUNI" width="186" height="30"></a>
+    <p class="g-top-title">Juego · Misión Sojourner</p>
+    <a class="g-back" href="../index.html#inicio">← Volver a las misiones</a>
+  </header>
+
+  <main>
+    <!-- 1. Presentación -->
+    <section class="g-screen g-intro" id="intro" aria-labelledby="intro-title">
+      <div class="g-intro-copy">
+        <p class="g-eyebrow"><i aria-hidden="true"></i>Mars Pathfinder · 1997</p>
+        <h1 id="intro-title">Control desde<span>la Tierra</span></h1>
+        <p class="g-lead">Eres parte del equipo que maneja a <b>Sojourner</b>, el primer rover que recorrió Marte. Tus órdenes tardan varios minutos en llegar, así que no puedes manejarlo en vivo: <b>planificas, envías y miras qué pasa</b>.</p>
+        <ol class="g-rules">
+          <li><span class="g-rule-n">1</span><div><b>El APXS va atrás.</b> El instrumento que analiza las rocas está en la parte trasera: acércate a la roca <em>de reversa</em>.</div></li>
+          <li><span class="g-rule-n">2</span><div><b>Trabaja cerca del módulo.</b> Sojourner hablaba con la Tierra a través del módulo Pathfinder. En sus primeros días trabajó a unos 10 m de él; en el juego, tu zona de trabajo llega a 12 m.</div></li>
+          <li><span class="g-rule-n">3</span><div><b>Cuidado con las rocas.</b> Sus láseres detectan obstáculos y lo detienen antes de chocar.</div></li>
+        </ol>
+        <div class="g-intro-actions">
+          <button type="button" class="g-btn g-btn-main" id="start">Empezar misión <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <p class="g-small">3 días de misión · laptop o celular · también con el teclado</p>
+        </div>
+      </div>
+      <figure class="g-intro-art">
+        <img src="../assets/archive/sojourner.webp" alt="Sojourner junto a la roca Yogi en Marte" width="640" height="480">
+        <figcaption>Sojourner junto a la roca Yogi · NASA/JPL, PIA00766</figcaption>
+      </figure>
+    </section>
+
+    <!-- 2. Juego -->
+    <section class="g-screen g-play" id="play" aria-labelledby="day-title" hidden>
+      <div class="g-day">
+        <div>
+          <p class="g-eyebrow" id="day-label">Día 1 de 3</p>
+          <h2 id="day-title">Barnacle Bill</h2>
+          <p class="g-goal" id="day-goal"></p>
+        </div>
+        <button type="button" class="g-help" id="tut-open"><span aria-hidden="true">?</span>Ver tutorial</button>
+      </div>
+
+      <!-- 2a. Plano 2D (vista desde arriba) -->
+      <div class="g-board-wrap">
+        <div class="g-board" id="board" role="img" aria-label="Mapa del sitio de aterrizaje">
+          <div class="g-terrain" id="terrain" aria-hidden="true"></div>
+          <div class="g-range" id="range" aria-hidden="true"><span>Zona de trabajo (12 m)</span></div>
+          <svg class="g-tracks" id="tracks" viewBox="0 0 1100 800" preserveAspectRatio="none" aria-hidden="true"></svg>
+          <svg class="g-path" id="path" viewBox="0 0 1100 800" preserveAspectRatio="none" aria-hidden="true"></svg>
+          <div class="g-layer" id="ghost" aria-hidden="true"></div>
+          <div class="g-layer" id="things"></div>
+          <div class="g-rover" id="rover" aria-hidden="true">
+            <span class="g-rover-ring"></span>
+            <svg viewBox="0 0 100 100">
+              <g class="g-wheels"><rect x="8" y="14" width="14" height="20" rx="5"/><rect x="78" y="14" width="14" height="20" rx="5"/><rect x="8" y="40" width="14" height="20" rx="5"/><rect x="78" y="40" width="14" height="20" rx="5"/><rect x="8" y="66" width="14" height="20" rx="5"/><rect x="78" y="66" width="14" height="20" rx="5"/></g>
+              <rect class="g-body" x="22" y="16" width="56" height="68" rx="8"/>
+              <rect class="g-panel" x="27" y="22" width="46" height="48" rx="4"/>
+              <path class="g-cells" d="M38.5 22v48M50 22v48M61.5 22v48M27 34h46M27 46h46M27 58h46"/>
+              <path class="g-front" d="M50 3l10 12H40z"/>
+              <circle class="g-apxs" cx="50" cy="88" r="7"/>
+            </svg>
+            <span class="g-apxs-wave"></span>
+          </div>
+          <span class="g-rover-tag" id="rover-tag" aria-hidden="true">Sojourner</span>
+          <span class="g-compass" aria-hidden="true"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="18"/><path class="n" d="M20 5l6 15-6-4-6 4z"/><path class="s" d="M20 35l-6-15 6 4 6-4z"/></svg><b>N</b></span>
+          <div class="g-signal" id="signal" hidden>
+            <div class="g-signal-row"><span class="g-planet earth">Tierra</span><span class="g-beam"><i></i><i></i><i></i></span><span class="g-planet mars">Marte</span></div>
+            <p id="signal-text">Enviando órdenes…</p>
+          </div>
+          <p class="g-scale" aria-hidden="true"><i></i>1 casilla ≈ 3 m</p>
+          <div class="g-toast" id="toast" role="status" aria-live="polite" hidden><img id="toast-img" src="../neptunito-anim/assets/gestos/gestos_06.png" alt="" width="294" height="329"><p id="toast-text"></p></div>
+        </div>
+        <div class="g-legend" aria-hidden="true">
+          <span><i class="lg-lander"></i>Módulo Pathfinder</span><span><i class="lg-target"></i>Roca objetivo</span><span><i class="lg-rock"></i>Obstáculo</span><span><i class="lg-range"></i>Zona de trabajo (12 m)</span>
+        </div>
+      </div>
+
+      <!-- 2b. Neptunito y mandos -->
+      <aside class="g-panel-side">
+        <div class="g-guide" id="guide-box">
+          <div class="g-nep" id="nep" aria-hidden="true"><img id="nep-img" src="../assets/neptunito/neptunito-think.png" alt="" width="724" height="724" decoding="async"></div>
+          <p id="guide" aria-live="polite"></p>
+        </div>
+
+        <div class="g-palette" role="group" aria-label="Órdenes disponibles">
+          <div class="g-pad">
+            <button type="button" data-cmd="F" class="g-cmd g-cmd-f"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20V5M5 12l7-7 7 7"/></svg><span>Avanzar</span><kbd class="g-kbd" aria-hidden="true">↑</kbd></button>
+            <button type="button" data-cmd="L" class="g-cmd g-cmd-l"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4L4 9l5 5"/><path d="M4 9h9a7 7 0 0 1 0 14h-2"/></svg><span>Girar izquierda</span><kbd class="g-kbd" aria-hidden="true">←</kbd></button>
+            <span class="g-pad-core" aria-hidden="true"><svg viewBox="0 0 100 100"><g class="g-wheels"><rect x="8" y="14" width="14" height="20" rx="5"/><rect x="78" y="14" width="14" height="20" rx="5"/><rect x="8" y="40" width="14" height="20" rx="5"/><rect x="78" y="40" width="14" height="20" rx="5"/><rect x="8" y="66" width="14" height="20" rx="5"/><rect x="78" y="66" width="14" height="20" rx="5"/></g><rect class="g-body" x="22" y="16" width="56" height="68" rx="8"/><rect class="g-panel" x="27" y="22" width="46" height="48" rx="4"/><path class="g-cells" d="M38.5 22v48M50 22v48M61.5 22v48M27 34h46M27 46h46M27 58h46"/><path class="g-front" d="M50 3l10 12H40z"/><circle class="g-apxs" cx="50" cy="88" r="7"/></svg></span>
+            <button type="button" data-cmd="R" class="g-cmd g-cmd-r"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 4l5 5-5 5"/><path d="M20 9h-9a7 7 0 0 0 0 14h2"/></svg><span>Girar derecha</span><kbd class="g-kbd" aria-hidden="true">→</kbd></button>
+            <button type="button" data-cmd="B" class="g-cmd g-cmd-b"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v15M5 12l7 7 7-7"/></svg><span>Retroceder</span><kbd class="g-kbd" aria-hidden="true">↓</kbd></button>
+          </div>
+          <button type="button" data-cmd="A" class="g-cmd g-cmd-apxs"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4M5 5l2.5 2.5M16.5 16.5L19 19M19 5l-2.5 2.5M7.5 16.5L5 19"/></svg><span>Analizar con APXS</span><kbd class="g-kbd" aria-hidden="true">A</kbd></button>
+        </div>
+      </aside>
+
+      <!-- 2c. Barra del programa -->
+      <div class="g-program">
+        <div class="g-program-head">
+          <h3>Tu programa</h3>
+          <span id="slots"></span>
+          <p class="g-queue-hint" id="queue-hint">Toca las órdenes para armar tu plan.</p>
+        </div>
+        <ol class="g-queue" id="queue" aria-live="polite"></ol>
+        <div class="g-program-tools">
+          <button type="button" class="g-btn g-btn-ghost" id="undo"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></svg>Borrar última<kbd class="g-kbd" aria-hidden="true">⌫</kbd></button>
+          <button type="button" class="g-btn g-btn-ghost" id="clear"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></svg>Borrar todo</button>
+        </div>
+        <button type="button" class="g-btn g-btn-send" id="send"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20L20 4M20 4h-8M20 4v8"/></svg>Enviar a Marte<kbd class="g-kbd" aria-hidden="true">Enter</kbd></button>
+        <div class="g-program-foot">
+          <p class="g-stats" id="stats"></p>
+          <button type="button" class="g-link" id="restart">Reiniciar este día</button>
+        </div>
+      </div>
+
+      <!-- 2d. Leyenda de teclado y botones -->
+      <div class="g-keys" aria-label="Teclado y botones">
+        <p class="g-keys-title"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="6" width="20" height="13" rx="3"/><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M7 15h10"/></svg>Teclado y botones</p>
+        <ul>
+          <li><kbd>↑</kbd><span>Avanzar</span></li>
+          <li><kbd>↓</kbd><span>Retroceder</span></li>
+          <li><kbd>←</kbd><span>Girar izquierda</span></li>
+          <li><kbd>→</kbd><span>Girar derecha</span></li>
+          <li><kbd>A</kbd><span>Analizar con APXS</span></li>
+          <li><kbd>Enter</kbd><span>Enviar a Marte</span></li>
+          <li><kbd>⌫</kbd><span>Borrar última</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 2e. Tutorial con Neptunito -->
+    <div class="g-tut" id="tut" hidden>
+      <div class="g-tut-shade" id="tut-shade"></div>
+      <div class="g-tut-spot" id="tut-spot"></div>
+      <div class="g-tut-card" id="tut-card" role="dialog" aria-modal="false" aria-labelledby="tut-text">
+        <div class="g-tut-nep" id="tut-nep"><img id="tut-img" src="../assets/neptunito/neptunito-wave.png" alt="" width="724" height="724" decoding="async"></div>
+        <div class="g-tut-bubble">
+          <p class="g-tut-step" id="tut-step"></p>
+          <p class="g-tut-text" id="tut-text" aria-live="polite"></p>
+          <p class="g-tut-task" id="tut-task" hidden></p>
+          <div class="g-tut-actions">
+            <button type="button" class="g-link" id="tut-skip">Saltar tutorial</button>
+            <button type="button" class="g-btn g-btn-main" id="tut-next">Siguiente</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 3. Resultado de cada día -->
+    <dialog class="g-dialog" id="result" aria-labelledby="result-title">
+      <img class="g-dialog-nep" src="../neptunito-anim/assets/gestos/gestos_06.png" alt="" width="294" height="329" decoding="async">
+      <p class="g-dialog-cheer" id="result-cheer"></p>
+      <p class="g-eyebrow" id="result-kicker">Análisis completo</p>
+      <h2 id="result-title"></h2>
+      <div class="g-stars" id="result-stars" aria-label=""></div>
+      <p id="result-text"></p>
+      <p class="g-fact" id="result-fact"></p>
+      <div class="g-dialog-actions">
+        <button type="button" class="g-btn g-btn-ghost" id="retry">Repetir día</button>
+        <button type="button" class="g-btn g-btn-main" id="next">Siguiente día →</button>
+      </div>
+    </dialog>
+
+    <!-- 4. Final -->
+    <section class="g-screen g-end" id="end" aria-labelledby="end-title" hidden>
+      <div class="g-confetti" id="confetti" aria-hidden="true"></div>
+      <div class="g-cert" id="cert">
+        <img class="g-cert-logo" src="../assets/brand/neptuni-logo-tab.png" alt="NEPTUNI" width="186" height="30">
+        <p class="g-eyebrow">Certificado de misión</p>
+        <h1 id="end-title">Operador/a de Sojourner</h1>
+        <p class="g-cert-name" id="cert-name">Tu nombre</p>
+        <p class="g-cert-text">Completó los 3 días de análisis en Ares Vallis, planificando órdenes desde la Tierra como el equipo de Mars Pathfinder.</p>
+        <div class="g-stars big" id="cert-stars"></div>
+        <p class="g-cert-total" id="cert-total"></p>
+      </div>
+      <div class="g-end-side">
+        <div class="g-end-cele">
+          <img id="end-nep" src="../neptunito-anim/assets/gestos/gestos_06.png" alt="" width="294" height="329" decoding="async">
+          <p>¡Misión cumplida! Ahora eres parte del equipo de Sojourner. <span>Estoy muy orgulloso de ti: planificaste, te equivocaste, lo volviste a intentar y lo lograste. ¡Así trabajan los grandes exploradores!</span></p>
+        </div>
+        <ul class="g-end-days" id="end-days"></ul>
+        <label class="g-name" for="name-input">Escribe tu nombre para el certificado</label>
+        <input id="name-input" type="text" maxlength="40" autocomplete="off" placeholder="Tu nombre">
+        <p class="g-fact"><b>Dato real:</b> Sojourner estaba diseñado para funcionar una semana y trabajó 83 días marcianos. En total recorrió unos 100 metros.</p>
+        <div class="g-end-actions">
+          <button type="button" class="g-btn g-btn-main" id="print">Guardar o imprimir certificado</button>
+          <a class="g-btn g-btn-ghost" href="../index.html?mission=sojourner#explorador">Ver Sojourner en 3D</a>
+          <button type="button" class="g-btn g-btn-ghost" id="again">Jugar otra vez</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="g-foot">
+    <p>Datos: <a href="https://science.nasa.gov/resource/sojourner-yogi/" target="_blank" rel="noopener noreferrer">NASA · Sojourner y Yogi</a> · <a href="https://www.jpl.nasa.gov/images/pia00634-sojourners-apxs-studies-barnacle-bill/" target="_blank" rel="noopener noreferrer">NASA/JPL · APXS en Barnacle Bill</a> · <a href="https://spectrum.ieee.org/mars-pathfinder-rover" target="_blank" rel="noopener noreferrer">IEEE Spectrum</a> · <a href="https://www.space.com/17745-mars-pathfinder-sojourner-rover.html" target="_blank" rel="noopener noreferrer">Space.com</a></p>
+    <p>Mapa simplificado con fines educativos: las distancias y posiciones de las rocas no son exactas.</p>
+  </footer>
+  <script type="module" src="../nx-i18n.js?v=20261125v12"></script>
+<script src="juego.js?v=20261130v16" defer></script>
+</body>
+</html>

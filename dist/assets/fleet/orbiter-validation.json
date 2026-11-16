@@ -1,0 +1,120 @@
+{
+ "orbiter-antenna.glb": {
+  "errors": 0,
+  "warnings": 0,
+  "infos": 117,
+  "hints": 0,
+  "messages": [],
+  "extensions": [
+   "EXT_meshopt_compression",
+   "KHR_mesh_quantization"
+  ],
+  "generator": "glTF-Transform v4.5.1",
+  "triangles": 114780
+ },
+ "orbiter-avionics.glb": {
+  "errors": 0,
+  "warnings": 0,
+  "infos": 186,
+  "hints": 0,
+  "messages": [],
+  "extensions": [
+   "EXT_meshopt_compression",
+   "KHR_mesh_quantization"
+  ],
+  "generator": "glTF-Transform v4.5.1",
+  "triangles": 105404
+ },
+ "orbiter-camera.glb": {
+  "errors": 0,
+  "warnings": 0,
+  "infos": 163,
+  "hints": 0,
+  "messages": [],
+  "extensions": [
+   "EXT_meshopt_compression",
+   "KHR_mesh_quantization"
+  ],
+  "generator": "glTF-Transform v4.5.1",
+  "triangles": 102945
+ },
+ "orbiter-exterior-mobile.glb": {
+  "errors": 0,
+  "warnings": 0,
+  "infos": 198,
+  "hints": 0,
+  "messages": [],
+  "extensions": [
+   "EXT_meshopt_compression",
+   "KHR_mesh_quantization"
+  ],
+  "generator": "glTF-Transform v4.5.1",
+  "triangles": 228387
+ },
+ "orbiter-exterior.glb": {
+  "errors": 0,
+  "warnings": 0,
+  "infos": 200,
+  "hints": 0,
+  "messages": []
+ },
+ "orbiter-propulsion.glb": {
+  "errors": 0,
+  "warnings": 0,
+  "infos": 190,
+  "hints": 0,
+  "messages": [],
+  "extensions": [
+   "EXT_meshopt_compression",
+   "KHR_mesh_quantization"
+  ],
+  "generator": "glTF-Transform v4.5.1",
+  "triangles": 125092
+ },
+ "orbiter-sensors.glb": {
+  "errors": 0,
+  "warnings": 0,
+  "infos": 91,
+  "hints": 0,
+  "messages": [],
+  "extensions": [
+   "EXT_meshopt_compression",
+   "KHR_mesh_quantization"
+  ],
+  "generator": "glTF-Transform v4.5.1",
+  "triangles": 4968
+ },
+ "orbiter-solar.glb": {
+  "errors": 0,
+  "warnings": 0,
+  "infos": 200,
+  "hints": 0,
+  "messages": []
+ },
+ "orbiter-structure.glb": {
+  "errors": 0,
+  "warnings": 0,
+  "infos": 85,
+  "hints": 0,
+  "messages": [],
+  "extensions": [
+   "EXT_meshopt_compression",
+   "KHR_mesh_quantization"
+  ],
+  "generator": "glTF-Transform v4.5.1",
+  "triangles": 55652
+ },
+ "orbiter-thermal.glb": {
+  "errors": 0,
+  "warnings": 0,
+  "infos": 14,
+  "hints": 0,
+  "messages": [],
+  "extensions": [
+   "EXT_meshopt_compression",
+   "KHR_mesh_quantization"
+  ],
+  "generator": "glTF-Transform v4.5.1",
+  "triangles": 42268
+ }
+}

@@ -1,0 +1,280 @@
+# NEPTUNI · English · fichas técnicas de componentes (component-details, mer, viking2, ds2)
+27j45i7 From light to electricity
+kkbnsqp The cells turn part of the sunlight into electrical energy. The contacts of each cell are linked together to carry that energy to the vehicle's systems. In this view the layers are spread apart so you can tell the protective glass, the cell and its backing apart.
+66ei4vs Power output depends on the available light. Dust and shadows can reduce it; that's why a panel is also a key part for understanding how several Mars missions ended.
+su7qis1 Moving across another world
+pizpo4t The motor turns electrical energy into motion and the transmission carries that motion to the wheel. The supports and joints hold up the vehicle and let its wheels adapt to bumps in the ground.
+51ketqk Select the transmission or the motor to see how they relate to the wheel. The cutaway shows parts that would normally be protected inside the assembly.
+n0ycbgk The vehicle's control center
+gbnxbq7 The electronics receive instructions, process the instruments' readings and coordinate operations. Circuit boards bring together components connected by conductive traces, while harnesses carry signals and power to other systems.
+jnldanw You can follow the path from the boards to an integrated circuit and its contacts. The model shows those working relationships without reproducing a manufacturing schematic.
+lnqqqpx Watching rocks from a distance
+skx6umj Pancam was the panoramic camera system of Spirit and Opportunity. Its two viewpoints made it possible to study the shape of the terrain; observations through filters helped compare how rocks looked in different bands.
+g1p8x4x The cutaway lets you inspect the lenses, the detector and the filter wheel. The mast raised the cameras above the rover's body to watch its surroundings.
+prgaa71 Listening to Mars move
+cag6o8h SEIS recorded ground vibrations. The instrument was placed on the surface, apart from the lander's body, to pick up signals that help investigate the planet's interior.
+joups8u The shield against wind and temperature changes limited disturbances. In the cutaway you can explore that shield, the sensors and the support system.
+xgd2kk7 Looking for clues in gases
+l8oevmj Phoenix's TEGA analyzer received small soil samples and heated them. Studying the gases released made it possible to investigate the materials and volatile compounds in those samples.
+9ruazf3 The open view shows the assembly's ovens and ducts. Spreading the parts apart is a visual aid for following what each stage of the analysis does.
+2xvka06 Electricity from heat
+cdtdhv9 The Viking landers got their electricity from radioisotope thermoelectric generators. These used the heat of a radioactive source through thermoelectric elements; they didn't need sunlight to work.
+fqorhmn The cutaway lets you tell apart the heat source, the conversion elements and the surfaces that release heat to the outside.
+u9v7uue A lab on Mars
+mxt1fwe Viking carried experiments to investigate samples of Martian soil. The arm delivered material to the analysis system, which studied how it responded under different conditions.
+x8zvmh6 The results did not confirm that life exists. Here you can explore the lab's chambers and connections as a working whole.
+kbcsexn The cabin that lifted off again
+p6huw4a The lunar module's ascent stage housed the two astronauts during surface operations and the return to lunar orbit. Its instruments let them monitor the vehicle and control its maneuvers.
+3se2r48 This part did not stay with the descent stage: it lifted off from the Moon. The cabin in the viewer shows the historic vehicle and its control stations in an educational way.
+qw8ni9p Controlling the descent to the Moon
+kheieib The lower stage combined the descent propulsion, the tanks and the landing gear. The engine made it possible to adjust the final maneuver, while the legs passed the loads down to the footpads.
+by47844 After the astronauts lifted off, this stage stayed on the surface. Explore the tanks, the feed lines and the engine in the cutaway.
+bikdexk The link with the mission
+8b561ss An antenna sends or receives electromagnetic signals. In systems with a reflector, its shape focuses the signal in one direction; the radio equipment turns information into a signal that can travel between the spacecraft and its communication links.
+0t0a5ja You can go from the reflector to the feed and to the link electronics. Pointing, available power and a working radio are essential to keep communications going.
+faa42y7 Bringing science to the ground
+4zmghos A robotic arm combines joints, actuators and an end tool. That chain of mechanisms makes it possible to place an instrument, handle a sample or work on a rock without moving the whole vehicle.
+aab4ta5 Follow the labels to explore the joint, the wiring and this mission's own tool.
+umbtnmc From the ground to the instrument
+njxrv99 The sampling mechanism collected material from the surface to study it. Its joints positioned the tool and the control system coordinated the movements.
+u133nua The open view helps you follow how an electrical command becomes a mechanical action on the ground.
+u8et75n Driving on the Moon
+kylzcuj The lunar rover had two open seats for the astronauts, a driving controller and navigation and communications equipment. Its batteries powered the vehicle.
+zzloqyb This assembly lets you inspect the controller, the instruments and the power supply without hiding them under the outer covers.
+yngi2oo Investigating below the surface
+8pqd7cz The forebody of Deep Space 2 was designed to pierce the Martian ground. A small sampling and analysis system was meant to investigate the material it reached below the surface.
+m8qvbj9 No signal was received from the microprobes. This view explains the planned design; it does not show a confirmed deployed state.
+kjob9vj Transmitting from the surface
+q2ldgn0 The aftbody of Deep Space 2 was meant to stay on the ground and pass on the probe's information through an orbiter. A flexible cable connected it to the penetrator body.
+kfle70x The lack of communication makes it impossible to confirm what happened after arrival. The open assembly shows the planned role of the microelectronics.
+tz9tjaw Documented
+5k3s1rg Visual reconstruction
+28eabuk Educational representation
+jk9rdqs Sources for this component
+h0o8c9r DOCUMENTED · architecture and function
+l4r5nwz RECONSTRUCTION BASED ON DOCUMENTATION
+ndk4clh EDUCATIONAL REPRESENTATION
+f627e4w The PCB traces, the winding, the connectors and the fine routing explain known principles; they do not reproduce Phoenix manufacturing drawings.
+579bdtr The documentation confirms the instrument, its function and the stated quantities. The fine geometry is matched to photographs; it is not flight CAD. Lifting parts is for inspecting them, not a historic deployment.
+dqehf9i Phoenix has its own reconstruction of its deck and instruments. The extended arm follows the aluminum-and-titanium architecture documented by JPL; its pose is representative and the transport biobarrier has been removed. The outline and positions of the solar contacts are based on PIA09701. The cell finish is a custom PBR material. Details without public dimensions and the electronic interior are marked as educational approximations.
+mpafm7k Phoenix documentation
+5g92clx Historic NASA/JPL photograph; converted to WebP without changing its content.
+sm3pbcd The cutaway explains a historic subsystem. The PCB traces, the winding, the fine wiring and the internal dimensions do not reproduce confirmed manufacturing drawings.
+6eq1gwb NASA confirms the equipment and its function. The housing and its layout are rebuilt from diagrams; details without public dimensions are approximate.
+djt4qtq Lander on the surface: tanks and three engines outside the body. The magnifying mirror is a science instrument; it is not part of the antenna. The cooling and fill lines are disconnected after descent.
+8csqy72 Evidence for this component
+lhm1zde Drawings used for Viking
+sv7jjaw Source: NASA. Cropped and rotated for easier reading; the historic drawing is not altered.
+05wven9 The cutaway and the internal details explain known functions. They are not a manufacturing drawing or circuit of Surveyor III.
+l2v57c8 The source confirms the equipment and its architecture. The shape and small dimensions are rebuilt visually; they are not flight CAD.
+mj8s1er Surface configuration before the Apollo 12 recovery. The central retro-rocket had already separated; you can study it in the flight propulsion view.
+7uij0ai Sources for the Surveyor III reconstruction
+qdcegld Source: NASA/JPL; figure from the historic document. Converted to WebP without altering the content.
+yjdxwze Real SEIS-AC card · figure 58
+65k7p5h VBB pendulum · figure 37
+nbssszh EBox exploded view and dimensions · figure 20
+3yi3bol SEIS architecture · figure 18
+b4gefcb Lognonné and the SEIS team (2019), Space Science Reviews. Image from the instrument's technical paper. Converted to WebP; used as a reconstruction reference.
+x8j09dp Spreading the layers apart explains their function; it does not show a historic mechanism.
+8t9n2t5 The reference confirms the architecture. Fine dimensions without a public drawing are rebuilt visually; they are not manufacturing CAD.
+0z17jhx Read the SEIS technical paper
+axktdu6 See the component documentation
+# mer-evidence.js
+fzcogzm VISUAL RECONSTRUCTION
+kcqlueg INFERRED · EDUCATIONAL REPRESENTATION
+jvv5i7x The source confirms the existence, the function or the stated dimension. The fine geometry is rebuilt and is not flight CAD.
+ntqygqs Shape and position rebuilt from photographs, technical drawings or NASA's educational model, adjusted to the documented dimensions.
+okzcsyv A detail consistent with the engineering but not verified. It is shown to explain the function, not as a copy of the flight part.
+bmkt1tg CONFIGURATION SHOWN
+kv7u8fb Later states (dated variants)
+sgxqu42 Spreading the parts apart is an educational aid: it does not show a deployment or a repair made on Mars.
+6ytur4n The variant's own marking
+=; no pertenece al diseño común MER. => ; it is not part of the common MER design.
+=DOCUMENTADO => DOCUMENTED
+# viking2-details.js
+zmpb8ra DOCUMENTED · dimensions and layout with a direct source
+redi9hv VISUAL RECONSTRUCTION · from drawings and photographs
+3b0gpf2 INFERRED · a detail consistent with the engineering, without direct verification
+nkzbl1v NASA RP-1027 vol. II, fig. 1 · plan view of the VO with bays and panels
+9u4a3cq NASA/KSC 75P-160 · orbiter with folded panels (flight hardware)
+j7u22b9 NASA RP-1027 vol. II, fig. 37 · 16-bay bus
+o7ch87f NASA RP-1027 vol. II, fig. 134 · propulsion module
+k8xwecu NASA RP-1027 vol. II, figs. 31–32 · HGA and solar panel
+r25nx4s NASA RP-1027 vol. II, figs. 33–34 · LGA and relay antenna
+c669o81 NASA RP-1027 vol. II, fig. 32 · subpanels and stabilizer
+9bxhb7c NASA RP-1027 vol. II, fig. 1 · scan platform (bay 7)
+wkjb6je NASA RP-1027 vol. II, fig. 1 · elevation with the VLC adapter
+67r4j9a NASA/KSC 75P-158 · capsule and adapter truss
+y8zfdxd NASA RP-1027 vol. I, fig. 8 · exploded capsule
+pj2jmpd NASA RP-1027 vol. I, fig. 19 · aeroshell and base cover
+lwl5pt1 NASA RP-1027 vol. I, fig. 68 · RCS on the aeroshell
+x1r7iy3 NASA/KSC 75P-110 · Viking Lander 2 inside its aeroshell (flight hardware)
+vplkg08 NASA/JPL PIA09703 · lander model (not flight hardware)
+vxz98un NASA RP-1027 vol. I, fig. 93 · instrument locations
+wvdxey8 NASA RP-1027 vol. I, fig. 21 · body equipment
+ufr5ldg NASA RP-1027 vol. I, fig. 22 · leg folded and extended
+l5yo11f NASA/JPL PIA00396 · footpad seen by VL-2
+hrsm8gr NASA RP-1027 vol. I, fig. 74 · engine positions
+an6o75d NASA RP-1027 vol. I, fig. 73 · 18-nozzle engine
+cd9w47s NASA/JPL PIA00565 · Viking 1 RTG cover with flag
+zalf8f4 NASA RP-1027 vol. I, fig. 101 · facsimile camera
+59tpfgu NASA RP-1027 vol. I, fig. 23 · HGA mast
+4mswsp0 NASA RP-1027 vol. I, fig. 28 · UHF antenna
+qvfjgk4 NASA/JPL P-17690 · Viking 2 LGA at Utopia Planitia
+2xejgqw NASA RP-1027 vol. I, fig. 108 · sample distribution
+np92zqk Cruise configuration docked in Mars orbit (Aug 7 – Sep 3, 1976): the bioshield cap had already been ejected. Open the orbiter, the capsule or the lander; the lander is inspected in its surface configuration at Utopia Planitia.
+jwqrh3v The geometry explains a known principle; it is not a manufacturing drawing.
+1jfws2r The shape is rebuilt from drawings and photographs; it is not flight CAD.
+c55r3cl Component and function: documented by NASA.
+uf4wmsu Sources and references for this component
+# ds2-details.js
+lcgbfz9 DOCUMENTED · existence, function and stated dimensions
+7szjxs5 INFERRED · consistent with the engineering, not verified
+su70t5p The sources confirm the element, its function and the values cited. The fine shape and placement are a reconstruction, not flight CAD.
+g8vxxer The geometry follows published descriptions, figures and dimensions. Details without dimensions are approximated conservatively.
+nmfakat Shape or position deduced from the function, the available space and the need to survive the impact. It is not presented as exact flight hardware.
+a8tpxq4 NASA/JPL · MPL/DS2 press kit (Dec. 1999)
+pcswwml NTRS 20040100756 · Microprobe aerodynamics (aeroshell geometry)
+uuoyabm JPL · Li–SOCl₂ battery
+tbm9dab JPL · Advanced microcontroller
+1ipfvqm JPL · Flexible cabling
+v4mka6z JPL · Sampling and water detection
+g333s13 Smrekar and Gavit · LPI 1998
+sf7yi5j Smrekar et al. 1999 · JGR 104(E11)
+95b5d69 NASA/JPL · Photograph of the flight probe
+3xyvj14 NASA/JPL · Photograph of the assembly
+xgv449q NASA/JPL · Assembled flight aeroshell
+ps2abkf ENTRY CONFIGURATION · ONE REPRESENTATIVE PROBE
+r5nzewy Compare with real NASA/JPL photographs
+=Ver original NASA/JPL ↗ => See the NASA/JPL original ↗
+=Ver original NASA/JPL => See the NASA/JPL original
+# restos de la interfaz
+x502fxl · component behind another part
+2rejxvd cable
+53ihm5h The server returned
+cbz143z when this model was requested.
+tn0drgn when the 3D file was requested.
+a7dg8dn The model could not be downloaded (
+ynx0it6 Turn in place: steering at
+47r85ab and drive proportional to each wheel's radius. Educational kinematic demonstration.
+wqkwj5v There is no verified trajectory for
+
+# experiences/lunar-orbiter.js
+hzwnp6h FLIGHT · THERMAL BLANKET INSTALLED
+8ebceg4 View without the thermal barrier
+pi94xs6 Show the thermal barrier
+0v88sve Engineering view with the blanket and thermal door removed for inspection, as in NASA-CR-782, figure 1.1-2. This separation is educational.
+hg253nu Flight configuration in lunar orbit: aluminized Mylar thermal barrier installed and camera door open. «View without the thermal barrier» shows the configuration from NASA-CR-782, figure 1.1-2.
+b1n3y92 Smithsonian NASM · Lunar Orbiter engineering mockup
+uck8eo3 museum reference: not the flight spacecraft
+m5g4win mission page
+rdanfe5 NASA-CR-782 · Photographic mission report
+j8pgiva technical report
+tbrto3o NASA · Launch, photography and legacy
+ad40x9q mission history
+p0zq2lv NASA Release 66-195 · Lunar Orbiter A press kit
+m9p5u57 press kit
+o2us1rl NASA TN D-6266 · Micrometeoroid experiments
+7zmmt2f technical note
+y921a0i NASA TM X-56768 · Lunar Orbiter telecommunications
+szj8fn1 technical memorandum
+uae6z26 mission catalog
+68zja67 Boeing engineering mockup of Lunar Orbiter on display at the Smithsonian without its thermal blanket
+n5cq59f Smithsonian NASM A19700318000 · Engineering mockup, not a flight spacecraft. Finish reference checked against NASA photographs. Smithsonian photograph, CC0.
+b0d1o7c Historic photograph of a Lunar Orbiter spacecraft, with equipment and panels deployed
+9k0fhtx Hardware from the Lunar Orbiter family (mockup with a transparent barrier). NASA photograph; a geometry reference, not an identification of every bolt on LO-A.
+7bz331h Original NASA and Boeing diagram of the Lunar Orbiter subsystems, with the thermal barrier removed
+avevn8m NASA-CR-782, figure 1.1-2 · Spacecraft configuration with the thermal barrier removed. Reproduction of the original document.
+o795o4x NASA photograph of the Lunar Orbiter camera and film processing system
+limko33 Eastman Kodak photographic system · NASA archive, 1967-L-05646. Reference from the Lunar Orbiter family.
+9sno8ir Black-and-white photograph of Earth above the lunar horizon taken by Lunar Orbiter 1
+gnnah4t Lunar Orbiter 1 · August 23, 1966, frame 1102 H, orbit 16. First photograph of Earth from the Moon. NASA; historic version, not the Apollo 8 photograph.
+dr2cz77 Lunar Orbiter spacecraft during ground tests, with the crinkled-foil heat shield
+fhlzld7 NASA/LRC P-38987 · Ground tests. Crinkled aluminized-foil shield, dark and shiny tanks and black panels.
+xxjhmj3 Technical figure with the positions of the twenty micrometeoroid detectors
+okovgwc NASA TN D-6266, figure 8 · View from the small end: 15 positions and 5 double detectors.
+ysw892n Technical cutaway of a pressurized micrometeoroid detector
+74euj4x NASA TN D-6266, figure 2 · Pressurized half-cylinder, capsule and microswitch.
+f6p2pzg Technical figure of the attitude control components and the spacecraft axes
+cv44ll3 NASA TN D-6266, figure 1 · Attitude control components and spacecraft axes.
+z4i5xwz NASA diagram of Lunar Orbiter's thermal control measures
+fk5wvb9 Thermal control (NASA): aluminized Mylar and Dacron barrier, reflective inner wall, painted deck.
+onez5q0 Expose film, develop it on board and turn the image into an analog signal for Earth.
+dz6e5qd Photography and readout
+f626lie The architecture, focal lengths and film sequence are documented (CR-782 pp. 5-6). The container layout follows TN D-6266 fig. 8; the tub, the flange and the lenses follow photograph L-67-05646. The internal layout and the optical prescription are educational.
+39uy7y9 Turn sunlight into electricity for the equipment and charge the battery.
+fbp5pv8 Power
+wf7guas Four panels with 2,714 cells each, the 12 Ah NiCd battery in two ten-cell modules and the 31 V regulator are documented. The cell packing and the traces are explanatory.
+qnl2bay Receive commands and transmit telemetry and the photo signal.
+sanwell A 36 in dish antenna on a 52 in boom that turns in 1° steps, and a biconical antenna on an 82 in boom (CR-782 p. 10; TM X-56768). The boards and the TWTA helix are educational.
+1fkfysm Keep the inside between about 35 and 85 °F with a reflective blanket and a painted radiator.
+50lptt6 Thermal control
+wgwv618 The aluminized Mylar and Dacron blanket, the zinc oxide paint on the deck and the camera's thermal door are documented. The blanket's shape is rebuilt from the deck, the detector ring and the tanks.
+qzvscgg Change speed to enter lunar orbit and hold its orientation with nitrogen.
+m7mml6s Propulsion and attitude
+jfryscd A 100 lbf engine, four tanks with Teflon bladders (oxidizer on the antenna axis, fuel on the camera axis), a nitrogen sphere under the engine and eight thrusters (CR-782 pp. 10-12). Valves, injector and plumbing routes are reconstructions.
+2lm60lj Measure micrometeoroid hits and the radiation dose the film received.
+2gp56mp Measuring the environment
+6hcfpsz Twenty 18.8 cm beryllium-copper half-cylinders in 15 positions (TN D-6266 figs. 2 and 8) and two scintillation dosimeters next to the film. The dosimeter housings are reconstructed.
+lb2v4b0 Guidance and control
+n1jfbpq A programmer with 2,688 bits of core memory, a 7 × 10 × 7 in IRU, a Canopus tracker and five sun sensors (press kit pp. 15-17). The boards, pins and cable routes are educational.
+tnzr7xu Join the equipment, tank and engine decks with a tubular frame and an arch next to the camera.
+y1c7h00 Structure
+4z08ssz NASA-CR-782 §1.1.2.6 and figure 1.1-2 describe the three decks and the tube frame. Fine diameters, clearances and fasteners are visual reconstructions.
+mplcnvl From light to the equipment
+a6vl8fs Solar panels → regulator and charge control → NiCd battery and equipment. The line shows a functional relationship, not the exact physical route of a cable.
+jovfcoc From the Moon to Earth
+xghm0ih Light → film → Bimat developing → scanner → radio → Earth. The line shows the flow of information.
+tha2wqp Before taking the first step
+9ay91bu 1966. Before a human could land on the Moon, someone had to figure out where. Lunar Orbiter 1 photographed possible sites for Surveyor and Apollo.
+hnpe0dv Drag to discover its shape: the reflective blanket covers almost the whole spacecraft. Then follow the light to the camera window.
+jnk7nyo Two views, one film
+sv3lnpw An 80 mm lens and a 610 mm telephoto lens recorded the surface on 70 mm film. The spacecraft carried its own photo lab.
+0mt4a2f Tap «Open interior» to see the assembled camera before it's taken apart.
+512jwwt Developing without going home
+je50jnd The film was processed on board with Bimat and dried. The image had to survive until the next step: turning it into a signal.
+oin7j4s Select the film or the scanner to follow its path.
+01f001x The photo becomes a signal
+84hmigt A spot of light swept across the film and a photomultiplier measured its optical density. The result was an analog signal, not a digital camera file.
+t7695jj Inspect the scanning tube and check the documentation of the readout system.
+efhzksh Crossing the void
+2mg0mo1 The radio sent that signal to Earth, where the photographs were rebuilt. Power, cameras and communications worked as a single machine.
+rt7usky The glowing connection shows the flow of information; open the evidence to check it.
+q9toapk It also discovered us
+xqdxgx3 On August 23, 1966, Lunar Orbiter 1 photographed Earth above the lunar horizon (frame 1102). Some high-resolution images were blurred: the mission also revealed the limits of its engineering.
+cbbz3j5 The viewer's background is that photograph, rotated to level the horizon. Open its NASA source.
+id3xxsb The mission ended. The legacy goes on.
+uey4j08 On October 29, 1966, it was steered into an impact on the far side. The photographs of the Lunar Orbiter program helped choose landing sites. Here we keep its history; we don't claim to know the current state of its remains.
+=Abrir interior => Open interior
+
+# textos guardados dentro de los modelos 3D (assets/fleet/*.glb)
+=Mostrar extensión lateral del taladro => Show the drill's side extension
+=Ilustra el recorrido previsto (~1 cm hacia el costado, 10 rpm durante ~6 min, ~100 mg). No es una operación observada en Marte. => It illustrates the planned travel (~1 cm out the side, 10 rpm for ~6 min, ~100 mg). It is not an operation observed on Mars.
+=Instrumentos sobre la plataforma; paneles desplegados; brazo en posición de inspección. No representa el estado final de 2022. => Instruments on the deck; panels deployed; arm in inspection position. It does not show the final state in 2022.
+=SEIS ensamblado en superficie; el WTS se coloca después del instrumento, no encima de SEIS en la plataforma => SEIS assembled on the surface; the WTS goes on after the instrument, not on top of SEIS on the deck
+=Girar la antena de alta ganancia => Turn the high-gain antenna
+=Gira el reflector 90° alrededor del eje de su pértiga, como el control de posición de la antena (pasos de 1°, CR-782 p. 10). Es una demostración operativa, no una separación educativa. => It turns the reflector 90° around its boom axis, like the antenna's position control (1° steps, CR-782 p. 10). It's an operational demonstration, not an educational separation.
+=Cerrar la puerta térmica => Close the thermal door
+=La puerta térmica se cerraba al terminar cada pasada fotográfica y se abría por orden antes de la siguiente (nota de prensa, p. 8). Demostración operativa, independiente de la separación educativa. => The thermal door closed at the end of each photo pass and opened on command before the next one (press release, p. 8). An operational demonstration, separate from the educational separation.
+=Brazo extendido: eslabones de aluminio y herrajes de titanio según el modelo de ingeniería JPL. Pose representativa para inspección; no reproduce comandos ni ángulos de un sol concreto. => Arm extended: aluminum links and titanium fittings according to the JPL engineering model. A representative pose for inspection; it doesn't reproduce commands or angles from a specific sol.
+=Movimiento educativo limitado del codo; no reproduce un comando de vuelo. => A limited educational elbow movement; it doesn't reproduce a flight command.
+=Abrir las puertas de muestra => Open the sample doors
+=Demostración educativa del giro de las dos hojas de cada entrada. No corresponde a un estado de un sol concreto. => An educational demonstration of how the two leaves of each inlet swing. It doesn't match the state on a specific sol.
+=Compresión ilustrativa e irreversible del panal de aluminio; Restaurar devuelve el corte a su estado inicial. => An illustrative, irreversible compression of the aluminum honeycomb; Reset returns the cutaway to its initial state.
+=Mover la pértiga => Move the boom
+=Giro pedagógico de elevación sobre el pedestal fijo; no es una secuencia de muestreo de vuelo. => A teaching elevation swing on the fixed pedestal; it is not a flight sampling sequence.
+=Cápsula del Viking Lander 2 acoplada; tapa del bioescudo solo en lanzamiento => Viking Lander 2 capsule docked; bioshield cap at launch only
+=plegado en la cápsula => folded in the capsule
+=Orbitador y cápsula acoplados en órbita de Marte (7 ago – 3 sep 1976); tapa del bioescudo ya expulsada => Orbiter and capsule docked in Mars orbit (Aug 7 – Sep 3, 1976); bioshield cap already ejected
+=Viking Orbiter 2 · crucero/órbita con paneles desplegados => Viking Orbiter 2 · cruise/orbit with panels deployed
+=superficie de Utopia Planitia (3 sep 1976) => surface of Utopia Planitia (Sep 3, 1976)
+=Demostración educativa: los espejos oscilan en elevación tras la ventana. No reproduce una secuencia de imagen concreta. => An educational demonstration: the mirrors nod in elevation behind the window. It doesn't reproduce a specific imaging sequence.
+=Estructura de plataforma => Deck structure
+=Batería => Battery
+# segunda revisión de las fichas
+=Fondo del visor => Viewer background
+=Fondo del lander => Lander background
+=Fotografía de archivo => Archive photograph
+=Arrastra para girar el modelo y pellizca o usa la rueda para acercarte. => Drag to spin the model and pinch or use the wheel to zoom in.
+=Las fichas de componentes enlazan sus fuentes e identifican los detalles reconstruidos. => The component pages link their sources and identify the reconstructed details.
+=Pruebas de Phoenix, PIA09701 => Phoenix testing, PIA09701

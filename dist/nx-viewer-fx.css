@@ -1,0 +1,155 @@
+/* NEPTUNI · Efectos del visor 3D (va con nx-viewer-fx.js).
+   Capas dentro de .viewer-wrap: fondo (0) · ambiente (0) · modelo (1) · hiperespacio (2) · carga (3)
+   · controles (4) · escáner (5) · chispas (6) · cazador y avisos (7) · foto (9). */
+
+/* ------------------------------------------------------------------ 1 · ambiente */
+.nx-amb{position:absolute;inset:0;z-index:0;overflow:hidden;pointer-events:none;border-radius:inherit}
+.nx-amb i{position:absolute;left:var(--x);top:calc(var(--y) * .55);width:calc(var(--s) * 3px);height:calc(var(--s) * 3px);border-radius:50%;
+  background:#fff;box-shadow:0 0 6px #fff,0 0 12px rgba(127,216,255,.8);animation:nx-amb-twinkle calc(var(--t) / 3) ease-in-out var(--d) infinite}
+@keyframes nx-amb-twinkle{0%,100%{opacity:.25;transform:scale(.7)}50%{opacity:1;transform:scale(1.15)}}
+.nx-amb-shoot{position:absolute;top:12%;left:70%;width:130px;height:2px;border-radius:2px;opacity:0;transform:rotate(-22deg);
+  background:linear-gradient(90deg,rgba(255,255,255,0),#fff);animation:nx-amb-shoot 8s linear 1.5s infinite}
+.nx-amb-shoot.s2{top:26%;left:92%;width:90px;animation-delay:5.2s;animation-duration:11s}
+@keyframes nx-amb-shoot{0%{opacity:0;translate:0 0}2%{opacity:1}10%{opacity:0;translate:-380px 160px}100%{opacity:0;translate:-380px 160px}}
+/* En el espacio (fondos orbitales) hay estrellas y fugaces; en la superficie, polvo */
+.viewer-wrap[data-environment=surface] .nx-amb-shoot{display:none}
+/* Marte: polvo rojizo que vuela con el viento */
+.viewer-wrap[data-environment=surface][data-nx-world=mars] .nx-amb i{top:var(--y);width:calc(var(--s) * 5px);height:calc(var(--s) * 5px);background:rgba(255,206,160,.75);
+  box-shadow:0 0 10px rgba(255,170,120,.7);animation:nx-amb-dust var(--t) linear var(--d) infinite}
+@keyframes nx-amb-dust{0%{opacity:0;transform:translate(0,0)}15%{opacity:.85}85%{opacity:.5}100%{opacity:0;transform:translate(160px,-110px)}}
+/* Luna: polvo claro que sube muy despacio (poca gravedad) */
+.viewer-wrap[data-environment=surface][data-nx-world=moon] .nx-amb i{top:var(--y);width:calc(var(--s) * 4px);height:calc(var(--s) * 4px);background:rgba(236,238,255,.7);
+  box-shadow:0 0 8px rgba(200,215,255,.7);animation:nx-amb-moondust calc(var(--t) * 1.6) ease-in-out var(--d) infinite}
+@keyframes nx-amb-moondust{0%{opacity:0;transform:translate(0,0)}20%{opacity:.8}50%{transform:translate(26px,-70px)}80%{opacity:.45}100%{opacity:0;transform:translate(-10px,-140px)}}
+
+/* ------------------------------------------------------------------ 2 · llegada en hiperespacio */
+.nx-warp{position:absolute;inset:0;z-index:2;overflow:hidden;pointer-events:none;opacity:0;transition:opacity .45s;border-radius:inherit;
+  background:radial-gradient(circle at 50% 50%,rgba(255,255,255,.18),rgba(155,123,255,.22) 25%,rgba(28,20,96,.72) 70%)}
+.viewer-wrap.nx-arriving .nx-warp{opacity:1}
+.nx-warp i{position:absolute;left:50%;top:50%;width:55%;height:3px;border-radius:3px;transform-origin:0 50%;
+  background:linear-gradient(90deg,transparent,var(--c));opacity:0}
+.viewer-wrap.nx-arriving .nx-warp i{animation:nx-warp .9s cubic-bezier(.55,0,.9,.55) var(--d) infinite}
+@keyframes nx-warp{0%{opacity:0;transform:rotate(var(--a)) translateX(4%) scaleX(.04)}25%{opacity:1}100%{opacity:0;transform:rotate(var(--a)) translateX(100%) scaleX(1)}}
+.viewer-wrap.nx-arrived #sojourner-viewport{animation:nx-model-in 1s cubic-bezier(.2,.9,.3,1.2) both}
+@keyframes nx-model-in{from{opacity:0;transform:scale(.55) rotate(-6deg);filter:blur(10px)}60%{filter:blur(0)}to{opacity:1;transform:none;filter:none}}
+.viewer-wrap:is(.nx-arrived,.nx-flash) .nx-vfx{animation:nx-vflash .7s ease-out}
+@keyframes nx-vflash{from{background-color:rgba(255,255,255,.8)}to{background-color:rgba(255,255,255,0)}}
+
+/* Aviso de carga: píldora de colores con un cohete */
+#explorador .viewer-wrap .model-loading{padding:12px 22px 12px 56px;border:2px solid rgba(255,255,255,.3);border-radius:999px;
+  background:rgba(28,20,96,.86);color:#fff;font:800 15px/1.3 var(--nx-body);box-shadow:0 14px 34px rgba(12,6,50,.5),0 0 30px rgba(255,92,168,.3);backdrop-filter:blur(8px)}
+#explorador .viewer-wrap .model-loading::before{content:"🚀";position:absolute;left:18px;top:50%;font-size:22px;line-height:1;translate:0 -50%;animation:nx-rocket .5s ease-in-out infinite alternate}
+@keyframes nx-rocket{from{transform:translate(-2px,2px) rotate(0)}to{transform:translate(2px,-3px) rotate(-8deg)}}
+
+/* ------------------------------------------------------------------ 3 · chispas al tocar */
+.nx-vfx{position:absolute;inset:0;z-index:6;overflow:hidden;pointer-events:none;border-radius:inherit}
+.nx-tap-ring{position:absolute;width:18px;height:18px;margin:-9px 0 0 -9px;border-radius:50%;border:3px solid #fff;
+  box-shadow:0 0 12px #40c4ff,inset 0 0 8px #ff5ca8;animation:nx-tap-ring .7s ease-out forwards}
+@keyframes nx-tap-ring{to{transform:scale(5);opacity:0;border-width:1px}}
+.nx-tap-star{position:absolute;font:800 18px/1 Arial,sans-serif;font-style:normal;color:var(--c);translate:-50% -50%;
+  text-shadow:0 0 8px var(--c),0 0 2px #fff;animation:nx-tap-star .85s cubic-bezier(.2,.8,.3,1) forwards}
+@keyframes nx-tap-star{from{transform:translate(0,0) scale(.4)}35%{transform:translate(calc(var(--dx) * .7),calc(var(--dy) * .7)) scale(1.25)}
+  to{transform:translate(var(--dx),var(--dy)) scale(.3) rotate(180deg);opacity:0}}
+.nx-conf{position:absolute;width:9px;height:13px;border-radius:2px;background:var(--c);animation:nx-vconf 1.55s cubic-bezier(.15,.6,.4,1) both}
+@keyframes nx-vconf{0%{transform:translate(0,0) rotate(0)}55%{transform:translate(var(--dx),var(--dy)) rotate(var(--r))}
+  100%{transform:translate(calc(var(--dx) * 1.15),calc(var(--dy) + 170px)) rotate(calc(var(--r) * 1.5));opacity:0}}
+
+/* ------------------------------------------------------------------ 4 · escáner */
+.nx-scan{position:absolute;inset:0;z-index:5;overflow:hidden;pointer-events:none;opacity:0;transition:opacity .35s;border-radius:inherit}
+.nx-scan.on{opacity:1}
+.nx-scan-beam{position:absolute;left:0;right:0;top:-90px;height:90px;border-bottom:2px solid #8ff7ff;
+  background:linear-gradient(180deg,rgba(64,196,255,0),rgba(64,196,255,.16) 65%,rgba(143,247,255,.55));box-shadow:0 6px 18px rgba(143,247,255,.6)}
+.nx-scan.on .nx-scan-beam{animation:nx-beam 1.05s cubic-bezier(.45,0,.25,1) both}
+@keyframes nx-beam{from{top:-90px}to{top:100%}}
+.nx-reticle{position:absolute;left:0;top:0;width:120px;height:120px}
+.nx-reticle i{position:absolute;width:26px;height:26px;border:4px solid #8ff7ff;filter:drop-shadow(0 0 6px rgba(143,247,255,.9));transition:border-color .3s}
+.nx-reticle i:nth-child(1){left:0;top:0;border-right:0;border-bottom:0;border-radius:10px 0 0 0}
+.nx-reticle i:nth-child(2){right:0;top:0;border-left:0;border-bottom:0;border-radius:0 10px 0 0}
+.nx-reticle i:nth-child(3){left:0;bottom:0;border-right:0;border-top:0;border-radius:0 0 0 10px}
+.nx-reticle i:nth-child(4){right:0;bottom:0;border-left:0;border-top:0;border-radius:0 0 10px 0}
+.nx-reticle::after{content:"";position:absolute;left:50%;top:50%;width:14px;height:14px;margin:-7px;border-radius:50%;border:3px solid #8ff7ff;box-shadow:0 0 10px #8ff7ff}
+.nx-scan.done .nx-reticle i{border-color:var(--nx-sun,#ffd23f);filter:drop-shadow(0 0 8px rgba(255,210,63,.9))}
+.nx-scan.done .nx-reticle::after{border-color:var(--nx-sun,#ffd23f);animation:nx-ping 1s ease-out infinite}
+@keyframes nx-ping{from{box-shadow:0 0 0 0 rgba(255,210,63,.8)}to{box-shadow:0 0 0 22px rgba(255,210,63,0)}}
+.nx-scan-tag{position:absolute;left:0;top:0;max-width:min(320px,80%);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:6px 13px;border-radius:999px;
+  background:#1c1460;border:2px solid #8ff7ff;color:#fff;font:800 13px/1.2 var(--nx-body);box-shadow:0 8px 20px rgba(12,6,50,.45)}
+.nx-scan.done .nx-scan-tag{background:var(--nx-sun,#ffd23f);border-color:#fff;color:#2b1a00;animation:nx-tag-pop .4s cubic-bezier(.3,1.6,.4,1)}
+@keyframes nx-tag-pop{from{scale:.7}to{scale:1}}
+
+/* ------------------------------------------------------------------ 5 · cazador de sistemas */
+.nx-hunt-wrap{position:absolute;left:16px;top:16px;z-index:7}
+.nx-hunt-wrap[hidden]{display:none}
+.nx-hunt{position:relative;display:flex;align-items:center;gap:10px;min-height:52px;padding:6px 16px 6px 6px;border-radius:999px;border:2px solid rgba(255,255,255,.3);
+  background:rgba(28,20,96,.8);color:#fff;text-align:left;cursor:pointer;box-shadow:0 10px 24px rgba(12,6,50,.4);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);transition:transform .2s,border-color .3s}
+.nx-hunt:hover{transform:translateY(-2px);border-color:var(--nx-sun,#ffd23f)}
+.nx-hunt svg{flex:none;width:40px;height:40px;transform:rotate(-90deg)}
+.nx-hunt circle{fill:none;stroke-width:5}
+.nx-hunt circle.bg{stroke:rgba(255,255,255,.2)}
+.nx-hunt circle.fg{stroke:var(--nx-sun,#ffd23f);stroke-linecap:round;stroke-dasharray:100.5;stroke-dashoffset:100.5;transition:stroke-dashoffset .8s cubic-bezier(.2,.8,.2,1)}
+.nx-hunt-ico{position:absolute;left:6px;top:50%;width:40px;height:40px;margin-top:-20px;display:grid;place-items:center;font-size:17px;line-height:1}
+.nx-hunt.complete .nx-hunt-ico{font-size:0}
+.nx-hunt.complete .nx-hunt-ico::after{content:"🏆";font-size:18px}
+.nx-hunt.complete{border-color:var(--nx-sun,#ffd23f);box-shadow:0 10px 24px rgba(12,6,50,.4),0 0 24px rgba(255,210,63,.45)}
+.nx-hunt-txt{display:grid;line-height:1.1}
+.nx-hunt-txt b{font:700 18px var(--nx-display)}
+.nx-hunt-txt small{font:700 11.5px var(--nx-body);color:#e4ddff}
+.nx-hunt.bump{animation:nx-bump .6s cubic-bezier(.3,1.6,.4,1)}
+@keyframes nx-bump{30%{transform:scale(1.15) rotate(-3deg)}60%{transform:scale(.97)}}
+.nx-hunt-list{position:absolute;left:0;top:calc(100% + 8px);width:min(290px,calc(100vw - 60px));max-height:310px;overflow:auto;padding:12px;border-radius:16px;
+  background:#fff;color:#1c1046;box-shadow:0 20px 44px rgba(12,6,50,.45);animation:nx-tag-pop .25s ease-out}
+.nx-hunt-list[hidden]{display:none}
+.nx-hunt-help{margin:0 0 9px;font:700 13px/1.4 var(--nx-body);color:#4b3f8a}
+.nx-hunt-list ul{display:grid;gap:6px;margin:0;padding:0;list-style:none}
+.nx-hunt-list li>*{display:flex;align-items:center;gap:8px;width:100%;min-height:38px;padding:6px 10px;border-radius:11px;font:800 13px/1.25 var(--nx-body);text-align:left}
+.nx-hunt-list button{border:2px solid var(--c);background:color-mix(in srgb,var(--c) 16%,#fff);color:#1c1046;cursor:pointer}
+.nx-hunt-list button:hover{background:color-mix(in srgb,var(--c) 32%,#fff)}
+.nx-hunt-list button span{display:grid;place-items:center;flex:none;width:22px;height:22px;border-radius:50%;background:var(--c);color:#fff;font-size:12px}
+.nx-hunt-list .locked{border:2px dashed #cfc8ef;color:#8a82b5}
+.nx-hunt-list .locked span{display:grid;place-items:center;flex:none;width:22px;height:22px;border-radius:50%;background:#ece8fb;color:#8a82b5}
+
+/* Avisos */
+.nx-toast{position:absolute;left:50%;top:16px;z-index:7;display:flex;align-items:center;gap:10px;width:max-content;max-width:min(430px,calc(100% - 150px));padding:10px 16px;border-radius:16px;
+  background:#fff;color:#1c1046;font:600 14px/1.35 var(--nx-body);box-shadow:0 16px 36px rgba(12,6,50,.45);pointer-events:none;
+  opacity:0;transform:translate(-50%,-150%);transition:transform .45s cubic-bezier(.3,1.5,.4,1),opacity .3s}
+.nx-toast.on{opacity:1;transform:translate(-50%,0)}
+.nx-toast b{display:block;color:#e0247e;font:700 15px/1.2 var(--nx-display);text-transform:uppercase;letter-spacing:.02em}
+.nx-toast-ico{flex:none;font-size:28px;line-height:1}
+.nx-toast.big{top:50%;max-width:min(470px,calc(100% - 40px));padding:20px 24px;border:3px solid var(--nx-sun,#ffd23f);font-size:16px;transform:translate(-50%,-50%) scale(.5)}
+.nx-toast.big.on{transform:translate(-50%,-50%) scale(1)}
+.nx-toast.big .nx-toast-ico{font-size:56px;animation:nx-bump .9s .3s cubic-bezier(.3,1.6,.4,1)}
+.nx-toast.big b{font-size:22px}
+
+/* ------------------------------------------------------------------ 6 · foto postal */
+#explorador .viewer-wrap .viewer-actions .nx-photo-btn{background:var(--nx-pink,#ff5ca8);border-color:var(--nx-pink,#ff5ca8);color:#fff;font-weight:800}
+#explorador .viewer-wrap .viewer-actions .nx-photo-btn:hover:not(:disabled){background:#ff7ab9;color:#fff}
+.nx-photo-modal{position:absolute;inset:0;z-index:9;display:grid;place-items:center;padding:14px;background:rgba(28,20,96,.6);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border-radius:inherit;container-type:size}
+.nx-photo-modal[hidden]{display:none}
+.explorer-stage:has(.nx-photo-modal:not([hidden])) .nx-tour,
+.explorer-stage:has(.nx-photo-modal:not([hidden])) .nx-tour *{visibility:hidden!important;pointer-events:none!important}
+.nx-photo-card{display:grid;justify-items:center;gap:10px;padding:12px;border-radius:20px;background:#fff;box-shadow:0 30px 70px rgba(12,6,50,.6);animation:nx-photo-in .45s cubic-bezier(.3,1.4,.4,1) both}
+@keyframes nx-photo-in{from{opacity:0;transform:scale(.7) rotate(-4deg)}to{opacity:1;transform:none}}
+.nx-photo-card img{display:block;width:auto;height:auto;max-width:min(640px,calc(100cqw - 24px));max-height:calc(100cqh - 112px);border-radius:12px}
+.nx-photo-ui{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.nx-photo-ui a,.nx-photo-ui button{min-height:44px;padding:10px 18px;border-radius:12px;font:800 15px var(--nx-body);text-decoration:none;cursor:pointer}
+.nx-photo-ui .outline-button{background:#f3f0ff;border:2px solid #cfc8ef;color:#1c1046}
+.nx-photo-ui .outline-button:hover{background:#e6e0ff}
+
+/* ------------------------------------------------------------------ celular */
+@media (max-width:700px){
+  .nx-hunt-wrap{left:10px;top:10px}
+  .nx-hunt{min-height:44px;padding:4px 12px 4px 4px;gap:8px}
+  .nx-hunt svg{width:34px;height:34px}
+  .nx-hunt-ico{left:4px;width:34px;height:34px;margin-top:-17px;font-size:15px}
+  .nx-hunt-txt b{font-size:15px}
+  .nx-hunt-txt small{font-size:10.5px}
+  .nx-toast:not(.big){top:auto;bottom:118px;max-width:calc(100% - 24px);transform:translate(-50%,150%)}
+  .nx-toast:not(.big).on{transform:translate(-50%,0)}
+  .nx-scan-tag{font-size:12px}
+}
+
+/* ------------------------------------------------------------------ movimiento reducido */
+@media (prefers-reduced-motion:reduce){
+  .nx-amb i,.nx-amb-shoot,.nx-warp i,.nx-scan-beam,.nx-reticle::after,#explorador .viewer-wrap .model-loading::before,.nx-hunt,.nx-toast-ico{animation:none!important}
+  .nx-amb-shoot,.nx-warp{display:none}
+  .nx-toast{transition:opacity .2s}
+}

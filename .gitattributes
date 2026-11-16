@@ -1,0 +1,8 @@
+* text=auto
+*.cmd text eol=crlf
+*.glb binary
+*.hdr binary
+*.webp binary
+*.jpg binary
+*.png binary
+*.woff2 binary

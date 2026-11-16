@@ -1,0 +1,566 @@
+# NEPTUNI · English · demostraciones del LRV-3 (experiences/lrv3)
+jxpxqvs front left
+9cffrge front right
+n5c3chl rear left
+kdsupop rear right
+lg6112m Front chassis
+mw3p7kw Center chassis
+21qka0g Rear chassis
+e2sw4yj Floor panels
+y1vz1a4 Folding hinges
+ak14d6l Hinge pins
+r3uz555 Secondary structure under the floor
+6nmq0ld Mounting fittings to the lunar module
+4sieym1 Wheel steel mesh
+oz9fka1 Mesh wires (close-up detail)
+96kbet8 Titanium chevrons
+cwje6cy Rims and inner stop
+fsmmqdo Wheel disk and hub
+p7eu12y Drive motor, harmonic drive and brake
+760sork Arms and torsion bars
+f1m599k Lower suspension arm
+3efwprd Upper suspension arm
+dpzcr2z Torsion bars
+39070te Damper (body)
+pnj48v4 Damper (rod)
+1njbxus Suspension mount
+ziz8a04 Steering arm
+ledzyg8 Tie rod
+yp0hnoz Sector ball joint
+4kdwmwm Wheel ball joint
+58oxb4l Front steering motor and gearbox
+n86xque Rear steering motor and gearbox
+6pl4rf4 Front steering sector
+jih2pg6 Rear steering sector
+9y9d2as Fender
+xfvwkr9 Fender extension
+79jcij0 Fender mount
+gtkqbx9 Map repair (Apollo 17)
+d20oghk Gray repair tape
+uu1wyx3 Repair clamps
+qs6u9zk Left seat
+t2uncpy Right seat
+8jpaz97 Left seat webbing
+ewouz5i Right seat webbing
+q6e8blm Webbing belt
+0dnxz9s Under-seat bag
+bk5m66h Footrest
+gg0jaqt Control console
+vkoul8s Console panel
+753qd87 Gauges, levers and breakers
+bq69pij Warning flag
+bt8tbaj T-shaped hand controller
+tftd2ru Handholds
+pei3qtm Batteries, SPU, DGU and DCE
+i429tyo Thermal mirrors
+ih9potd Dust covers
+pujjkde Battery 1
+csp52tq Battery 2
+0or0qsr SPU (navigation processor)
+wqzjezt DGU (directional gyro)
+rvps7ko DCE (drive electronics)
+x1xsrcc Connector block
+ygggkw1 Battery mounts
+x67so02 Bay thermal blanket
+8lbddi4 LCRU (communications relay)
+ai7n7vz LCRU cover
+37y8uqo LCRU thermal blanket panels
+uwp36de White blanket trim
+ztbh1ki LCRU radiator mirrors
+wr4dv4j LCRU mounts
+de3y0rp LCRU control panel
+a5xgb1t VHF antenna
+dqan9nz LCRU battery access
+77ugoz4 High-gain antenna mast
+wsk6hnf High-gain antenna (3 ft)
+9o3by2q HGA pointing gimbal
+ct63gfm HGA ribs
+33wuktd HGA helical feed
+ugq8aoj HGA optical sight
+fg9sp5c HGA pointing handle
+qxnj0i1 Low-gain antenna staff
+dvi4b9h Low-gain antenna helix
+1cfyres LGA cup reflector
+2ayh2rk LGA cover
+yzk15rk LGA joint
+wcbelc6 TV camera staff
+6qxhjlf Control box (TCU)
+b8rfcah Azimuth column (TCU)
+300of53 TV camera cables
+baogs26 Elevation motor
+kykhyfl Mounting plate and elevation segment
+ls9dlhf TV camera (CTV)
+q5ah995 Camera cover
+gjqm3jw Camera mirrors
+7s99tvo TV camera sunshade
+xpzml8g Camera zoom lens
+g1ms16i Lens glass
+bzj76gx Camera connector
+rre8uzo 16 mm camera (DAC)
+yf1dv44 Communications cables
+tdldhmn Rear cargo pallet
+lycebrz Sample bag
+4m7dxh8 Traverse gravimeter (TGE)
+8s75kn6 TGE handle and radiator
+zuxdsq0 TGE readout
+jydammp TGE legs and stand
+s2p8upy SEP receiver reflectors
+8jwca37 SEP receiver blanket (open)
+j9iopb9 DSEA data recorder
+90rutgm SEP 3-loop antenna
+t29tkan Battery
+n5mfpmh Relay
+iwj5p7r Relays
+28mp97p Pinion
+djr35yd Module
+8k9m492 Electronics
+pyexhhj Camera
+1qhmvw3 Steering
+348cyk4 Drive
+n8ervpa Power
+fqhv8tc Voltage
+gmp9vbi Navigation
+s0fbn98 Marking
+ec4s9mr Odometer
+hbtoc0y Logic
+yqnyyp4 Protection
+pzf3qoo Limit
+tv4rtv2 Mast
+qbq15ql Helix
+mxcudwq Gimbal
+2txjbww Optics
+ozfjgrm Thermal
+sbt1bbj Deflection
+md7xf2y Gyroscope
+tnjbj2y downlink
+djqp576 uplink
+s9k57rp part
+5cmq9j6 Power flow
+xzfspuv 1 · Batteries 1 and 2 (36 V each, 23 cells) → console breakers CB1–CB4 → buses A, B (battery 1) and C, D (battery 2). They are not connected in series.
+qlm39gb 2 · The buses feed the DCE through CB5–CB10 (each load picks one of two buses).
+gezpurs 3 · The T-handle sets the PWM duty cycle and the direction (relays).
+8jzns5f 4 · The DCE switches 36 V to the 4 drive motors and the 2 steering motors.
+nt1vmwm 5 · CB14 (AUX) takes buses A and C and powers the LCRU through the auxiliary connector.
+l72bec1 Steering and suspension
+t9eu8x6 TV camera: pan, tilt and filters
+wvkh3dt Video to Earth
+kugk4wi Opening and separation
+pdvjwr1 Dust covers and lids: first the cover swings, then the lid is removed (virtual opening).
+q01vx9g Module separation: each box moves away from its place; the cables follow it.
+5trrvcx Exploded view on top of the opening and separation: the movements add up, they don't overlap.
+a0veyn0 Crew
+0k4gjh7 front
+7b43jay Front
+ikxsv7w side
+00k8p3w Side
+jasplye rear
+tuls5e0 top
+ookolrg Top
+frlgzh3 bottom
+btumnt5 Bottom
+baljovl Under the chassis
+bfe20cr HGA → Earth
+nrm10pf Side photo
+fjrygqg 3/4 photo
+gzfvkjo Views
+z0m39s5 Interiors
+sva8vvl Tools
+fuawtzx Inspection
+dpedz3p views
+gyylfwc Keyboard (with the viewer focused)
+i7onbz5 Arrows: orbit · +/−: zoom · 1–9: views · E: explode · G: rotate · R: reset · Esc: release selection or demo
+592hwxb interiors
+la9t5i5 Open and explore
+e4fhfgt Module separation
+85jizl5 Exploded by subsystem
+7lkehgo Animations (stop with Esc)
+zvt8hvv Section cut
+bj9pjk0 No
+jj4vkqq Work light (an aid, not historical)
+4kev688 Yes
+g9jjug2 Cables
+0r5s6gw harnesses and coax
+086f4ap Rotate 360°
+kc3a50g initial state
+be3k07f See inside
+
+# lrv3-modelo.js
+b1mqlbq LRV at station 8 (EVA-3), side view (LPI Apollo Image Atlas: «STA 8; SPL 8135; LUNAR ROVING VEHICLE»)
+fhs92k6 front 3/4 photo provided by the team
+z32cq3a unverified identifier
+5tbjli7 EVA-2 (Dec 12, 1972), vehicle stopped at a station
+pivxg12 The RIGHT REAR fender extension replaced by 4 laminated maps joined with gray tape and 2 clamps from the optical alignment telescope (NASM).
+x22rkzp Dust covers of the batteries, DCE and SPU closed (they were opened between EVAs to radiate heat; MSC-07464 §3.2).
+s1s3o50 LCRU blanket open (panels hanging, mirrors exposed) and HGA pointed at Earth for TV (FM/TV mode, HSI-481184).
+nr8pqek structure
+zf3t71c An aluminum chassis in three sections with hinges and locking pins: it folded to travel in the lunar module's bay.
+wu0tfek mobility
+tn8hyq3 Four steel-mesh wheels with chevrons; each with a DC motor, an 80:1 harmonic drive and a brake. Independent front and rear Ackermann steering and a parallel-arm suspension with torsion bars.
+jd6uwvu Crew station
+apcoio2 Two folding seats of tube and webbing, a navigation and control console with 14 breakers, and the T-shaped hand controller.
+oq2c36f Power and navigation
+h8f2339 Two 36 V silver-zinc batteries (23 cells), four buses (A–D), a signal processing unit (SPU), a directional gyro (DGU) and drive control electronics (DCE).
+5oixald communications
+on3g3oa An LCRU with a 29 V internal battery, a hand-pointed 3 ft high-gain antenna, a low-gain antenna, a VHF antenna and a GCTA TV camera with an SIT tube controlled from Houston.
+8mjw9by Cargo and science (Apollo 17)
+n0xk2c6 Rear pallet and tool carrier, sample bag, traverse gravimeter (TGE) and the receiver of the SEP experiment with its three-loop antenna.
+k025s4h Geometry could not be merged
+gu7cf1c inferred
+lb4vx5t documented
+ifvv9xr An open wire-mesh tire; chevrons cover 50% of the contact; it tolerates ~10% broken wires.
+44yvzts educational
+0g1z2n2 Woven zinc-coated steel wires; they are drawn thicker and farther apart than the real ones so they can be seen on screen.
+3rp3szg A 25.5 in inner frame (bump stop): it limits how much the outer frame deforms on impacts.
+84xljze An aluminum disk that joins the mesh to the gearbox output; shape taken from the photo.
+f445omg Ribbed floor panels of the center section.
+5x056p8 Cross members and side rails under the panels; position and number inferred.
+1hec5gf Hinges
+8ld10ga Attachment points to the lunar module; position inferred.
+vhafbup A pair of parallel wishbones between the chassis and the drive; each arm has its own torsion bar (upper ~15% of the load, lower ~85%).
+cno9za5 A brushed series DC motor (36 V, PWM control), an 80:1 harmonic drive and a mechanical brake; sealed at 7.5 psia. The motor fittings form the king pin.
+rz7pkhd A steering arm joined to the tie rod; geometry inferred (drawing not legible).
+xwf9vqr A linear damper (silicone oil) between the chassis and the upper arm: 6 in of compression and 4 in of extension.
+bzi0q71 Front
+pfg68la Front
+2ysx95s Rear
+ry89q6c A split-field DC motor + gearbox + spur gear sector that moves the steering linkage. Front and rear are mechanically independent; the rear could be re-engaged with a tool.
+fzigyy3 Sector and output arm to the tie rods; layout inferred (drawing 4.6 not legible).
+zirsqnb Left
+bi1a2nn Right
+496rsgk front
+wanc99t rear
+q6n7ke4 A tie rod between the steering sector and the wheel arm.
+absvihx NASM (fender extension of epoxy-impregnated fiberglass)
+lhuuck6 Fiberglass fenders: they keep dust from covering the crew and the equipment.
+g4w54h6 An improvised extension: 4 of the traverse maps joined with gray tape and held with 2 clamps from the LM's optical alignment telescope (the original broke at the end of EVA-1).
+bxyd4na 2 clamps from the optical alignment telescope (shape inferred).
+tn6rebj An adjustable webbing belt with a hook buckle; routing and buckle inferred.
+ftm1rx1 Angled footrest.
+2cwttzf Control and display console: navigation on top (attitude, IPI heading, bearing, range, distance) and monitoring/control below (speed, batteries, switches, 14 breakers).
+p43jfi7 Panel layout: educational reconstruction.
+pql19mb Gauge bezels, levers (PWM, drive enable, steering, ±15 V, NAV, AUX) and breaker buttons CB1–CB14.
+yn5mwg6 The console's caution and warning flag.
+ib1olbj T-handle: forward/back = throttle, roll = steering, back = brake; a reverse switch and a brake release ring.
+1odj4oi Hand controller · signal output
+ibaqmc7 Hand controller · brake cables
+tyc45jd Outer handholds; the inner left one holds the 16 mm camera and the low-gain antenna.
+wcufezp Console · battery 1 input (buses A/B)
+neuo50k Console · battery 2 input (buses C/D)
+ja6eiqv Console · breaker outputs to the DCE
+5rqj7tr Console · navigation input (SPU)
+vl6oknf Console · CB14 AUX
+eeabimv A primary silver-zinc battery, 23 cells in series, 36 V nominal, 121 Ah; relief valve 3.1–7 psid. It feeds buses A (CB1) and B (CB3).
+vr896w2 A primary silver-zinc battery, 23 cells, 36 V, 121 Ah. It feeds buses C (CB2) and D (CB4); heat sink for the DGU.
+plnaxij Signal processing unit: it combines heading and odometer pulses for bearing, range and distance. Eicosane wax (2.25 lb) and a thermal strap to battery 1.
+o1sytoc Directional gyro unit: it outputs the heading as a 3-wire synchro; battery 2 is its heat sink.
+gb5pe3e Drive control electronics: PWM 1 and PWM 2, direction relays, current-limited power transistors, odometer inhibit and the steering servo electronics. Octadecane wax (3.5 lb).
+dmjvmjj lid
+5j4z00y Housing lid (virtual inspection opening; in flight the housing was closed).
+v7ignkf Housing pressure relief valve (opens at 3.1–7 psid).
+3isb9y4 Harness pass-through between the DCE, SPU and console (reconstruction).
+0ac2dyf Mounts for the batteries and electronics.
+zm8a6s6 An insulated dust cover; closed during the EVA (bimetallic actuators close it), opened between EVAs so the mirror can radiate heat.
+0lkibzv Battery 1 · output connector
+ecyvknr Battery 1 · thermal strap
+hsbjfwl Battery 2 · output connector
+bimt5ol Battery 2 · thermal strap
+dr2hqub SPU · thermal strap
+1givkf7 SPU · heading input
+94a3lu5 SPU · output to the console
+dbtd8bt SPU · navigation data to the SEP
+hxnwiid DGU · heading synchro
+qmtvje0 DGU · thermal strap
+ox10xmi DCE · bus input
+c3vi4j5 DCE · LF motor output
+9fun6ir DCE · RF motor output
+wya5nkq DCE · LR motor output
+e9ky04w DCE · RR motor output
+13rja0g DCE · front steering servo
+vex6m48 DCE · rear steering servo
+gon72mj DCE · controller input
+eajjtw5 Auxiliary connector: 36 V from buses A and C through CB14 (AUX) to power the LCRU. Exact position at the front left inferred.
+9a6tjjm AUX connector · input from the console
+xi9vwka AUX connector · output to the LCRU
+n47hoj1 Lunar communications relay: 22 x 16 x 6 in, pressurized to 7.5 psia. AM VHF transceiver, two S-band transceivers, uplink and downlink processors, a DC-DC converter and an internal battery.
+rso01i3 Lying-down position sticking out at the front, inferred from AS17-146-22367.
+wsewj05 Top cover (virtual inspection opening: the real unit was sealed).
+fb8icsz Second-surface radiator mirrors, 196 in² (the LCRU's mirrored roof).
+mf91u8m Thermal blanket open (exposure 0/35/65/100%): the panels hang in front and leave the mirrors uncovered.
+1po8shg the team's front 3/4 photo
+h7htz44 Meter (POWER / RAD TEMP / S-BD AGC), S-band mode selector (PM1/NB, PM1/WB, FM/TV, TV RMT), INT/EXT/OFF power selector and breaker. Location on the left face inferred.
+6epup3a GCTA line: +29 V and 70 kHz commands to the camera, video back.
+fud9cr0 Mounting face inferred.
+8wf0scq An omnidirectional VHF antenna mounted on the LCRU (voice relay with the crew). Length inferred.
+s6w7m5x VHF antenna · base
+j8d54a2 Access compartment for the internal battery, in the thermal blanket (position inferred).
+d13trd2 A mast that fits into the left bumper fitting and locks with a bayonet collar.
+eiem9se A manual pointing gimbal in azimuth and elevation.
+h5t77ww A 3 ft parabolic reflector of mesh and ribs; nominal gain 24 dB, 20 W.
+jq5csfc An optical sight with a reticle and a sector mask for pointing at Earth.
+wkzvn98 «Mechanical pointing is done by tilting the handle in azimuth and elevation.»
+752qjm1 Positioning mechanism (2.45 lb with the antenna); during an EVA the elevation was set by hand (e.g. 45°).
+6c1ph69 A 5.13 in cup reflector.
+kuswwf1 A helical feed, right-hand circular polarization, nominal gain 10 dB.
+iko92dv A white cover that wraps the helix in the photos; the manual doesn't describe it.
+uw9spks A tubular staff with a conical end in a keyed fitting on the frame; a swing-down hinge to remove the LCRU without taking off the GCTA.
+x278z8f The TCU's lower electronics box (control unit): it receives the 70 kHz subcarrier and +29 V from the LCRU; it houses the azimuth axis.
+30m9hy9 Azimuth thrust tube: a 487:1 gearmotor and 3.64:1 spur gears (gold liner according to photos).
+66sqtcc TCU · Y-cable input
+758cp00 Turntable and yoke: pan 134° to the left and 214° to the right, 3.03°/s.
+zc01qkl An elevation gearmotor with a pinion that drives the spiroid segment of the mounting plate.
+zn6kxz4 TCU · output to the camera
+h7h2xz8 The camera's mounting plate with the elevation spiroid gear segment (+85° / −45°, 3.12°/s).
+4iavx9t RCA CTV camera: ~18 x 6.5 x 4 in, 12.8 lb; 16 mm SIT tube and 6:1 zoom.
+ff83ano Top cover of the camera (virtual inspection opening).
+5x9oaz6 «The top of the camera is covered with mirror tiles» (radiator).
+ig0iata Front of the Angenieux 12.5–75 mm f/2.2 zoom lens.
+1n8y0x6 CTV camera · rear connector
+r5thn3i CTV camera
+y0tccdz The 16 mm data acquisition camera in the inner handhold's receptacle.
+mbuxn02 Rear cargo pallet with a raised cover; height inferred from the photos.
+fhpt24d An open beta-cloth sample bag, with a hoop, behind the left seat.
+zl31rh4 Traverse gravimeter: 50.8 x 27.9 x 24.8 cm, 14.6 kg, blue thermal blankets, handle, radiator and a 9-digit readout with GRAV, READ and BIAS buttons, and a battery pack. Mounting at the back documented; the right side is inferred from photos.
+4cykt43 A carrying handle and a small radiator (opened in the shade when not in use).
+wqfnf4j A 9-digit display (on for 20 s), GRAV / READ / BIAS buttons and a power switch.
+dxvnklx The receiver of the surface electrical properties experiment: optical reflectors to cool it under blankets that opened; it shut off above ~108 °F.
+5qsv635 Size and pedestal inferred.
+lsoc0hq Optical surface reflectors to cool the receiver.
+yclm21m The receiver blanket open so the reflectors can radiate; it matches the tilted panel seen on top of the rear cargo in the photos.
+10ujrvf Data Storage Electronics Assembly: a removable tape recorder that came back to Earth.
+tx81scg A receiving antenna of three orthogonal, electrically small loops, ~2 m above the ground with the receiver mounted on the rover. Loop diameter and mast inferred.
+ajfcukx SEP antenna · downlead
+zrbr2s0 SEP receiver · antenna input
+fiyjh24 SEP receiver · output to the recorder
+f40ojwg DSEA · input
+pp4cj0r SEP receiver · rover data
+gmikrr7 meters
+swxdxrh filter
+mmv71ri educational reconstruction of the panel · MSC-07464 §5.2
+=consola => console
+
+# lrv3-conexiones.js y lrv3-interiores.js
+kmnu79r 36 V DC power
+uos9eah Signal / control
+zwy6duh Mechanical brake cable
+mx5ajv3 Thermal strap (foil)
+n2vlh7x Battery 1 → console harness (buses A and B)
+cq9ftu5 power
+63q71uh Battery 1 feeds bus A through CB1 and bus B through CB3 (the breakers are on the console).
+sijhu44 harness routing inferred
+ac2ni79 Battery 2 → console harness (buses C and D)
+ixv2icw Battery 2 feeds bus C through CB2 and bus D through CB4. The batteries are NOT in series (they don't make 72 V) or permanently in parallel: each load picks a bus.
+ywt3yla routing inferred
+3xh4ulv Console → DCE harness (buses A–D to drive and steering)
+bdrh79l LF/RF from bus A or C (CB5, CB6), LR/RR from bus B or D (CB7, CB8); front steering A or C (CB9), rear B or D (CB10).
+r2hmoxa a single bundle represents the circuits; routing inferred
+hr4z3li DCE → front left drive motor (LF)
+ftz8y44 PWM 1 or 2 modulates the 36 V to the motor (series DC, brushed); the odometer's 9 pulses per turn come back.
+k7gdtsg DCE → front right drive motor (RF)
+7fwk0cs PWM power to the RF motor and odometer pulses back.
+nv82bhq DCE → rear left drive motor (LR)
+h4s1b2b PWM power to the LR motor and odometer pulses.
+o8c3tfp routing inferred under the left floor
+2uzf40m DCE → rear right drive motor (RR)
+b3gbeuq PWM power to the RR motor and odometer pulses.
+gmddabk routing inferred under the right floor
+l8dxdcq DCE → front steering motor
+y0c9hx7 Steering servo with a feedback potentiometer; current limited to 1.8 A (bus A or C, CB9).
+a2g1gee DCE → rear steering motor
+xlapeav Same design as the front; bus B or D (CB10). Mechanically independent from the front.
+n60nash T-shaped hand controller → DCE (throttle, steering, reverse)
+m8sh5c8 The handle's deflection sets the PWM duty cycle; the DCE relays set the direction.
+v8pjcyt DGU → SPU (heading, 3-wire synchro)
+rg84mta The directional gyro outputs the heading as a three-wire synchro transmitter.
+67f1ai6 SPU → console (heading, bearing, distance, speed)
+5c22p5q The SPU combines odometer pulses (0.245 m/pulse) and heading; the console shows the IPI, bearing, range and distance.
+xsaih0p Brake cable → front left wheel
+5iwcg05 A mechanical brake worked by a cable from the controller (pulling back brakes; it locks at 12°).
+4qxugoc Brake cable → front right wheel
+6ww4cdu A mechanical brake worked by a cable from the controller.
+iau0ehq Brake cable → rear left wheel
+orsos0c Brake cable → rear right wheel
+lv14567 SPU – battery 1 thermal strap (140 layers of foil)
+thsjek4 Battery 1 acts as a partial heat sink for the SPU.
+kt28zrk DGU – battery 2 thermal strap (2 layers of foil)
+cmmedkz Battery 2 is the DGU's heat sink.
+zfwulkd Console (CB14 AUX) → front auxiliary connector
+b1i12up AUX takes power from both batteries through buses A and C (CB14) to the front connector.
+0ik0w3d AUX connector → LCRU (external power)
+sgztt2p With the selector on EXT, the LCRU uses 32–44 V from the rover and its DC-DC converter supplies 28.5 V and 16.5 V.
+lltadc9 LCRU (HGA connector, red) → high-gain antenna
+veqc5v2 S-band: color TV and voice/data to Earth with the vehicle stopped (FM/TV mode).
+81j16hh routing along the mast inferred from photos
+jo4onhr LCRU (LGA connector, blue) → low-gain antenna
+k5wuxju LCRU → omnidirectional VHF antenna
+qt1bvle LCRU (GCTA line) → TCU, «Y» cable
+siwatul The LCRU supplies +29 V and the 70 kHz command subcarrier; the camera sends back composite video.
+ykr2ow5 TCU → CTV camera (3.5 ft cable)
+wfu0aya Video, power and control between the control unit (TCU) and the camera.
+581f0xg 3-loop antenna → SEP receiver
+92d2e63 Three orthogonal loops measure the three components of the magnetic field.
+ywyb493 The data was recorded on magnetic tape; the DSEA was removable and came back to Earth.
+y8kmzd8 SPU → SEP receiver (navigation data)
+p9pi4gi The SEP recorded bearing increments (10°), distance (100 m) and the rover's odometer pulses.
+dryec9q that the link comes from the SPU and its routing are inferred
+o2l91e0 LCRU: 29 V internal battery → INT/EXT selector
+m6kokut A 19-cell primary silver-zinc battery: 29 V (16.8 V tap), 400 Wh.
+azevq2n LCRU: external input → DC-DC converter
+3p6cvdx It accepts 32–44 V from the rover; it supplies 28.5 V and 16.5 V.
+ib0ly8x LCRU: regulator → transceivers and processors
+tx3m8xm A redundant low-voltage regulator powers the radio and signal modules.
+6nabhbt educational layout
+hj17m2p LCRU: downlink processor (DLSP) → S-band transceiver no. 2 (FM)
+apknxcp It separates transmitting and receiving on the same antenna.
+syb2idn GCTA: low-voltage supply → SIT high-voltage module
+aqhqo0f The high-voltage module supplies 3 to 9 kV to the SIT tube.
+wz95eqp GCTA: SIT tube → video preamplifier
+5rza3yy A low-noise FET preamplifier, ALC/AGC, gamma ≈0.7 and aperture correction.
+exn2q0f Battery 1: output terminal → harness connector
+k48iuho 23 cells in series → 36 V nominal.
+d3ffdea Battery 2: output terminal → harness connector
+oqetfrf Battery 1 · 23 Ag-Zn cells
+z58du0h Battery 2 · 23 Ag-Zn cells
+740g3oo SPU · navigation processor
+r0gujbn DGU · directional gyro
+w1a9stu DCE · drive and steering control
+d23gbya Console · breakers and buses A–D
+7d7lh8b LCRU · communications relay
+ab5go4n TV camera (CTV) · optics and SIT tube
+t3wlucf TCU · pan-tilt control and drive
+lyupvxf Package
+kp876i9 Gear
+n06gyz5 its − terminal goes to the output block.
+wmgxs25 23 silver-zinc cells in series: 36 V nominal, 121 Ah. A 4 × 6 layout inside the box: inferred.
+828jwio The main terminal block (+ of cell 1, − of cell 23) to the harness connector.
+b7i4gia A temperature sensor that feeds the console's BATT °F gauge; location inferred.
+3tl5gqa Input for the odometer pulses from the 4 wheels (9 per turn).
+i306kgn It turns the DGU's 3-wire synchro signal into a heading.
+73djphz It calculates the bearing and range back to the lunar module.
+fgur5o9 It drives the console's navigation gauges.
+phxct7c It conditions the power for the navigation electronics.
+3p026ts Division into cards: educational reconstruction.
+09a792y Electronic components (representative).
+czi63fc A motherboard with the card sockets.
+t7bsjxb An eicosane wax pack (2.25 lb): it absorbs heat by melting during the EVA. Volume estimated from the documented mass (~80 in³).
+8ienb1p SPU connectors (console, DGU, odometers, SEP).
+k9ipm4f The directional gyro's gimbals (two axes); layout inferred.
+tximorh The gyro rotor (horizontal spin axis): it keeps its orientation and gives the heading reference.
+k3w726j A trim motor: it aligns the gyro with the initial heading set from the console.
+2a9gwlw Excitation electronics for the rotor and the synchro (representative).
+tlk05ri An octadecane wax pack (3.5 lb) under the heat sink: it stores the heat from the power electronics. Volume estimated from the documented mass.
+in6zwvp Power transistors (representative metal package).
+6ba6w0j It reverses the field connection for reverse (commanded with the reverse switch).
+4s8su0d Direction relays (forward/reverse) for the drive motors.
+j588299 Pulse-width modulator no. 1: it turns the controller's deflection into a duty cycle.
+83xqyz3 Pulse-width modulator no. 2 (redundant; PWM SEL selection on the console).
+7isl7zq Front steering servo: it compares the controller with the feedback potentiometer.
+vjfaakn Rear steering servo.
+eo0e9ze Current limit and odometer inhibit; relay control.
+lkzsb7y Card shape and position: inferred.
+ketre5d Battery 1 → bus A.
+oe2809y Battery 2 → bus C.
+1tfwon6 Battery 1 → bus B.
+uuwqw4h Battery 2 → bus D.
+04u3bvz LF drive (bus A or C).
+qgyy7ex RF drive (bus A or C).
+6xs4q2x LR drive (bus B or D).
+fxat3df RR drive (bus B or D).
+ko3qb8i Front steering (bus A or C).
+r0zu8c3 Rear steering (bus B or D).
+yw6f57z AUX: auxiliary connector (buses A and C) for the LCRU.
+h7y1603 Protection for a navigation or instrument circuit (assignment not detailed here).
+83nin5x 14 circuit breakers (CB1–CB14) that protect and select the power for each load.
+osedcgb powered by battery 1
+t7xk1rw powered by battery 2
+fcjsp7v Behind the navigation panel: attitude, heading (IPI), bearing, range and distance gauges, driven by the SPU.
+0lg5cvj A cable bundle running down the post to the batteries, DCE, SPU and AUX.
+pnnbm54 A 19-cell silver-zinc internal battery: 29 V with a 16.8 V tap, 400 Wh. It lets the LCRU work without the rover (INT selector). Layout inferred.
+od08mru INT / EXT / OFF power selector (internal battery or 32–44 V from the rover).
+gfjqv8y DC-DC converter: from the rover's 32–44 V to 28.5 V and 16.5 V.
+dzwt9s5 A redundant low-voltage regulator: it takes the 16 V bus and supplies regulated 14 and 10 V.
+wp6p8px The VHF group's triplexer: it shares the omnidirectional antenna between transmitting and receiving.
+km41kbr S-band transceiver no. 1: a PM/PM transmitter and PM receiver, coupled to the LGA through its diplexer (voice and data while driving).
+gyprkjk S-band transceiver no. 2: an FM/PM transmitter and PM receiver, coupled to the HGA through its diplexer (television and 70 kHz commands).
+4dmvuwz Downlink processor: the interface between the VHF receiver and the chosen S-band transmitter; it conditions the baseband (in FM/TV, the voice travels on a 1.25 MHz subcarrier alongside the video).
+igjyihb Diplexer of transceiver no. 1: it transmits and receives through the same antenna (LGA).
+awgg8rl Diplexer of transceiver no. 2 (HGA).
+crlzsju A wax pack under the roof radiator: it absorbs the equipment's heat by melting. Thickness and extent inferred.
+r4vwazd A wax pack between the pressurized electronics compartment and the battery. Shape inferred.
+bfp0f2w LCRU · internal battery
+ffziau8 LCRU · external power input
+6qlf8pm LCRU · HGA connector (inside)
+ys7xp73 The barrel of the Angenieux 6:1 zoom (12.5–75 mm, f/2.2).
+l3axpns The zoom's moving optical groups (they change the focal length on command from Houston).
+tqt6q6k A diaphragm (iris) with automatic and remote manual control.
+6ubzgfs A color filter wheel in the optical path: the camera is field-sequential color (red, green, blue). The rotation is shown slowly for teaching purposes.
+5sglet9 A synchronized motor that turns the filter wheel in step with the video scan.
+7exo4c8 A 16 mm SIT tube (silicon intensifier target): photocathode, intensifier section and silicon target; very sensitive in low light.
+410nbxx Focus and deflection coils that scan the tube's target.
+qs2zztf Low-voltage supply: powered with 29 V from the LCRU through the TCU.
+wv105uy High-voltage module: 3 to 9 kV for the SIT tube (potted).
+vxchd2m Sync
+c5mk8ou CTV · low-voltage supply
+9chpdvv CTV · high-voltage module
+tfqlsun CTV · SIT tube target output
+oo74rw7 The pinion of the 3.64:1 spur gear stage.
+537no5f Azimuth ring gear and shaft: they turn with the camera (3.64 × 487 ≈ 1773:1 between motor and camera; 3.03°/s).
+8xevkj8 Azimuth travel stops (134° to the left, 214° to the right).
+
+# segunda pasada LRV-3
+bhucc8b SEP receiver blankets open to cool it (ALSJ a17.sta2, 142:46:57).
+zhh42bm TGE mounted at the back of the rover (ALSJ a17-TGE).
+sr7i85x A chassis in three sections (front, center, rear) joined by hinges with spring-loaded locking pins.
+di64ssx Spring-loaded locking pins that hold the hinge deployed.
+sw4ct1q A frame that holds the fender to the chassis.
+duxid7n A folding aluminum-tube seat with nylon webbing.
+48eayln A covered stowage bag under the seat, attached to the seat frame.
+74mijyw An armrest between the seats.
+7kealn5 A low solar absorptance radiator mirror: it rejects heat when the dust cover is opened between EVAs.
+5s4rxz9 An insulating blanket of 15 layers of perforated aluminized Mylar and 14 of nylon net.
+las661w White blanket trim.
+9x5aec8 Two LCRU locking levers latch onto the rover's support posts.
+450bl7m High-gain antenna connector (red, RF).
+242wk0r Low-gain antenna connector (blue, RF).
+ibcxdg5 External power connector from the rover.
+5jawp9b 12 ribs and the rim of the deployable reflector.
+n6nf0iq A helical feed in a cup (deployable cup-helical feed).
+ig72vlz The LGA staff goes into the rover's inner left handhold.
+owvvppa A rectangular sunshade, white outside and black inside (not described in the GCTA manual).
+pdys6bc The zoom's front lens.
+t76f8qr Connector for the 3.5 ft cable.
+f9p8o5k A rear tool carrier with long-handled tools, a scoop and a rake.
+oq0r3w2 Three legs to stand it on the ground and a mounting fitting on the rover.
+7ahj11k its + terminal goes to the output block.
+2urq220 it joins its neighbors with intercell connectors.
+gf1b31d The terminals of each cell.
+5op5wut Copper connectors that join the 23 cells in series (routing inferred).
+u7wi3he Output bars: positive of cell 1 and negative of cell 23.
+symvip0 It adds up pulses for the distance traveled.
+peyxq7u A synchro transmitter: it sends the heading to the SPU over 3 wires.
+5zmew6i Components (representative).
+czi9apq A heat sink plate over the wax.
+vrgll8a An AM VHF transmitter and a VHF receiver: voice with the astronauts, which the LCRU relays to Earth.
+81csfi8 Uplink processor: the interface between the S-band receiver and the VHF transmitter (Houston's voice to the astronauts).
+scis4pt Internal coax from the diplexers to the HGA (red) and LGA (blue) connectors.
+u8zbo6d Zoom motor (commanded by the 70 kHz subcarrier).
+y905y4o Sync generator and filter wheel control.
+54swuep Composite video processing toward the LCRU.
+r3kxxjp Azimuth (pan) motor.
+b9qx259 A 487:1 gearbox coupled to the azimuth motor.
+mjuo8l3 Command decoder: it demodulates the 70 kHz subcarrier (pan, tilt, zoom, iris, power).
+bym3kxj Conditioning of the +29 V from the LCRU.
+8u4d9be S-band on the move: voice and data through the LGA (PM1 mode), pointed at Earth by hand.
+nd5pdgd AM VHF transceiver: voice relay with the astronauts.
+c3pq7sa It combines the GCTA video with the 1.25 MHz voice subcarrier for the FM transmitter.
+j50suyx The demonstrations need a browser with WebGL 2.
+peck05t The demonstrations viewer couldn't start. You can try again.
+
+=Inspección del LRV-3 => LRV-3 inspection
+=23 celdas Ag-Zn => 23 Ag-Zn cells
+=procesador de navegación => navigation processor
+=giróscopo direccional => directional gyro
+=control de tracción y dirección => drive and steering control
+=breakers y buses A–D => breakers and buses A–D
+=relé de comunicaciones => communications relay
+=óptica y tubo SIT => optics and SIT tube
+=control y accionamiento pan-tilt => pan-tilt control and drive

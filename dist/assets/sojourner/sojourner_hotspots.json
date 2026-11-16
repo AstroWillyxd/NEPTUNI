@@ -1,0 +1,368 @@
+{
+ "revision": "20261022-v2",
+ "hotspots": [
+  {
+   "id": "web",
+   "anchorNode": "SOJOURNER_WEB_EXTERIOR",
+   "position": [
+    0.05887025524755333,
+    0.2515999972820282,
+    0.07364854430651682
+   ],
+   "level": 2,
+   "file": "exterior"
+  },
+  {
+   "id": "solar",
+   "anchorNode": "SOJOURNER_SOLAR_ARRAY_EXTERIOR",
+   "position": [
+    0.044188929877543116,
+    0.29380002617836,
+    0.0678644990867467
+   ],
+   "level": 2,
+   "file": "exterior"
+  },
+  {
+   "id": "solar-cells",
+   "anchorNode": "SOLAR_CELLS",
+   "position": [
+    0.02246734953369664,
+    0.281810000538826,
+    0.037317857630853275
+   ],
+   "level": 4,
+   "file": "exterior"
+  },
+  {
+   "id": "solar-supports",
+   "anchorNode": "SOLAR_ARRAY_SUPPORTS",
+   "position": [
+    0.05929736602907278,
+    0.2610800042748451,
+    0.06659112344509242
+   ],
+   "level": 3,
+   "file": "exterior"
+  },
+  {
+   "id": "battery",
+   "anchorNode": "BATTERY_ASSEMBLY",
+   "position": [
+    -0.0288652244542047,
+    0.18400000035762787,
+    0.1363198196219722
+   ],
+   "level": 3,
+   "file": "interior"
+  },
+  {
+   "id": "rocker-bogie",
+   "anchorNode": "SOJOURNER_SUSPENSION_LEFT_EXTERIOR",
+   "position": [
+    0.08682363473569968,
+    0.2374367117881775,
+    0.10418836168283964
+   ],
+   "level": 2,
+   "file": "exterior"
+  },
+  {
+   "id": "rocker-left",
+   "anchorNode": "ROCKER_LEFT",
+   "position": [
+    -0.3092382170314995,
+    0.11860527093813289,
+    0.023297642023472148
+   ],
+   "level": 3,
+   "file": "exterior"
+  },
+  {
+   "id": "rocker-right",
+   "anchorNode": "ROCKER_RIGHT",
+   "position": [
+    0.3092422829722155,
+    0.1185694038431393,
+    0.023298455211615342
+   ],
+   "level": 3,
+   "file": "exterior"
+  },
+  {
+   "id": "bogie-left",
+   "anchorNode": "BOGIE_LEFT",
+   "position": [
+    -0.25978755053100083,
+    0.0986055805842625,
+    0.16846313423093143
+   ],
+   "level": 4,
+   "file": "exterior"
+  },
+  {
+   "id": "bogie-right",
+   "anchorNode": "BOGIE_RIGHT",
+   "position": [
+    0.2598026351294195,
+    0.0985697134892689,
+    0.16843254674538435
+   ],
+   "level": 4,
+   "file": "exterior"
+  },
+  {
+   "id": "wheels",
+   "anchorNode": "WHEEL_LEFT_FRONT",
+   "position": [
+    0.11769395990831198,
+    0.06499999757215846,
+    0.07061637594498718
+   ],
+   "level": 3,
+   "file": "exterior"
+  },
+  {
+   "id": "steering",
+   "anchorNode": "STEER_LEFT_FRONT_ACTUATOR",
+   "position": [
+    0.10281620715710249,
+    0.09578691418573726,
+    0.082252965725682
+   ],
+   "level": 3,
+   "file": "exterior"
+  },
+  {
+   "id": "drive",
+   "anchorNode": "SOJOURNER_DRIVE_CUTAWAY_ASSEMBLY",
+   "position": [
+    0.20751884459950856,
+    0.06491352245211601,
+    0.03652388797426306
+   ],
+   "level": 4,
+   "file": "drive_cutaway"
+  },
+  {
+   "id": "apxs",
+   "anchorNode": "SOJOURNER_APXS_EXTERIOR",
+   "position": [
+    0.04663604032982978,
+    0.2611205279827118,
+    -0.311961578049255
+   ],
+   "level": 2,
+   "file": "exterior"
+  },
+  {
+   "id": "apxs-head",
+   "anchorNode": "APXS_HEAD",
+   "position": [
+    0.013832294976238745,
+    0.15813075751066208,
+    -0.3051252578490183
+   ],
+   "level": 4,
+   "file": "exterior"
+  },
+  {
+   "id": "apxs-wrist",
+   "anchorNode": "APXS_WRIST",
+   "position": [
+    0.018456611915791375,
+    0.17820040881633759,
+    -0.3084356013491307
+   ],
+   "level": 4,
+   "file": "exterior"
+  },
+  {
+   "id": "apxs-actuator",
+   "anchorNode": "APXS_BASE",
+   "position": [
+    0.04842351932860384,
+    0.18195787444710732,
+    -0.2819891853635789
+   ],
+   "level": 4,
+   "file": "exterior"
+  },
+  {
+   "id": "cameras",
+   "anchorNode": "CAMERAS_FRONT",
+   "position": [
+    0.010234473414524992,
+    0.2772098779678345,
+    0.31098687582726875
+   ],
+   "level": 2,
+   "file": "exterior"
+  },
+  {
+   "id": "lasers",
+   "anchorNode": "LASER_SYSTEM",
+   "position": [
+    0.013087810951501029,
+    0.22963495552539825,
+    0.31122751162459417
+   ],
+   "level": 3,
+   "file": "exterior"
+  },
+  {
+   "id": "rear-camera",
+   "anchorNode": "SOJOURNER_REAR_CAMERA_EXTERIOR",
+   "position": [
+    0.09083929332288977,
+    0.25012868642807007,
+    -0.2540060761437296
+   ],
+   "level": 2,
+   "file": "exterior"
+  },
+  {
+   "id": "mae",
+   "anchorNode": "MATERIAL_ADHERENCE",
+   "position": [
+    -0.16850776748132437,
+    0.2889000177383423,
+    0.3046770264873469
+   ],
+   "level": 3,
+   "file": "exterior"
+  },
+  {
+   "id": "wae",
+   "anchorNode": "WAE_RIGHT_MIDDLE",
+   "position": [
+    0.22767099475884686,
+    0.07891260646283627,
+    0.044547270603598414
+   ],
+   "level": 4,
+   "file": "exterior"
+  },
+  {
+   "id": "antenna",
+   "anchorNode": "SOJOURNER_ANTENNA_EXTERIOR",
+   "position": [
+    -0.2541311929831782,
+    0.656000018119812,
+    -0.22360615582525012
+   ],
+   "level": 2,
+   "file": "exterior"
+  },
+  {
+   "id": "uhf-modem",
+   "anchorNode": "UHF_MODEM",
+   "position": [
+    0.06860236124977577,
+    0.1662999987602234,
+    0.09012283440572152
+   ],
+   "level": 3,
+   "file": "interior"
+  },
+  {
+   "id": "avionics",
+   "anchorNode": "AVIONICS",
+   "position": [
+    0.030749895172794042,
+    0.22030000388622284,
+    -0.044900120946789523
+   ],
+   "level": 2,
+   "file": "interior"
+  },
+  {
+   "id": "cpu",
+   "anchorNode": "CPU_BOARD",
+   "position": [
+    0.02742587237777368,
+    0.20850000530481339,
+    -0.06508894819715776
+   ],
+   "level": 3,
+   "file": "interior"
+  },
+  {
+   "id": "power-board",
+   "anchorNode": "POWER_BOARD",
+   "position": [
+    0.02742955764173696,
+    0.18069999665021896,
+    -0.06508452588040181
+   ],
+   "level": 3,
+   "file": "interior"
+  },
+  {
+   "id": "imu",
+   "anchorNode": "IMU",
+   "position": [
+    0.010782076959866691,
+    0.1680000051856041,
+    0.025538491716305504
+   ],
+   "level": 4,
+   "file": "interior"
+  },
+  {
+   "id": "apxs-electronics",
+   "anchorNode": "APXS_ELECTRONICS",
+   "position": [
+    0.014115885509249894,
+    0.15867500007152557,
+    -0.09306094051814398
+   ],
+   "level": 4,
+   "file": "interior"
+  },
+  {
+   "id": "web-layers",
+   "anchorNode": "WEB_WALL_LAYERS",
+   "position": [
+    0.056826203361895054,
+    0.1900000050663948,
+    0.07119144266336723
+   ],
+   "level": 3,
+   "file": "interior"
+  },
+  {
+   "id": "rhu",
+   "anchorNode": "THERMAL_RHU",
+   "position": [
+    0.04368706589114118,
+    0.1659500002861023,
+    0.05992447936739264
+   ],
+   "level": 3,
+   "file": "interior"
+  },
+  {
+   "id": "harness",
+   "anchorNode": "SOJOURNER_HARNESS_EXTERIOR",
+   "position": [
+    0.04923476502204595,
+    0.26713818311691284,
+    0.08796473264580558
+   ],
+   "level": 2,
+   "file": "exterior"
+  },
+  {
+   "id": "interior-cabling",
+   "anchorNode": "INTERIOR_CABLING",
+   "position": [
+    0.038749278609674025,
+    0.19700442254543304,
+    -0.010978842795227955
+   ],
+   "level": 4,
+   "file": "interior"
+  }
+ ]
+}

@@ -1,0 +1,284 @@
+{
+ "figures": [
+  {
+   "file": "assets/evidence/viking2/vo-fig001-top.webp",
+   "title": "RP-1027 vol. II, fig. 1 (vista desde −Z): configuración mecánica del VO",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001593/downloads/19810001593.pdf#page=10",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte y rotación; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vo-fig001-plan.webp",
+   "title": "RP-1027 vol. II, fig. 1 (continuación): planta con bahías y paneles",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001593/downloads/19810001593.pdf#page=11",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte y rotación; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vo-fig001-side.webp",
+   "title": "RP-1027 vol. II, fig. 1 (conclusión): alzado en configuración de lanzamiento",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001593/downloads/19810001593.pdf#page=12",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte y rotación; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vo-fig009-orbiter.webp",
+   "title": "RP-1027 vol. II, fig. 9: sistema de coordenadas del orbitador",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001593/downloads/19810001593.pdf#page=35",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vo-fig037-bus.webp",
+   "title": "RP-1027 vol. II, fig. 37: bus de 16 bahías",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001593/downloads/19810001593.pdf#page=81",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vo-fig134-propulsion.webp",
+   "title": "RP-1027 vol. II, fig. 134: módulo de propulsión",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001593/downloads/19810001593.pdf#page=222",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vo-fig031-hga.webp",
+   "title": "RP-1027 vol. II, figs. 31–32: antena de alta ganancia y panel solar",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001593/downloads/19810001593.pdf#page=77",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vo-fig033-lga-relay.webp",
+   "title": "RP-1027 vol. II, figs. 33–34: antena de baja ganancia y antena de retransmisión",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001593/downloads/19810001593.pdf#page=78",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig008-capsule.webp",
+   "title": "RP-1027 vol. I, fig. 8: cápsula del lander (vista despiezada)",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=19",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig017-bioshield.webp",
+   "title": "RP-1027 vol. I, fig. 17: bioescudo",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=29",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig019-aerodecelerator.webp",
+   "title": "RP-1027 vol. I, fig. 19: sistema de deceleración",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=32",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig021-layout.webp",
+   "title": "RP-1027 vol. I, fig. 21b: distribución del equipo (vista inferior)",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=35",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig022-leg.webp",
+   "title": "RP-1027 vol. I, fig. 22: pata del lander (plegada y extendida)",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=37",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig023-hga.webp",
+   "title": "RP-1027 vol. I, fig. 23: mecanismo de la antena de alta ganancia",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=38",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig028-uhf.webp",
+   "title": "RP-1027 vol. I, fig. 28: antena UHF (cotas en cm)",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=47",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig068-rcs.webp",
+   "title": "RP-1027 vol. I, fig. 68: RCS en el aeroshell",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=136",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig072-tds.webp",
+   "title": "RP-1027 vol. I, fig. 72: propulsión de descenso terminal",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=139",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig074-tde.webp",
+   "title": "RP-1027 vol. I, fig. 74: geometría de los motores terminales",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=141",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  },
+  {
+   "file": "assets/evidence/viking2/vl-fig093-instruments.webp",
+   "title": "RP-1027 vol. I, fig. 93: ubicación de los instrumentos",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=169",
+   "credit": "NASA (NASA Reference Publication 1027, 1980)",
+   "treatment": "Página renderizada del PDF de NTRS; recorte; sin retoque."
+  }
+ ],
+ "photographs": [
+  {
+   "file": "assets/evidence/viking2/ksc-75p-110-lander2.webp",
+   "original": "referencias/ksc-75p-110-lander2.jpg",
+   "nasa_id": "101-KSC-75P-110",
+   "title": "Viking Lander 2 dentro de su aeroshell, SAEF-1 (6 feb 1975)",
+   "credit": "NASA/KSC",
+   "kind": "hardware de vuelo",
+   "page": "https://images.nasa.gov/details/101-KSC-75P-110",
+   "image_url": "https://images-assets.nasa.gov/image/101-KSC-75P-110/101-KSC-75P-110~large.jpg",
+   "date_created": "1975-02-06T00:00:00Z",
+   "nasa_description": "CAPE CANAVERAL, Fla. -- At the Kennedy Space Center in Florida, technicians inspect the Viking Lander 2 in Kennedy's Spacecraft Assembly and Encapsulation Facility 1. The first Viking is scheduled for launch from Launch Complex 41 no earlier than Aug. 11, 1975, the second, no earlier than Aug. 21, 1975. Once in orbit around Mars, the lander will detach and descend to the planet's surface to conduct further investigation. The Viking's 440-million-mile journey to the Red Planet will take about 11 months. Photo Credit: NASA"
+  },
+  {
+   "file": "assets/evidence/viking2/ksc-75p-158-stack.webp",
+   "original": "referencias/ksc-75p-158-stack.jpg",
+   "nasa_id": "101-KSC-75P-158",
+   "title": "Lander (arriba) y orbitador acoplados, SAEF (1975)",
+   "credit": "NASA/KSC",
+   "kind": "hardware de vuelo; unidad no identificada",
+   "page": "https://images.nasa.gov/details/101-KSC-75P-158",
+   "image_url": "https://images-assets.nasa.gov/image/101-KSC-75P-158/101-KSC-75P-158~large.jpg",
+   "date_created": "1975-03-08T00:00:00Z",
+   "nasa_description": "KENNEDY SPACE CENTER, FLA. - Closeup view shows mated Viking Lander (top) and Orbiter in Kennedy Space Center Spacecraft Assembly and Encapsulation Facility."
+  },
+  {
+   "file": "assets/evidence/viking2/ksc-75p-160-stack.webp",
+   "original": "referencias/ksc-75p-160-stack.jpg",
+   "nasa_id": "101-KSC-75P-160",
+   "title": "Orbitador con paneles plegados y cápsula en el bioescudo (1974)",
+   "credit": "NASA/KSC",
+   "kind": "hardware de vuelo; unidad no identificada",
+   "page": "https://images.nasa.gov/details/101-KSC-75P-160",
+   "image_url": "https://images-assets.nasa.gov/image/101-KSC-75P-160/101-KSC-75P-160~large.jpg",
+   "date_created": "1974-12-11T00:00:00Z",
+   "nasa_description": "KENNEDY SPACE CENTER, FLA. --  Closeup view shows mated Viking Lander (top) and Orbiter in Kennedy Space Center Spacecraft Assembly and Encapsulation Facility."
+  },
+  {
+   "file": "assets/evidence/viking2/ksc-75pc-167-viking-a.webp",
+   "original": "referencias/ksc-75pc-167-viking-a.jpg",
+   "nasa_id": "101-KSC-75PC-167",
+   "title": "Viking A (lanzado como Viking 2) encapsulado en la cofia (27 mar 1975)",
+   "credit": "NASA/KSC",
+   "kind": "hardware de vuelo encapsulado",
+   "page": "https://images.nasa.gov/details/101-KSC-75PC-167",
+   "image_url": "https://images-assets.nasa.gov/image/101-KSC-75PC-167/101-KSC-75PC-167~large.jpg",
+   "date_created": "1975-03-27T00:00:00Z",
+   "nasa_description": "KENNEDY SPACE CENTER, FLA. --  The mated orbiter and lander for Viking A were encapsulated within a Centaur shroud at Spacecraft Assembly and Encapsulation Facility 2 (SAEF-2) today.  The spacecraft, one of two to be launched toward Mars atop Titan_Centaurs in August, is to be moved to Launch Complex 41 on March 31 for extensive testing.  KSC's Unmanned Launch Operations Directorate is scheduled to launch the twin Vikings during a 10-day period in August."
+  },
+  {
+   "file": "assets/evidence/viking2/pia09703-lander-model.webp",
+   "original": "referencias/pia09703-lander-model.jpg",
+   "nasa_id": "PIA09703",
+   "title": "Modelo del lander Viking (JPL)",
+   "credit": "NASA/JPL",
+   "kind": "modelo / artículo de prueba, no hardware de vuelo",
+   "page": "https://images.nasa.gov/details/PIA09703",
+   "image_url": "https://images-assets.nasa.gov/image/PIA09703/PIA09703~large.jpg",
+   "date_created": "2007-07-09T17:16:31Z",
+   "nasa_description": "NASA Viking Project found a place in history when it became the first U.S. mission to land a spacecraft successfully on the surface of Mars."
+  },
+  {
+   "file": "assets/evidence/viking2/pia00396-vl2-footpad.webp",
+   "original": "referencias/pia00396-vl2-footpad.jpg",
+   "nasa_id": "PIA00396",
+   "title": "Primera imagen de Viking Lander 2: plato de apoyo y rocas",
+   "credit": "NASA/JPL",
+   "kind": "imagen tomada por VL-2",
+   "page": "https://images.nasa.gov/details/PIA00396",
+   "image_url": "https://images-assets.nasa.gov/image/PIA00396/PIA00396~orig.jpg",
+   "date_created": "1996-12-12T03:03:29Z",
+   "nasa_description": "Viking Lander 2 First Picture On The Surface Of Mars  http://photojournal.jpl.nasa.gov/catalog/PIA00396"
+  },
+  {
+   "file": "assets/evidence/viking2/pia00568-vl2-color.webp",
+   "original": "referencias/pia00568-vl2-color.jpg",
+   "nasa_id": "PIA00568",
+   "title": "Primera imagen en color del sitio de Viking Lander 2",
+   "credit": "NASA/JPL",
+   "kind": "imagen tomada por VL-2",
+   "page": "https://images.nasa.gov/details/PIA00568",
+   "image_url": "https://images-assets.nasa.gov/image/PIA00568/PIA00568~orig.jpg",
+   "date_created": "1997-02-28T03:03:17Z",
+   "nasa_description": "First Color Image of the Viking Lander 2 Site"
+  },
+  {
+   "file": "assets/evidence/viking2/pia00573-vl2-frost.webp",
+   "original": "referencias/pia00573-vl2-frost.jpg",
+   "nasa_id": "PIA00573",
+   "title": "Escarcha en el sitio de Viking Lander 2",
+   "credit": "NASA/JPL",
+   "kind": "imagen tomada por VL-2",
+   "page": "https://images.nasa.gov/details/PIA00573",
+   "image_url": "https://images-assets.nasa.gov/image/PIA00573/PIA00573~orig.jpg",
+   "date_created": "1997-02-28T03:03:36Z",
+   "nasa_description": "Frost at the Viking Lander 2 Site"
+  },
+  {
+   "file": "assets/evidence/viking2/arc-p17690-vl2-lga.webp",
+   "original": "referencias/arc-p17690-vl2-lga.jpg",
+   "nasa_id": "ARC-1976-AC76-1011-2-15",
+   "title": "Viking 2, 7 sep 1976: mástil de la antena de baja ganancia con cable naranja",
+   "credit": "NASA/JPL (P-17690) vía NASA Ames",
+   "kind": "imagen tomada por VL-2",
+   "page": "https://images.nasa.gov/details/ARC-1976-AC76-1011-2-15",
+   "image_url": "https://images-assets.nasa.gov/image/ARC-1976-AC76-1011-2-15/ARC-1976-AC76-1011-2-15~large.jpg",
+   "date_created": "1976-09-07T00:00:00Z",
+   "nasa_description": "Viking 2 A utopian bright summer afternoon on Mars -- Looking south from Viking 2 on September 7, 1976 the orange-red surface of the nearly level plain upon which the spacecraft sits is seen strewn with rocks as large as three feet across.  Many of these rocks are porous and sponge-like, similar to some of Earth's volcanic rocks.  Other rocks are coarse-grained such as the large rock at lower left.  Between the rocks, the surface is blanketed with fine-grained materials that, in places, is piled into small drifts and banked against some of the larger blocks.  The cylindrical mast with the oran"
+  }
+ ],
+ "reused_v41": [
+  {
+   "file": "assets/evidence/viking2/viking-camera.webp",
+   "title": "RP-1027 vol. I, fig. 101: cámara facsímil (recorte del paquete v41)",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=177",
+   "credit": "NASA",
+   "treatment": "Archivo de producción NEPTUNI v41 conservado sin cambios."
+  },
+  {
+   "file": "assets/evidence/viking2/viking-collector-flight.webp",
+   "title": "RP-1027 vol. I, fig. 107: cabezal colector (recorte del paquete v41)",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=184",
+   "credit": "NASA",
+   "treatment": "Archivo de producción NEPTUNI v41 conservado sin cambios."
+  },
+  {
+   "file": "assets/evidence/viking2/viking-propulsion.webp",
+   "title": "RP-1027 vol. I, fig. 73: motor de descenso terminal (recorte del paquete v41)",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=140",
+   "credit": "NASA",
+   "treatment": "Archivo de producción NEPTUNI v41 conservado sin cambios."
+  },
+  {
+   "file": "assets/evidence/viking2/viking-flag.webp",
+   "title": "NASA/JPL PIA00565: bandera sobre la cubierta del RTG de Viking 1 (recorte v41)",
+   "source": "https://www.jpl.nasa.gov/images/pia00565-viking-lander-1s-us-flag-on-mars-surface/",
+   "credit": "NASA",
+   "treatment": "Archivo de producción NEPTUNI v41 conservado sin cambios."
+  },
+  {
+   "file": "assets/evidence/viking2/viking-samples.webp",
+   "title": "RP-1027 vol. I, fig. 108: preparación y distribución de muestras (recorte v41)",
+   "source": "https://ntrs.nasa.gov/api/citations/19810001592/downloads/19810001592.pdf#page=186",
+   "credit": "NASA",
+   "treatment": "Archivo de producción NEPTUNI v41 conservado sin cambios."
+  }
+ ]
+}

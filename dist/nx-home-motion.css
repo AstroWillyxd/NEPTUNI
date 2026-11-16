@@ -1,0 +1,207 @@
+/* NEPTUNI · Inicio en movimiento (va con nx-home-motion.js).
+   Las variables --q, --win, --t1… de Sojourner las anima el JS en 0,9 s al llegar a la sección.
+   Sin JS o con «movimiento reducido», todas valen 1 y todo se ve en su sitio. */
+
+/* ===================================================================== letras y palabras */
+#inicio .landing.nx-landing #archive-title .nx-word,#inicio .landing.nx-landing #archive-title .nx-ch,
+#inicio .nx-feature .nx-slide-title .nx-word,#inicio .nx-feature .nx-slide-title .nx-ch{display:inline-block;background:none;color:inherit;-webkit-text-stroke:inherit;padding:0;box-shadow:none}
+.nx-word{white-space:nowrap}
+.nx-ch{will-change:transform,opacity}
+html.nx-pre #archive-title{opacity:0;animation:nx-unhide 0s 2.5s forwards}
+@keyframes nx-unhide{to{opacity:1}}
+
+/* ===================================================================== 1 · PORTADA */
+#nx-landing{overflow:hidden}
+/* Entrada (se repite cada vez que vuelves a Inicio) */
+#nx-landing.nx-play #archive-title .nx-ch{animation:nx-letter .95s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(.2s + var(--i) * 34ms)}
+@keyframes nx-letter{from{opacity:0;transform:translateY(.6em) rotate(12deg) scale(.85);filter:blur(10px)}60%{filter:blur(0)}to{opacity:1;transform:none;filter:none}}
+#nx-landing.nx-play .landing-copy .eyebrow{animation:nx-slide-in .8s cubic-bezier(.2,.8,.2,1) .05s both}
+#nx-landing.nx-play .landing-copy .eyebrow .status-dot{animation:nx-grow-w .9s cubic-bezier(.2,.8,.2,1) .15s both}
+@keyframes nx-slide-in{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:none}}
+@keyframes nx-grow-w{from{width:0}to{width:30px}}
+#nx-landing.nx-play .landing-description{animation:nx-fade-up .9s cubic-bezier(.2,.8,.2,1) 1s both}
+@keyframes nx-fade-up{from{opacity:0;transform:translateY(26px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+#nx-landing.nx-play .landing-actions>*{animation:nx-pop-in .7s cubic-bezier(.2,.9,.3,1.4) both}
+#nx-landing.nx-play .landing-actions>:nth-child(1){animation-delay:1.25s}
+#nx-landing.nx-play .landing-actions>:nth-child(2){animation-delay:1.38s}
+@keyframes nx-pop-in{from{opacity:0;transform:translateY(22px) scale(.86)}to{opacity:1;transform:none}}
+#nx-landing.nx-play .hero-mascot{animation:nx-drop-bounce 1.2s cubic-bezier(.3,.7,.3,1) .45s both}
+@keyframes nx-drop-bounce{0%{opacity:0;transform:translateY(-120px) rotate(-14deg) scale(.8)}45%{opacity:1;transform:translateY(12px) rotate(4deg) scale(1.04,.94)}65%{transform:translateY(-14px) rotate(-2deg)}82%{transform:translateY(4px)}100%{opacity:1;transform:none}}
+#nx-landing.nx-play .landing-orbits{animation:nx-orbit-in 1.4s cubic-bezier(.2,.8,.2,1) .2s both}
+@keyframes nx-orbit-in{from{opacity:0;transform:scale(.4) rotate(-40deg)}to{opacity:1;transform:none}}
+#nx-landing.nx-play .character-note{animation:nx-pop-in .7s cubic-bezier(.2,.9,.3,1.4) 1.7s both}
+
+/* Vida continua: órbitas que giran, halo que respira, estrellas que titilan */
+#inicio .nx-landing .orbit-wide{animation:nx-orbit-a 46s linear infinite}
+#inicio .nx-landing .orbit-tilted{animation:nx-orbit-b 34s linear infinite}
+@keyframes nx-orbit-a{from{transform:translate(-50%,-50%) rotate(-28deg)}to{transform:translate(-50%,-50%) rotate(332deg)}}
+@keyframes nx-orbit-b{from{transform:translate(-50%,-50%) rotate(27deg)}to{transform:translate(-50%,-50%) rotate(-333deg)}}
+#inicio .nx-landing .hero-halo{animation:nx-breathe 5s ease-in-out infinite}
+@keyframes nx-breathe{50%{transform:translate(-50%,-50%) scale(1.06);box-shadow:0 0 80px rgba(54,226,176,.28)}}
+#inicio .nx-landing .orbit-star{animation:nx-twinkle 2.6s ease-in-out infinite}
+#inicio .nx-landing .star-two{animation-delay:-.9s}#inicio .nx-landing .star-three{animation-delay:-1.7s}
+@keyframes nx-twinkle{50%{opacity:.35;transform:scale(.7) rotate(40deg)}}
+
+/* Parallax con el cursor (--mx / --my de −1 a 1) */
+#inicio .nx-landing .landing-orbits{translate:calc(var(--mx,0) * -22px) calc(var(--my,0) * -14px)}
+#inicio .nx-landing .hero-mascot{translate:calc(var(--mx,0) * 18px) calc(var(--my,0) * 12px);rotate:calc(var(--mx,0) * 4deg)}
+#inicio .nx-landing .character-note{translate:calc(var(--mx,0) * 26px) calc(var(--my,0) * 16px)}
+#inicio .nx-landing #archive-title{translate:calc(var(--mx,0) * -8px) calc(var(--my,0) * -5px)}
+
+/* Estrellas fugaces */
+.nx-shoot{position:absolute;z-index:0;width:150px;height:2px;border-radius:2px;pointer-events:none;opacity:0;
+  background:linear-gradient(90deg,rgba(255,255,255,0),rgba(255,255,255,.9));transform:rotate(-24deg);animation:nx-shoot 9s linear infinite}
+.nx-shoot::after{content:"";position:absolute;right:-2px;top:-2px;width:6px;height:6px;border-radius:50%;background:#fff;box-shadow:0 0 10px #bff}
+.nx-shoot.s1{top:14%;left:58%;animation-delay:2s}
+.nx-shoot.s2{top:32%;left:86%;animation-delay:5.5s;width:110px}
+.nx-shoot.s3{top:8%;left:30%;animation-delay:8s;width:90px}
+@keyframes nx-shoot{0%{opacity:0;translate:0 0}2%{opacity:1}9%{opacity:0;translate:-420px 190px}100%{opacity:0;translate:-420px 190px}}
+
+/* Indicador «Desliza para explorar» */
+.nx-scroll-cue{position:absolute;z-index:3;left:50%;bottom:18px;display:flex;flex-direction:column;align-items:center;gap:8px;padding:6px 10px;border:0;background:none;color:#cfcbe0;
+  font:700 11.5px var(--nx-display);letter-spacing:.2em;text-transform:uppercase;transform:translateX(-50%);opacity:calc(1 - var(--leave,0) * 3);cursor:pointer;animation:nx-fade-up .8s 2s both}
+.nx-scroll-cue:hover{color:#fff}
+.nx-mouse{position:relative;width:24px;height:38px;border:2px solid rgba(255,255,255,.7);border-radius:14px}
+.nx-mouse i{position:absolute;left:50%;top:7px;width:4px;height:8px;margin-left:-2px;border-radius:2px;background:var(--nx-brand);animation:nx-wheel 1.6s ease-in-out infinite}
+@keyframes nx-wheel{0%{opacity:0;transform:translateY(-3px)}30%{opacity:1}100%{opacity:0;transform:translateY(12px)}}
+
+/* ===================================================================== 2 · CINTA DE MISIONES */
+.nx-marquee{position:relative;z-index:2;overflow:hidden;display:grid;gap:6px;padding:22px 0;border-block:1px solid var(--nx-line);
+  background:linear-gradient(90deg,rgba(54,226,176,.06),rgba(147,180,255,.05),rgba(255,122,69,.06));
+  -webkit-mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent);mask-image:linear-gradient(90deg,transparent,#000 7%,#000 93%,transparent)}
+.nx-marquee-row{display:flex;width:max-content;will-change:transform}
+.nx-mq-part{display:flex;align-items:center;flex:none;white-space:nowrap}
+.nx-marquee-row span{font:700 clamp(30px,4.6vw,66px)/1.05 var(--nx-display);text-transform:uppercase;color:var(--nx-text);letter-spacing:.01em}
+.nx-marquee-row span:nth-of-type(odd){color:transparent;-webkit-text-stroke:1.5px rgba(246,243,239,.7)}
+.nx-marquee-row i{margin:0 .7em;color:var(--nx-brand);font-style:normal;font-size:clamp(16px,2vw,26px)}
+.nx-marquee-row+.nx-marquee-row span{font-size:clamp(18px,2.2vw,30px);color:var(--nx-muted)}
+.nx-marquee-row+.nx-marquee-row span:nth-of-type(odd){color:#cfcbe0;-webkit-text-stroke:0}
+.nx-marquee-row+.nx-marquee-row i{color:var(--nx-mars)}
+
+/* ===================================================================== 3 · SOJOURNER (aparece sola en 0,9 s) */
+#inicio .nx-pin{position:relative;height:auto}
+#inicio .nx-pin .nx-feature{position:relative;top:auto;height:calc(100svh - var(--nx-head,76px));min-height:540px;max-height:920px;border-top:0}
+#inicio .nx-feature::before{display:none}
+/* El fondo se abre como una ventana; luego sigue un zoom lento de varios segundos */
+#inicio .nx-feature .nx-slide{clip-path:inset(calc((1 - var(--win,1)) * 16%) calc((1 - var(--win,1)) * 22%) round calc((1 - var(--win,1)) * 44px));opacity:1}
+#inicio .nx-feature .nx-slide-bg{animation:none;transform:translate3d(calc(var(--fx,0) * -12px),calc(var(--fy,0) * -8px),0);
+  filter:saturate(calc(.6 + var(--win,1) * .55)) contrast(1.05) brightness(calc(.5 + var(--win,1) * .5));will-change:transform}
+html.nx-motion #inicio .nx-feature .nx-slide-bg{scale:1.3}
+html.nx-motion #inicio .nx-feature.is-played .nx-slide-bg{animation:nx-sj-zoom 7s cubic-bezier(.16,.7,.2,1) both}
+@keyframes nx-sj-zoom{from{scale:1.3}to{scale:1}}
+#inicio .nx-feature .nx-slide-veil{opacity:var(--veil,1)}
+#inicio .nx-feature .nx-slide-copy{opacity:1;transform:none}
+/* Texto por partes */
+#inicio .nx-feature .nx-eyebrow{opacity:var(--eb,1);transform:translateX(calc((1 - var(--eb,1)) * -50px))}
+#inicio .nx-feature .nx-eyebrow i{transform:scaleX(var(--eb,1));transform-origin:left}
+#inicio .nx-feature .nx-slide-title .nx-l1 .nx-ch{--k:clamp(0,calc(var(--t1,1) * (var(--n) + 4) - var(--i)),1)}
+#inicio .nx-feature .nx-slide-title .nx-l2 .nx-ch{--k:clamp(0,calc(var(--t2,1) * (var(--n) + 4) - var(--i)),1)}
+#inicio .nx-feature .nx-slide-title .nx-ch{opacity:var(--k);transform:translateY(calc((1 - var(--k)) * .7em)) rotate(calc((1 - var(--k)) * 10deg));filter:blur(calc((1 - var(--k)) * 8px))}
+#inicio .nx-feature .nx-chip{--k:clamp(0,calc(var(--tc,1) * 4 - var(--i)),1);opacity:var(--k);transform:translateY(calc((1 - var(--k)) * 18px)) scale(calc(.8 + var(--k) * .2))}
+#inicio .nx-feature .nx-lead .nx-w{--k:clamp(0,calc(var(--t3,1) * (var(--n) + 3) - var(--i)),1);opacity:calc(.1 + var(--k) * .9);transition:color .2s}
+#inicio .nx-feature .nx-fact{opacity:var(--fact,1);transform:translateX(calc((1 - var(--fact,1)) * -60px));box-shadow:0 0 calc(var(--fact,1) * 30px) rgba(54,226,176,calc(var(--fact,1) * .25))}
+#inicio .nx-feature .nx-count-kg{display:inline-block;min-width:2.3ch;color:var(--nx-brand);font-weight:800}
+#inicio .nx-feature .nx-actions>*{--k:clamp(0,calc(var(--act,1) * 3 - var(--i)),1);opacity:var(--k);transform:translateY(calc((1 - var(--k)) * 30px)) scale(calc(.9 + var(--k) * .1))}
+#inicio .nx-feature .nx-polaroid{animation:none;opacity:var(--pola,1);
+  transform:translate3d(0,calc((1 - var(--pol,1)) * -115%),0) rotate(calc(2.2deg + (1 - var(--pol,1)) * -26deg));
+  translate:calc(var(--fx,0) * 16px) calc(var(--fy,0) * 10px)}
+#inicio .nx-feature .nx-credit{opacity:var(--act,1);right:calc(clamp(16px,4vw,80px) + clamp(120px,11vw,175px))}
+/* Polvo marciano flotando */
+.nx-dust{position:absolute;inset:0;z-index:-1;pointer-events:none;opacity:calc(var(--win,1) * .9)}
+.nx-dust i{position:absolute;left:var(--x);top:var(--y);width:calc(var(--s) * 4px);height:calc(var(--s) * 4px);border-radius:50%;
+  background:rgba(255,214,170,.75);box-shadow:0 0 8px rgba(255,190,140,.6);animation:nx-dust var(--t) linear var(--d) infinite}
+@keyframes nx-dust{0%{transform:translate(0,0);opacity:0}15%{opacity:.9}85%{opacity:.6}100%{transform:translate(120px,-160px);opacity:0}}
+/* Neptunito aparece al final y señala la foto */
+.nx-peek{position:absolute;z-index:5;right:clamp(16px,4vw,80px);bottom:0;display:flex;align-items:flex-end;gap:4px;pointer-events:none;
+  transform:translateY(calc((1 - var(--peek,1)) * 120%));opacity:clamp(0,calc(var(--peek,1) * 3),1)}
+.nx-peek img{width:clamp(110px,10vw,160px);height:auto;filter:drop-shadow(0 14px 20px rgba(0,0,0,.55));transform-origin:50% 100%;animation:nx-bob 2.4s ease-in-out infinite}
+.nx-peek p{margin:0 0 clamp(90px,8vw,130px);max-width:230px;padding:11px 14px;border-radius:14px 14px 4px 14px;background:#fff;color:#14122a;font:700 13.5px/1.4 var(--nx-body);
+  box-shadow:0 14px 34px rgba(0,0,0,.45);transform:scale(clamp(0,calc(var(--peek,1) * 1.4 - .4),1));transform-origin:100% 100%}
+@keyframes nx-bob{50%{transform:translateY(-6px) rotate(-2deg)}}
+
+/* ===================================================================== 4 · CIFRAS */
+.nx-stats{width:min(1320px,calc(100% - 2 * var(--nx-pad)));margin:0 auto;padding:80px 0 10px}
+.nx-stats-kicker{display:flex;align-items:center;gap:12px;margin:0;color:#ece8f6;font:700 13px var(--nx-display);letter-spacing:.22em;text-transform:uppercase}
+.nx-stats-kicker i{width:30px;height:8px;border-radius:2px;background:var(--nx-brand);box-shadow:0 0 16px rgba(54,226,176,.8)}
+.nx-stats-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:22px 0 0;padding:0;list-style:none;perspective:900px}
+.nx-stat{position:relative;overflow:hidden;display:grid;gap:4px;padding:24px 22px;border-radius:20px;border:1px solid var(--nx-line);
+  background:linear-gradient(160deg,rgba(54,226,176,.1),rgba(255,255,255,.02) 50%),#0c0f1e;box-shadow:0 18px 40px rgba(0,0,0,.35)}
+.nx-stat.mars{background:linear-gradient(160deg,rgba(255,122,69,.14),rgba(255,255,255,.02) 50%),#0c0f1e}
+.nx-stat.moon{background:linear-gradient(160deg,rgba(147,180,255,.14),rgba(255,255,255,.02) 50%),#0c0f1e}
+html.nx-motion .nx-stat{opacity:0;transform:translateY(50px) rotateX(24deg);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1);transition-delay:calc(var(--i) * .12s)}
+html.nx-motion .nx-stat.is-in{opacity:1;transform:none}
+.nx-stat::after{content:"";position:absolute;inset:0;background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.12) 50%,transparent 70%);transform:translateX(-100%)}
+.nx-stat.is-in::after{animation:nx-sweep 1.4s cubic-bezier(.2,.8,.2,1) calc(.3s + var(--i) * .12s) both}
+@keyframes nx-sweep{to{transform:translateX(100%)}}
+.nx-stat b{font:700 clamp(46px,5.4vw,80px)/1 var(--nx-display);color:#fff;background:linear-gradient(180deg,#fff,#8fe9cf);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.nx-stat.mars b{background-image:linear-gradient(180deg,#fff,#ffb08f)}
+.nx-stat.moon b{background-image:linear-gradient(180deg,#fff,#b9cdff)}
+.nx-stat span{color:#fff;font:700 17px var(--nx-display);text-transform:uppercase;letter-spacing:.06em}
+.nx-stat small{color:var(--nx-muted);font:600 14px var(--nx-body)}
+
+/* ===================================================================== 5 · GALERÍA EN MOVIMIENTO */
+.nx-gallery{padding:70px 0 10px}
+.nx-gallery-head{width:min(1320px,calc(100% - 2 * var(--nx-pad)));margin:0 auto}
+#inicio .nx-gallery-head h2{margin:12px 0 10px;color:#fff;font:700 clamp(32px,4.4vw,62px)/1 var(--nx-display);text-transform:uppercase}
+#inicio .nx-gallery-head h2 span{color:transparent;-webkit-text-stroke:2px rgba(246,243,239,.92)}
+.nx-gallery-head p{margin:0;max-width:40rem;color:#dcd9e8;font:600 clamp(15px,1.3vw,18px)/1.5 var(--nx-body)}
+.nx-gallery-rows{display:grid;gap:18px;margin-top:30px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent);mask-image:linear-gradient(90deg,transparent,#000 6%,#000 94%,transparent)}
+.nx-grow{overflow:hidden;padding:14px 0}
+.nx-gtrack{display:flex;width:max-content;will-change:transform}
+.nx-gpart{display:flex;gap:18px;padding-right:18px;flex:none}
+.nx-gcard{position:relative;flex:0 0 auto;width:clamp(220px,21vw,320px);aspect-ratio:16/10;padding:0;border-radius:18px;overflow:hidden;border:1px solid var(--nx-line);
+  background:#10132a;color:#fff;text-align:left;cursor:pointer;--accent:var(--nx-mars);
+  transform:perspective(800px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg));transition:transform .25s ease-out,box-shadow .3s,border-color .3s}
+.nx-gcard.moon{--accent:var(--nx-moon)}
+.nx-gcard img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .7s cubic-bezier(.2,.8,.2,1),filter .4s;filter:saturate(1.05) brightness(.9)}
+.nx-gcard::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(var(--nx-bg-rgb),.95) 0%,rgba(var(--nx-bg-rgb),.4) 45%,rgba(var(--nx-bg-rgb),0) 70%)}
+.nx-gcard:hover,.nx-gcard:focus-visible{border-color:var(--accent);box-shadow:0 22px 44px rgba(0,0,0,.55),0 0 30px -6px var(--accent);z-index:2}
+.nx-gcard:hover img,.nx-gcard:focus-visible img{transform:scale(1.1);filter:saturate(1.2) brightness(1)}
+.nx-gcard-year{position:absolute;z-index:2;left:12px;top:12px;padding:4px 9px;border-radius:8px;background:rgba(var(--nx-bg-rgb),.7);border:1px solid rgba(255,255,255,.18);font:700 13px var(--nx-display);letter-spacing:.06em}
+.nx-gcard-meta{position:absolute;z-index:2;left:14px;right:14px;bottom:12px;display:grid;gap:3px}
+.nx-gcard-meta b{font:700 18px/1.1 var(--nx-display);text-transform:uppercase;letter-spacing:.01em}
+.nx-gcard-meta small{color:#cfcbe0;font:600 12.5px var(--nx-body)}
+.nx-gcard-meta small::before{content:"";display:inline-block;width:8px;height:8px;margin-right:6px;border-radius:50%;background:var(--accent);box-shadow:0 0 10px var(--accent)}
+.nx-gcard-open{position:absolute;z-index:2;right:12px;top:12px;padding:5px 10px;border-radius:999px;background:var(--nx-brand);color:var(--nx-brand-ink);font:800 12px var(--nx-body);
+  opacity:0;transform:translateY(-8px);transition:opacity .25s,transform .25s}
+.nx-gcard:hover .nx-gcard-open,.nx-gcard:focus-visible .nx-gcard-open{opacity:1;transform:none}
+.nx-grow.is-static{overflow-x:auto;scrollbar-width:thin;scroll-snap-type:x proximity}
+.nx-grow.is-static .nx-gpart[aria-hidden]{display:none}
+.nx-grow.is-static .nx-gpart{padding-left:var(--nx-pad)}
+
+/* ===================================================================== 6 · APARICIONES */
+html.nx-motion [data-reveal]{opacity:0;transform:translateY(40px);transition:opacity .9s cubic-bezier(.2,.8,.2,1) var(--d,0s),transform .9s cubic-bezier(.2,.8,.2,1) var(--d,0s)}
+html.nx-motion [data-reveal].is-in{opacity:1;transform:none}
+html.nx-motion .nx-more-btn[data-reveal]{transform:translateY(50px) scale(.88)}
+html.nx-motion .nx-more-btn[data-reveal].is-in{transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg))}
+html.nx-motion .nx-more-btn[data-reveal].is-in:hover{transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateY(-4px) scale(1.02)}
+.nx-more-btn{transition:transform .3s cubic-bezier(.2,.7,.2,1),box-shadow .3s,opacity .9s,translate .2s ease-out}
+.landing-actions a,#nx-feature .nx-btn,.nx-scroll-cue{transition:transform .2s,background .2s,box-shadow .2s,translate .2s ease-out}
+
+/* ===================================================================== 7 · BARRA DE PROGRESO */
+.nx-progress{position:absolute;left:0;bottom:-1px;width:100%;height:3px;pointer-events:none;transform-origin:0 50%;transform:scaleX(0);opacity:0;
+  background:linear-gradient(90deg,var(--nx-brand),var(--nx-moon),var(--nx-mars));box-shadow:0 0 12px rgba(54,226,176,.6);transition:opacity .3s}
+body[data-view=inicio] .nx-progress{opacity:1}
+
+/* ===================================================================== CELULAR */
+@media (max-width:900px){
+  #inicio .nx-pin{height:auto}
+  #inicio .nx-pin .nx-feature{position:relative;top:auto;height:auto;min-height:0}
+  #inicio .nx-feature .nx-slide{clip-path:inset(calc((1 - var(--win,1)) * 8%) calc((1 - var(--win,1)) * 10%) round calc((1 - var(--win,1)) * 30px))}
+  .nx-peek,.nx-shoot,.nx-scroll-cue{display:none}
+  #inicio .nx-feature .nx-credit{right:20px;bottom:18px}
+  .nx-stats{padding-top:56px}
+  .nx-stats-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .nx-stat{padding:18px 16px}
+  .nx-gcard{width:clamp(200px,62vw,260px)}
+  .nx-marquee{padding:16px 0}
+}
+
+/* ===================================================================== MOVIMIENTO REDUCIDO */
+@media (prefers-reduced-motion:reduce){
+  #inicio .nx-pin{height:auto}
+  #inicio .nx-pin .nx-feature{position:relative;top:auto}
+  #nx-landing.nx-play *,.nx-shoot,.nx-scroll-cue,.nx-mouse i,.nx-dust i,.nx-peek img,
+  #inicio .nx-landing .orbit-wide,#inicio .nx-landing .orbit-tilted,#inicio .nx-landing .hero-halo,#inicio .nx-landing .orbit-star{animation:none!important}
+  .nx-shoot,.nx-dust{display:none}
+}

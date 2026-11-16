@@ -1,0 +1,440 @@
+{
+ "revision": "20261022-v2",
+ "rules": "rotation/translation only; clips start and end at rest; educational speed, not telemetry",
+ "chains": {
+  "mobility_side": "SOJOURNER_CHASSIS_FRAME > SOJOURNER_SUSPENSION_<S>_EXTERIOR > ROCKER_<S>(X) > [ROCKER_<S>_REAR_ARM > STEER_<S>_REAR(Y) > WHEEL_<S>_REAR(X)] + [ROCKER_<S>_FRONT_ARM > BOGIE_<S>(X) > STEER_<S>_FRONT(Y) > WHEEL_<S>_FRONT(X) ; BOGIE_<S>_MIDDLE_MOUNT > WHEEL_<S>_MIDDLE(X)]",
+  "apxs": "SOJOURNER_APXS_EXTERIOR > APXS_LINK_FRONT(X, phi) > APXS_COUPLER(X, -phi) > APXS_TRANSVERSE(X) > APXS_WRIST > APXS_HEAD ; APXS_BASE > APXS_LINK_BACK(X, phi)",
+  "mae": "MATERIAL_ADHERENCE > MAE_COVER(Y)",
+  "drive_cutaway": "SOJOURNER_DRIVE_CUTAWAY_ASSEMBLY > DRIVE_RM_ROTOR(X) ; DRIVE_RM_GEARHEAD > DRIVE_RM_STAGE_n(X)"
+ },
+ "poses": {
+  "REST_DEPLOYED": {
+   "APXS_LINK_FRONT": 80.0,
+   "APXS_TRANSVERSE": 0,
+   "MAE_COVER": 0,
+   "steering": 0
+  },
+  "APXS_SOIL_CONTACT": {
+   "APXS_LINK_FRONT": -9.1,
+   "APXS_TRANSVERSE": 0
+  },
+  "APXS_ROCK_CONTACT": {
+   "APXS_LINK_FRONT": 40.0,
+   "APXS_TRANSVERSE": 90.0
+  },
+  "TURN_IN_PLACE": {
+   "LEFT_FRONT": 48.92006351471329,
+   "LEFT_REAR": -55.34082013491457,
+   "RIGHT_FRONT": -48.92006351471329,
+   "RIGHT_REAR": 55.34082013491457
+  }
+ },
+ "limits_deg": {
+  "steering": [
+   -60,
+   60
+  ],
+  "APXS_LINK_FRONT": [
+   -15,
+   90
+  ],
+  "APXS_TRANSVERSE": [
+   0,
+   90
+  ],
+  "APXS_WRIST": [
+   -25,
+   25
+  ],
+  "ROCKER": [
+   -20,
+   20
+  ],
+  "BOGIE": [
+   -30,
+   30
+  ],
+  "MAE_COVER": [
+   0,
+   100
+  ]
+ },
+ "notStowed": "Stowed height 0.18 m is DOCUMENTED [NSSDC] but the stow kinematics were not found in the consulted sources; no stand-up clip is provided.",
+ "clips": [
+  {
+   "name": "DRIVE_FORWARD",
+   "seconds": 4.0,
+   "description": "All six wheels driven forward by their independent in-hub motors (2000:1). Loopable; accelerated.",
+   "fidelity": "DOCUMENTED function [PDS-HOST]",
+   "loop": true,
+   "nodes": [
+    "WHEEL_LEFT_FRONT",
+    "WHEEL_LEFT_MIDDLE",
+    "WHEEL_LEFT_REAR",
+    "WHEEL_RIGHT_FRONT",
+    "WHEEL_RIGHT_MIDDLE",
+    "WHEEL_RIGHT_REAR"
+   ]
+  },
+  {
+   "name": "TURN_IN_PLACE",
+   "seconds": 7.0,
+   "description": "Corner wheels steer tangent to a circle centred on the middle-wheel axle line; right wheels drive forward, left wheels backward (counter-clockwise yaw); wheels return straight.",
+   "fidelity": "DOCUMENTED capability [PDS-HOST]; angles computed from this geometry",
+   "loop": false,
+   "nodes": [
+    "STEER_LEFT_FRONT",
+    "STEER_LEFT_REAR",
+    "STEER_RIGHT_FRONT",
+    "STEER_RIGHT_REAR",
+    "WHEEL_LEFT_FRONT",
+    "WHEEL_LEFT_MIDDLE",
+    "WHEEL_LEFT_REAR",
+    "WHEEL_RIGHT_FRONT",
+    "WHEEL_RIGHT_MIDDLE",
+    "WHEEL_RIGHT_REAR"
+   ]
+  },
+  {
+   "name": "ROCKER_BOGIE_CLIMB",
+   "seconds": 6.0,
+   "description": "Front-right wheel lifted over an 8 cm obstacle and back. Body height, pitch, roll, the differential rocker angle and both bogie angles are solved so that all six wheels stay in contact.",
+   "fidelity": "DOCUMENTED rocker-bogie + 8 cm obstacle capability [WIKI-SOJ]; pose computed from this model's geometry",
+   "loop": false,
+   "nodes": [
+    "BOGIE_LEFT",
+    "BOGIE_RIGHT",
+    "ROCKER_LEFT",
+    "ROCKER_RIGHT",
+    "SOJOURNER_CHASSIS_FRAME"
+   ]
+  },
+  {
+   "name": "APXS_DEPLOY_SOIL",
+   "seconds": 9.0,
+   "description": "Stowed -> parallel-link extension (sensor stays vertical) -> descent until the bumper touches the soil (sensor face 45 mm above it, documented standoff 40-50 mm) -> hold -> stowed.",
+   "fidelity": "DOCUMENTED single DOF, sequence and 0.05 m below-wheel reach [NTRS-ADM]; link geometry INFERRED",
+   "loop": false,
+   "nodes": [
+    "APXS_COUPLER",
+    "APXS_LINK_BACK",
+    "APXS_LINK_FRONT",
+    "APXS_TRANSVERSE"
+   ]
+  },
+  {
+   "name": "APXS_DEPLOY_ROCK",
+   "seconds": 10.0,
+   "description": "Stowed -> extension -> 90 deg transverse-link rotation so the sensor faces aft onto a rock face -> stowed.",
+   "fidelity": "DOCUMENTED 90 deg phase and 0.29 m rock reach [NTRS-ADM]; angles INFERRED",
+   "loop": false,
+   "nodes": [
+    "APXS_COUPLER",
+    "APXS_LINK_BACK",
+    "APXS_LINK_FRONT",
+    "APXS_TRANSVERSE"
+   ]
+  },
+  {
+   "name": "MAE_COVER_CYCLE",
+   "seconds": 4.0,
+   "description": "Shape-memory-alloy actuator swings the Suprasil cover glass off the MAE solar cell and back.",
+   "fidelity": "DOCUMENTED function [WIKI-MAE]; swing angle INFERRED",
+   "loop": false,
+   "nodes": [
+    "MAE_COVER"
+   ]
+  },
+  {
+   "name": "GEARTRAIN_DEMO",
+   "seconds": 6.0,
+   "description": "Rotor spins; each planetary carrier turns 1/6.69 of the previous stage (6.69^4 ~ 2000:1).",
+   "fidelity": "DOCUMENTED 2000:1 [PDS-HOST]; stage split INFERRED",
+   "loop": true,
+   "nodes": [
+    "DRIVE_RM_ROTOR",
+    "DRIVE_RM_STAGE_1",
+    "DRIVE_RM_STAGE_2",
+    "DRIVE_RM_STAGE_3",
+    "DRIVE_RM_STAGE_4"
+   ]
+  }
+ ],
+ "rockerBogieSolverSamples": [
+  {
+   "t": 0.0,
+   "lift": 0.0,
+   "body_y": 0.0,
+   "pitch": 0.0,
+   "roll": 0.0,
+   "rocker_R": 0.0,
+   "bogie_L": 0.0,
+   "bogie_R": 0.0,
+   "residual_m": 0.0
+  },
+  {
+   "t": 0.25,
+   "lift": 0.00136,
+   "body_y": 0.0002182721590844921,
+   "pitch": -0.0008394439708556791,
+   "roll": 0.0011299489462362883,
+   "rocker_R": -0.0008394445067501943,
+   "bogie_L": -4.686712105413238e-18,
+   "bogie_R": -0.0042470927076289884,
+   "residual_m": 5.648259637780484e-15
+  },
+  {
+   "t": 0.5,
+   "lift": 0.00536,
+   "body_y": 0.0008527159545310572,
+   "pitch": -0.003278719257926364,
+   "roll": 0.004408001042201232,
+   "rocker_R": -0.0032787511114835705,
+   "bogie_L": -9.48289774128275e-19,
+   "bogie_R": -0.016744762697808106,
+   "residual_m": 9.441059045656175e-14
+  },
+  {
+   "t": 0.75,
+   "lift": 0.01172,
+   "body_y": 0.001844962087039432,
+   "pitch": -0.007091703811183587,
+   "roll": 0.00951612444982853,
+   "rocker_R": -0.007092024912859735,
+   "bogie_L": -4.0262860341171953e-17,
+   "bogie_R": -0.03677826428890249,
+   "residual_m": 4.053840596540681e-13
+  },
+  {
+   "t": 1.0,
+   "lift": 0.02,
+   "body_y": 0.0031063444962189457,
+   "pitch": -0.011935917592294419,
+   "roll": 0.015977664005824815,
+   "rocker_R": -0.011937441144239887,
+   "bogie_L": 3.1403964301291454e-17,
+   "bogie_R": -0.06320274124470088,
+   "residual_m": 9.607037387837636e-13
+  },
+  {
+   "t": 1.25,
+   "lift": 0.02965,
+   "body_y": 0.004529098559109205,
+   "pitch": -0.017396565371662814,
+   "roll": 0.023223862162672665,
+   "rocker_R": -0.017401256878021402,
+   "bogie_L": 2.959540283892601e-16,
+   "bogie_R": -0.09449322726613484,
+   "residual_m": 1.5717982471130654e-12
+  },
+  {
+   "t": 1.5,
+   "lift": 0.04,
+   "body_y": 0.005999119929519532,
+   "pitch": -0.023035880817873403,
+   "roll": 0.030665445269418733,
+   "rocker_R": -0.02304671234732045,
+   "bogie_L": 1.7039916365596474e-16,
+   "bogie_R": -0.12879148438603524,
+   "residual_m": 1.9333701306578632e-12
+  },
+  {
+   "t": 1.75,
+   "lift": 0.05035,
+   "body_y": 0.0074082566207542295,
+   "pitch": -0.02843992051560407,
+   "roll": 0.03775687322136262,
+   "rocker_R": -0.02846019332753253,
+   "bogie_L": -1.5073044374067656e-16,
+   "bogie_R": -0.16395216969880583,
+   "residual_m": 1.830327556184841e-12
+  },
+  {
+   "t": 2.0,
+   "lift": 0.06,
+   "body_y": 0.008664262819756734,
+   "pitch": -0.0332560198026962,
+   "roll": 0.04404408096616991,
+   "rocker_R": -0.03328827842494596,
+   "bogie_L": 7.017280031902206e-17,
+   "bogie_R": -0.1976083256960528,
+   "residual_m": 1.641242697303369e-12
+  },
+  {
+   "t": 2.25,
+   "lift": 0.06828,
+   "body_y": 0.009696888695555725,
+   "pitch": -0.03721555316291202,
+   "roll": 0.049190005300673315,
+   "rocker_R": -0.03726058135179548,
+   "bogie_L": 1.4349826564952951e-16,
+   "bogie_R": -0.22728705962441192,
+   "residual_m": 1.21960774812635e-12
+  },
+  {
+   "t": 2.5,
+   "lift": 0.07464,
+   "body_y": 0.010459237043327126,
+   "pitch": -0.040138932274985335,
+   "roll": 0.05297595079765403,
+   "rocker_R": -0.04019526151764334,
+   "bogie_L": 1.5379224695929627e-17,
+   "bogie_R": -0.25060147192073007,
+   "residual_m": 4.476141679532475e-13
+  },
+  {
+   "t": 2.75,
+   "lift": 0.07864,
+   "body_y": 0.01092465023814321,
+   "pitch": -0.041923808116959775,
+   "roll": 0.055281885887979144,
+   "rocker_R": -0.0419878758881566,
+   "bogie_L": -4.7531582833632466e-17,
+   "bogie_R": -0.2655181269935489,
+   "residual_m": 4.6004866582904924e-14
+  },
+  {
+   "t": 3.0,
+   "lift": 0.08,
+   "body_y": 0.011080896232637208,
+   "pitch": -0.04252305040669365,
+   "roll": 0.05605511577482508,
+   "rocker_R": -0.042589864638852504,
+   "bogie_L": -1.0266858994047503e-16,
+   "bogie_R": -0.27065430926928497,
+   "residual_m": 5.551115123125783e-17
+  },
+  {
+   "t": 3.25,
+   "lift": 0.07864,
+   "body_y": 0.010924650238139974,
+   "pitch": -0.04192380811694646,
+   "roll": 0.0552818858879322,
+   "rocker_R": -0.04198787588814859,
+   "bogie_L": -2.9365366026876775e-17,
+   "bogie_R": -0.26551812699364924,
+   "residual_m": 2.4577562207639403e-14
+  },
+  {
+   "t": 3.5,
+   "lift": 0.07464,
+   "body_y": 0.010459237043315465,
+   "pitch": -0.04013893227493255,
+   "roll": 0.05297595079740978,
+   "rocker_R": -0.04019526151762123,
+   "bogie_L": 4.232388942724158e-17,
+   "bogie_R": -0.25060147192118054,
+   "residual_m": 3.4801328485656313e-13
+  },
+  {
+   "t": 3.75,
+   "lift": 0.06828,
+   "body_y": 0.009696888695557643,
+   "pitch": -0.03721555316289237,
+   "roll": 0.049190005300293604,
+   "rocker_R": -0.037260581351835485,
+   "bogie_L": -7.125229747889374e-17,
+   "bogie_R": -0.2272870596248834,
+   "residual_m": 1.1090434126614923e-12
+  },
+  {
+   "t": 4.0,
+   "lift": 0.06,
+   "body_y": 0.008664262819801108,
+   "pitch": -0.03325601980281878,
+   "roll": 0.04404408096595001,
+   "rocker_R": -0.03328827842512992,
+   "bogie_L": -1.8282656921056765e-16,
+   "bogie_R": -0.1976083256959239,
+   "residual_m": 1.6691648063726916e-12
+  },
+  {
+   "t": 4.25,
+   "lift": 0.05035,
+   "body_y": 0.007408256620827463,
+   "pitch": -0.028439920515839507,
+   "roll": 0.037756873221483175,
+   "rocker_R": -0.028460193327798405,
+   "bogie_L": 1.8683004488884231e-16,
+   "bogie_R": -0.16395216969810347,
+   "residual_m": 1.7723322809359843e-12
+  },
+  {
+   "t": 4.5,
+   "lift": 0.04,
+   "body_y": 0.0059991199295710675,
+   "pitch": -0.023035880818063077,
+   "roll": 0.030665445269779337,
+   "rocker_R": -0.02304671234750309,
+   "bogie_L": -9.489632992884149e-17,
+   "bogie_R": -0.12879148438536794,
+   "residual_m": 1.9557272468162523e-12
+  },
+  {
+   "t": 4.75,
+   "lift": 0.02965,
+   "body_y": 0.004529098559106992,
+   "pitch": -0.01739656537169886,
+   "roll": 0.02322386216306395,
+   "rocker_R": -0.017401256878031485,
+   "bogie_L": -9.77451185390262e-17,
+   "bogie_R": -0.09449322726590718,
+   "residual_m": 1.6598111773902247e-12
+  },
+  {
+   "t": 5.0,
+   "lift": 0.02,
+   "body_y": 0.0031063444961781064,
+   "pitch": -0.01193591759221401,
+   "roll": 0.015977664006116717,
+   "rocker_R": -0.011937441144137187,
+   "bogie_L": -7.671906234502982e-17,
+   "bogie_R": -0.06320274124481612,
+   "residual_m": 1.0669937156038145e-12
+  },
+  {
+   "t": 5.25,
+   "lift": 0.01172,
+   "body_y": 0.0018449620869984446,
+   "pitch": -0.007091703811092632,
+   "roll": 0.009516124449995432,
+   "rocker_R": -0.007092024912758747,
+   "bogie_L": -1.370772454128503e-16,
+   "bogie_R": -0.03677826428907652,
+   "residual_m": 4.83404982709601e-13
+  },
+  {
+   "t": 5.5,
+   "lift": 0.00536,
+   "body_y": 0.0008527159545117915,
+   "pitch": -0.0032787192578835494,
+   "roll": 0.004408001042266571,
+   "rocker_R": -0.0032787511114387284,
+   "bogie_L": 1.3225507738632041e-18,
+   "bogie_R": -0.016744762697892546,
+   "residual_m": 1.2774503677093207e-13
+  },
+  {
+   "t": 5.75,
+   "lift": 0.00136,
+   "body_y": 0.0002182721590814258,
+   "pitch": -0.0008394439708489881,
+   "roll": 0.0011299489462462773,
+   "rocker_R": -0.0008394445067433942,
+   "bogie_L": -2.1045195040748506e-17,
+   "bogie_R": -0.00424709270764252,
+   "residual_m": 1.0824674490095276e-14
+  },
+  {
+   "t": 6.0,
+   "lift": 0.0,
+   "body_y": 9.063013170231256e-19,
+   "pitch": 2.2333160820906736e-17,
+   "roll": -1.1046851910448182e-17,
+   "rocker_R": -2.2132779626238215e-17,
+   "bogie_L": -3.437217034675982e-17,
+   "bogie_R": 7.918510585745917e-17,
+   "residual_m": 0.0
+  }
+ ]
+}

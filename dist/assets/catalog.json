@@ -1,0 +1,1592 @@
+[
+  {
+    "id": "eagle",
+    "name": "Apollo 11 · Eagle",
+    "year": 1969,
+    "world": "Luna",
+    "type": "Módulo lunar",
+    "region": "Mare Tranquillitatis",
+    "status": "Etapa de descenso en la superficie",
+    "arrival": "20 jul 1969",
+    "end": "21 jul 1969 · despegue de ascenso",
+    "summary": "El primer alunizaje tripulado dejó una etapa de descenso y una nueva forma de mirar nuestro mundo.",
+    "family": "apollo",
+    "model": "assets/apollo.glb",
+    "coordinates": "0.67° N · 23.47° E (sitio aprox.)",
+    "components": [
+      {
+        "id": "descent",
+        "name": "Etapa de descenso",
+        "description": "La etapa de descenso llevó el motor de alunizaje y el tren de aterrizaje. Permanece en la Luna; la etapa de ascenso despegó con los astronautas.",
+        "position": [
+          0,
+          -0.22,
+          0
+        ],
+        "children": [
+          {
+            "id": "footpad",
+            "name": "Pata y plato de apoyo",
+            "description": "Los platos distribuyeron la carga sobre el regolito durante el alunizaje.",
+            "position": [
+              0.55,
+              -0.65,
+              0.5
+            ],
+            "children": [],
+            "specs": {
+              "Función": "Distribuir la carga",
+              "Configuración": "Cuatro apoyos"
+            }
+          },
+          {
+            "id": "engine",
+            "name": "Motor de descenso",
+            "description": "El motor regulable permitió controlar el descenso hasta la superficie.",
+            "position": [
+              0,
+              -0.5,
+              0
+            ],
+            "children": [],
+            "specs": {
+              "Tipo": "Propulsión química regulable"
+            }
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "ascent",
+        "name": "Etapa de ascenso",
+        "description": "Esta sección contenía la cabina. Se muestra en el modelo histórico completo, pero no quedó en el sitio de alunizaje.",
+        "position": [
+          0,
+          0.4,
+          0
+        ],
+        "children": [
+          {
+            "id": "cabin",
+            "name": "Cabina",
+            "description": "Armstrong y Aldrin despegaron desde la Luna en esta etapa para reunirse con Columbia.",
+            "position": [
+              0,
+              0.5,
+              0.25
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "antenna",
+        "name": "Comunicaciones",
+        "description": "Las antenas permitían transmitir telemetría y voz durante la misión.",
+        "position": [
+          0.25,
+          0.75,
+          0
+        ],
+        "children": [
+          {
+            "id": "radio",
+            "name": "Enlace de radio",
+            "description": "El módulo lunar se comunicaba con la Tierra y con el módulo de mando.",
+            "position": [
+              0.25,
+              0.8,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/eagle.jpg",
+    "source": "https://www.nasa.gov/mission/apollo-11/",
+    "imageSource": "https://images-assets.nasa.gov/image/as11-40-5927/as11-40-5927~large.jpg",
+    "index": 1,
+    "schematic": false,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "viking1",
+    "name": "Viking 1",
+    "year": 1976,
+    "world": "Marte",
+    "type": "Lander",
+    "region": "Chryse Planitia",
+    "status": "Inactivo desde 1982",
+    "arrival": "20 jul 1976",
+    "end": "11 nov 1982",
+    "summary": "Una estación científica que abrió una ventana duradera a la superficie de Marte.",
+    "family": "viking",
+    "model": "assets/viking.glb",
+    "coordinates": "22.483° N · 47.94° O (NASA)",
+    "components": [
+      {
+        "id": "camera",
+        "name": "Cámaras",
+        "description": "Las cámaras del lander observaron el suelo marciano y el entorno del sitio de aterrizaje.",
+        "position": [
+          0.25,
+          0.35,
+          0
+        ],
+        "children": [
+          {
+            "id": "scan",
+            "name": "Sistema de imagen",
+            "description": "Los panoramas fueron transmitidos a la Tierra para analizar el paisaje.",
+            "position": [
+              0.3,
+              0.4,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "sampler",
+        "name": "Brazo de muestreo",
+        "description": "El brazo depositaba suelo en los experimentos científicos a bordo.",
+        "position": [
+          0,
+          0.05,
+          0.55
+        ],
+        "children": [
+          {
+            "id": "scoop",
+            "name": "Recolector",
+            "description": "La pala recogía y trasladaba muestras.",
+            "position": [
+              0,
+              0,
+              0.7
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "rtg",
+        "name": "Generadores RTG",
+        "description": "Viking utilizaba generadores termoeléctricos de radioisótopos, no paneles solares.",
+        "position": [
+          0.5,
+          0.1,
+          0
+        ],
+        "children": [
+          {
+            "id": "converter",
+            "name": "Conversión termoeléctrica",
+            "description": "La energía térmica del radioisótopo se convertía en energía eléctrica.",
+            "position": [
+              0.55,
+              0.1,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/viking1.jpg",
+    "source": "https://science.nasa.gov/mission/viking-1/",
+    "imageSource": "https://images-assets.nasa.gov/image/101-KSC-75P-160/101-KSC-75P-160~large.jpg",
+    "index": 2,
+    "schematic": false,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "viking2",
+    "name": "Viking 2",
+    "year": 1976,
+    "world": "Marte",
+    "type": "Lander",
+    "region": "Utopia Planitia",
+    "status": "Inactivo desde 1980",
+    "arrival": "3 sep 1976",
+    "end": "11 abr 1980",
+    "summary": "El segundo lander Viking investigó otra región marciana y sus condiciones ambientales.",
+    "family": "viking",
+    "model": "assets/viking.glb",
+    "coordinates": "Utopia Planitia · sitio de aterrizaje",
+    "components": [
+      {
+        "id": "camera",
+        "name": "Cámaras",
+        "description": "Las cámaras del lander observaron el suelo marciano y el entorno del sitio de aterrizaje.",
+        "position": [
+          0.25,
+          0.35,
+          0
+        ],
+        "children": [
+          {
+            "id": "scan",
+            "name": "Sistema de imagen",
+            "description": "Los panoramas fueron transmitidos a la Tierra para analizar el paisaje.",
+            "position": [
+              0.3,
+              0.4,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "sampler",
+        "name": "Brazo de muestreo",
+        "description": "El brazo depositaba suelo en los experimentos científicos a bordo.",
+        "position": [
+          0,
+          0.05,
+          0.55
+        ],
+        "children": [
+          {
+            "id": "scoop",
+            "name": "Recolector",
+            "description": "La pala recogía y trasladaba muestras.",
+            "position": [
+              0,
+              0,
+              0.7
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "rtg",
+        "name": "Generadores RTG",
+        "description": "Viking utilizaba generadores termoeléctricos de radioisótopos, no paneles solares.",
+        "position": [
+          0.5,
+          0.1,
+          0
+        ],
+        "children": [
+          {
+            "id": "converter",
+            "name": "Conversión termoeléctrica",
+            "description": "La energía térmica del radioisótopo se convertía en energía eléctrica.",
+            "position": [
+              0.55,
+              0.1,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/viking2.jpg",
+    "source": "https://science.nasa.gov/mission/viking-2/",
+    "imageSource": "https://images-assets.nasa.gov/image/101-KSC-75P-110/101-KSC-75P-110~large.jpg",
+    "index": 3,
+    "schematic": false,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "sojourner",
+    "name": "Sojourner / Pathfinder",
+    "year": 1997,
+    "world": "Marte",
+    "type": "Rover + lander",
+    "region": "Ares Vallis",
+    "status": "Sin comunicación desde 1997",
+    "arrival": "4 jul 1997",
+    "end": "27 sep 1997 · último contacto Pathfinder",
+    "summary": "Un pequeño rover demostró que explorar Marte sobre ruedas era posible.",
+    "family": "sojourner",
+    "model": "assets/sojourner-schematic.glb",
+    "coordinates": "Ares Vallis · sitio de aterrizaje",
+    "components": [
+      {
+        "id": "apxs",
+        "name": "APXS",
+        "description": "Sojourner utilizó su espectrómetro APXS para estudiar la composición de rocas y suelo.",
+        "position": [
+          0,
+          0.05,
+          -0.5
+        ],
+        "children": [
+          {
+            "id": "sensor",
+            "name": "Cabezal del instrumento",
+            "description": "El cabezal se acercaba al material que se quería analizar.",
+            "position": [
+              0,
+              0.05,
+              -0.6
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "solar",
+        "name": "Panel solar",
+        "description": "El panel de la parte superior generaba electricidad.",
+        "position": [
+          0,
+          0.25,
+          0
+        ],
+        "children": [
+          {
+            "id": "cells",
+            "name": "Células solares",
+            "description": "Las células convertían la luz solar en electricidad.",
+            "position": [
+              0.25,
+              0.25,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "wheels",
+        "name": "Ruedas",
+        "description": "Seis ruedas proporcionaban movilidad a este pequeño rover.",
+        "position": [
+          0.5,
+          -0.25,
+          0.4
+        ],
+        "children": [
+          {
+            "id": "wheel",
+            "name": "Rueda",
+            "description": "El sistema de movilidad permitió estudiar diferentes rocas.",
+            "position": [
+              0.5,
+              -0.25,
+              0.5
+            ],
+            "children": [],
+            "specs": {
+              "Ruedas": "6"
+            }
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/sojourner.jpg",
+    "source": "https://science.nasa.gov/mission/mars-pathfinder/",
+    "imageSource": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/pathfinder20160226-16.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "index": 4,
+    "schematic": true,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "spirit",
+    "name": "Spirit · MER-A",
+    "year": 2004,
+    "world": "Marte",
+    "type": "Rover",
+    "region": "Cráter Gusev",
+    "status": "Inactivo · misión cerrada en 2011",
+    "arrival": "4 ene 2004",
+    "end": "22 mar 2010 · última comunicación",
+    "summary": "Años de exploración geológica antes de quedar atrapado en suelo blando.",
+    "family": "mer",
+    "model": "assets/opportunity.glb",
+    "coordinates": "Cráter Gusev · ubicación final Troy",
+    "components": [
+      {
+        "id": "pancam",
+        "name": "Mástil y Pancam",
+        "description": "Spirit y Opportunity emplearon Pancam para obtener imágenes panorámicas estereoscópicas. Estos rovers no llevaban Mastcam.",
+        "position": [
+          0,
+          0.8,
+          0
+        ],
+        "children": [
+          {
+            "id": "optics",
+            "name": "Óptica estereoscópica",
+            "description": "Dos cámaras permitían reconstruir la geometría del entorno.",
+            "position": [
+              0,
+              0.9,
+              0.1
+            ],
+            "children": [],
+            "specs": {
+              "Sistema": "Dos cámaras"
+            }
+          },
+          {
+            "id": "filters",
+            "name": "Filtros",
+            "description": "Las observaciones en varias bandas ayudaban a investigar las rocas y el suelo.",
+            "position": [
+              0.1,
+              0.85,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "solar",
+        "name": "Paneles solares",
+        "description": "Los paneles convertían la luz solar en electricidad. El polvo y la iluminación afectaban su producción.",
+        "position": [
+          0.55,
+          0.05,
+          0
+        ],
+        "children": [
+          {
+            "id": "cells",
+            "name": "Células fotovoltaicas",
+            "description": "La generación depende de la luz disponible y de la cobertura de polvo.",
+            "position": [
+              0.6,
+              0.05,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "arm",
+        "name": "Brazo de instrumentos",
+        "description": "El brazo acercaba instrumentos de análisis a las rocas y al suelo.",
+        "position": [
+          0,
+          -0.15,
+          0.55
+        ],
+        "children": [
+          {
+            "id": "rat",
+            "name": "Herramienta RAT",
+            "description": "La herramienta de abrasión retiraba material de la superficie de las rocas.",
+            "position": [
+              0,
+              -0.2,
+              0.65
+            ],
+            "children": [],
+            "specs": {}
+          },
+          {
+            "id": "apxs",
+            "name": "APXS",
+            "description": "El espectrómetro de partículas alfa y rayos X estudiaba la composición elemental.",
+            "position": [
+              0.1,
+              -0.2,
+              0.6
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "wheels",
+        "name": "Movilidad",
+        "description": "Seis ruedas y suspensión rocker-bogie permitían recorrer terrenos irregulares.",
+        "position": [
+          0.55,
+          -0.5,
+          0.4
+        ],
+        "children": [
+          {
+            "id": "wheel",
+            "name": "Rueda",
+            "description": "Los actuadores controlaban el movimiento del rover.",
+            "position": [
+              0.55,
+              -0.5,
+              0.5
+            ],
+            "children": [],
+            "specs": {
+              "Ruedas": "6"
+            }
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/spirit.jpg",
+    "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+    "imageSource": "https://science.nasa.gov/wp-content/uploads/2008/02/365-mer-1280-spirit.jpg",
+    "index": 5,
+    "schematic": false,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "opportunity",
+    "name": "Opportunity · MER-B",
+    "year": 2004,
+    "world": "Marte",
+    "type": "Rover",
+    "region": "Meridiani Planum",
+    "status": "Inactivo · misión cerrada en 2019",
+    "arrival": "25 ene 2004",
+    "end": "10 jun 2018 · última comunicación",
+    "summary": "Un viaje de más de catorce años que terminó tras una tormenta global de polvo.",
+    "family": "mer",
+    "model": "assets/opportunity.glb",
+    "coordinates": "Cráter Endeavour · Perseverance Valley",
+    "components": [
+      {
+        "id": "pancam",
+        "name": "Mástil y Pancam",
+        "description": "Spirit y Opportunity emplearon Pancam para obtener imágenes panorámicas estereoscópicas. Estos rovers no llevaban Mastcam.",
+        "position": [
+          0,
+          0.8,
+          0
+        ],
+        "children": [
+          {
+            "id": "optics",
+            "name": "Óptica estereoscópica",
+            "description": "Dos cámaras permitían reconstruir la geometría del entorno.",
+            "position": [
+              0,
+              0.9,
+              0.1
+            ],
+            "children": [],
+            "specs": {
+              "Sistema": "Dos cámaras"
+            }
+          },
+          {
+            "id": "filters",
+            "name": "Filtros",
+            "description": "Las observaciones en varias bandas ayudaban a investigar las rocas y el suelo.",
+            "position": [
+              0.1,
+              0.85,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "solar",
+        "name": "Paneles solares",
+        "description": "Los paneles convertían la luz solar en electricidad. El polvo y la iluminación afectaban su producción.",
+        "position": [
+          0.55,
+          0.05,
+          0
+        ],
+        "children": [
+          {
+            "id": "cells",
+            "name": "Células fotovoltaicas",
+            "description": "La generación depende de la luz disponible y de la cobertura de polvo.",
+            "position": [
+              0.6,
+              0.05,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "arm",
+        "name": "Brazo de instrumentos",
+        "description": "El brazo acercaba instrumentos de análisis a las rocas y al suelo.",
+        "position": [
+          0,
+          -0.15,
+          0.55
+        ],
+        "children": [
+          {
+            "id": "rat",
+            "name": "Herramienta RAT",
+            "description": "La herramienta de abrasión retiraba material de la superficie de las rocas.",
+            "position": [
+              0,
+              -0.2,
+              0.65
+            ],
+            "children": [],
+            "specs": {}
+          },
+          {
+            "id": "apxs",
+            "name": "APXS",
+            "description": "El espectrómetro de partículas alfa y rayos X estudiaba la composición elemental.",
+            "position": [
+              0.1,
+              -0.2,
+              0.6
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "wheels",
+        "name": "Movilidad",
+        "description": "Seis ruedas y suspensión rocker-bogie permitían recorrer terrenos irregulares.",
+        "position": [
+          0.55,
+          -0.5,
+          0.4
+        ],
+        "children": [
+          {
+            "id": "wheel",
+            "name": "Rueda",
+            "description": "Los actuadores controlaban el movimiento del rover.",
+            "position": [
+              0.55,
+              -0.5,
+              0.5
+            ],
+            "children": [],
+            "specs": {
+              "Ruedas": "6"
+            }
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/opportunity.jpg",
+    "source": "https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/",
+    "imageSource": "https://science.nasa.gov/wp-content/uploads/2008/02/365-mer-1280-spirit.jpg",
+    "index": 6,
+    "schematic": false,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "phoenix",
+    "name": "Phoenix",
+    "year": 2008,
+    "world": "Marte",
+    "type": "Lander",
+    "region": "Vastitas Borealis",
+    "status": "Inactivo desde 2008",
+    "arrival": "25 may 2008",
+    "end": "2 nov 2008 · último contacto",
+    "summary": "Una investigación del suelo y el hielo en las llanuras del ártico marciano.",
+    "family": "phoenix",
+    "model": "assets/phoenix-schematic.glb",
+    "coordinates": "68.22° N · 234.25° E (sitio aprox.)",
+    "components": [
+      {
+        "id": "arm",
+        "name": "Brazo robótico",
+        "description": "El brazo excavó el terreno del ártico marciano y recogió muestras para los instrumentos.",
+        "position": [
+          0,
+          0.3,
+          0.5
+        ],
+        "children": [
+          {
+            "id": "scoop",
+            "name": "Pala",
+            "description": "Recogía muestras del suelo y del material bajo la superficie.",
+            "position": [
+              0,
+              0.3,
+              0.7
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "tega",
+        "name": "Analizador TEGA",
+        "description": "TEGA calentaba muestras para estudiar los gases liberados.",
+        "position": [
+          0.25,
+          0,
+          0.2
+        ],
+        "children": [
+          {
+            "id": "oven",
+            "name": "Horno de análisis",
+            "description": "El calentamiento permitía liberar compuestos volátiles.",
+            "position": [
+              0.25,
+              0.1,
+              0.2
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "solar",
+        "name": "Paneles solares",
+        "description": "Dos paneles circulares alimentaban el lander durante el verano marciano.",
+        "position": [
+          0.65,
+          0,
+          0
+        ],
+        "children": [
+          {
+            "id": "cells",
+            "name": "Células solares",
+            "description": "La luz solar era la fuente de energía del lander.",
+            "position": [
+              0.7,
+              0,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/phoenix.jpg",
+    "source": "https://science.nasa.gov/mission/phoenix/",
+    "imageSource": "https://assets.science.nasa.gov/content/dam/science/psd/mars/resources/detail_files/2347_Phoenix-Lander-on-Mars-hi-res-300-dpi-full2.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "index": 7,
+    "schematic": true,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "insight",
+    "name": "InSight",
+    "year": 2018,
+    "world": "Marte",
+    "type": "Lander",
+    "region": "Elysium Planitia",
+    "status": "Inactivo · misión cerrada en 2022",
+    "arrival": "26 nov 2018",
+    "end": "15 dic 2022 · última comunicación",
+    "summary": "El observatorio que escuchó los sismos para estudiar el interior de Marte.",
+    "family": "insight",
+    "model": "assets/insight.glb",
+    "coordinates": "4.5° N · 135.9° E (región aprox.)",
+    "components": [
+      {
+        "id": "seis",
+        "name": "Sismómetro SEIS",
+        "description": "SEIS estudió las vibraciones del suelo para investigar el interior de Marte. Fue desplegado sobre la superficie con el brazo.",
+        "position": [
+          0,
+          -0.3,
+          0.65
+        ],
+        "children": [
+          {
+            "id": "shield",
+            "name": "Protección del instrumento",
+            "description": "Una cubierta reducía la influencia del viento y las variaciones de temperatura.",
+            "position": [
+              0,
+              -0.25,
+              0.68
+            ],
+            "children": [],
+            "specs": {}
+          },
+          {
+            "id": "sensor",
+            "name": "Sensores sísmicos",
+            "description": "Los sensores registraban el movimiento del suelo.",
+            "position": [
+              0,
+              -0.3,
+              0.65
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "solar",
+        "name": "Paneles solares",
+        "description": "Dos paneles circulares suministraban electricidad. La acumulación de polvo redujo la energía disponible.",
+        "position": [
+          0.65,
+          0,
+          0
+        ],
+        "children": [
+          {
+            "id": "cells",
+            "name": "Células solares",
+            "description": "Las células convierten la radiación solar en electricidad.",
+            "position": [
+              0.7,
+              0,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "arm",
+        "name": "Brazo robótico",
+        "description": "El brazo colocó los instrumentos en el suelo. Su posición en el modelo es una configuración de despliegue.",
+        "position": [
+          0,
+          0.3,
+          0.5
+        ],
+        "children": [
+          {
+            "id": "grapple",
+            "name": "Mecanismo de agarre",
+            "description": "Permitió levantar y posicionar instrumentos.",
+            "position": [
+              0,
+              0.35,
+              0.6
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/insight.jpg",
+    "source": "https://science.nasa.gov/mission/insight/",
+    "imageSource": "https://science.nasa.gov/wp-content/uploads/2008/02/insight.jpg",
+    "index": 8,
+    "schematic": false,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "surveyor",
+    "name": "Surveyor 3",
+    "year": 1967,
+    "world": "Luna",
+    "type": "Lander",
+    "region": "Oceanus Procellarum",
+    "status": "Inactivo · parcialmente recuperado",
+    "arrival": "20 abr 1967",
+    "end": "4 may 1967",
+    "summary": "Una sonda robótica visitada después por los astronautas de Apollo 12.",
+    "family": "surveyor",
+    "model": "assets/surveyor-schematic.glb",
+    "coordinates": "3° S · 23.41° O (NASA)",
+    "components": [
+      {
+        "id": "camera",
+        "name": "Cámara de televisión",
+        "description": "Surveyor 3 transmitió imágenes del terreno. Su cámara fue recuperada por los astronautas de Apollo 12.",
+        "position": [
+          0,
+          0.45,
+          0
+        ],
+        "children": [
+          {
+            "id": "optics",
+            "name": "Sistema óptico",
+            "description": "El sistema tenía lentes de 25 y 100 mm.",
+            "position": [
+              0,
+              0.5,
+              0.1
+            ],
+            "children": [],
+            "specs": {
+              "Distancias focales": "25 mm / 100 mm"
+            }
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "sampler",
+        "name": "Muestreador del suelo",
+        "description": "El instrumento excavó y ensayó las propiedades mecánicas del regolito.",
+        "position": [
+          0,
+          0.05,
+          0.65
+        ],
+        "children": [
+          {
+            "id": "scoop",
+            "name": "Pala de muestreo",
+            "description": "La pala fue recuperada por Apollo 12 para su estudio en la Tierra.",
+            "position": [
+              0,
+              0,
+              0.7
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "legs",
+        "name": "Tren de aterrizaje",
+        "description": "Tres patas estabilizaron la sonda sobre la superficie lunar.",
+        "position": [
+          0.5,
+          -0.4,
+          0.4
+        ],
+        "children": [
+          {
+            "id": "pad",
+            "name": "Apoyo",
+            "description": "Los apoyos distribuyeron la carga sobre el terreno.",
+            "position": [
+              0.5,
+              -0.5,
+              0.5
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/surveyor.jpg",
+    "source": "https://science.nasa.gov/mission/surveyor-3/",
+    "imageSource": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/as12-48-7134_1280.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "index": 9,
+    "schematic": true,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "lrv15",
+    "name": "Apollo 15 · LRV-1",
+    "year": 1971,
+    "world": "Luna",
+    "type": "Rover lunar",
+    "region": "Hadley–Apennine",
+    "status": "Vehículo en la superficie",
+    "arrival": "30 jul 1971",
+    "end": "2 ago 1971 · despegue lunar",
+    "summary": "El primer vehículo que amplió el alcance de los astronautas en la Luna.",
+    "family": "lrv",
+    "model": "assets/lrv-schematic.glb",
+    "coordinates": "Hadley–Apennine · sitio Apollo 15",
+    "components": [
+      {
+        "id": "wheels",
+        "name": "Ruedas",
+        "description": "Las ruedas de malla metálica permitían trasladar a los astronautas sobre el regolito.",
+        "position": [
+          0.5,
+          -0.35,
+          0.5
+        ],
+        "children": [
+          {
+            "id": "mesh",
+            "name": "Malla de la rueda",
+            "description": "La malla y las bandas de tracción se adaptaban al terreno lunar.",
+            "position": [
+              0.5,
+              -0.35,
+              0.5
+            ],
+            "children": [],
+            "specs": {
+              "Configuración": "Cuatro ruedas"
+            }
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "seats",
+        "name": "Asientos y controles",
+        "description": "Los astronautas conducían el vehículo desde dos asientos abiertos.",
+        "position": [
+          0,
+          0.25,
+          0
+        ],
+        "children": [
+          {
+            "id": "control",
+            "name": "Control de conducción",
+            "description": "Un mando permitía dirigir y controlar el desplazamiento.",
+            "position": [
+              0,
+              0.35,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "antenna",
+        "name": "Antena direccional",
+        "description": "La antena permitía transmitir imágenes y datos de las exploraciones lunares.",
+        "position": [
+          0.3,
+          0.75,
+          0.5
+        ],
+        "children": [
+          {
+            "id": "dish",
+            "name": "Reflector",
+            "description": "El reflector dirigía el enlace de radio.",
+            "position": [
+              0.3,
+              0.8,
+              0.5
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/lrv15.jpg",
+    "source": "https://www.nasa.gov/mission/apollo-15/",
+    "imageSource": "https://images-assets.nasa.gov/image/as15-88-11901/as15-88-11901~large.jpg",
+    "index": 10,
+    "schematic": true,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "lrv16",
+    "name": "Apollo 16 · LRV-2",
+    "year": 1972,
+    "world": "Luna",
+    "type": "Rover lunar",
+    "region": "Descartes Highlands",
+    "status": "Vehículo en la superficie",
+    "arrival": "21 abr 1972",
+    "end": "24 abr 1972 · despegue lunar",
+    "summary": "Exploración sobre ruedas de las tierras altas lunares.",
+    "family": "lrv",
+    "model": "assets/lrv-schematic.glb",
+    "coordinates": "Descartes · sitio Apollo 16",
+    "components": [
+      {
+        "id": "wheels",
+        "name": "Ruedas",
+        "description": "Las ruedas de malla metálica permitían trasladar a los astronautas sobre el regolito.",
+        "position": [
+          0.5,
+          -0.35,
+          0.5
+        ],
+        "children": [
+          {
+            "id": "mesh",
+            "name": "Malla de la rueda",
+            "description": "La malla y las bandas de tracción se adaptaban al terreno lunar.",
+            "position": [
+              0.5,
+              -0.35,
+              0.5
+            ],
+            "children": [],
+            "specs": {
+              "Configuración": "Cuatro ruedas"
+            }
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "seats",
+        "name": "Asientos y controles",
+        "description": "Los astronautas conducían el vehículo desde dos asientos abiertos.",
+        "position": [
+          0,
+          0.25,
+          0
+        ],
+        "children": [
+          {
+            "id": "control",
+            "name": "Control de conducción",
+            "description": "Un mando permitía dirigir y controlar el desplazamiento.",
+            "position": [
+              0,
+              0.35,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "antenna",
+        "name": "Antena direccional",
+        "description": "La antena permitía transmitir imágenes y datos de las exploraciones lunares.",
+        "position": [
+          0.3,
+          0.75,
+          0.5
+        ],
+        "children": [
+          {
+            "id": "dish",
+            "name": "Reflector",
+            "description": "El reflector dirigía el enlace de radio.",
+            "position": [
+              0.3,
+              0.8,
+              0.5
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/lrv16.jpg",
+    "source": "https://www.nasa.gov/mission/apollo-16/",
+    "imageSource": "https://images-assets.nasa.gov/image/as16-115-18559/as16-115-18559~large.jpg",
+    "index": 11,
+    "schematic": true,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "lrv17",
+    "name": "Apollo 17 · LRV-3",
+    "year": 1972,
+    "world": "Luna",
+    "type": "Rover lunar",
+    "region": "Taurus–Littrow",
+    "status": "Vehículo en la superficie",
+    "arrival": "11 dic 1972",
+    "end": "14 dic 1972 · despegue lunar",
+    "summary": "El rover de la última misión tripulada del programa Apollo.",
+    "family": "lrv",
+    "model": "assets/lrv-schematic.glb",
+    "coordinates": "Taurus–Littrow · sitio Apollo 17",
+    "components": [
+      {
+        "id": "wheels",
+        "name": "Ruedas",
+        "description": "Las ruedas de malla metálica permitían trasladar a los astronautas sobre el regolito.",
+        "position": [
+          0.5,
+          -0.35,
+          0.5
+        ],
+        "children": [
+          {
+            "id": "mesh",
+            "name": "Malla de la rueda",
+            "description": "La malla y las bandas de tracción se adaptaban al terreno lunar.",
+            "position": [
+              0.5,
+              -0.35,
+              0.5
+            ],
+            "children": [],
+            "specs": {
+              "Configuración": "Cuatro ruedas"
+            }
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "seats",
+        "name": "Asientos y controles",
+        "description": "Los astronautas conducían el vehículo desde dos asientos abiertos.",
+        "position": [
+          0,
+          0.25,
+          0
+        ],
+        "children": [
+          {
+            "id": "control",
+            "name": "Control de conducción",
+            "description": "Un mando permitía dirigir y controlar el desplazamiento.",
+            "position": [
+              0,
+              0.35,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "antenna",
+        "name": "Antena direccional",
+        "description": "La antena permitía transmitir imágenes y datos de las exploraciones lunares.",
+        "position": [
+          0.3,
+          0.75,
+          0.5
+        ],
+        "children": [
+          {
+            "id": "dish",
+            "name": "Reflector",
+            "description": "El reflector dirigía el enlace de radio.",
+            "position": [
+              0.3,
+              0.8,
+              0.5
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/lrv17.jpg",
+    "source": "https://www.nasa.gov/mission/apollo-17/",
+    "imageSource": "https://images-assets.nasa.gov/image/as17-137-20979/as17-137-20979~large.jpg",
+    "index": 12,
+    "schematic": true,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "orbiter",
+    "name": "Lunar Orbiter 1",
+    "year": 1966,
+    "world": "Luna",
+    "type": "Orbitador / impacto",
+    "region": "Cara oculta lunar",
+    "status": "Impacto dirigido en 1966",
+    "arrival": "14 ago 1966 · entrada en órbita",
+    "end": "29 oct 1966",
+    "summary": "Fotografió posibles sitios de alunizaje antes de ser dirigido hacia la superficie.",
+    "family": "orbiter",
+    "model": "assets/orbiter-schematic.glb",
+    "coordinates": "6.7° N · 162° E (impacto reportado)",
+    "components": [
+      {
+        "id": "camera",
+        "name": "Sistema fotográfico",
+        "description": "El sistema exponía película, la revelaba a bordo y transmitía imágenes escaneadas a la Tierra.",
+        "position": [
+          0,
+          0.2,
+          0.5
+        ],
+        "children": [
+          {
+            "id": "film",
+            "name": "Película y escáner",
+            "description": "Las imágenes se recuperaban mediante un sistema de lectura y transmisión.",
+            "position": [
+              0,
+              0.25,
+              0.6
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "solar",
+        "name": "Paneles solares",
+        "description": "Cuatro paneles alimentaban la nave durante la misión orbital.",
+        "position": [
+          0.65,
+          0,
+          0
+        ],
+        "children": [
+          {
+            "id": "cells",
+            "name": "Células solares",
+            "description": "Conversión de radiación solar en energía eléctrica.",
+            "position": [
+              0.75,
+              0,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "antenna",
+        "name": "Antena",
+        "description": "El enlace de radio enviaba a la Tierra las imágenes de posibles sitios de alunizaje.",
+        "position": [
+          0,
+          0.6,
+          0
+        ],
+        "children": [
+          {
+            "id": "radio",
+            "name": "Telemetría",
+            "description": "Permitía enviar información y recibir órdenes de la misión.",
+            "position": [
+              0,
+              0.65,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/orbiter.jpg",
+    "source": "https://science.nasa.gov/mission/lunar-orbiter-1/",
+    "imageSource": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/lunar_orbiter_moon_jf.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "index": 13,
+    "schematic": true,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "mariner",
+    "name": "Mariner 9",
+    "year": 1971,
+    "world": "Marte",
+    "type": "Orbitador",
+    "region": "Órbita marciana histórica",
+    "status": "Inactivo desde 1972",
+    "arrival": "14 nov 1971 · entrada en órbita",
+    "end": "27 oct 1972",
+    "summary": "La primera nave en orbitar otro planeta reveló la diversidad del paisaje marciano.",
+    "family": "mariner",
+    "model": "assets/mariner-schematic.glb",
+    "coordinates": "Sin ubicación actual confirmada en este archivo",
+    "components": [
+      {
+        "id": "camera",
+        "name": "Sistema de imagen",
+        "description": "Mariner 9 cartografió Marte desde órbita.",
+        "position": [
+          0,
+          -0.2,
+          0.5
+        ],
+        "children": [
+          {
+            "id": "optics",
+            "name": "Cámara",
+            "description": "Las observaciones documentaron volcanes, cañones y las lunas de Marte.",
+            "position": [
+              0,
+              -0.25,
+              0.6
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "solar",
+        "name": "Paneles solares",
+        "description": "Los paneles proporcionaban energía a la nave.",
+        "position": [
+          0.65,
+          0,
+          0
+        ],
+        "children": [
+          {
+            "id": "cells",
+            "name": "Células solares",
+            "description": "La nave utilizaba energía solar.",
+            "position": [
+              0.75,
+              0,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "antenna",
+        "name": "Antena de comunicaciones",
+        "description": "El enlace transmitió imágenes y datos científicos a la Tierra.",
+        "position": [
+          0,
+          0.65,
+          0
+        ],
+        "children": [
+          {
+            "id": "dish",
+            "name": "Reflector",
+            "description": "El reflector dirigía la señal de radio.",
+            "position": [
+              0,
+              0.7,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/mariner.jpg",
+    "source": "https://science.nasa.gov/mission/mariner-9/",
+    "imageSource": "https://assets.science.nasa.gov/content/dam/science/psd/solar/2023/07/1971_may_mariner09.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+    "index": 14,
+    "schematic": true,
+    "country": "Estados Unidos · NASA"
+  },
+  {
+    "id": "ds2",
+    "name": "Deep Space 2",
+    "year": 1999,
+    "world": "Marte",
+    "type": "Dos microsondas",
+    "region": "Región polar sur prevista",
+    "status": "Sin señal · ubicación no confirmada",
+    "arrival": "3 dic 1999 · llegada prevista",
+    "end": "Sin contacto tras la llegada prevista",
+    "summary": "Scott y Amundsen debían penetrar el suelo marciano para ensayar nuevas tecnologías.",
+    "family": "ds2",
+    "model": "assets/ds2-schematic.glb",
+    "coordinates": "Sitio exacto desconocido",
+    "components": [
+      {
+        "id": "aftbody",
+        "name": "Cuerpo posterior",
+        "description": "Esta parte debía permanecer sobre la superficie y retransmitir información a Mars Global Surveyor. No se recibió una señal de las sondas.",
+        "position": [
+          0,
+          0.3,
+          0
+        ],
+        "children": [
+          {
+            "id": "radio",
+            "name": "Radio",
+            "description": "El enlace estaba diseñado para enviar los datos hacia el orbitador.",
+            "position": [
+              0,
+              0.4,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      },
+      {
+        "id": "forebody",
+        "name": "Penetrador",
+        "description": "El cuerpo delantero debía penetrar el suelo y estudiar el material bajo la superficie.",
+        "position": [
+          0,
+          -0.25,
+          0
+        ],
+        "children": [
+          {
+            "id": "drill",
+            "name": "Taladro de muestreo",
+            "description": "Un pequeño taladro estaba previsto para recoger material en el subsuelo.",
+            "position": [
+              0.2,
+              -0.3,
+              0
+            ],
+            "children": [],
+            "specs": {}
+          }
+        ],
+        "specs": {}
+      }
+    ],
+    "image": "assets/ds2.jpg",
+    "source": "https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/",
+    "imageSource": "https://www.jpl.nasa.gov/nmp/ds2/images/probe_main.jpg",
+    "index": 15,
+    "schematic": true,
+    "country": "Estados Unidos · NASA"
+  }
+]

@@ -1,0 +1,453 @@
+# NEPTUNI · English · recorrido piloto de Sojourner (nx-ficha-pilot.js)
+dgu1wik JPL Robotics · Software and electronics
+7pvc75p NASA NSSDCA · Mars Pathfinder rover
+ujomhkq PDS · Rover description
+rzqzdvr NASA · The APXS on the rock Chimp
+azlyau1 NASA Glenn · Pathfinder experiments
+1mwosch NASA · PIA00621, the rover on the petal
+0qqs72b Sojourner with the APXS resting on Yogi. Photograph taken by the Pathfinder module between sols 8 and 10.
+d9oljmz the insulated box under the solar panel
+yz1wqfe the flat surface on top
+o1jet0p the circuit boards inside the box
+lgkb6fx the backup power, inside the body
+vv450br the levers that connect the wheels
+swoi5ul there are six
+obk66zo the motors that turn each wheel
+597d3ts what steers the four corner wheels
+27vblq9 it rides at the back
+p2qmp2j it looks forward
+8ol759q the thin rod sticking out
+kfzvzen the cables along the sides
+tncon41 This is Sojourner
+09t7hkk What you see in the viewer is <b>Sojourner</b>, the rover: a six-wheeled robot about 65 cm long that weighed 10.5 kg. <b>Pathfinder</b> is not this robot: it was the mission and the landing module that carried it to Mars.
+48d78g4 3D view: a reconstruction made with NASA/JPL photos and documents.
+slxbvv9 This is Sojourner! Pathfinder was the spacecraft that brought it.
+qnqo8ws Spin it at your own pace
+nylpzoa Drag to spin it and pinch or use the wheel to zoom in. If you'd rather it stayed still, pause the orbit. You can also tap any part to open it.
+08ajg3c Pause or resume the orbit
+blw07ty Your turn! Spin it and zoom in.
+3ocz0yy Six wheels that don't tip over
+10rikj3 It had six 13 cm wheels and every one had a motor. They're joined to a <b>rocker-bogie</b> suspension: levers that let each wheel go up or down on its own to climb over stones.
+81cfuq4 See wheels
+k2shlul See suspension
+7zggh5s What it carries on top
+1de1apy On top is the <b>solar panel</b>, and at the front, <b>cameras and lasers</b> to spot obstacles. At the back is the <b>APXS</b>, the instrument that studied rocks. Pick a part to see it up close.
+lk1hopq Cameras and lasers
+0uwrp4u One mission, two machines
+bu7lvkr <b>Mars Pathfinder</b> traveled with Sojourner folded up on one of the landing module's petals. The module was the base and the radio bridge; the rover was the explorer.
+owywsim July 4, 1997: landing
+kqrnpat This is how it reached Ares Vallis, on Mars:
+mqt9ag0 Heat shield
+506kkh5 protected it on entering the atmosphere.
+23qostu Parachute
+qbp69t6 slowed the fall.
+shjk42j Rockets
+x8lme5w Airbags
+lcpe7kv it bounced along until it came to a stop.
+53p0gkh Parachute, rockets and airbags!
+wnaobon Down the ramp
+z7923ay With the module open, Sojourner rolled down a ramp onto the Martian ground on <b>July 6, 1997</b>, at about 05:40 universal time.
+fp65121 Down the ramp to the ground!
+y515l6h What was it going to measure?
+ax3masm Its job: find out what the rocks and soil were made of with the <b>APXS</b>, take photos with its cameras and test how a rover moves on Mars. For its first seven sols it worked about 10 m from the module.
+abr4y1t See the APXS
+ycsn2ry Go to «The discoveries»
+qdq2xfj A milestone
+mgvzpjh Sojourner was the first rover to drive on Mars. It opened the way for the rovers that came after it.
+5qoi1e0 The first rover on Mars!
+enbqt5r The APXS, a pocket-sized lab
+fawfgrh The <b>APXS</b> (alpha proton X-ray spectrometer) rode at the back, on an arm that reached out. When pressed against a rock or the soil, it measured which chemical elements it contained.
+e4knkcs See the instrument
+4kuis83 This is the APXS. Take a close look!
+gwahfxn Between sols 8 and 10, Sojourner placed the APXS on <b>Yogi</b>. The first results showed it had little quartz and looked like common basalts on Earth.
+m8xrho2 This is how it measured the rock Yogi.
+3pqble9 What made it to Earth
+7telrx5 In total, Pathfinder sent <b>2.3 billion bits</b>: more than 16,500 images from the module, 550 images from the rover and <b>16 chemical analyses</b> of rocks and soil.
+y2jzela 16 chemical analyses!
+x0x6naz A question to follow
+1htf5ga Sojourner already had a measurement… but it was on Mars. <b>How did it send it all the way to Earth?</b>
+sgqxf0i Follow the signal →
+nd1f4p7 Sojourner already had a measurement. How did it send it from Mars to Earth?
+hwnjucs Follow the signal
+6h4rosh Every bit of Sojourner's data made this trip. Let's start with the rover's antenna.
+0mzinvr Let's follow the signal: first, the antenna.
+6ggmp9v The UHF antenna
+lx63q98 This thin antenna sent the data by UHF radio to the Pathfinder module. Sojourner didn't talk to Earth directly: everything went through the module. Its radio reached about 100 m.
+yufv6s6 See the antenna
+qba0mtk See the radio electronics
+vd4bodk The signal went out through this antenna.
+0jf9ty8 Pathfinder, the bridge
+77s3fax The module received the data and passed it on to Earth. Each message took 10 to 15 minutes, so nobody could drive Sojourner live. The team planned the commands, sent them and waited for the result.
+uvxrt3u Want to try planning its commands? Play the game.
+tmdjsf5 The last signal
+xay7s2c On September 23, 1997 (sol 80), the APXS was still measuring the rock Chimp. Pathfinder's last data transmission arrived on <b>September 27, 1997</b>, at 10:23 universal time. Without the module, Sojourner had no way to talk to Earth.
+52tyrk2 September 27, 1997: the last signal.
+nt1r4rs What stayed on Mars and what reached the archive
+tuvd4p4 After five months of trying, NASA declared the mission over on <b>March 10, 1998</b>, the official end. The last contact had been in September 1997. The module and Sojourner are still at Ares Vallis and their data is kept in NASA's planetary archive (PDS).
+l7carqw Explore other systems
+f7udz2e A 0.22 m² solar panel (about 13 W) and lithium batteries that couldn't be recharged.
+x91bz30 Batteries
+dkbjj1r Six motorized wheels; the four corner ones could steer.
+qmryy4n Suspension
+h8ncy0j A chassis insulated with aerogel protected the circuit boards from the cold.
+c04i8fg WEB box
+z3o2br5 Circuit boards
+nxt4emo Wiring
+it052o8 See and measure
+cwkqxpt Cameras and lasers at the front; the APXS at the back.
+god4d6x You still have systems to discover!
+
+# nx-ficha-data.js
+mn3boyn NASA/JPL · End of the InSight mission
+3fmprua NASA/JPL · Phoenix results
+35ckfef NASA/JPL · End of the Opportunity mission
+8xjrzf1 NASA/JPL · Spirit completes its mission
+8h97c92 NASA NTRS · Mars Pathfinder summary
+qckh2t2 NASA · Barnacle Bill and Sojourner
+qgdm52f Space.com · The legacy of Viking
+9d05axq NASA NSSDC · The Apollo lunar roving vehicle
+v7iu5yl Space.com · What we learned from Apollo 11
+9110zxl NASA/JPL · Deep Space 2 press kit
+4vnepn5 Mesh wheels and motors
+hhqr2ie Each of the four wheels was made of steel mesh and had its own electric motor. The mesh didn't need air or get flat tires, and it gripped the lunar dust well.
+bd8akuq Seats, controller and batteries
+0bollk8 The astronauts drove with a T-shaped hand controller, with no steering wheel. Two 36 V batteries, which couldn't be recharged, powered the motors.
+n4apiiz Antenna and radio
+tajc86d The umbrella-shaped mesh antenna sent voice and television to Earth, even when the astronauts were far from the lunar module.
+frzr31o Houston could turn and zoom it remotely, so people on Earth watched live what the astronauts were doing.
+bre5sah Folding chassis
+lun5wx2 The rover traveled to the Moon folded in three parts, like a folding piece of furniture, stowed on one side of the lunar module. It unfolded there.
+t3v85sb Body and warm box (WEB)
+qtwcd0g It's the rover's central «box». Inside, thermal insulation keeps the electronics from freezing during Martian nights, which are far colder than any winter on Earth.
+cj3h3c1 Six rocker-bogie wheels
+o4uicul A suspension of levers, with no springs, that lets it climb over stones and keeps all six wheels on the ground.
+gk9php3 The «wings» covered with solar cells recharged the batteries every day. When dust covered them, the rover had less power.
+gdhifl8 Camera mast
+vhsmg47 The cameras sit 1.54 m high, roughly at a person's eye level: Pancam takes science photos and Navcam helps plan the route.
+d0la4ar Instrument arm
+ckwiiph At its tip it carries a microscope, two spectrometers that measure what rocks are made of and a tool that scrapes their surface (RAT).
+8ru36br A spectrometer that measures the heat rocks give off to find out which minerals they're made of, even from a distance.
+2bv1b0w Antennas
+etx243s One steerable antenna talked straight to Earth; another sent data to the Mars orbiters, which passed it on.
+xfgw3q2 Hazard cameras
+1pxsrnu Cameras with «fisheye» lenses at the front and back to see rocks or holes near the wheels before moving.
+9iep813 Scanning cameras
+2gr7mqk They didn't take a photo all at once: they turned and built the image line by line. That's how the first color photos from the surface of Mars arrived.
+au4hfeq An extending arm that scooped up Martian soil and carried it to the spacecraft's labs.
+d8ntvei Three experiments looked for signs of microscopic life in the soil. NASA considered the results inconclusive.
+dosizfd GCMS and X-rays
+be3xb6q They heated soil samples to look for organic molecules and measure which elements it was made of.
+j1wczzt Weather station
+3kox2lq Sensors on a boom measured wind, temperature and pressure: it was the first weather service on Mars.
+omzwu34 Instead of solar panels, it used heat from radioactive material to make electricity day and night. That's why it lasted for years.
+lp0qpqo Antennas and radio
+e033s5b Three legs with shock absorbers took the blow of the landing and left the station steady.
+zvcoqw8 You're looking at the InSight module on the surface of Mars, with its two round solar panels open. The instruments are still on the deck, as they were before the arm lowered them to the ground.
+h85ds4s The two round solar panels, which open like fans
+fjvxzlg The dome of SEIS, the seismometer
+nqht1zz The robotic arm with its grapple
+px8np90 HP³, the probe meant to burrow underground to measure heat
+skw7n0r The SEIS seismometer detected 1,319 marsquakes, including some caused by meteoroid strikes.
+qru23x0 With those vibrations, scientists could study the crust, mantle and core of Mars for the first time.
+gtxqcxw Meteoroid impacts help work out the age of the surface. One of the biggest uncovered blocks of ice.
+g3611nw SEIS · seismometer
+vospu0z It feels tiny vibrations of the ground. It was lowered to the ground and covered with a shield to protect it from wind and cold.
+1fz9tyv HP³ · heat probe
+mnsnjyf A «hammering drill» meant to burrow several meters down to measure the heat inside. The ground turned out to be very difficult and it couldn't dig deep enough.
+o4goc50 It moved the instruments from the deck to the ground. At its tip it has a camera and a grapple.
+ukm3n6b The two round panels provided power. Dust slowly covered them until the mission ran out of power in 2022.
+lefogci Cameras and weather station
+dmmx7op They measured wind, temperature and pressure so wind noise wouldn't be mistaken for a quake.
+dozagrj RISE antennas and radio
+if65cqx RISE signals made it possible to measure how Mars wobbles as it spins, a clue about its core.
+mhuih9l You're looking at the Phoenix module on the northern plains of Mars, with its robotic arm stretched out and its two solar panels open. It's a reconstruction made from NASA documentation and photographs.
+ro4st4x The robotic arm and the scoop it dug with
+zqdfoj0 The TEGA oven, where it heated samples
+xt8k787 The weather mast with its laser pointed at the sky
+d1zqsi1 The three landing legs
+65fmqjo It confirmed that there is water ice under the ground of the Martian Arctic.
+16emvje It found perchlorate in the soil, a chemical compound that was the mission's big surprise.
+4emjgov It found calcium carbonate, a clue that the ice sometimes melts enough to dampen the soil.
+jr01pea Its laser saw snow falling from Martian clouds.
+i84q6en Arm, scoop and rasp
+ud2yx2z TEGA oven
+gkspsqy Eight small ovens heated the samples. By seeing which gases came out, they knew whether there was water or other compounds.
+lkfdf9r It mixed soil with water to study its chemistry and had microscopes to see tiny grains.
+nw1rcew SSI stereo camera
+lzacrdm Two «eyes» that took 3D photos of the terrain and of the arm's work.
+ajylzgj Weather and LIDAR
+6rx8r6p It measured temperature and pressure, and fired a laser upward to study clouds and dust.
+1vvh4mk They provided power, but the northern winter left little light and the spacecraft stopped working.
+2pllx9w Descent engines
+chj8cay You're looking at Opportunity, a six-wheeled rover, with its camera mast raised and its solar panels open. It's the MER design, the same as its twin Spirit.
+1l6qkfu The mast with the cameras on top
+nyy5hsz The arm folded under the front
+77x0unk The six wheels and the lever suspension
+2v3hjmn The solar panel wings
+46qumfw It found hematite at its landing site, a mineral that forms in water.
+hzoayo5 It provided conclusive proof that there was liquid water on ancient Mars.
+453ppe5 It traveled more than 45 km, a distance record off Earth.
+0w67bvj It was designed for 90 Martian days and worked for more than 14 years.
+0180oyq You're seeing Spirit as it was at the start of its mission in 2004: on its six wheels, with its panels and mast deployed and its arm stowed.
+e21reoy The mast with two science cameras on top
+e0zjrff The arm with instruments at its tip
+degg4kx The six wheels
+g41rhow The solar panels
+k35nq64 Its wheels churned up bright soil that was almost pure silica, a clue to ancient hot springs or steam.
+eev2vys It found rocks rich in carbonate, a sign of a wet, non-acidic past.
+sgmfhsy That ancient environment could have been friendly to microscopic life.
+75r0tzo It traveled 7.73 km, more than 12 times the expected distance.
+m1lhyzv You're looking at one of the two Deep Space 2 microprobes (Scott and Amundsen had the same design) inside its closed capsule, just as it traveled to Mars.
+4vn1bmx The capsule's badminton-shuttlecock shape
+ves276c The round nose of the heat shield
+cpy6huq When you inspect it: the penetrator, the aftbody and the cable that joined them
+32udmhz There were no discoveries: after the planned arrival on December 3, 1999, no signal was ever received from the two microprobes.
+eh2lw1h The cause of the loss and the exact place where they fell are still unknown.
+8cnhaeg Their goal was to test new technologies: small probes that drive into the ground and look for water below the surface.
+eqm75k5 Entry aeroshell
+npvsmlf It was meant to protect the probe on entering the atmosphere of Mars, with a shield designed to withstand about 2,000 °C. It had no parachute or rockets, because its shuttlecock shape would keep its nose pointed forward. On impact it would break apart to set the probe free.
+og4z2j7 It was meant to drive 0.3 to 1 m into the ground, using only the force of the crash. A small side drill would take soil to look for water.
+r3bm8rg It was meant to stay on the surface with the batteries and the radio to send the data to the Mars Global Surveyor orbiter.
+suxevmo Umbilical cable
+d2f50fp A flat, flexible cable was meant to join the buried penetrator to the aftbody. It traveled folded up like a fire hose.
+6vempy5 You're looking at Sojourner, a rover the size of a microwave oven, deployed on the ground of Mars with its antenna raised.
+jg04uf3 The flat solar panel on top
+7r3azlh The six wheels with their suspension
+k58a9nw The APXS at the back
+3vdhk2z The thin radio antenna
+ql2mihq The APXS made 16 chemical analyses of rocks and soils. Barnacle Bill was the first rock analyzed.
+pfjch2z The mission sent 2.3 billion bits of data: more than 16,500 images from the module and 550 from the rover.
+h3m0bpe That data served as «ground truth» to check what satellites measure from orbit.
+
+epsth55 It showed that a small rover could explore Mars.
+879mszx Warm box (WEB)
+xkvvrlf An insulated box that kept the electronics between −40 and +40 °C while it was much colder outside.
+81amu0w 234 solar cells gave about 16 W, what a small lamp uses. That was enough to move during the day.
+c3w501j Lithium batteries that couldn't be recharged. They were a backup for working when there was no light.
+pof5k0b Rocker-bogie suspension
+olqk5ro Six wheels with levers that climb over stones without tipping over. More modern rovers use it too.
+8rzoqv4 The instrument that analyzed what rocks were made of. It rode at the back: Sojourner backed up to press it against the rock.
+9zrc3qv Front cameras
+rotcs1c Two black-and-white cameras that, together with lasers, detected obstacles.
+e78magy Radio antenna
+bvvv68t It talked to the Pathfinder module, which acted as a bridge to Earth. That's why Sojourner didn't go more than about 12 m away.
+mo37y99 You're looking at the complete Viking 2 spacecraft in orbit around Mars: the orbiter carries the capsule that protected the surface module. You can inspect the orbiter, the capsule and the module already resting on Utopia Planitia.
+hz318aa The orbiter's four solar panels
+lb0slqi The entry capsule with its shield
+5kwifia The surface module with its three legs
+y0is8ry The surface module watched the weather on Mars for years, from a different place than Viking 1.
+7pduq9l Its biology experiments looked for life in the soil; NASA considered the results inconclusive.
+7kadz6s The module worked until April 1980, although the original plan was for 3 months.
+liqlm4o It carried the module to Mars, photographed the planet from above and relayed the surface data to Earth.
+o8crhwt Bioshield and entry capsule
+kyj4xfq The bioshield kept the spacecraft free of microbes from Earth. The capsule, with its heat shield, protected the module during entry into the atmosphere.
+jdvboam A station with cameras, an arm, labs and weather sensors. It ran on nuclear power (RTGs), not solar.
+grc4pid You're looking at the Viking 1 surface module as it stood at Chryse Planitia, with its cameras, its arm and its antennas.
+87hroj2 The two cylindrical cameras
+bwdm2xf The sampling arm
+ks23r4j The weather boom
+3u513ke The dish antenna
+5itu5uj It sent the first color photo of the surface of Mars.
+82hou6x Its biology experiments looked for life; NASA considered the results inconclusive. Later studies suggest it may have detected organic matter.
+gyhvr2u It worked until November 1982, more than six years, although the plan was for 3 months.
+256yzza You're looking at the Apollo 17 LRV-3 lunar rover. Look at the right rear fender: the astronauts repaired it with laminated maps, tape and clamps.
+9ud7t1t The four wire-mesh wheels
+v7btslz The repaired fender
+gxa0upp The umbrella-shaped antenna
+1s7wb2v The television camera at the front
+k30dsg5 Thanks to the rover, the astronauts traveled 35.9 km in three outings and got as far as 7.6 km from the lunar module.
+rggigh7 They found «orange soil»: tiny beads of volcanic glass from eruptions more than 3.5 billion years ago.
+x9mgnjt You're looking at the Apollo 16 LRV-2 lunar rover, the electric vehicle that carried the astronauts across the Descartes highlands.
+f14jmhw The wire-mesh wheels
+2g3q507 The two seats and the T-shaped controller
+vh0vsm3 The umbrella antenna
+1xrqw29 The television camera
+ymcnjf8 Scientists expected volcanic rocks, but they found many rocks formed by impacts. The Moon's history was more complicated than they thought.
+0obcop0 You're looking at the Mariner 9 spacecraft with its four solar panels open and its camera platform. Its current location in orbit is not confirmed.
+50do2yu The four cross-shaped solar panels
+swh05lm The camera platform underneath
+ggw0wae It took 7,329 photos and covered about 85% of the surface of Mars.
+vqxrrvi It discovered a huge canyon system, named Valles Marineris in its honor.
+4e6lv4y It saw the top of the volcano Olympus Mons poking above a planet-wide dust storm.
+bsey88h It photographed the moons Phobos and Deimos up close, and channels suggesting that water once flowed.
+vh7zo4n Camera platform
+0qmrn91 Two television cameras, one wide-angle and one telephoto, which could point at different areas of the planet.
+rwltg10 Main engine
+8x6az02 It slowed the spacecraft so Mars could «catch» it in orbit: it was the first time a spacecraft orbited another planet.
+6gdwi12 They sent the photos and data to Earth as radio signals.
+7x3lhef Sequencer and wiring
+agehgxs The «brain» that decided when to take each photo and when to send it.
+yqhgm7r You're looking at the Apollo 15 LRV-1 lunar rover deployed and loaded with the astronauts' tools, based on NASA documents.
+y9zybsz The mesh wheels with titanium reinforcements
+hv5xurw The tools at the back
+o373lik The folding seats
+sqw23gz It was the first car on the Moon: the astronauts drove 27.8 km with it.
+i15nerq On this mission they found the «Genesis Rock», a piece of anorthosite that helped explain the Moon's oldest crust.
+hrc86m5 Four steel-mesh wheels with titanium reinforcements, each with its own electric motor.
+ja4g976 Seats and controller
+2xq5gw6 Tools and cargo
+p38kl7g An umbrella antenna sent voice and television straight to Earth.
+quc4pid Houston could move it to follow the astronauts' work.
+yxzpvpt Batteries and navigation
+jolxsnn Two 36 V batteries and a gyroscope that showed the way back to the lunar module.
+vu3yn15 You're looking at the complete Apollo 11 lunar module Eagle, just after landing. In reality, only the bottom part, the descent stage, stayed on the Moon.
+7r0ae3q The gold descent stage with its four legs
+8f8t1fa The ascent cabin on top
+ci6mcn7 The antennas
+4q648r0 The surface equipment near the spacecraft
+i6fhsz9 Those samples helped show that the Moon is about 4.5 billion years old and chemically similar to Earth.
+msr5r67 The laser reflector they left still works: thanks to it we know the Moon drifts away about 3.8 cm per year.
+xgu8zry It had the engine that slowed the landing. It served as a launch pad and stayed on the Moon.
+rphiy3m Where Armstrong and Aldrin rode. It lifted off with its own engine to go back to the Columbia spacecraft.
+i7zj3d0 Landing legs
+u9tvsbo A flag, a seismometer and a laser reflector the astronauts left at Tranquility Base.
+x2bdb0t Control thrusters
+3cux7ho Sixteen small thrusters at the corners to turn and point the spacecraft.
+pph66h6 Guidance computer
+mndpgby It worked out the path for the descent and the liftoff. It had far, far less memory than a phone today.
+mwkiyon Antennas to talk to Earth and broadcast the television of the first step.
+evsdpui The arm with the sampling scoop
+oe2al3w The three legs
+ylpj7lg The solar panel and the flat antenna
+jx4chuf It sent 6,326 television images of the lunar surface.
+4v6m6gs Its scoop dug four trenches and ran tests showing that lunar soil was like wet sand: firm enough for an Apollo spacecraft to land.
+vdpj06p In 1969, the Apollo 12 astronauts recovered its camera and scoop to study how being on the Moon had affected them.
+ox45zov It took images of the terrain and sent them to Earth. Apollo 12 brought it back.
+fbzi0oj It dug into the soil and pressed on it to measure how firm it was.
+d7fawoo It powered the instruments during the lunar day.
+uppvng9 A flat antenna sent the images; two others served as backups.
+uj1t8p2 A big rocket braked first; then three small engines controlled the end of the descent.
+drc2xkh Auxiliary battery
+9wy09y4 Backup power for times without light.
+wor7jkp Star sensor
+3pv11cr It looked for the star Canopus to know which way the spacecraft was pointing.
+7tzci2l You're looking at Lunar Orbiter 1 in orbit around the Moon, with its thermal blanket on, the camera door open and its panels and antennas deployed.
+iv5xdjx The body covered by the thermal blanket
+oaetrqr The four solar panels
+wl20bmp The camera window
+7615d92 It photographed the nine sites planned for the Apollo landings and 11 more places on the far side.
+wqg53r1 It took the first photo of Earth from near the Moon, on August 23, 1966.
+4i61eux It exposed 205 frames covering about 5 million km² (2 million square miles).
+mfzntla Photo lab
+l3jjmz0 It used real film: it developed it inside the spacecraft, scanned it and sent each image by radio.
+g7c92cq Four panels powered the spacecraft.
+2v7uvo4 Thermal blanket
+h7yz89y A blanket of several layers protected the spacecraft from the Sun's heat and the cold of the shade.
+ofxgu9y Engine and thrusters
+dru4w2g One engine to enter orbit and change it, and small thrusters to turn.
+wjw9rri Micrometeoroid detectors
+fe5tc8d They measured hits from tiny grains to find out whether they were a danger to astronauts.
+
+# nx-ficha-context.js
+03boabo Nobody had looked inside Mars. Knowing its layers helps us understand how rocky planets like Earth are born.
+l03mwct It was the first mission dedicated to studying the deep interior of another planet, with a seismometer placed right on the Martian ground.
+19fww02 Quake waves travel through the planet and change depending on the material they cross: they work like an X-ray.
+yhre0z9 It showed that Mars is still active inside. The biggest marsquake, in May 2022, had a magnitude of 4.7.
+pkfo33m The size of each layer tells how the planet formed and cooled.
+qlb7vlu The data showed that the core of Mars is liquid. An initial estimate gave a radius of about 1,830 km; the inferred size depends on the model used and later studies revised it.
+k7gu1vi Counting new craters tells how often rocks fall from space.
+2162esr A 2021 impact revealed ice very close to the equator, a useful resource for future crewed missions.
+8cwva36 From orbit, the Mars Odyssey spacecraft had detected lots of hydrogen under the ground in the north: probably ice. Phoenix went to touch it and study whether that place could have been habitable.
+suw18ay It was the first spacecraft to land in a polar region of Mars and the first to touch and analyze water ice on another planet.
+vl4awsh Odyssey saw the signal from above, but it still had to be confirmed on the ground.
+uqsf41v Some bright chunks in a trench vanished within a few days: the ice had evaporated in the sunlight. Then the TEGA oven detected the water vapor.
+plo6lll The MECA lab mixed soil with water to learn its chemistry, like testing garden soil.
+88k5xz4 Perchlorate is toxic to us, but some microbes on Earth use it for energy. It also changed how the Viking results are read.
+josziti When the soil is heated in the oven, carbonate gives off carbon dioxide at a known temperature.
+k0unm0p On Earth, calcium carbonate forms with liquid water: Martian soil may have gotten wet from time to time.
+bhnmkzl The LIDAR, a laser pointed at the sky, measured clouds and dust.
+lap2qdr From orbit, gray hematite had been seen at Meridiani Planum. That mineral usually forms with water, so Opportunity went to check whether Mars had liquid water.
+btm2ynn Together with Spirit, it showed that ancient Mars had water. And it was planned for 90 sols and worked for more than 5,000.
+e90cwtr Hematite was the clue seen from orbit: that's why it landed right there.
+5fx5vyv It found «blueberries»: little hematite spheres that grew inside rocks soaked with water.
+0fqprki The rocks in Eagle crater had thin layers and minerals like jarosite.
+3tvvfnd Jarosite only forms in water. In 2004, NASA announced that the place had been soaked long ago.
+a10u6tn Going farther let it reach older rocks, like those on the rim of Endeavour crater.
+pj6ygc9 In 2014 it passed Lunokhod 2 and became the vehicle that had traveled farthest off Earth.
+6vooig7 Martian winds cleaned its panels from time to time. That staying power taught engineers to plan much longer missions.
+ii5xh0h Gusev crater looked like the bottom of an ancient lake, because a dry channel flows into it. Spirit went to read its rocks and look for traces of water.
+a5x1pyh It was the first rover to climb to the top of a hill on another planet: Husband Hill, more than 100 m above the plain.
+n0tjrcd One of its wheels jammed and, as it was dragged, it churned up the soil and showed what was underneath.
+sajhw2q Silica this pure forms in hot springs or volcanic steam. On Earth, those places are full of microscopic life.
+npcmw6y Scientists had been looking for carbonates for years: they were expected if Mars had water that wasn't very acidic.
+b8nag9b The «Comanche» rocks had lots of carbonate: the water of ancient Mars wasn't always acidic.
+nisx0kw Putting the silica and the carbonates together, scientists can picture what the environment was like.
+2zep2zy It showed that Mars had places with warm water. That doesn't prove there was life.
+eguvtx1 In 2009 it got stuck in soft sand and kept working as a stationary station until 2010.
+wpuqio5 They wanted to test small, cheap probes that drive into the ground. If they worked, many of them could form a network of stations all over Mars.
+vnp4uly Its loss, along with that of Mars Polar Lander, led NASA to review how it tested its spacecraft before launch.
+7l8d86w The probes couldn't communicate during the fall: only after driving into the ground.
+rhemvxa With no signal, there was no data. That's why missions today try to send information during the descent.
+avvv652 Nobody saw them fall and there were no cameras in the area.
+pqwfomd They were part of the New Millennium program, which tested new technologies before using them on science missions.
+g4kr1gq The ideas of shrinking instruments and surviving hard impacts kept being used in other projects.
+im89oag They wanted to show that landing on Mars could be done on a small budget, using airbags, and that a rover could be driven from millions of kilometers away.
+nl1qopt Sojourner was the first rover to successfully drive on another planet. It opened the way for Spirit, Opportunity, Curiosity and Perseverance.
+eetngcc The APXS fired particles at a rock and measured the X-rays that came back: each chemical element has its own «signature». They wanted to know what the rocks of Ares Vallis were made of.
+fr34i0j Barnacle Bill had lots of silica, like some volcanic rocks on Earth. It was a surprise: Mars had more varied volcanoes than people thought.
+5ztjvh7 Ares Vallis was an area of giant floods: the water swept rocks in from many places.
+rwj521d The photos showed rounded rocks tilted in the same direction, like the ones a big flood leaves behind.
+wdfsxi2 Satellites measure from very far away; their data has to be compared with what is on the ground.
+ts8j9se It helped calibrate the maps made from orbit and understand them better.
+bkf6bvi It was mainly an engineering test, with a rover of just 10.5 kg.
+ono7zrp Its six-wheel rocker-bogie suspension is still used on today's rovers.
+bgem23l The Viking missions wanted to answer a big question: is there life on Mars? Viking 2 landed far from Viking 1, farther north, to compare two places.
+hig53ri Together with Viking 1, it was the first US mission to land and work successfully on Mars for years.
+tdlz472 In winter it photographed frost on the ground: a very thin layer of ice at Utopia Planitia.
+sz4qbwn If there were microbes, they would eat the test nutrients or give off gases.
+ku9ajck The confusing results showed that Martian soil is chemically very reactive. Today, missions first look for where there was water and organic molecules.
+v1rgdhp It worked for about three and a half years instead of three months.
+rfksbzt Viking 1 was meant to look for signs of life and study the soil and weather of Mars from the surface.
+dxkdyj4 It was the first US spacecraft to land successfully on Mars. Its record for time on the surface lasted until 2010.
+eaivp5p For the first time, the ground and sky of Mars could be seen up close.
+qkpmrv3 It showed a reddish landscape full of rocks and a sky tinted ochre by dust, not blue like ours.
+v3wq8b4 In one experiment they gave the soil nutrients with «labeled» carbon to see if anything ate them.
+avriu8h There was a positive signal, but another instrument found no organic molecules. The debate is still open.
+1gwgchn Its nuclear generators (RTGs) provided power day and night.
+6m11ocw It worked for more than six years. Opportunity only beat that record in 2010.
+b17m548 Apollo 17 went to the Taurus–Littrow valley to look for young volcanic rocks and very old rocks from the mountains. The rover let them go farther and carry more samples.
+errwam5 It was the last Apollo mission to the Moon. Harrison Schmitt was the first geologist to walk on the Moon, and they brought back about 110 kg of samples, the record for the program.
+zugy9qa The most interesting rocks were far from the lunar module.
+qy85zlr Schmitt, a geologist, noticed the orange color next to Shorty crater.
+kvkep1a They were tiny drops of glass from ancient «lava fountains». They showed that the Moon had explosive volcanoes and holds a little water inside.
+ka5221x Apollo 16 was the first mission to the highlands, the bright areas that cover most of the Moon.
+4ifkweo They wanted to reach craters like North Ray and the slopes of Stone Mountain.
+l8hpqp3 They visited more places in less time and brought back rocks from very different areas.
+99qouhj Seen from Earth, the highlands looked like they were made by volcanoes.
+cvk1k8h Almost everything was rock broken and stuck together by impacts. It taught scientists not to trust only what is seen from far away.
+fxcoclp Earlier spacecraft only flew past and saw a Mars full of craters, like the Moon. Mariner 9 was going to stay in orbit to map the whole planet.
+nd98kpj It was the first spacecraft to orbit another planet. It arrived in November 1971, weeks before the Soviet spacecraft Mars 2 and Mars 3.
+qweyew6 When it arrived, a dust storm covered all of Mars and it had to wait weeks for it to clear.
+ccgmk73 It was the first global map of Mars and helped choose where the Vikings would land.
+v9mx4wl Nobody expected to find a canyon like that.
+kfw3zhx It is more than 4,000 km long: on Earth it would stretch across a whole continent.
+zkrj76h During the storm only four dark spots could be seen sticking out of the dust.
+jxgep04 They were giant volcanoes. Olympus Mons is the largest known in the solar system: almost three times taller than Everest.
+4lye8rz The moons of Mars had never been seen up close.
+95divvk Apollo 15 was the first of the longer, more scientific Apollo missions: three days on the Moon to explore Hadley Rille and the Apennine Mountains.
+xhep787 It was the first time people drove a vehicle on the Moon.
+neohp43 On foot, the astronauts couldn't go very far from the lunar module for safety reasons.
+ndg7oz2 They visited more places and brought back about 77 kg of samples.
+1ysor5s The rock is more than 4 billion years old and supported the idea that the young Moon was covered by an ocean of molten rock.
+kr8sgfr They were the first people to walk on another world. Hundreds of millions of people watched it live on television.
+7mc6o3q It was the first time the Moon could be studied in a lab on Earth.
+6suri0c The samples were shared among scientists from many countries and are still being studied.
+6zgavew Knowing the Moon's age and makeup tells us how it formed.
+l862ofx Its chemical similarity to Earth supports the idea that the Moon was born from a giant collision with the young Earth.
+r0e4wjc From Earth, a laser is fired at the reflector and scientists measure how long the light takes to come back.
+kiei2fr It's the only Apollo 11 experiment that still works.
+0x3yx9c Before sending astronauts, NASA needed to know whether the lunar ground would hold up a spacecraft or whether it would sink into deep dust.
+oun7o57 It was the first spacecraft to dig into the ground of another world. It's also the only robotic probe later visited by astronauts.
+snxpkja The Apollo engineers needed to see what the terrain was like.
+u8dv07i It even photographed an eclipse: Earth blocking the Sun, seen from the Moon.
+g7cu40u Some scientists feared the Moon was covered in very deep dust.
+irp4xao It confirmed that a crewed spacecraft could land without sinking.
+qlnlzup They wanted to know how materials age after years in space.
+b1ft8bz Some thought bacteria from Earth had survived in the camera. Today it's believed it got contaminated on the way back.
+em3kkd8 The Apollo missions needed smooth, safe places to land. From Earth, telescopes couldn't see small rocks.
+mj10mwc Each candidate site had to be flat and free of big rocks.
+zv2iubw Together with the other Lunar Orbiters, it helped choose where the Apollo missions would land.
+00mqxy1 It was the first view of Earth from the Moon, two years before the famous Apollo 8 photo.
+j2uue6j It used photographic film that was developed inside the spacecraft.
+yco26mo In 2008, a project recovered the original tapes and restored the photos in much higher quality.
+=La radio es solo una parte. Elige otra pieza para verla en el modelo. => The radio is just one part. Pick another part to see it on the model.

@@ -1,0 +1,153 @@
+/* Shared compact controls; each mission retains its own 3D interaction policy. */
+.sojourner-v2-experience .sj-animation-label {display:grid;gap:6px;padding:8px 10px;color:#365265;font-size:12px;text-align:left}
+.sojourner-v2-experience .sj-animation-label select {width:100%;min-width:0;min-height:44px;border:1px solid #7b94ab55;border-radius:8px;padding:8px;background:#f3f7fa;color:#183c59;font:inherit;font-size:13px}
+.sojourner-v2-experience .sj-animation-status {position:absolute;z-index:2;bottom:72px;left:16px;right:16px;margin:0;text-align:center;font-size:12px;line-height:1.5;color:#2b495d;pointer-events:none;text-shadow:0 1px 4px #fff}
+.sojourner-v2-experience .sj-animation-status[hidden] {display:none}
+.insight-experience .sj-selector {font-size:0;max-width:calc(100% - 150px);right:134px}
+.insight-experience .sj-selector select {min-height:44px;max-width:360px;min-width:0;flex:1;width:100%;font-size:14px}
+.insight-experience .sj-tools {gap:6px;padding:0;max-width:calc(100% - 24px)}
+.insight-experience .sj-tools button {min-height:44px;font-size:13px;padding:8px 12px;border-radius:10px}
+.insight-experience .sj-tools button:focus-visible,.insight-experience select:focus-visible {outline:3px solid #e97042;outline-offset:3px}
+.insight-certainty {font-size:12px;font-weight:750;line-height:1.6;letter-spacing:.035em;color:#355063;border-left:3px solid #dc7447;padding-left:10px}
+.insight-scope {font-size:14px!important;line-height:1.65!important}
+.insight-evidence {margin:18px 0;border-top:1px solid #b9c6cf;padding-top:12px}
+.insight-evidence summary {min-height:44px;cursor:pointer;display:list-item;font-size:14px;font-weight:700;line-height:1.6}
+.insight-evidence summary:focus-visible {outline:3px solid #b84622;outline-offset:4px}
+.insight-evidence figure {margin:12px 0;background:#fff;border:1px solid #d2dbe0;border-radius:12px;overflow:hidden}
+.insight-evidence img {display:block;width:100%;height:auto;max-height:350px;object-fit:contain;padding:8px}
+.insight-evidence figcaption {font-size:12px;line-height:1.6;padding:10px 12px;color:#435664;background:#f0f4f6}
+.insight-evidence>a {font-size:14px;color:#7d371c;text-decoration:underline;text-underline-offset:4px;min-height:44px;display:inline-flex;align-items:center}
+@media(max-width:760px) {
+ .insight-experience .sj-selector {left:12px;top:77px}
+ .insight-experience .sj-tools button {padding:8px 10px}
+}
+
+/* Keep inspection actions at the edge, leaving the centre for the hardware. */
+.insight-experience .sj-tools-compact {top:82px;bottom:auto;left:auto;right:16px;display:flex;align-items:start;flex-wrap:nowrap;justify-content:flex-end;z-index:6}
+.insight-experience .sj-tools-compact>button {min-width:44px}
+.sj-tools-menu {position:relative}
+.sj-tools-menu summary {list-style:none;width:44px;min-width:44px;min-height:44px;padding:0;display:flex;align-items:center;justify-content:center;cursor:pointer;touch-action:manipulation;font-size:14px;background:rgba(249,252,255,.68);color:#1e3d57;border:1px solid #7b94ab55;border-radius:10px;backdrop-filter:blur(8px)}
+.sj-tools-menu summary::-webkit-details-marker {display:none}
+.sj-tools-menu summary::after {content:'⋮';font-size:20px;line-height:1}
+.sj-tools-menu summary:focus-visible {outline:3px solid #e97042;outline-offset:3px}
+.sj-tools-options {position:absolute;right:0;top:calc(100% + 6px);width:min(240px,calc(100vw - 40px));max-height:min(440px,calc(100dvh - 180px));overflow-y:auto;overscroll-behavior:contain;padding:8px;display:grid;gap:6px;background:rgba(243,249,254,.92);backdrop-filter:blur(12px);border:1px solid #7b94ab44;border-radius:12px;box-shadow:0 5px 18px #10273812}
+.sj-tools-options .sj-model-action {color:#183c59}
+.sj-tools-options .sj-model-action:first-of-type {border-top-color:#7892a744}
+.sj-tools-menu:not([open]) .sj-tools-options {display:none}
+.sj-tools-manual .sj-tools-menu summary {width:44px;min-width:44px;padding:0;justify-content:center}
+.sj-tools-manual .sj-tools-menu summary::after {font-size:24px}
+.sj-tools-hint {position:absolute;right:0;top:calc(100% + 12px);width:min(260px,calc(100vw - 40px));padding:12px 15px;background:rgba(27,38,47,.92);border:1px solid #bacbd34d;border-radius:12px;color:#fff;font-size:14px;line-height:1.55;font-weight:500;box-shadow:0 4px 16px #0002;backdrop-filter:blur(8px);pointer-events:none}
+.sj-tools-hint::before {content:'';position:absolute;right:16px;top:-5px;width:8px;height:8px;background:#26323b;border-left:1px solid #bacbd34d;border-top:1px solid #bacbd34d;transform:rotate(45deg)}
+.sj-tools-hint[hidden] {display:none}
+.insight-experience .sj-tools-options button {width:100%;text-align:left;background:transparent;border-color:transparent}
+.insight-viewport #back-component {display:none}
+.insight-viewport .viewer-bottom {flex-direction:row;align-items:flex-end;gap:10px}
+.insight-viewport .viewer-bottom>span {font-size:12px;max-width:140px}
+.insight-viewport .viewer-actions {max-width:none;flex-wrap:nowrap;gap:5px}
+.insight-viewport .viewer-actions button {min-height:44px;font-size:13px;padding:8px 10px}
+.viewer-wrap.viewer-expanded,.viewer-wrap:fullscreen {position:fixed!important;inset:0!important;width:100vw!important;height:100dvh!important;min-height:0!important;border:0!important;z-index:70;overflow:hidden}
+@media(max-width:760px) {
+ .insight-experience .sj-tools-compact {top:77px;right:12px;gap:5px}
+ .insight-experience .sj-tools-compact>button {width:44px;font-size:0;padding:0}
+ .insight-experience .sj-tools-compact>button::before {content:'↶';font-size:24px}
+ .insight-experience .sj-tools-menu summary {font-size:0;width:44px;padding:0;justify-content:center}
+ .insight-experience .sj-tools-menu summary::after {font-size:24px}
+ .insight-experience .sj-selector {right:115px;max-width:calc(100% - 127px);font-size:0}
+ .insight-experience .sj-selector select {width:100%;max-width:100%;font-size:14px}
+ .insight-viewport .viewer-bottom>span {display:none}
+ .insight-viewport .viewer-bottom {justify-content:center;left:10px;right:10px;bottom:12px}
+ .insight-viewport .viewer-actions button {font-size:12px;padding:8px}
+}
+
+.viewer-error.insight-unavailable img {width:min(100%,520px);max-height:210px}
+@media(max-width:760px){.viewer-error.insight-unavailable img {max-height:155px}}
+
+/* Fitted mission viewports share measured controls and accessible callouts. */
+:is(.viking2-layout,.mariner-layout) {min-width:0}
+#explorador:has(:is(.viking2-layout,.mariner-layout)) .explorer-top {flex-wrap:wrap}
+#explorador:has(:is(.viking2-layout,.mariner-layout)) .explorer-top>div {min-width:0;flex:1 1 320px}
+#explorador:has(:is(.viking2-layout,.mariner-layout)) .explorer-top h1 {font-size:clamp(27px,3.2vw,44px);line-height:1.15;overflow-wrap:anywhere}
+:is(.viking2-viewport,.mariner-viewport) {container-type:inline-size;min-width:0}
+:is(.viking2-experience,.mariner-experience) .sj-label {box-sizing:border-box;min-width:0;min-height:44px;white-space:normal;overflow-wrap:anywhere;text-align:left;padding:9px 11px;font-size:13px;line-height:1.3;border-radius:13px;background:rgba(244,248,250,.71);border-color:rgba(49,75,91,.2);color:#193b4e;box-shadow:0 1px 3px #182a3710}
+:is(.viking2-experience,.mariner-experience) .sj-label[aria-pressed=true] {background:rgba(227,243,250,.85);border-color:#467e94}
+:is(.viking2-experience,.mariner-experience) .sj-label:focus-visible {outline:3px solid #186581;outline-offset:2px}
+:is(.viking2-experience,.mariner-experience) .sj-leaders path {fill:none;stroke:#2b5263;stroke-width:1;opacity:.73;vector-effect:non-scaling-stroke;stroke-linejoin:round}
+:is(.viking2-experience,.mariner-experience) .sj-leaders circle {fill:#294f61;stroke:#edf3f5;stroke-width:1;vector-effect:non-scaling-stroke}
+:is(.viking2-experience,.mariner-experience) .sj-selector {left:14px;right:126px;max-width:none;top:82px}
+:is(.viking2-experience,.mariner-experience) .sj-selector select {max-width:100%;min-width:0;width:100%;color:#193b4e;background:rgba(246,249,251,.82)}
+:is(.viking2-experience,.mariner-experience) .sj-tools-compact {right:14px;top:82px;max-width:110px}
+:is(.viking2-experience,.mariner-experience) .sj-tools-compact>button {font-size:0;width:44px;min-width:44px;padding:0}
+:is(.viking2-experience,.mariner-experience) .sj-tools-compact>button::before {content:'↶';font-size:24px}
+:is(.viking2-experience,.mariner-experience) .sj-tools-options {width:min(240px,calc(100cqw - 28px));max-height:min(360px,calc(100dvh - 210px))}
+:is(.viking2-experience,.mariner-experience) .sj-tools-hint {width:min(260px,calc(100cqw - 28px))}
+:is(.viking2-viewport,.mariner-viewport) .viewer-top {left:14px;right:14px;gap:12px;min-width:0;font-size:11px}
+:is(.viking2-viewport,.mariner-viewport) .viewer-top span {min-width:0;overflow-wrap:anywhere}
+:is(.viking2-viewport,.mariner-viewport) .inspection-instruction {left:14px;right:14px;font-size:11px;letter-spacing:.02em;flex-wrap:wrap;gap:4px 10px}
+:is(.viking2-viewport,.mariner-viewport) .viewer-bottom {left:14px;right:14px;bottom:32px;display:flex;flex-wrap:wrap;flex-direction:row;align-items:end;gap:8px 14px}
+:is(.viking2-viewport,.mariner-viewport) .viewer-bottom>span {display:block;flex:1 1 145px;max-width:none;min-width:0;font-size:12px;line-height:1.5;color:#243b48;text-shadow:0 1px 2px #f0ece2}
+:is(.viking2-viewport,.mariner-viewport) .viewer-actions {flex:1 1 290px;min-width:0;max-width:none;display:flex;flex-wrap:wrap;gap:6px;justify-content:flex-end}
+:is(.viking2-viewport,.mariner-viewport) .viewer-actions button {min-height:44px;min-width:44px;padding:9px 11px;font-size:13px;white-space:normal;line-height:1.3}
+:is(.viking2-viewport,.mariner-viewport) .scene-background-credit {left:14px;right:14px;bottom:5px;white-space:normal;overflow:visible;text-overflow:clip;font-size:10px;line-height:1.3}
+:is(.viking2-viewport,.mariner-viewport) .scene-backdrop.viking-terrain:after {background:radial-gradient(ellipse at 49% 39%,rgba(176,184,182,.30),rgba(205,191,174,.12) 65%),linear-gradient(180deg,rgba(226,217,203,.30),transparent 40%,rgba(202,188,169,.52))}
+:is(.viking2-viewport,.mariner-viewport) .scene-backdrop.viking-terrain img {filter:saturate(.62) contrast(.92) brightness(.86)}
+@container (max-width:620px) {
+ :is(.viking2-viewport,.mariner-viewport) .viewer-bottom {flex-direction:column;align-items:stretch;gap:6px}
+ :is(.viking2-viewport,.mariner-viewport) .viewer-bottom>span {flex:none;font-size:11px}
+ :is(.viking2-viewport,.mariner-viewport) .viewer-actions {flex:none;display:grid;grid-template-columns:1.2fr 1fr 1fr}
+ :is(.viking2-viewport,.mariner-viewport) .viewer-actions button {font-size:12px;padding:8px 6px}
+ :is(.viking2-experience,.mariner-experience) .sj-label {font-size:12px;padding:8px}
+}
+@media(max-width:760px) {
+ :is(.viking2-layout,.mariner-layout) .viewer-wrap {height:78svh;min-height:570px;max-height:880px}
+ #explorador:has(:is(.viking2-layout,.mariner-layout)) .explorer-top h1 {font-size:clamp(25px,6.7vw,34px);line-height:1.16;overflow-wrap:anywhere}
+ :is(.viking2-experience,.mariner-experience) .sj-selector {left:12px;right:112px;top:78px;max-width:none}
+ :is(.viking2-experience,.mariner-experience) .sj-tools-compact {right:12px;top:78px}
+ :is(.viking2-viewport,.mariner-viewport) .viewer-bottom {left:12px;right:12px}
+ :is(.viking2-viewport,.mariner-viewport) .inspection-instruction>span:last-child {display:none}
+}
+@media(max-height:540px) and (orientation:landscape) {
+ :is(.viking2-layout,.mariner-layout) .viewer-wrap {height:90svh;min-height:340px}
+ :is(.viking2-experience,.mariner-experience) .sj-selector,:is(.viking2-experience,.mariner-experience) .sj-tools-compact {top:14px}
+ :is(.viking2-viewport,.mariner-viewport) .viewer-top,:is(.viking2-viewport,.mariner-viewport) .inspection-instruction {display:none}
+ :is(.viking2-viewport,.mariner-viewport) .viewer-bottom>span {display:none}
+ :is(.viking2-experience,.mariner-experience) .sj-tools-options {max-height:calc(100svh - 110px)}
+}
+
+/* Mariner 9 keeps the four-wing span inside the measured page and canvas. */
+body.exploring.mariner-explorer main {padding-top:var(--explorer-header-height,162px)}
+#explorador:has(.mariner-layout) {scroll-margin-top:calc(var(--explorer-header-height,162px) + 12px);min-width:0}
+#explorador:has(.mariner-layout) .explorer-top {align-items:center;gap:12px 24px;padding:16px 24px;max-width:100%;min-width:0}
+#explorador:has(.mariner-layout) .explorer-top>div {flex:1 1 260px}
+#explorador:has(.mariner-layout) .explorer-top h1 {font-size:clamp(28px,3vw,40px);letter-spacing:-.04em}
+#explorador:has(.mariner-layout) .mission-select {flex:0 1 320px;min-width:0;max-width:100%;margin:0}
+#explorador:has(.mariner-layout) #mission-select {width:100%;min-width:0;max-width:100%;min-height:44px}
+.mariner-layout {grid-template-columns:minmax(0,1fr) minmax(300px,340px);height:max(440px,calc(100dvh - var(--explorer-header-height,162px) - var(--explorer-title-height,98px)));min-height:0}
+.mariner-layout .viewer-wrap {height:100%;min-height:0}
+.mariner-layout .inspection {min-width:0;min-height:0;overflow-y:auto;overscroll-behavior:contain}
+.mariner-viewport .sj-mount canvas {max-width:100%;max-height:100%}
+.mariner-viewport .scene-backdrop.orbital {opacity:.49;filter:none}
+.mariner-viewport .scene-backdrop.orbital img {filter:saturate(.65) contrast(.88) brightness(.94)}
+.mariner-viewport .scene-backdrop.orbital:after {background:radial-gradient(ellipse at 50% 40%,rgba(225,234,240,.16),rgba(233,239,244,.65) 95%)}
+.mariner-viewport.inside .scene-backdrop.orbital {opacity:.20;filter:blur(3px)}
+@media (max-width:1024px) {
+ .mariner-layout {display:flex;flex-direction:column;height:auto}
+ .mariner-layout .viewer-wrap {height:clamp(460px,calc(100svh - var(--explorer-header-height,162px) - var(--explorer-title-height,98px)),790px);min-height:0;flex:none}
+ .mariner-layout .inspection {height:auto;overflow:visible}
+ .mariner-viewport .viewer-bottom {padding-right:146px}
+ .mariner-viewport .scene-background-credit {right:154px}
+}
+@media (max-width:760px) {
+ body.exploring.mariner-explorer main {padding-top:var(--explorer-header-height,142px)}
+ #explorador:has(.mariner-layout) .explorer-top {display:flex;padding:16px;align-items:start}
+ #explorador:has(.mariner-layout) .explorer-top>div {flex-basis:100%}
+ #explorador:has(.mariner-layout) .mission-select {flex:1 1 100%}
+ .mariner-viewport .scene-backdrop.orbital {opacity:.44}
+ /* Leave a real lane for the persistent guide instead of covering reset/zoom. */
+ .mariner-viewport .viewer-bottom {padding-right:110px}
+ .mariner-viewport .viewer-actions {grid-template-columns:1.2fr 1fr}
+ .mariner-viewport .viewer-actions button:last-child {grid-column:1/-1}
+ .mariner-viewport .scene-background-credit {right:118px}
+}
+@media (max-height:540px) and (orientation:landscape) {
+ .mariner-layout .viewer-wrap {height:max(360px,90svh)}
+}

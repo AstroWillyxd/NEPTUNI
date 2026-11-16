@@ -1,0 +1,293 @@
+/* NEPTUNI · Fichas de misión, Quiénes somos y controles en estilo oscuro (referencia: Sojourner Pathfinder).
+   Se carga después de ocean.css y mission-guide.css: solo cambia la presentación. */
+:root{
+  color-scheme:dark;
+  --paper:#05060c; --white:#0f1222; --ink:#f3f1f8; --muted:#b9b6c9; --line:rgba(255,255,255,.12);
+  --red:#36e2b0; --red-dark:#6cf2cb; --red-soft:rgba(54,226,176,.12); --violet:#8fe9cf;
+  --shadow:0 18px 40px rgba(0,0,0,.45);
+  --nx-panel-bg:#0e1120; --nx-panel-2:#141830;
+}
+body{background:var(--nx-bg);color:var(--ink)}
+body[data-view=explorador],body[data-view=nosotros],body[data-view=proximamente]{background:
+  radial-gradient(70% 45% at 85% 0%,rgba(54,226,176,.08),transparent 70%),radial-gradient(60% 40% at 0% 30%,rgba(255,122,69,.07),transparent 70%),var(--nx-bg)}
+.eyebrow{color:#8fe9cf}
+.status-dot{background:var(--nx-brand)}
+:focus-visible{outline-color:#fff}
+
+/* Botones comunes */
+.button-primary{background:var(--nx-brand);color:var(--nx-brand-ink);box-shadow:0 10px 26px rgba(54,226,176,.28)}
+.button-primary:hover:not(:disabled){background:var(--nx-brand-hi);box-shadow:0 14px 30px rgba(54,226,176,.35)}
+.button-primary:active:not(:disabled){box-shadow:0 4px 12px rgba(54,226,176,.3)}
+.outline-button{background:rgba(255,255,255,.06);border-color:rgba(255,255,255,.2);color:#fff}
+.outline-button:hover:not(:disabled){background:rgba(255,255,255,.13);border-color:rgba(255,255,255,.34)}
+.outline-button[aria-pressed=true]{background:var(--nx-brand);border-color:var(--nx-brand);color:var(--nx-brand-ink)}
+.source-link,.reference-grid a{color:#6cf2cb}
+
+/* ------------------------------------------------------------- Ficha */
+#explorador .mission-breadcrumb #return-to-archive{border-color:rgba(54,226,176,.5);color:#c9fff0}
+.mission-select{color:var(--nx-muted)}
+.mission-select select{background:#0f1222;color:#fff;border-color:rgba(255,255,255,.22)}
+#explorador .explorer-top .eyebrow{color:var(--nx-brand);font:700 13px var(--nx-display);letter-spacing:.2em}
+#explorador .explorer-top h1{color:var(--nx-text);font:700 clamp(36px,5vw,72px)/.95 var(--nx-display);text-transform:uppercase;letter-spacing:0}
+#explorador .mission-archaeology-header h2{color:var(--nx-text);font:700 clamp(20px,2.2vw,28px) var(--nx-display);text-transform:uppercase;letter-spacing:.03em}
+#explorador .explorer-actions #lrv3-demo-open{display:none!important} /* se abre desde «Sistemas de la nave» */
+#explorador .component-dock{display:none!important}                    /* menú lateral eliminado */
+
+/* Fuentes de la misión */
+#explorador .mission-references{background:var(--nx-panel-bg);border-color:rgba(255,255,255,.1)}
+#explorador .mission-references h2{color:#fff;font:700 clamp(22px,2.4vw,30px) var(--nx-display);text-transform:uppercase;letter-spacing:.02em}
+.reference-grid h3{color:var(--nx-brand)}
+.reference-grid li::marker{color:var(--nx-brand)}
+.model-note{border-top-color:rgba(255,255,255,.1);color:var(--nx-muted)}
+
+/* Visor ampliado: solo el modelo */
+.explorer-stage:is(.viewer-expanded,:fullscreen){background:var(--nx-bg)!important;grid-template-columns:minmax(0,1fr)!important;grid-template-areas:"viewer"!important}
+.explorer-stage:is(.viewer-expanded,:fullscreen) :is(.nx-np-zone,.nx-tabs){display:none!important}
+
+/* Diálogo de demostraciones del LRV-3 */
+.lrv3-dialog{background:var(--nx-panel-bg);color:#fff;border-color:rgba(255,255,255,.14)}
+.lrv3-dialog p a{color:#6cf2cb}
+
+/* ------------------------------------------------------------- Quiénes somos */
+.section-head h1{color:#fff;font-family:var(--nx-display);text-transform:uppercase;letter-spacing:0}
+.section-head h1 span,.about-project h2 span{color:var(--nx-brand)}
+.section-head .intro{color:#cfcbe0}
+.about-project{background:var(--nx-panel-bg);border-color:rgba(255,255,255,.1)}
+.about-project h2,.crew-panel h2{color:#fff;font-family:var(--nx-display)}
+.about-project p{color:#dcd9e8}
+.nx-about-logo{margin-bottom:24px}
+.project-context{background:rgba(54,226,176,.08);border-left-color:var(--nx-brand)}
+.social-links a{border-bottom-color:rgba(255,255,255,.12)}
+.social-links a span{color:#6cf2cb}
+.crew-panel{background:linear-gradient(180deg,#0f2a2a 0%,#12233d 55%,#1d1636 100%);border-color:rgba(54,226,176,.3)}
+.team-member{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12)}
+.team-member h3{color:#fff}
+
+/* ------------------------------------------------------------- Ficha v4: columna lateral con botones y Neptunito */
+/* Proporciones: el escenario sale un poco del ancho del texto (hacia los márgenes) para que el visor
+   sea grande y la columna de Neptunito tenga espacio para los cuatro botones. */
+#explorador .explorer-stage:not(.viewer-expanded,:fullscreen){
+  --nx-stage-w:min(1640px,calc(100vw - 2 * clamp(16px,3vw,56px) - 12px));
+  width:var(--nx-stage-w);margin-inline:calc((100% - var(--nx-stage-w)) / 2);
+  grid-template-columns:clamp(320px,22.5%,390px) minmax(0,1fr);grid-template-areas:"side viewer";align-items:stretch}
+#explorador .viewer-wrap{border:1px solid rgba(255,255,255,.14);box-shadow:0 24px 60px rgba(0,0,0,.55)}
+#explorador .viewer-wrap .viewer-actions .outline-button{background:rgba(var(--nx-bg-rgb),.72);border-color:rgba(255,255,255,.22);color:#fff;backdrop-filter:blur(8px)}
+#explorador .viewer-wrap .viewer-actions .outline-button:hover:not(:disabled){background:var(--nx-brand);color:var(--nx-brand-ink)}
+#explorador .viewer-wrap .viewer-actions .outline-button[aria-pressed=true]{background:var(--nx-brand);color:var(--nx-brand-ink)}
+#rotate-model[aria-disabled=true]{cursor:not-allowed}
+#viewer-help{background:rgba(var(--nx-bg-rgb),.78)}
+.viewer-wrap.nx-locked .hotspot{pointer-events:none}
+
+.nx-side{grid-area:side;display:flex;flex-direction:column;gap:10px;min-width:0;height:var(--viewer-height);padding:12px;border-radius:24px;
+  background:linear-gradient(180deg,rgba(54,226,176,.08),rgba(255,255,255,.02) 40%),var(--nx-panel-bg);border:1px solid rgba(54,226,176,.28);box-shadow:0 24px 60px rgba(0,0,0,.45)}
+.nx-tabs{display:grid;grid-template-columns:minmax(0,1fr);gap:8px;flex:none}
+.nx-tab{display:flex;align-items:center;gap:12px;width:100%;min-height:58px;padding:9px 14px;border-radius:14px;border:1px solid rgba(255,255,255,.14);background:rgba(255,255,255,.05);
+  color:#fff;font:800 15px/1.22 var(--nx-body);text-align:left;transition:transform .2s,background .2s,border-color .2s,box-shadow .2s}
+.nx-tab::after{content:'→';margin-left:auto;color:var(--nx-brand);font-weight:800;transition:transform .2s}
+.nx-tab:hover::after{transform:translateX(3px)}
+.nx-tab:hover{transform:translateY(-2px);background:rgba(54,226,176,.12);border-color:rgba(54,226,176,.55)}
+.nx-tab[aria-selected=true]{background:var(--nx-brand);border-color:var(--nx-brand);color:var(--nx-brand-ink);box-shadow:0 12px 26px rgba(54,226,176,.28)}
+.nx-tab-n{flex:0 0 auto;display:grid;place-items:center;width:32px;height:32px;border-radius:9px;background:rgba(54,226,176,.16);color:var(--nx-brand);font:700 16px var(--nx-display)}
+.nx-tab[aria-selected=true] .nx-tab-n{background:rgba(3,21,15,.18);color:var(--nx-brand-ink)}
+
+.nx-chat-wrap{position:relative;flex:1 1 auto;display:grid;grid-template-columns:100px minmax(0,1fr);gap:8px;min-height:0;border-radius:16px;background:rgba(0,0,0,.22);border:1px solid rgba(255,255,255,.06);overflow:hidden}
+.nx-np-stage{position:relative;align-self:end;height:170px;cursor:pointer}
+.nx-chat{list-style:none;margin:0;padding:12px 10px 14px 0;display:flex;flex-direction:column;gap:9px;min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:rgba(54,226,176,.5) transparent}
+.nx-bubble{position:relative;align-self:flex-start;max-width:100%;padding:10px 13px;border-radius:16px 16px 16px 4px;background:#fff;color:#14122a;font:600 14.5px/1.45 var(--nx-body);box-shadow:0 10px 22px rgba(0,0,0,.35);animation:nx-pop .35s cubic-bezier(.2,.8,.3,1.3) both;overflow-wrap:anywhere}
+@keyframes nx-pop{from{opacity:0;transform:translateY(10px) scale(.92)}to{opacity:1;transform:none}}
+.nx-bubble b{color:#0b0d1a}
+.nx-bubble.nx-has-part{border-left:4px solid var(--nx-brand)}
+.nx-bubble .nx-sys{display:block;margin-bottom:3px;color:var(--nx-brand-deep);font:700 13px var(--nx-display);letter-spacing:.06em;text-transform:uppercase}
+.nx-bubble .nx-num{display:inline-grid;place-items:center;width:24px;height:24px;margin-right:8px;border-radius:7px;background:var(--nx-game);color:#1d1300;font:700 13px var(--nx-display);vertical-align:1px}
+.nx-bubble.nx-tip{background:#fff6dd}
+.nx-bubble.nx-alert{background:#ffe1e5;color:#5c0d18}
+.nx-bubble.nx-photo img{width:100%;max-height:180px;object-fit:cover;border-radius:10px}
+.nx-bubble.nx-photo small{display:block;margin-top:5px;font-size:12px}
+.nx-bubble a{color:var(--nx-brand-deep);font-weight:800}
+.nx-bubble.nx-src{background:rgba(255,255,255,.08);color:#cfcbe0;font-size:13px;box-shadow:none;border:1px solid rgba(255,255,255,.12)}
+.nx-bubble.nx-src b{color:#fff}.nx-bubble.nx-src a{color:#6cf2cb;margin-right:8px}
+.nx-bubble.nx-divider{align-self:stretch;padding:4px 0;background:none;box-shadow:none;border-radius:0;text-align:center;color:var(--nx-brand);font:700 12px var(--nx-display);letter-spacing:.16em;text-transform:uppercase;animation:none}
+.nx-bubble.nx-divider span{padding:4px 10px;border-radius:999px;background:rgba(54,226,176,.12);border:1px solid rgba(54,226,176,.35)}
+.nx-bubble.nx-hello{background:linear-gradient(135deg,#fff,#e9fff8)}
+.nx-part-chip{display:inline-flex;margin-top:7px;padding:5px 10px;min-height:32px;border-radius:999px;border:1px solid rgba(7,122,92,.4);background:rgba(54,226,176,.14);color:#05463a;font:800 12.5px var(--nx-body)}
+.nx-part-chip:hover{background:var(--nx-brand)}
+.nx-dots{display:inline-flex;gap:4px;padding:4px 2px}
+.nx-dots i{width:7px;height:7px;border-radius:50%;background:#9a98ad;animation:nx-blink 1s infinite}
+.nx-dots i:nth-child(2){animation-delay:.15s}.nx-dots i:nth-child(3){animation-delay:.3s}
+@keyframes nx-blink{50%{opacity:.25;transform:translateY(-2px)}}
+.nx-chat-ui{display:flex;flex-wrap:wrap;gap:6px;flex:none}
+
+/* ------------------------------------------------------------- Modo chat: al elegir un tema se van los botones */
+.nx-side:not(.is-chat) .nx-chat-ui{display:none}
+.nx-side.is-chat .nx-tabs{display:none}
+.nx-side.is-chat .nx-np-stage{display:none}
+.nx-side.is-chat .nx-chat-wrap{grid-template-columns:minmax(0,1fr);animation:nx-chat-in .45s cubic-bezier(.2,.8,.3,1) both}
+.nx-side.is-chat .nx-chat{padding:12px 12px 16px}
+@keyframes nx-chat-in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.nx-side:not(.is-chat) .nx-tab{animation:nx-tab-in .4s cubic-bezier(.2,.8,.3,1.2) both}
+.nx-side:not(.is-chat) .nx-tab:nth-child(2){animation-delay:.05s}
+.nx-side:not(.is-chat) .nx-tab:nth-child(3){animation-delay:.1s}
+.nx-side:not(.is-chat) .nx-tab:nth-child(4){animation-delay:.15s}
+@keyframes nx-tab-in{from{opacity:0;transform:translateX(-12px)}to{opacity:1;transform:none}}
+
+.nx-chat-head{display:flex;align-items:center;gap:10px;flex:none;padding:6px 8px 6px 6px;border-radius:16px;background:rgba(54,226,176,.1);border:1px solid rgba(54,226,176,.3);animation:nx-chat-in .35s both}
+.nx-chat-head[hidden]{display:none}
+.nx-back{flex:none;display:grid;place-items:center;width:40px;height:40px;border-radius:11px;border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);color:#fff}
+.nx-back:hover{background:var(--nx-brand);color:var(--nx-brand-ink)}
+.nx-back svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:2.6;stroke-linecap:round;stroke-linejoin:round}
+.nx-avatar{position:relative;flex:none;width:42px;height:42px;border-radius:50%;overflow:hidden;background:radial-gradient(circle at 50% 35%,#e9fff8,#8fe9cf);border:2px solid var(--nx-brand)}
+.nx-avatar img{position:absolute;width:86px;max-width:none;left:-22px;top:-4px}
+.nx-side.is-talking .nx-avatar{animation:nx-talk .32s ease-in-out infinite alternate}
+@keyframes nx-talk{to{transform:translateY(-2px) scale(1.04)}}
+.nx-head-txt{display:flex;flex-direction:column;min-width:0;line-height:1.2}
+.nx-head-txt b{color:#fff;font:700 15px var(--nx-display);letter-spacing:.03em}
+.nx-head-txt span{color:#bff5e4;font:700 12.5px var(--nx-body);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.nx-head-step{margin-left:auto;flex:none;padding:3px 9px;border-radius:999px;background:rgba(0,0,0,.25);color:var(--nx-brand);font:700 12px var(--nx-display);letter-spacing:.06em}
+.nx-head-step:empty{display:none}
+
+/* Flecha de continuar al terminar cada mensaje */
+.nx-continue{display:flex;align-items:center;gap:6px;margin:8px 0 0 auto;min-height:36px;padding:5px 8px 5px 13px;border-radius:999px;border:0;background:var(--nx-brand);color:var(--nx-brand-ink);font:800 13px var(--nx-body);box-shadow:0 6px 16px rgba(54,226,176,.35);animation:nx-pop .3s both}
+.nx-continue svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;animation:nx-nudge 1s ease-in-out infinite}
+.nx-continue:hover{background:var(--nx-brand-hi)}
+@keyframes nx-nudge{50%{transform:translateX(4px)}}
+.nx-bubble:has(.nx-continue){display:flex;flex-direction:column}
+.nx-bubble .nx-continue{align-self:flex-end}
+
+/* Cierre del tema: ir a otro tema sin volver atrás */
+.nx-bubble.nx-end{background:linear-gradient(135deg,#fff,#e9fff8)}
+.nx-next-topics{display:grid;gap:6px;margin-top:9px}
+.nx-topic-chip{display:flex;align-items:center;gap:8px;min-height:40px;padding:7px 11px;border-radius:11px;border:1px solid rgba(7,122,92,.35);background:rgba(54,226,176,.14);color:#05463a;font:800 13px/1.25 var(--nx-body);text-align:left}
+.nx-topic-chip:hover{background:var(--nx-brand)}
+.nx-topic-chip i{font-style:normal;display:grid;place-items:center;flex:none;width:24px;height:24px;border-radius:7px;background:#fff;color:#077a5c;font:700 13px var(--nx-display)}
+.nx-topic-chip.ghost{background:none}
+
+/* ------------------------------------------------------------- Neptunito guía dentro del visor */
+/* La capa cubre todo el escenario (chat + visor) y no recorta: Neptunito puede salir del visor. */
+#explorador .explorer-stage:not(.viewer-expanded,:fullscreen){position:relative}
+.nx-tour{position:absolute;left:0;top:0;width:0;height:0;z-index:8;pointer-events:none;overflow:visible;opacity:0;transition:opacity .3s}
+.nx-tour.on{opacity:1}
+.nx-tour-world{position:absolute;left:0;top:0;overflow:visible}
+.nx-rope{fill:none;stroke:#e9dcc0;stroke-width:3.5;stroke-linecap:round;opacity:0;filter:drop-shadow(0 1px 1px rgba(0,0,0,.5))}
+.nx-rope.on{opacity:1}
+.nx-tour-world:not(.beam) :is(.nx-beam-line,.nx-beam-ring,.nx-beam-dot){display:none}
+.nx-guide-spin{position:absolute;left:0;top:0}
+.nx-acc-layer{position:absolute;left:0;top:0}
+.nx-acc{position:absolute;opacity:0;transform:scale(.4);transform-origin:50% 80%;transition:opacity .2s,transform .25s cubic-bezier(.2,.8,.3,1.4)}
+.nx-acc.on{opacity:1;transform:none}
+.nx-acc svg,.nx-chute svg,.nx-rocket svg{display:block;width:100%;height:100%;overflow:visible}
+.nx-acc.pop.on{animation:nx-acc-pop .45s cubic-bezier(.2,.8,.3,1.5)}
+@keyframes nx-acc-pop{from{transform:translateY(-30px) scale(.3);opacity:0}to{transform:none;opacity:1}}
+.nx-jetflame{opacity:0;transform-box:fill-box;transform-origin:50% 0}
+.nx-tour.jet-on .nx-jetflame{opacity:1;animation:nx-flicker .12s linear infinite alternate}
+@keyframes nx-flicker{from{transform:scaleY(.75)}to{transform:scaleY(1.15)}}
+.nx-chute{position:absolute;opacity:0;transform:scale(.2,.05);transform-origin:50% 100%;transition:opacity .25s,transform .45s cubic-bezier(.2,.8,.3,1.3)}
+.nx-chute.on{opacity:1;transform:none}
+.nx-props{position:absolute;left:0;top:0}
+.nx-rocket,.nx-block{position:absolute;left:0;top:0;opacity:0;transform-origin:50% 100%;filter:drop-shadow(0 8px 10px rgba(0,0,0,.4))}
+.nx-rocket.on,.nx-block.on{opacity:1}
+.nx-rocket-flame{opacity:0;transform-box:fill-box;transform-origin:50% 0}
+.nx-rocket.fire .nx-rocket-flame{opacity:1;animation:nx-flicker .1s linear infinite alternate}
+.nx-block svg{display:block;width:100%;height:100%;image-rendering:pixelated}
+.nx-fx{position:absolute;left:0;top:0}
+.nx-p{position:absolute;left:0;top:0;width:9px;height:14px;margin:-7px 0 0 -4px;border-radius:2px;background:var(--c);animation:nx-confetti 1.5s cubic-bezier(.15,.6,.4,1) forwards}
+@keyframes nx-confetti{0%{transform:translate(0,0) rotate(0);opacity:1}55%{transform:translate(var(--dx),var(--dy)) rotate(calc(var(--r) * .6));opacity:1}100%{transform:translate(calc(var(--dx) * 1.15),calc(var(--dy) + 140px)) rotate(var(--r));opacity:0}}
+.nx-p-spark{width:auto;height:auto;background:none;color:var(--c);font:700 20px/1 Arial,sans-serif;text-shadow:0 0 8px rgba(255,255,255,.7);animation:nx-spark .9s ease-out forwards}
+@keyframes nx-spark{0%{transform:translate(0,0) scale(.3);opacity:1}100%{transform:translate(var(--dx),var(--dy)) scale(1.2) rotate(var(--r));opacity:0}}
+.nx-puff{position:absolute;left:0;top:0;width:34px;height:34px;margin:-17px 0 0 -17px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,.95),rgba(220,205,190,.7) 60%,transparent 72%);animation:nx-puff 1s ease-out forwards}
+@keyframes nx-puff{from{transform:translate(0,0) scale(calc(var(--s) * .4));opacity:.95}to{transform:translate(var(--dx),-26px) scale(calc(var(--s) * 2.2));opacity:0}}
+.nx-float{position:absolute;left:0;top:0;transform:translate(-50%,-50%);padding:4px 11px;border-radius:999px;background:#ffd166;color:#3b2a05;font:800 15px var(--nx-display);letter-spacing:.04em;white-space:nowrap;box-shadow:0 6px 16px rgba(0,0,0,.35);animation:nx-float 1.6s ease-out forwards}
+@keyframes nx-float{0%{opacity:0;translate:0 10px;scale:.6}15%{opacity:1;translate:0 0;scale:1.08}80%{opacity:1}100%{opacity:0;translate:0 -46px;scale:1}}
+.nx-guide-head{display:flex;margin-bottom:4px}
+.nx-guide-head[hidden]{display:none}
+.nx-step-pill{padding:2px 8px;border-radius:999px;background:#0e1120;color:#36e2b0;font:700 11.5px var(--nx-display);letter-spacing:.06em}
+.nx-count{display:block;color:#e2384f;font:800 34px/1.1 var(--nx-display);animation:nx-guide-pop .4s both}
+.nx-guide-body{position:absolute;left:0;top:0;will-change:transform}
+.nx-guide-flip{position:absolute;left:0;top:0}
+.nx-guide-lift{position:absolute;left:0;top:0;transform-origin:0 0}
+.nx-guide-frame{position:absolute;max-width:none;opacity:0;user-select:none;filter:drop-shadow(0 6px 10px rgba(0,0,0,.35))}
+.nx-guide-frame.on{opacity:1}
+.nx-guide-shadow{position:absolute;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(closest-side,rgba(0,0,0,.6),transparent)}
+.nx-beam-line{fill:none;stroke:#36e2b0;stroke-width:2.5;stroke-dasharray:7 7;stroke-linecap:round;filter:drop-shadow(0 0 4px rgba(54,226,176,.8));animation:nx-dash .9s linear infinite}
+@keyframes nx-dash{to{stroke-dashoffset:-14}}
+.nx-beam-dot{fill:#36e2b0;stroke:#fff;stroke-width:2}
+.nx-beam-ring{fill:none;stroke:#36e2b0;stroke-width:2.5;transform-box:fill-box;transform-origin:center;animation:nx-ring 1.4s ease-out infinite}
+@keyframes nx-ring{from{transform:scale(.4);opacity:1}to{transform:scale(1.8);opacity:0}}
+.nx-guide-bubble{position:absolute;left:0;top:0;--tail:50%;width:max-content;max-width:320px;padding:11px 14px;border-radius:16px;background:#fff;color:#14122a;font:600 14.5px/1.42 var(--nx-body);
+  box-shadow:0 14px 30px rgba(0,0,0,.4);opacity:0;visibility:hidden;transition:opacity .2s}
+.nx-guide-bubble.on{opacity:1;visibility:visible;pointer-events:auto;animation:nx-guide-pop .4s cubic-bezier(.2,.8,.3,1.35) both}
+@keyframes nx-guide-pop{from{scale:.7;opacity:0}to{scale:1;opacity:1}}
+.nx-guide-bubble::after{content:'';position:absolute;left:var(--tail);bottom:-9px;width:18px;height:18px;margin-left:-9px;background:#fff;transform:rotate(45deg);border-radius:0 0 4px 0}
+.nx-guide-bubble[data-tail=none]::after{display:none}
+.nx-guide-bubble[data-tail=right]::after{left:auto;right:-9px;bottom:auto;top:var(--tail-y);margin:-9px 0 0}
+.nx-guide-bubble[data-tail=left]::after{left:-9px;bottom:auto;top:var(--tail-y);margin:-9px 0 0}
+.nx-guide-text b{display:block;margin-bottom:2px;color:#077a5c;font:700 12.5px var(--nx-display);letter-spacing:.06em;text-transform:uppercase}
+.nx-guide-next{display:none;align-items:center;gap:4px;margin:7px 0 0 auto;min-height:32px;padding:4px 6px 4px 11px;border:0;border-radius:999px;background:var(--nx-brand);color:var(--nx-brand-ink);font:800 12.5px var(--nx-body)}
+.nx-guide-next svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;animation:nx-nudge 1s ease-in-out infinite}
+.nx-guide-bubble.can-next{cursor:pointer;display:flex;flex-direction:column}
+.nx-guide-bubble.can-next .nx-guide-next{display:flex}
+@media (prefers-reduced-motion:reduce){.nx-guide-bubble.on,.nx-beam-ring,.nx-beam-line,.nx-continue svg,.nx-guide-next svg,.nx-acc.pop.on{animation:none}}
+.explorer-stage:is(.viewer-expanded,:fullscreen) .nx-tour{z-index:75}
+
+/* ------------------------------------------------------------- Armonía chat ↔ globo del visor */
+.nx-bubble[data-step]{position:relative}
+.nx-bubble .nx-step-badge{position:absolute;top:-8px;left:-6px;display:grid;place-items:center;min-width:22px;height:22px;padding:0 6px;border-radius:999px;background:#0e1120;color:var(--nx-brand);border:1.5px solid var(--nx-brand);font:700 11.5px var(--nx-display)}
+.nx-side.is-chat .nx-bubble.is-past:not(.nx-end){opacity:.62;transform:scale(.985);transition:opacity .3s,transform .3s}
+.nx-side.is-chat .nx-bubble.is-past:hover{opacity:1}
+.nx-side.is-chat .nx-bubble.is-live{box-shadow:0 0 0 2px var(--nx-brand),0 10px 26px rgba(54,226,176,.28)}
+.nx-live-hint{display:flex;align-items:center;gap:6px;margin:-2px 0 6px;color:#077a5c;font:800 11.5px var(--nx-display);letter-spacing:.05em;text-transform:uppercase}
+.nx-live-hint i{width:8px;height:8px;border-radius:50%;background:var(--nx-brand);box-shadow:0 0 0 0 rgba(54,226,176,.7);animation:nx-live 1.4s infinite}
+@keyframes nx-live{70%{box-shadow:0 0 0 7px rgba(54,226,176,0)}100%{box-shadow:0 0 0 0 rgba(54,226,176,0)}}
+.nx-ctx{display:block;margin-top:8px;padding:7px 10px;border-radius:10px;background:#f1f4fb;color:#2a2b45;font:600 13.5px/1.42 var(--nx-body)}
+.nx-ctx b{display:block;margin-bottom:1px;color:#3b4a8f;font:700 11.5px var(--nx-display);letter-spacing:.06em;text-transform:uppercase}
+.nx-ctx.nx-ctx-hit{background:#fff4d6;color:#3b2a05}
+.nx-ctx.nx-ctx-hit b{color:#a06300}
+.nx-bubble.nx-hito{background:linear-gradient(135deg,#fff,#fff4d6)}
+.nx-bubble.nx-why{background:linear-gradient(135deg,#fff,#eef3ff)}
+.nx-bubble .nx-kicker{display:block;margin-bottom:3px;font:700 12.5px var(--nx-display);letter-spacing:.06em;text-transform:uppercase;color:#3b4a8f}
+.nx-bubble.nx-hito .nx-kicker{color:#a06300}
+.nx-chat-btn{flex:1 1 auto;min-height:40px;padding:6px 10px;border-radius:10px;border:1px solid rgba(255,255,255,.18);background:rgba(255,255,255,.06);color:#fff;font:800 13px var(--nx-body)}
+.nx-chat-btn:hover:not(:disabled){background:var(--nx-brand);color:var(--nx-brand-ink)}
+.nx-chat-btn:disabled{opacity:.35}
+.nx-small-btn{min-height:40px;padding:8px 12px;border-radius:10px;border:1px solid rgba(7,122,92,.45);background:rgba(54,226,176,.14);color:#05463a;font:800 13px var(--nx-body)}
+
+/* Visor ampliado: solo el modelo */
+.explorer-stage:is(.viewer-expanded,:fullscreen){background:var(--nx-bg)!important;grid-template-columns:minmax(0,1fr)!important;grid-template-areas:"viewer"!important}
+.explorer-stage:is(.viewer-expanded,:fullscreen) .nx-side{display:none!important}
+
+/* Diálogo LRV-3 */
+.lrv3-dialog{background:var(--nx-panel-bg);color:#fff;border-color:rgba(255,255,255,.14)}
+.lrv3-dialog p a{color:#6cf2cb}
+
+/* Quiénes somos */
+.section-head h1{color:#fff;font-family:var(--nx-display);text-transform:uppercase;letter-spacing:0}
+.section-head h1 span,.about-project h2 span{color:var(--nx-brand)}
+.section-head .intro{color:#cfcbe0}
+.about-project{background:var(--nx-panel-bg);border-color:rgba(255,255,255,.1)}
+.about-project h2,.crew-panel h2{color:#fff;font-family:var(--nx-display)}
+.about-project p{color:#dcd9e8}
+.nx-about-logo{margin-bottom:24px}
+.project-context{background:rgba(54,226,176,.08);border-left-color:var(--nx-brand)}
+.social-links a{border-bottom-color:rgba(255,255,255,.12)}
+.social-links a span{color:#6cf2cb}
+.crew-panel{background:linear-gradient(180deg,#0f2a2a 0%,#12233d 55%,#1d1636 100%);border-color:rgba(54,226,176,.3)}
+.team-member{background:rgba(255,255,255,.07);border-color:rgba(255,255,255,.12)}
+.team-member h3{color:#fff}
+
+/* ------------------------------------------------------------- Tablet y celular */
+@media (max-width:980px){
+  #explorador .explorer-stage:not(.viewer-expanded,:fullscreen){width:auto;margin-inline:0;grid-template-columns:minmax(0,1fr);grid-template-areas:"viewer" "side"}
+  .nx-side{height:auto}
+  .nx-tabs{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .nx-tab::after{display:none}
+  .nx-guide-bubble{max-width:min(270px,calc(100vw - 60px));font-size:13.5px}
+  .nx-chat-wrap{height:min(470px,62svh)}
+}
+@media (max-width:520px){
+  .nx-side{padding:10px}
+  .nx-tab{min-height:62px;padding:9px;font-size:13.5px;gap:8px}
+  .nx-tab-n{width:28px;height:28px;font-size:14px}
+  .nx-chat-wrap{grid-template-columns:78px minmax(0,1fr);height:min(440px,60svh)}
+  .nx-np-stage{height:130px}
+  .nx-bubble{font-size:14px}
+}
+.nx-chat>.nx-bubble{margin:0;max-width:100%}

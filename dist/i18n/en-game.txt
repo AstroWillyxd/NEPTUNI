@@ -1,0 +1,133 @@
+# NEPTUNI · English · juego «Control desde la Tierra» (juego/index.html, juego/juego.js)
+m52sato Control from Earth · Sojourner game · NEPTUNI
+5x56hca Game · Sojourner mission
+52lcjid Mars Pathfinder · 1997
+4wgu3n6 Control from
+7dfd5q4 Earth
+7nn05t3 You're part of the team that drives
+pgwbgbh Sojourner
+m7zcvdm , the first rover to drive on Mars. Your commands take several minutes to arrive, so you can't drive it live:
+wen155e you plan, you send, and you watch what happens
+mxwk2hp The APXS is at the back.
+6soeupl The instrument that analyzes rocks is on the rear: approach the rock
+v8vt8dd in reverse
+ufzoiv7 Work close to the module.
+lnxnbh8 Sojourner talked to Earth through the Pathfinder module. In its first days it worked about 10 m from it; in the game, your work zone reaches 12 m.
+68beay2 Watch out for rocks.
+e9mctxd Its lasers spot obstacles and stop it before it crashes.
+3b8jfm1 Start mission
+mx2gk5t 3 mission days · laptop or phone · keyboard works too
+qdnu7gc Sojourner next to the rock Yogi · NASA/JPL, PIA00766
+kzbu7x9 Earth
+wu5mlle Sending commands…
+22s1qsw 1 square ≈ 3 m
+si2yp3c Target rock
+nt9jlor Obstacle
+dc9wp9y Work zone (12 m)
+fp3tog7 Day 1 of 3
+ufxapfk Forward
+bcywzy1 Back up
+m27ln8w Turn left
+p9r7ev2 Turn right
+r1hccs6 Analyze with APXS
+e8fosy1 Your program
+nwegdp9 Delete last
+qa55t8r Delete all
+154u6xn Send to Mars
+d1s4yqq Restart this day
+3mok1ay Keyboard: ↑ forward · ↓ back up · ← → turn · A analyze · Enter send
+qr8f931 Analysis complete
+delq964 Replay day
+cdm1e5l Next day →
+nnw87qv Mission certificate
+vypx7ad Sojourner operator
+8jx059v Your name
+pjua4g5 Completed the 3 days of analysis at Ares Vallis, planning commands from Earth like the Mars Pathfinder team.
+oc7a259 Type your name for the certificate
+5z8ih55 Real fact:
+7ivu6jb Sojourner was designed to work for one week and it worked for 83 Martian days. In total it traveled about 100 meters.
+k835sjl Save or print certificate
+ouerwvs See Sojourner in 3D
+1d092xe Play again
+qohcdfm Sources:
+tdj7vwb NASA · Sojourner and Yogi
+7z6vlpm NASA/JPL · APXS on Barnacle Bill
+2uobnau Simplified map for educational purposes: the distances and positions of the rocks are not exact.
+g5ywyse NEPTUNI game: drive Sojourner on Mars by sending commands from Earth, like the Mars Pathfinder mission team.
+ktswfel Back to NEPTUNI
+ewkoxxe Sojourner next to the rock Yogi on Mars
+l65k1lr Map of the landing site
+mnwemd8 Available commands
+nwt139m Analyze the rock
+iyw09l9 The APXS is at the back. Turn until your back faces Barnacle Bill and approach in reverse.
+k76gk3v The APXS found more silica in Barnacle Bill than in the soil around it.
+fz849jb Barnacle Bill was the first rock Sojourner analyzed: it was just a few steps from the module.
+pcxcfiu Reach the rock
+ilkm6op and analyze it.
+p2zqvcs According to the data, Yogi looked like a basalt, although a layer of dust may have affected the measurement.
+4xgk665 The team named many rocks after cartoon characters, like Yogi and Scooby-Doo.
+809wwwd , the farthest rock of the day.
+axd6jns Scooby-Doo is far away and surrounded by rocks. If you run out of commands, send them in two parts.
+bcspcmz Scooby-Doo seemed to be made of compacted soil.
+4g1lrfy In its first seven days, Sojourner worked about 10 m from the module. Its radio reached about 100 m, but everything it sent went through Pathfinder.
+j3mile2 Day
+awnkmog Tap the commands to build your plan.
+4ldcrak Commands sent today:
+hluc8xu Commands travel to Mars by radio. During the mission they took 10 to 15 minutes to arrive; here we speed it up.
+k2wkcud Sojourner stopped: there it would have left the work zone near the module (12 m in the game).
+w65xv94 Sojourner stopped: the Pathfinder module was in the way.
+zaosyhd Sojourner's lasers detected a rock and stopped it. The remaining commands were canceled.
+x1xng4q The APXS didn't touch any rock. Remember: it's at the back and has to end up right against the target rock.
+d961tpa Sojourner finished your commands and is waiting for the next ones. You can continue from here.
+u8lifn3 analyzed
+5agfzee of 3 stars
+kt02mo8 commands; the minimum possible was
+79ekk4m See my certificate →
+nswoibd of 9 stars ·
+=Tu nombre => Your name
+=Pathfinder => Pathfinder
+=Módulo Pathfinder => Pathfinder module
+=Quitar => Remove
+=Girar izq. => Turn left
+=Girar der. => Turn right
+=Ver tutorial => Watch tutorial
+=Siguiente => Next
+=Saltar tutorial => Skip tutorial
+=¡Sí, vamos! => Yes, let's go!
+=¡A jugar! => Let's play!
+=Teclado y botones => Keyboard and buttons
+=Día => Day
+=¡Misión cumplida! Ahora eres parte del equipo de Sojourner. => Mission accomplished! Now you're part of the Sojourner team.
+=¡Hola! Soy Neptunito. Hoy tú y yo somos el equipo que maneja a Sojourner desde la Tierra. ¿Te enseño a jugar? => Hi! I'm Neptunito. Today you and I are the team that drives Sojourner from Earth. Shall I show you how to play?
+=Este es Sojourner visto desde arriba. El triángulo rojo es su frente y el círculo amarillo de atrás es el APXS, el instrumento que analiza las rocas. => This is Sojourner seen from above. The red triangle is its front, and the yellow circle at the back is the APXS, the instrument that analyzes rocks.
+=Esta es la roca que hay que analizar hoy. Truco: como el APXS va atrás, Sojourner tiene que llegar de espaldas a la roca, pegado a ella. => This is the rock to analyze today. Tip: since the APXS is at the back, Sojourner has to reach the rock backwards, right up against it.
+=En el centro está el módulo Pathfinder. Sojourner solo puede moverse dentro del círculo punteado: su zona de trabajo de 12 m. => The Pathfinder module is in the center. Sojourner can only move inside the dotted circle: its 12 m work zone.
+=Estos son tus mandos. Cada botón agrega una orden a tu plan. => These are your controls. Each button adds a command to your plan.
+=Prueba: toca el botón «Girar derecha». => Try it: tap the "Turn right" button.
+=✓ ¡Muy bien! La orden se guardó en tu programa. Sojourner todavía no se mueve: primero se planifica. => ✓ Well done! The command was saved in your program. Sojourner doesn't move yet: first you plan.
+=Aquí se arma tu programa: caben hasta 12 órdenes. Si te equivocas, toca una orden para quitarla. => This is where you build your program: it holds up to 12 commands. If you make a mistake, tap a command to remove it.
+=Ahora toca la orden que pusiste para quitarla. => Now tap the command you added to remove it.
+=✓ ¡Perfecto! También puedes usar «Borrar última» o «Borrar todo». => ✓ Perfect! You can also use "Delete last" or "Delete all".
+=Cuando tu plan esté listo, toca «Enviar a Marte». Antes de enviar, mira la línea punteada del mapa: muestra por dónde pasará Sojourner. => When your plan is ready, tap "Send to Mars". Before sending, check the dotted line on the map: it shows where Sojourner will go.
+=¿Juegas en computadora? También puedes usar el teclado: las flechas para moverte, A para analizar y Enter para enviar. => Playing on a computer? You can also use the keyboard: the arrows to move, A to analyze and Enter to send.
+=¡Listo, ya sabes lo necesario! Tu primera misión: analizar la roca Barnacle Bill. Si necesitas ayuda, toca «Ver tutorial» cuando quieras. => All set, you know what you need! Your first mission: analyze the rock Barnacle Bill. If you need help, tap "Watch tutorial" anytime.
+=Día 1 => Day 1
+=Día 2 => Day 2
+=Día 3 => Day 3
+=¡Yay, lo lograste con el mínimo de órdenes! ¡Eres un genio de la planificación! => Yay, you did it with the fewest commands! You're a planning genius!
+=¡Increíble! Plan perfecto. ¡Estoy muy orgulloso de ti! => Amazing! A perfect plan. I'm so proud of you!
+=¡Wow! Ni una orden de más. ¡Piensas como el equipo de control de una misión! => Wow! Not a single extra command. You think like a mission control team!
+=¡Yay, lo lograste! Estoy muy orgulloso de ti. => Yay, you did it! I'm so proud of you.
+=¡Bien hecho! Tu plan funcionó. ¿Te animas a hacerlo con menos órdenes? => Well done! Your plan worked. Want to try it with fewer commands?
+=¡Lo lograste! Cada día planificas mejor. => You did it! You plan better every day.
+=¡Lo lograste! Lo importante es que no te rendiste. ¡Estoy orgulloso de ti! => You did it! What matters is that you didn't give up. I'm proud of you!
+=¡Misión cumplida! Cada intento te hizo mejor. ¡Sigue así! => Mission accomplished! Every try made you better. Keep it up!
+=¡Yay, lo lograste! Practicar es el secreto de los grandes exploradores. => Yay, you did it! Practice is the secret of great explorers.
+=¡No pasa nada! Equivocarse también es aprender. ¡Tú puedes! => It's okay! Making mistakes is part of learning. You can do it!
+=Respira, revisa la línea punteada y vuelve a intentarlo. ¡Confío en ti! => Take a breath, check the dotted line and try again. I believe in you!
+=¡Casi! Cada intento te acerca a la meta. => Almost! Every try gets you closer to the goal.
+=Los errores son pistas: ahora ya sabes qué cambiar. ¡Vamos otra vez! => Mistakes are clues: now you know what to change. Let's go again!
+=¡Allá van tus órdenes! Buen trabajo planificando. => There go your commands! Nice planning.
+=¡Enviado! Veamos qué tan bien lo planeaste. => Sent! Let's see how well you planned it.
+=¡Buen plan! Crucemos los dedos. => Good plan! Fingers crossed.
+=Estoy muy orgulloso de ti: planificaste, te equivocaste, lo volviste a intentar y lo lograste. ¡Así trabajan los grandes exploradores! => I'm so proud of you: you planned, made mistakes, tried again and made it. That's how great explorers work!

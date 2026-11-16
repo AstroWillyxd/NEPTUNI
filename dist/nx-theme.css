@@ -1,0 +1,458 @@
+/* NEPTUNI · Paleta «Despegue» (v7), pensada para chicas y chicos de 10 a 14 años.
+   Colores de base: blanco #FEFEFE, rojo cohete #E2011C y amarillo sol #FFC300.
+   Mezclas: naranja (rojo + amarillo), crema (blanco + amarillo), rubor (blanco + rojo), rojo profundo
+   y una tinta rojiza casi negra para leer bien.
+   Equilibrio: el blanco manda; el rojo marca lo que se toca (botones, pestaña activa, palabras clave);
+   el amarillo resalta (subrayado de marcador, años, insignias, el juego). Solo hay tres bloques de
+   color fuerte: la cinta amarilla, el botón «Descubre más» y el pie rojo.
+   Se carga al final y solo cambia colores y detalles de estilo. La paleta anterior está en
+   nx-theme-cosmos.css (basta con enlazarla en lugar de esta). */
+:root{
+  color-scheme:light;
+  /* base y mezclas */
+  --nx-white:#fefefe; --nx-red:#e2011c; --nx-yellow:#ffc300;
+  --nx-red-deep:#a30016; --nx-red-hi:#f3263d; --nx-orange:#f26a0f; --nx-amber:#e89b00;
+  --nx-yellow-deep:#c99700; --nx-yellow-hi:#ffd54a;
+  --nx-cream:#fff8e3; --nx-cream-2:#ffefbf; --nx-blush:#ffeff1;
+  --nx-ink:#28161a; --nx-ink-2:#5f4a4e;
+  --nx-mark:rgba(255,195,0,.82);
+  --nx-sun-grad:linear-gradient(90deg,var(--nx-red),var(--nx-orange) 55%,var(--nx-yellow));
+  --nx-soft-shadow:0 2px 0 rgba(40,22,26,.05),0 18px 40px rgba(140,40,20,.11);
+  /* estrellas de la portada (las lee nx-landing.js) */
+  --nx-stars:232,155,0|226,1,28|242,106,10|255,195,0; --nx-stars-line:226,1,28; --nx-stars-glow:255,195,0; --nx-stars-size:1.35;
+  /* tokens que ya usa el sitio */
+  --nx-bg:#fefefe; --nx-bg-rgb:254,254,254; --nx-bg2:#fff8e3; --nx-panel:#fff; --nx-line:rgba(40,22,26,.12);
+  --nx-text:#28161a; --nx-muted:#5f4a4e;
+  --nx-brand:#e2011c; --nx-brand-hi:#f3263d; --nx-brand-ink:#fff; --nx-brand-deep:#a30016;
+  --nx-sun:#ffc300; --nx-pink:#e2011c; --nx-sky:#f26a0f; --nx-violet:#a30016;
+  --nx-mars:#e2011c; --nx-moon:#ffc300; --nx-game:#ffc300;
+  --paper:#fefefe; --white:#fff; --ink:#28161a; --muted:#5f4a4e; --line:rgba(40,22,26,.13);
+  --red:#e2011c; --red-dark:#a30016; --red-soft:#ffeff1; --gold:#ffc300; --violet:#a30016; --space:#28161a;
+  --shadow:var(--nx-soft-shadow);
+  --nx-panel-bg:#fff; --nx-panel-2:#fff8e3;
+}
+::selection{background:var(--nx-yellow);color:var(--nx-ink)}
+:focus-visible{outline-color:var(--nx-red-deep)}
+body .header.nx-header :focus-visible{outline-color:var(--nx-red)}
+@keyframes nx-mark{from{background-size:0% 100%}to{background-size:100% 100%}}
+
+/* ------------------------------------------------------------------ fondo de todas las páginas */
+html body,html body[data-view]{background:var(--nx-bg);color:var(--nx-text)}
+html body[data-view] main{background:transparent}
+html body[data-view=explorador],html body[data-view=nosotros],html body[data-view=proximamente],html body[data-view=modelos]{background:
+  radial-gradient(52% 38% at 94% -6%,rgba(255,195,0,.2),transparent 70%),
+  radial-gradient(44% 34% at -6% 26%,rgba(226,1,28,.06),transparent 70%),var(--nx-bg);background-repeat:no-repeat}
+.nx-hero,.nx-carousel,body[data-view=inicio] #inicio .nx-pin{background:transparent}
+.eyebrow{color:var(--nx-red-deep)}
+.status-dot{background:var(--nx-red)}
+
+/* ------------------------------------------------------------------ cabecera */
+html body .header.nx-header,html body[data-view] .header.nx-header{background:rgba(254,254,254,.93);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--nx-line);box-shadow:0 6px 24px rgba(140,40,20,.06)}
+body .header.nx-header nav{background:var(--nx-cream);border:1px solid rgba(40,22,26,.08)}
+body .header.nx-header nav a,body .header.nx-header nav a[data-tab=proximamente]:not(.active){color:var(--nx-ink-2)}
+body .header.nx-header nav a:hover{background:var(--nx-blush);color:var(--nx-red-deep)}
+body .header.nx-header nav a.active{background:var(--nx-red);color:#fff;box-shadow:0 3px 0 var(--nx-red-deep)}
+body .header.nx-header nav a.nx-nav-game{margin-left:4px;background:var(--nx-yellow);color:var(--nx-ink);box-shadow:0 3px 0 var(--nx-yellow-deep)}
+body .header.nx-header nav a.nx-nav-game:hover{background:var(--nx-yellow-hi);color:var(--nx-ink)}
+body .header.nx-header .nx-menu-btn{background:var(--nx-red);border-color:var(--nx-red);color:#fff;box-shadow:0 3px 0 var(--nx-red-deep)}
+.nx-logo-tab{background:#fff;border-bottom-color:var(--nx-red);box-shadow:0 10px 24px rgba(140,40,20,.14),0 1px 0 rgba(40,22,26,.06)}
+.nx-logo-tab:hover{box-shadow:0 14px 30px rgba(226,1,28,.2),0 1px 0 rgba(40,22,26,.06)}
+.nx-progress{background:var(--nx-sun-grad);box-shadow:none}
+@media (max-width:900px){
+  body .header.nx-header nav{margin-left:0;background:#fff;border:1px solid var(--nx-line);box-shadow:var(--nx-soft-shadow)}
+  body .header.nx-header nav a.nx-nav-game{margin-left:0}
+}
+
+/* ------------------------------------------------------------------ etiquetas de sección */
+.nx-eyebrow,.nx-stats-kicker,.nx-models-head .nx-kicker,#inicio .nx-landing .landing-copy .eyebrow,.nx-kicker{color:var(--nx-red-deep)}
+.nx-eyebrow i,#inicio .nx-landing .landing-copy .eyebrow .status-dot,.nx-stats-kicker i,.nx-models-head .nx-kicker i{background:var(--nx-sun-grad);box-shadow:none}
+
+/* ------------------------------------------------------------------ títulos: tinta + palabra roja con marcador amarillo */
+#inicio .nx-gallery-head h2 span,#modelos-title span,.section-head h1 span,.about-project h2 span{
+  color:var(--nx-red);-webkit-text-stroke:0;padding:0 .08em;-webkit-box-decoration-break:clone;box-decoration-break:clone;
+  background:linear-gradient(transparent 60%,var(--nx-mark) 60% 92%,transparent 92%) no-repeat 0 0/100% 100%}
+#inicio .nx-gallery-head h2,#modelos-title,.section-head h1{color:var(--nx-ink)}
+html.nx-motion #inicio .nx-gallery-head h2 span{background-size:0% 100%;transition:background-size .7s cubic-bezier(.2,.8,.2,1) .55s}
+html.nx-motion #inicio .nx-gallery-head h2.is-in span{background-size:100% 100%}
+
+/* ------------------------------------------------------------------ botones con relieve */
+.button-primary,#inicio .nx-landing .landing-actions .button-primary,.nx-btn-primary{background:var(--nx-red);color:#fff;border:0;
+  box-shadow:0 5px 0 var(--nx-red-deep),0 12px 26px rgba(226,1,28,.24)}
+.button-primary:hover:not(:disabled),#inicio .nx-landing .landing-actions .button-primary:hover,.nx-btn-primary:hover{background:var(--nx-red-hi);color:#fff;
+  box-shadow:0 7px 0 var(--nx-red-deep),0 16px 30px rgba(226,1,28,.3)}
+.button-primary:active:not(:disabled),#inicio .nx-landing .landing-actions .button-primary:active,.nx-btn-primary:active{transform:translateY(4px);
+  box-shadow:0 1px 0 var(--nx-red-deep),0 6px 14px rgba(226,1,28,.22)}
+#inicio .nx-landing .landing-actions .outline-button,.nx-btn-game{background:var(--nx-yellow);border:0;color:var(--nx-ink);
+  box-shadow:0 5px 0 var(--nx-yellow-deep),0 12px 26px rgba(232,155,0,.26);backdrop-filter:none}
+#inicio .nx-landing .landing-actions .outline-button:hover,.nx-btn-game:hover{background:var(--nx-yellow-hi);color:var(--nx-ink);
+  box-shadow:0 7px 0 var(--nx-yellow-deep),0 16px 30px rgba(232,155,0,.3)}
+#inicio .nx-landing .landing-actions .outline-button:active,.nx-btn-game:active{transform:translateY(4px);box-shadow:0 1px 0 var(--nx-yellow-deep)}
+.outline-button{background:#fff;border:2px solid rgba(40,22,26,.14);color:var(--nx-ink)}
+.outline-button:hover:not(:disabled){background:var(--nx-blush);border-color:rgba(226,1,28,.4);color:var(--nx-red-deep)}
+.outline-button[aria-pressed=true]{background:var(--nx-red);border-color:var(--nx-red);color:#fff}
+.nx-new{background:var(--nx-red);color:#fff;box-shadow:0 3px 0 var(--nx-red-deep)}
+.source-link,.reference-grid a{color:var(--nx-red-deep)}
+
+/* ------------------------------------------------------------------ 1 · portada */
+#inicio.view::before{background:
+  radial-gradient(40% 50% at 76% 36%,rgba(255,195,0,.2),transparent 70%),
+  radial-gradient(36% 40% at 2% 96%,rgba(226,1,28,.06),transparent 70%)}
+#inicio .landing.nx-landing{color:var(--nx-text)}
+#inicio .landing.nx-landing #archive-title{color:var(--nx-ink);text-shadow:none}
+#inicio .landing.nx-landing #archive-title>span:not(.nx-word){color:var(--nx-red);-webkit-text-stroke:0}
+#inicio .landing.nx-landing #archive-title>span:not(.nx-word) .nx-word{padding:0 .07em;margin:0 -.03em;
+  background:linear-gradient(transparent 60%,var(--nx-mark) 60% 91%,transparent 91%) no-repeat 0 0/100% 100%}
+#nx-landing.nx-play #archive-title>span:not(.nx-word) .nx-word{animation:nx-mark .6s cubic-bezier(.2,.8,.2,1) 1.45s both}
+#nx-landing.nx-play #archive-title>span:not(.nx-word) .nx-word+.nx-word{animation-delay:1.65s}
+#inicio .nx-landing .landing-description{color:var(--nx-ink-2)}
+/* Neptunito delante de un sol amarillo */
+#inicio .nx-landing .hero-halo{background:radial-gradient(circle at 36% 30%,#ffe27a 0%,var(--nx-yellow) 58%,#f7b400 100%);
+  box-shadow:0 0 0 22px rgba(255,195,0,.16),0 0 0 48px rgba(255,195,0,.07)}
+@keyframes nx-breathe{50%{transform:translate(-50%,-50%) scale(1.05);box-shadow:0 0 0 30px rgba(255,195,0,.14),0 0 0 64px rgba(255,195,0,.05)}}
+#inicio .nx-landing .hero-orbit{border-color:rgba(40,22,26,.16)}
+#inicio .nx-landing .orbit-tilted{border-color:rgba(226,1,28,.45)}
+#inicio .nx-landing .orbit-star{color:var(--nx-amber)}
+#inicio .nx-landing .star-one{color:var(--nx-red)}
+#inicio .nx-landing .star-two{color:var(--nx-orange)}
+#inicio .nx-landing .hero-mascot .mascot-sprite{filter:drop-shadow(0 16px 16px rgba(120,40,10,.28))}
+/* globos de Neptunito: estilo pegatina */
+#inicio .nx-landing .character-note,.nx-peek p{background:#fff;color:var(--nx-ink);border:2px solid var(--nx-ink);box-shadow:4px 4px 0 var(--nx-red)}
+.nx-scroll-cue{color:var(--nx-ink-2)}
+.nx-scroll-cue:hover{color:var(--nx-red)}
+.nx-mouse{border-color:rgba(40,22,26,.5)}
+.nx-mouse i{background:var(--nx-red)}
+.nx-shoot{background:linear-gradient(90deg,rgba(242,106,15,0),rgba(242,106,15,.8))}
+.nx-shoot::after{background:var(--nx-yellow);box-shadow:0 0 10px rgba(255,195,0,.9)}
+
+/* ------------------------------------------------------------------ 2 · cinta de misiones (amarilla) */
+.nx-marquee{background:var(--nx-yellow);border-block:0;-webkit-mask-image:none;mask-image:none;
+  box-shadow:inset 0 4px 0 rgba(40,22,26,.06),inset 0 -4px 0 rgba(40,22,26,.06)}
+.nx-marquee-row span{color:var(--nx-ink)}
+.nx-marquee-row span:nth-of-type(odd){color:transparent;-webkit-text-stroke:1.6px var(--nx-ink)}
+.nx-marquee-row span:nth-of-type(4n+2){color:var(--nx-red)}
+.nx-marquee-row i{color:var(--nx-red)}
+.nx-marquee-row+.nx-marquee-row span{color:rgba(40,22,26,.8)}
+.nx-marquee-row+.nx-marquee-row span:nth-of-type(odd){color:var(--nx-red-deep);-webkit-text-stroke:0}
+.nx-marquee-row+.nx-marquee-row i{color:#fff}
+
+/* ------------------------------------------------------------------ 3 · Sojourner y carrusel (foto con velo blanco) */
+@media (min-width:901px){
+  .nx-slide-veil{background:
+    linear-gradient(90deg,rgba(254,254,254,.96) 0%,rgba(254,254,254,.88) 30%,rgba(254,254,254,.42) 56%,rgba(254,254,254,0) 78%),
+    linear-gradient(0deg,var(--nx-bg) 2%,rgba(254,254,254,.55) 20%,rgba(254,254,254,0) 46%),
+    linear-gradient(180deg,rgba(254,254,254,.5),rgba(254,254,254,0) 20%)}
+}
+#inicio .nx-slide-title,#modelos .nx-slide-title{color:var(--nx-ink);text-shadow:none}
+.nx-slide-title .nx-outline{display:block;width:fit-content;color:var(--nx-red);-webkit-text-stroke:0;
+  background:linear-gradient(transparent 60%,var(--nx-mark) 60% 90%,transparent 90%) no-repeat 0 0/calc(var(--t2,1) * 100%) 100%}
+.nx-lead{color:var(--nx-ink-2);text-shadow:none}
+.nx-chip{background:#fff;border:1.5px solid rgba(40,22,26,.16);color:var(--nx-ink);backdrop-filter:none}
+.nx-chip.mars{background:var(--nx-red);border-color:var(--nx-red);color:#fff}
+.nx-chip.moon{background:var(--nx-yellow);border-color:var(--nx-yellow);color:var(--nx-ink)}
+.nx-fact{background:#fff;border:2px solid var(--nx-yellow);border-left-width:6px;color:var(--nx-ink);backdrop-filter:none}
+.nx-fact b,#inicio .nx-feature .nx-count-kg{color:var(--nx-red)}
+#inicio .nx-feature .nx-fact{box-shadow:0 10px 24px rgba(140,40,20,.1),0 0 calc(var(--fact,1) * 26px) rgba(255,195,0,calc(var(--fact,1) * .4))}
+.nx-polaroid{filter:drop-shadow(0 24px 30px rgba(80,20,10,.3))}
+.nx-polaroid img{border-color:#fff}
+.nx-polaroid figcaption{color:var(--nx-ink-2)}
+.nx-credit{color:rgba(40,22,26,.62)}
+.nx-peek img{filter:drop-shadow(0 12px 16px rgba(80,20,10,.3))}
+/* carrusel de Modelos */
+.nx-carousel{border-block:0}
+.nx-car-arrow,.nx-car-play{background:#fff;border:2px solid rgba(40,22,26,.14);color:var(--nx-ink);backdrop-filter:none;box-shadow:0 4px 12px rgba(140,40,20,.12)}
+.nx-car-arrow:hover,.nx-car-play:hover{background:var(--nx-red);border-color:var(--nx-red);color:#fff}
+.nx-dot span{background:rgba(40,22,26,.16)}
+.nx-dot[aria-current=true] span{background:rgba(226,1,28,.22)}
+.nx-dot[aria-current=true] span::after{background:var(--nx-red)}
+
+/* ------------------------------------------------------------------ 4 · cifras */
+.nx-stat,.nx-stat.mars,.nx-stat.moon{--c1:var(--nx-red);--c2:var(--nx-red-deep);
+  background:linear-gradient(170deg,color-mix(in srgb,var(--c1) 9%,#fff),#fff 58%);
+  border:2px solid rgba(40,22,26,.07);border-top:6px solid var(--c1);box-shadow:var(--nx-soft-shadow)}
+.nx-stat.mars{--c1:var(--nx-orange);--c2:var(--nx-red)}
+.nx-stat.moon{--c1:var(--nx-yellow);--c2:#d98a00;--n1:#f2ac00}
+.nx-stat:nth-child(4){--c1:var(--nx-red-deep);--c2:var(--nx-ink)}
+.nx-stat b,.nx-stat.mars b,.nx-stat.moon b{color:var(--c2);background-image:linear-gradient(180deg,var(--n1,var(--c1)) 10%,var(--c2) 95%)}
+.nx-stat span{color:var(--nx-ink)}
+.nx-stat small{color:var(--nx-ink-2)}
+.nx-stat::after{background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.75) 50%,transparent 70%)}
+.nx-stat::before{position:absolute;right:16px;top:14px;font-size:30px;line-height:1;filter:drop-shadow(0 4px 6px rgba(80,20,10,.2))}
+.nx-stat:nth-child(1)::before{content:"🚀"}.nx-stat:nth-child(2)::before{content:"🔴"}.nx-stat:nth-child(3)::before{content:"🌙"}.nx-stat:nth-child(4)::before{content:"⏳"}
+html.nx-motion .nx-stat.is-in::before{animation:nx-wiggle 2.8s ease-in-out calc(1s + var(--i) * .2s) infinite}
+@keyframes nx-wiggle{0%,70%,100%{transform:none}78%{transform:rotate(-12deg) scale(1.15)}86%{transform:rotate(10deg) scale(1.15)}94%{transform:rotate(-4deg)}}
+
+/* ------------------------------------------------------------------ 5 · galería (sección crema) y tarjetas con foto */
+.nx-gallery{margin-top:70px;padding:64px 0 34px;background:var(--nx-cream)}
+.nx-gallery-head p{color:var(--nx-ink-2)}
+.nx-gallery-rows{-webkit-mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent);mask-image:linear-gradient(90deg,transparent,#000 4%,#000 96%,transparent)}
+.nx-gcard,.nx-poster{background:#fff;color:var(--nx-ink);border:3px solid #fff;box-shadow:0 10px 24px rgba(140,40,20,.13)}
+.nx-gcard img{filter:none}
+.nx-gcard::after{background:linear-gradient(0deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.86) 24%,rgba(255,255,255,0) 50%)}
+.nx-poster::after{background:linear-gradient(0deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.88) 26%,rgba(255,255,255,0) 50%)}
+.nx-gcard:hover,.nx-gcard:focus-visible,.nx-poster:hover,.nx-poster:focus-visible{border-color:var(--accent);box-shadow:0 22px 40px rgba(140,40,20,.22),0 0 0 2px var(--accent)}
+.nx-gcard:hover img,.nx-gcard:focus-visible img{filter:saturate(1.1)}
+.nx-gcard-year,.nx-year{background:var(--nx-yellow);color:var(--nx-ink);border:0;box-shadow:0 2px 0 var(--nx-yellow-deep)}
+.nx-gcard-meta b,.nx-name{color:var(--nx-ink)}
+.nx-gcard-meta small,.nx-type{color:var(--nx-ink-2)}
+.nx-gcard-meta small::before{box-shadow:none}
+.nx-gcard-open{background:var(--nx-red);color:#fff}
+.nx-open{color:var(--nx-red)}
+.nx-dot3d{color:#fff}
+.nx-poster[data-world=Luna] .nx-dot3d{color:var(--nx-ink)}
+
+/* ------------------------------------------------------------------ botón «Descubre más» (rojo) */
+.nx-more{background:var(--nx-cream);padding-top:30px}
+.nx-more-btn{color:#fff;box-shadow:0 18px 40px rgba(163,0,22,.28)}
+.nx-more-btn::before{background:conic-gradient(from var(--a,0deg),var(--nx-yellow),#fff,var(--nx-orange),var(--nx-yellow),#fff,var(--nx-yellow))}
+.nx-more-btn::after{background:linear-gradient(135deg,var(--nx-red),#c8001a 60%,var(--nx-red-deep))}
+.nx-more-glow{background:linear-gradient(90deg,transparent,rgba(255,255,255,.26),transparent)}
+.nx-more-btn:hover{box-shadow:0 24px 50px rgba(163,0,22,.34),0 0 0 5px rgba(255,195,0,.35)}
+.nx-more-icon{background:var(--nx-yellow);color:var(--nx-ink);box-shadow:0 4px 0 var(--nx-yellow-deep)}
+.nx-more-arrow{color:var(--nx-yellow)}
+.nx-more-text small{color:rgba(255,255,255,.92)}
+
+/* ------------------------------------------------------------------ pestaña Modelos 3D */
+.nx-models-head{background:transparent}
+.nx-models-head p{color:var(--nx-ink-2)}
+#modelos .nx-archive-title,#modelos .nx-row h3,#inicio .nx-row h3{color:var(--nx-ink)}
+.nx-row h3 small{color:var(--nx-ink-2)}
+.nx-filters button{background:#fff;border:2px solid rgba(40,22,26,.14);color:var(--nx-ink)}
+.nx-filters button:hover{background:var(--nx-blush)}
+.nx-filters button[aria-pressed=true]{background:var(--nx-ink);border-color:var(--nx-ink);color:#fff}
+.nx-filters button[data-world=Marte][aria-pressed=true]{background:var(--nx-red);border-color:var(--nx-red);color:#fff}
+.nx-filters button[data-world=Luna][aria-pressed=true]{background:var(--nx-yellow);border-color:var(--nx-yellow);color:var(--nx-ink)}
+.nx-arrow{background:rgba(255,255,255,.94);color:var(--nx-ink);box-shadow:0 6px 18px rgba(140,40,20,.15)}
+.nx-arrow:hover{background:var(--nx-red);color:#fff}
+
+/* ------------------------------------------------------------------ pie de página (rojo) */
+.site-footer{background:linear-gradient(170deg,var(--nx-red) 0%,#c9001a 62%,var(--nx-red-deep) 100%)!important;color:#fff!important;
+  border-image:linear-gradient(90deg,var(--nx-yellow) 0 34%,var(--nx-orange) 34% 67%,var(--nx-yellow) 67%) 1!important}
+.site-footer .footer-column h2{color:#fff}
+.site-footer .footer-column a{color:rgba(255,255,255,.92)}
+.site-footer .footer-column a:hover{color:var(--nx-yellow)}
+.site-footer .footer-identity p{color:rgba(255,255,255,.92)}
+.nx-foot-logo{border-bottom-color:var(--nx-yellow);box-shadow:0 10px 24px rgba(80,0,10,.25)}
+.site-footer #back-to-top{background:var(--nx-yellow);color:var(--nx-ink);box-shadow:0 5px 0 var(--nx-yellow-deep)}
+.site-footer #back-to-top:hover{background:var(--nx-yellow-hi);color:var(--nx-ink)}
+.site-footer .footer-bottom{border-top-color:rgba(255,255,255,.3);color:rgba(255,255,255,.9)}
+
+/* ------------------------------------------------------------------ fichas de misión */
+#explorador .mission-breadcrumb #return-to-archive{background:#fff;border:2px solid rgba(226,1,28,.35);color:var(--nx-red-deep)}
+#explorador .mission-breadcrumb #return-to-archive:hover{background:var(--nx-blush);border-color:var(--nx-red)}
+.mission-select{color:var(--nx-ink-2)}
+.mission-select select{background:#fff;color:var(--nx-ink);border:2px solid rgba(40,22,26,.16)}
+#explorador .explorer-top .eyebrow{color:var(--nx-red)}
+#explorador .explorer-top h1{width:fit-content;max-width:100%;color:var(--nx-ink);
+  background:linear-gradient(transparent 64%,var(--nx-mark) 64% 92%,transparent 92%) no-repeat;padding-right:.08em}
+#explorador .mission-archaeology-header h2{color:var(--nx-ink)}
+/* Visor: marco blanco con sombra amarilla de pegatina */
+#explorador .viewer-wrap{border:3px solid #fff;box-shadow:0 0 0 2px rgba(40,22,26,.1),10px 10px 0 var(--nx-yellow),0 26px 50px rgba(140,40,20,.2)}
+#explorador .viewer-wrap .viewer-actions .outline-button{background:rgba(255,255,255,.92);border:2px solid #fff;color:var(--nx-ink);backdrop-filter:blur(8px);box-shadow:0 6px 16px rgba(40,22,26,.2)}
+#explorador .viewer-wrap .viewer-actions .outline-button:hover:not(:disabled),
+#explorador .viewer-wrap .viewer-actions .outline-button[aria-pressed=true]{background:var(--nx-red);border-color:var(--nx-red);color:#fff}
+#viewer-help{background:rgba(255,255,255,.92);color:var(--nx-ink)}
+.sj-leaders line,.sj-leaders path{stroke:#fff}
+.hotspot-leader{background:#fff}
+.sj-label,.hotspot-label{border-color:rgba(40,22,26,.18)}
+/* Columna de Neptunito */
+.nx-side{background:#fff;border:2px solid rgba(40,22,26,.08);box-shadow:var(--nx-soft-shadow)}
+.nx-tab[data-tab=see]{--tc:var(--nx-red);--tt:#fff}
+.nx-tab[data-tab=mission]{--tc:var(--nx-orange);--tt:var(--nx-ink)}
+.nx-tab[data-tab=findings]{--tc:var(--nx-yellow);--tt:var(--nx-ink)}
+.nx-tab[data-tab=systems]{--tc:var(--nx-red-deep);--tt:#fff}
+.nx-side .nx-tab{color:var(--nx-ink);border:2px solid color-mix(in srgb,var(--tc) 55%,transparent);background:color-mix(in srgb,var(--tc) 8%,#fff)}
+.nx-side .nx-tab::after{color:color-mix(in srgb,var(--tc) 70%,var(--nx-ink))}
+.nx-side .nx-tab:hover{background:color-mix(in srgb,var(--tc) 18%,#fff);border-color:var(--tc)}
+.nx-side .nx-tab .nx-tab-n{background:var(--tc);color:var(--tt);box-shadow:0 3px 0 color-mix(in srgb,var(--tc) 62%,#000)}
+.nx-side .nx-tab[aria-selected=true]{background:var(--tc);border-color:var(--tc);color:var(--tt);box-shadow:0 12px 24px color-mix(in srgb,var(--tc) 35%,transparent)}
+.nx-side .nx-tab[aria-selected=true] .nx-tab-n{background:rgba(255,255,255,.6);color:var(--nx-ink)}
+/* Chat */
+.nx-chat-wrap{background:var(--nx-cream);border:1px solid rgba(40,22,26,.06)}
+.nx-chat{scrollbar-color:rgba(226,1,28,.45) transparent}
+.nx-bubble{background:#fff;color:var(--nx-ink);border:1px solid rgba(40,22,26,.07);box-shadow:0 2px 0 rgba(40,22,26,.05),0 8px 18px rgba(140,40,20,.1)}
+.nx-bubble b{color:var(--nx-ink)}
+.nx-bubble.nx-has-part{border-left:4px solid var(--nx-red)}
+.nx-bubble .nx-sys{color:var(--nx-red-deep)}
+.nx-bubble .nx-num{background:var(--nx-yellow);color:var(--nx-ink)}
+.nx-bubble.nx-tip{background:#fff5d1}
+.nx-bubble.nx-alert{background:var(--nx-blush);color:#5c0d18}
+.nx-bubble a{color:var(--nx-red-deep)}
+.nx-bubble.nx-src{background:rgba(255,255,255,.65);color:var(--nx-ink-2);border:1px dashed rgba(40,22,26,.22);box-shadow:none}
+.nx-bubble.nx-src b{color:var(--nx-ink)}
+.nx-bubble.nx-src a{color:var(--nx-red-deep)}
+.nx-bubble.nx-divider{color:var(--nx-red-deep);background:none;border:0;box-shadow:none}
+.nx-bubble.nx-divider span{background:#fff;border:1.5px solid rgba(226,1,28,.35)}
+.nx-bubble.nx-hello,.nx-bubble.nx-end{background:linear-gradient(135deg,#fff,var(--nx-cream))}
+.nx-bubble.nx-hito{background:linear-gradient(135deg,#fff,#fff3cc)}
+.nx-bubble.nx-why{background:linear-gradient(135deg,#fff,var(--nx-blush))}
+.nx-bubble .nx-kicker{color:var(--nx-red-deep)}
+.nx-bubble.nx-hito .nx-kicker{color:#9a6400}
+.nx-ctx{background:var(--nx-blush);color:var(--nx-ink)}
+.nx-ctx b{color:var(--nx-red-deep)}
+.nx-ctx.nx-ctx-hit{background:#fff3cc;color:#3b2a05}
+.nx-ctx.nx-ctx-hit b{color:#9a6400}
+.nx-part-chip,.nx-topic-chip,.nx-small-btn{border:1.5px solid rgba(226,1,28,.35);background:var(--nx-blush);color:var(--nx-red-deep)}
+.nx-part-chip:hover,.nx-topic-chip:hover{background:var(--nx-red);border-color:var(--nx-red);color:#fff}
+.nx-topic-chip i{background:#fff;color:var(--nx-red)}
+.nx-topic-chip.ghost{background:none}
+.nx-dots i{background:#c7aeb2}
+.nx-chat-head{background:var(--nx-blush);border:1.5px solid rgba(226,1,28,.22)}
+.nx-back{background:#fff;border:2px solid rgba(40,22,26,.14);color:var(--nx-ink)}
+.nx-back:hover{background:var(--nx-red);border-color:var(--nx-red);color:#fff}
+.nx-avatar{background:radial-gradient(circle at 50% 35%,#fff3c4,var(--nx-yellow));border-color:var(--nx-red)}
+.nx-head-txt b{color:var(--nx-ink)}
+.nx-head-txt span{color:var(--nx-ink-2)}
+.nx-head-step,.nx-step-pill{background:var(--nx-red);color:#fff}
+.nx-bubble .nx-step-badge{background:var(--nx-red);color:#fff;border-color:#fff}
+.nx-side.is-chat .nx-bubble.is-live{box-shadow:0 0 0 2px var(--nx-red),0 10px 24px rgba(226,1,28,.16)}
+.nx-live-hint{color:var(--nx-red-deep)}
+.nx-live-hint i{background:var(--nx-red);box-shadow:0 0 0 0 rgba(226,1,28,.6)}
+@keyframes nx-live{0%{box-shadow:0 0 0 0 rgba(226,1,28,.6)}70%{box-shadow:0 0 0 7px rgba(226,1,28,0)}100%{box-shadow:0 0 0 0 rgba(226,1,28,0)}}
+.nx-chat-btn{background:#fff;border:2px solid rgba(40,22,26,.14);color:var(--nx-ink)}
+.nx-chat-btn:hover:not(:disabled){background:var(--nx-red);border-color:var(--nx-red);color:#fff}
+.nx-continue{background:var(--nx-red);color:#fff;box-shadow:0 4px 0 var(--nx-red-deep),0 8px 16px rgba(226,1,28,.22)}
+.nx-continue:hover{background:var(--nx-red-hi)}
+/* Neptunito guía dentro del visor */
+.nx-guide-bubble{background:#fff;color:var(--nx-ink);box-shadow:0 14px 30px rgba(40,22,26,.3)}
+.nx-guide-text b{color:var(--nx-red-deep)}
+.nx-guide-next{background:var(--nx-red);color:#fff}
+.nx-beam-line{stroke:var(--nx-yellow);filter:drop-shadow(0 0 4px rgba(255,195,0,.9))}
+.nx-beam-dot{fill:var(--nx-yellow)}
+.nx-beam-ring{stroke:var(--nx-yellow)}
+.nx-float{background:var(--nx-yellow);color:var(--nx-ink)}
+.nx-count{color:var(--nx-red)}
+/* Fuentes y diálogo LRV-3 */
+#explorador .mission-references{background:var(--nx-cream);border:2px solid rgba(40,22,26,.06)}
+#explorador .mission-references h2{color:var(--nx-ink)}
+.reference-grid h3{color:var(--nx-red)}
+.reference-grid li::marker{color:var(--nx-red)}
+.model-note{border-top-color:var(--nx-line);color:var(--nx-ink-2)}
+.lrv3-dialog{background:#fff;color:var(--nx-ink);border-color:var(--nx-line)}
+.lrv3-dialog p a{color:var(--nx-red-deep)}
+
+/* ------------------------------------------------------------------ efectos del visor 3D */
+.nx-amb i{box-shadow:0 0 6px #fff,0 0 12px rgba(255,195,0,.7)}
+.nx-warp{background:radial-gradient(circle at 50% 50%,rgba(255,255,255,.28),rgba(255,195,0,.26) 25%,rgba(120,8,20,.72) 70%)}
+#explorador .viewer-wrap .model-loading{background:var(--nx-red);border:2px solid rgba(255,255,255,.75);color:#fff;
+  box-shadow:0 5px 0 var(--nx-red-deep),0 14px 30px rgba(120,8,20,.35)}
+.nx-tap-ring{border-color:#fff;box-shadow:0 0 12px var(--nx-yellow),inset 0 0 8px var(--nx-red)}
+.nx-scan-beam{border-bottom-color:#fff3c4;background:linear-gradient(180deg,rgba(255,195,0,0),rgba(255,195,0,.16) 65%,rgba(255,226,130,.55));box-shadow:0 6px 18px rgba(255,195,0,.55)}
+.nx-reticle i{border-color:#fff;filter:drop-shadow(0 0 6px rgba(255,195,0,.9))}
+.nx-reticle::after{border-color:#fff;box-shadow:0 0 10px rgba(255,195,0,.9)}
+.nx-scan-tag{background:#fff;border:2px solid var(--nx-red);color:var(--nx-ink);box-shadow:0 8px 20px rgba(40,22,26,.3)}
+.nx-scan.done .nx-scan-tag{background:var(--nx-yellow);border-color:#fff;color:var(--nx-ink)}
+.nx-hunt{background:rgba(255,255,255,.93);border:2px solid #fff;color:var(--nx-ink);box-shadow:0 10px 24px rgba(40,22,26,.25)}
+.nx-hunt:hover{border-color:var(--nx-yellow)}
+.nx-hunt circle.bg{stroke:rgba(40,22,26,.12)}
+.nx-hunt circle.fg{stroke:var(--nx-red)}
+.nx-hunt.complete circle.fg{stroke:var(--nx-amber)}
+.nx-hunt-txt small{color:var(--nx-ink-2)}
+.nx-hunt.complete{border-color:var(--nx-yellow);box-shadow:0 10px 24px rgba(40,22,26,.25),0 0 24px rgba(255,195,0,.55)}
+.nx-hunt-list{color:var(--nx-ink);box-shadow:0 20px 44px rgba(40,22,26,.3)}
+.nx-hunt-help{color:var(--nx-ink-2)}
+.nx-hunt-list button{color:var(--nx-ink)}
+.nx-hunt-list li:nth-child(3n+1) button{--c:var(--nx-red)!important;--ct:#fff}
+.nx-hunt-list li:nth-child(3n+2) button{--c:var(--nx-yellow)!important;--ct:var(--nx-ink)}
+.nx-hunt-list li:nth-child(3n) button{--c:var(--nx-orange)!important;--ct:var(--nx-ink)}
+.nx-hunt-list button span{color:var(--ct,#fff)}
+.nx-hunt-list .locked{border-color:rgba(40,22,26,.2);color:#8d7a7e}
+.nx-hunt-list .locked span{background:#f6eeee;color:#8d7a7e}
+.nx-toast{color:var(--nx-ink);box-shadow:0 16px 36px rgba(40,22,26,.3)}
+.nx-toast b{color:var(--nx-red)}
+#explorador .viewer-wrap .viewer-actions .nx-photo-btn{background:var(--nx-yellow);border-color:var(--nx-yellow);color:var(--nx-ink)}
+#explorador .viewer-wrap .viewer-actions .nx-photo-btn:hover:not(:disabled){background:var(--nx-yellow-hi);border-color:var(--nx-yellow-hi);color:var(--nx-ink)}
+.nx-photo-modal{background:rgba(40,22,26,.55)}
+.nx-photo-card{box-shadow:0 30px 70px rgba(40,22,26,.5)}
+.nx-photo-ui .outline-button{background:var(--nx-cream);border:2px solid rgba(40,22,26,.14);color:var(--nx-ink)}
+.nx-photo-ui .outline-button:hover{background:var(--nx-cream-2)}
+
+/* ------------------------------------------------------------------ Quiénes somos */
+.section-head .intro{color:var(--nx-ink-2)}
+.about-project{background:var(--nx-cream);border:2px solid rgba(40,22,26,.06)}
+.about-project h2{color:var(--nx-ink)}
+.about-project p{color:var(--nx-ink-2)}
+.project-context{background:#fff;border-left-color:var(--nx-red)}
+.social-links a{border-bottom-color:var(--nx-line)}
+.social-links a span{color:var(--nx-red-deep)}
+.crew-panel{background:linear-gradient(160deg,var(--nx-red) 0%,#c9001a 62%,var(--nx-red-deep) 100%);border:0;box-shadow:0 20px 44px rgba(163,0,22,.25)}
+.crew-panel h2{color:#fff}
+.team-member{background:#fff;border:0;box-shadow:0 4px 0 rgba(80,0,10,.25)}
+.team-member h3{color:var(--nx-ink)}
+.crew-avatar{background:var(--nx-yellow);color:var(--nx-ink)}
+.team-member:nth-child(3n+2) .crew-avatar{background:var(--nx-red);color:#fff}
+.team-member:nth-child(3n) .crew-avatar{background:var(--nx-orange);color:var(--nx-ink)}
+
+@media (prefers-reduced-motion:reduce){
+  html.nx-motion .nx-stat.is-in::before,#nx-landing.nx-play #archive-title>span:not(.nx-word) .nx-word{animation:none}
+  html.nx-motion #inicio .nx-gallery-head h2 span{transition:none;background-size:100% 100%}
+}
+
+/* =====================================================================================
+   v8 · Fotos nítidas y jerarquía clara en Inicio y Modelos 3D
+   ===================================================================================== */
+/* 1 · El blanco se concentra detrás del texto; el resto de la foto queda nítido */
+@media (min-width:901px){
+  .nx-slide-veil{background:
+    linear-gradient(90deg,rgba(254,254,254,.55) 0%,rgba(254,254,254,.22) 22%,rgba(254,254,254,0) 38%),
+    linear-gradient(0deg,var(--nx-bg) 0%,rgba(254,254,254,0) 7%)}
+  .nx-slide-copy{isolation:isolate}
+  .nx-slide-copy::before{content:"";position:absolute;z-index:-1;top:-56px;bottom:-46px;left:calc(-1 * var(--nx-pad));right:-120px;pointer-events:none;
+    background:linear-gradient(90deg,rgba(254,254,254,.94) 0%,rgba(254,254,254,.88) 64%,rgba(254,254,254,0) 100%);
+    -webkit-mask-image:linear-gradient(180deg,transparent 0,#000 15%,#000 85%,transparent 100%);mask-image:linear-gradient(180deg,transparent 0,#000 15%,#000 85%,transparent 100%)}
+  #inicio .nx-feature .nx-slide-copy::before{opacity:var(--veil,1)}
+  /* Con foto enmarcada (Sojourner, InSight): la foto manda y el fondo se suaviza */
+  .nx-slide:has(.nx-polaroid) .nx-slide-bg,.nx-slide.blurred:has(.nx-polaroid) .nx-slide-bg{filter:blur(6px) saturate(.85) brightness(1.06)}
+  #inicio .nx-feature .nx-slide:has(.nx-polaroid) .nx-slide-bg{filter:blur(calc(5px + (1 - var(--win,1)) * 8px)) saturate(calc(.5 + var(--win,1) * .35)) brightness(calc(.6 + var(--win,1) * .46))}
+  .nx-slide .nx-polaroid{filter:drop-shadow(0 30px 40px rgba(60,15,5,.38))}
+}
+@media (min-width:1280px){
+  .nx-slide .nx-polaroid:not(.portrait){width:clamp(300px,min(34vw,60vh),580px)}
+  .nx-slide .nx-polaroid.portrait{width:clamp(220px,min(24vw,40vh),360px)}
+}
+/* Neptunito junto a la foto que señala: debajo de la polaroid, apuntando hacia ella */
+.nx-polaroid .nx-peek{left:-14px;right:auto;top:calc(100% - 2px);bottom:auto;z-index:3;flex-direction:row;align-items:flex-start;gap:6px}
+.nx-polaroid .nx-peek img{width:clamp(92px,7vw,120px);height:auto;border:0;border-radius:0}
+.nx-polaroid .nx-peek p{order:2;margin:26px 0 0;max-width:230px;border-radius:4px 14px 14px 14px;transform-origin:0 0}
+
+/* 2 · Tarjetas: foto nítida arriba; nombre, destino y «Abrir ficha» en una franja clara abajo */
+.nx-gcard,.nx-poster{display:flex;flex-direction:column;aspect-ratio:auto;border-radius:16px}
+.nx-gcard::after,.nx-poster::after{display:none}
+.nx-gcard img,.nx-poster img{position:relative;inset:auto;display:block;flex:none;width:100%;height:auto;filter:none}
+.nx-gcard img{aspect-ratio:16/10}
+.nx-poster img{aspect-ratio:4/5;object-position:var(--pos,50% 50%)}
+.nx-gcard-meta,.nx-meta{position:static;display:grid;gap:2px;padding:10px 12px 4px;background:#fff;text-align:left}
+.nx-meta{flex:1;align-content:start;padding-bottom:12px}
+.nx-gcard-open{position:static;align-self:flex-start;margin:2px 12px 12px;padding:0;background:none;color:var(--nx-red);font:800 13px var(--nx-body);opacity:1;transform:none}
+.nx-open{max-height:none;opacity:1;margin-top:4px;color:var(--nx-red)}
+.nx-gcard:hover .nx-gcard-open,.nx-gcard:focus-visible .nx-gcard-open,.nx-poster:hover .nx-open,.nx-poster:focus-visible .nx-open{text-decoration:underline;text-underline-offset:3px}
+.nx-gcard:focus-visible,.nx-poster:focus-visible{outline:3px solid var(--nx-red-deep);outline-offset:3px}
+.nx-dot3d{display:none}
+/* Recorte de Sojourner: que se reconozca el rover (con respaldo para navegadores sin object-view-box) */
+.nx-gcard[data-mission=sojourner] img{object-position:24% 82%;object-view-box:inset(39.6% 28% 5.8% 6.25%)}
+.nx-poster[data-mission=sojourner] img{object-position:24% 82%;object-view-box:inset(27% 48.4% 2.7% 9.4%)}
+
+/* 3 · Portada más simple: menos partículas detrás del texto, cinta más ligera y un botón principal claro */
+.nx-stars{-webkit-mask-image:linear-gradient(90deg,transparent 0%,transparent 36%,rgba(0,0,0,.4) 50%,#000 64%);mask-image:linear-gradient(90deg,transparent 0%,transparent 36%,rgba(0,0,0,.4) 50%,#000 64%)}
+@media (max-width:900px){
+  .nx-stars{-webkit-mask-image:linear-gradient(180deg,transparent 0%,transparent 58%,#000 76%);mask-image:linear-gradient(180deg,transparent 0%,transparent 58%,#000 76%)}
+}
+.nx-marquee{gap:4px;padding:14px 0;background:var(--nx-cream);box-shadow:inset 0 3px 0 var(--nx-yellow),inset 0 -3px 0 var(--nx-yellow)}
+.nx-marquee-row span{font-size:clamp(22px,3vw,40px)}
+.nx-marquee-row span:nth-of-type(odd){-webkit-text-stroke:1.2px rgba(40,22,26,.5)}
+.nx-marquee-row+.nx-marquee-row span{font-size:clamp(14px,1.5vw,20px);color:rgba(40,22,26,.62)}
+.nx-marquee-row+.nx-marquee-row span:nth-of-type(odd){color:var(--nx-red-deep)}
+.nx-marquee-row+.nx-marquee-row i{color:var(--nx-amber)}
+#inicio .nx-landing .landing-actions{align-items:center}
+#inicio .nx-landing .landing-actions .button-primary{min-height:62px;padding:16px 30px;font-size:18px}
+#inicio .nx-landing .landing-actions .outline-button,.nx-btn-game{min-height:50px;padding:11px 18px;font-size:15px;background:#fff;border:2px solid var(--nx-yellow);color:var(--nx-ink);box-shadow:0 3px 0 var(--nx-yellow-deep)}
+#inicio .nx-landing .landing-actions .outline-button:hover,.nx-btn-game:hover{background:var(--nx-yellow);color:var(--nx-ink);box-shadow:0 4px 0 var(--nx-yellow-deep)}
+/* Botón visible para pausar la galería en movimiento */
+.nx-gallery-pause{display:inline-flex;align-items:center;gap:8px;min-height:44px;margin-top:14px;padding:8px 16px;border-radius:999px;border:2px solid rgba(40,22,26,.16);background:#fff;color:var(--nx-ink);font:800 14px var(--nx-body);cursor:pointer}
+.nx-gallery-pause:hover{background:var(--nx-blush)}
+.nx-gallery-pause[aria-pressed=true]{background:var(--nx-red);border-color:var(--nx-red);color:#fff}
+.nx-gallery-pause[hidden]{display:none}
+.nx-gallery-pause:focus-visible{outline:3px solid var(--nx-red-deep);outline-offset:3px}
+/* Catálogo: filtros pegados a las tarjetas */
+#modelos .nx-toolbar{flex-direction:column;align-items:flex-start;gap:12px}
+#nx-rows .nx-row:first-child{margin-top:14px}

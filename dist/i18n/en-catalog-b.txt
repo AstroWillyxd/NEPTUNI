@@ -1,0 +1,434 @@
+# NEPTUNI · English · catálogo de piezas: especificaciones
+ap0ux2x Diameter
+kv7u5k0 Height with landing gear
+13el41w Dry mass
+1k0elac Height with gear deployed
+csm078d Multilayer aluminized Kapton
+2qwfhmk Amber, reddish amber, black, silver
+oenql84 Aerozine 50 (2 tanks)
+vjo01b9 N₂O₄ (2 tanks)
+geiu63y Maximum thrust
+nb3deso Throttling
+8ezu4ix 1,050 – 6,300 lbf (throttle range)
+2zsmaqx Propellant loaded
+ndtudq9 Location
+jor9hp6 Forward left compartment (documented)
+q5bou1t Panel that swings down
+cqhd2qn 48 × 30 × 20 cm (catalog)
+fq6q9z4 7075 aluminum, indium-silver seal
+9bt2bfh ≈ 92 in in diameter · 42 in deep
+0lfnxiy 2, standing
+wixf0w6 Shield
+1brlifb Multilayer Mylar + aluminum skin
+699h5cl Inward
+tda254m Tunnel depth
+b8rgqit Apollo Guidance Computer with DSKY
+oz8cy22 Panels
+b0xqznn Representative (inferred)
+bw3v6hu Station spacing
+aeccgaz Left on the surface after the EVA
+544ic3m Seismometer
+yihz08q Retroreflector
+fhdbqnj ≈ 18 m from the LM
+g5clyoq ≈ 27 ft (8.2 m) from the axis
+59iucy1 1 in anodized aluminum, telescoping
+bmhyx5s Distance to the LM
+q3i995w Buried
+22z9s7n Stainless steel, aluminum, Thermoflex, Kapton
+nyl7ujz Thermal limit
+3o7rmgx Sensor
+gl5x036 Sensor mass
+a6ccv6n Power
+nunx8q2 Panel
+s4vscc0 Reflectors
+5gj508q In use
+3vwdae4 Sheet
+2sqoz10 1.40 × 0.30 m of aluminum
+yo6ypdi Exposure
+19vi4vb Orientation
+wck1l2m Toward the Sun (±30°)
+2esmwji University of Bern (Switzerland)
+e1nshqz Black and white, slow scan
+ga88hht Remains at Tranquility Base
+zbi0bf0 39 cm, 15.2 × 9.9 cm box
+u2ah4ke 2 cm in diameter, 31.8 cm column
+8tbxl2v Contents
+oref4hh Goodwill disk, gold olive branch, Apollo 1 patch, 2 Soviet medals
+nudit11 Damping
+y8arxiv Crushable aluminum honeycomb
+93b485z No (front leg)
+m8banxg Rungs
+f0p883i 9 (reconstructed)
+5owugne Stainless steel
+1npos50 Size
+8wkn3sh Position
+96g8ki2 Between the 3rd and 4th rungs from the bottom
+apttzka Measurements
+seijycw ≈ 2,800 RTL NOR gates in flat-packs
+dh0k72j 2,048 erasable words · 36,864 of rope
+3hs8c9f 80 ft – 400 nmi (documented)
+m6mi31p ≈ 0.61 m (reconstructed)
+27attxd Engines
+fwqfoa0 Pressurization
+eg5lq4i Representation
+kfcua8u Documented architecture · approximate geometry
+f9kbxoh Explanatory internal detail
+a0oko41 Explanatory cutaway of the assembly
+6s4qujw Modules
+5m1l95y At least 35 W per unit in the primary mission
+t7go11g Photographic reconstruction
+feksxl0 18K words per channel
+n5px5ja 24 per battery
+0mmg1jt Capacity
+1grz5lu 8 Ah per battery
+p5qv1zo Footpads
+2mwh0az Separation
+zt8c0gc Tanks
+7bpu9qc Inner diameter
+w934t54 Nozzles per engine
+en6bz6d Ovens
+tbydnjh composite honeycomb + aerogel (S01)
+i7dqff3 Ground clearance under the body
+iqofwdx IDD stowage volume
+zz4z6q3 between −40 °C and +50 °C (S07)
+1ttbhym Thickness shown
+6xx1wwt ≈18 mm + 22 mm of aerogel (INFERRED)
+5ykr1lk Design obstacle
+dwybd51 Static stability
+368g48x Max. speed
+sxuyx1m 1.15 m (derived from S07)
+y7yqigc Track (mid-planes)
+f7t6kof Annealed Ti-6Al-4V
+od3bg9g Manufacturing
+4sjltpb two electron-beam-welded C-channels
+b993d06 Rotation to the latch
+bsz0osu Planned deployment load
+2crmz0u inspired by the one on Magellan's panels
+s51lc2t 0.29 m ahead of the middle wheels, 0.355 m high
+kdqkshh Extension
+tk2oc7x 4 pairs, 10 cm apart
+rvnga1g Available wheel force
+prgvykc Cold force (worst case)
+osnmx3c DOCUMENTED
+p1w6pl3 Layout
+hs00wpf INFERRED (bar with a vertical pivot behind the WEB)
+i7utikw Steered wheels
+scabcbe 4 (front and rear)
+iao3mmy Axis
+dmhm486 vertical through the wheel center
+j1dc4c2 Limit used in the demonstration
+lrh6v6j ±50° (not published)
+s4e3ca3 Ti-6Al-4V (S02)
+ycn11lz 6 driven wheels
+y7i1bc7 Interior
+8wmyb07 not documented — not modeled
+ajr5rpy Diameter (center)
+hk7vm31 Diameter (edge)
+n9iwy2u 32 (counted in photographs, ±4)
+jv15sgq 6 curved (photograph)
+m3x6p6i no
+jlcmyiz Active area
+ivlx516 Initial energy
+20pigkj ≈900 Wh/sol (S01)
+e615cyq Rated power
+z4ms54h Number of cells
+0vpcl20 not published — educational grid
+phptc2q Grid pitch
+s93gg00 66 × 40 mm (INFERRED)
+78qs5i8 Documented reflections
+wq2q18k underside of the rear panel (S04)
+6tf9xnm Cassegrain, 6.35 cm primary
+b49zjp0 20 mrad (8 mrad with reduced aperture)
+8rvmh6v Mirror travel
+ylx1i8t Usable elevation
+h886j31 Height of the optical axes
+w2gdtpi Elevation
+d1peeq2 Depth of field
+wwraxf0 Left
+8d7apjg L1 empty · L2 753 · L3 673 · L4 601 · L5 535 · L6 482 · L7 432 · L8 440 solar (nm)
+m4r84g2 Right
+lx36p1c Filter diameter
+j1covb1 11 mm (10 mm usable)
+k9w3sz3 1024 × 2048, 12 µm pixels
+ex0x98d Electronics box
+b7kxfsd 4.4 kg with cables and restraints
+hnxpwkg Payload
+av7zvmx Required accuracy
+785bxm9 Spirit's repeatability
+40e5hfg Spirit's D-H parameters
+7u2bbkn Encoder
+vo1b2hi Lubrication
+mz6f9z7 thin layer of grease
+36jhv1e Minimum temperature
+9facx7x −55 °C (qualified to −70 °C)
+ud9akg5 Approximate diameter
+rqldyg8 Rotation sweep
+nvbrn33 31 µm/pixel
+kxmeqwb 38 mm circle
+265iyfi Average distance to the sample
+r7o0gfq Beam on the target
+v30j14i ≈1.4 cm (5.6 mm collimator)
+2me93qq 4 Si-PIN 10 × 10 mm
+s1blico Area
+quid9jl Depth
+j0zstds up to 5 mm
+gkv61ct IDD preload
+ikgogf1 Revolution
+nwv1ugg 32-bit RAD6000, 20 MIPS
+w7cc1g2 Speed
+l98wcui Number
+2erdeab Heat
+yjf7ejn ≈1 W each
+rdv5ead ≈2.7 g of plutonium dioxide
+nysqxdz 0.28 m · 24.8 dB transmitting · 1.1 kg
+xvy4a0k 19 cm monopole · 8/32/128/256 kb/s
+87yt9f7 Polarization
+e3m72c2 Installation
+pdcx7jq not published in the sources consulted
+6vtssqo Horn height
+0xapfiu 0.52 m (front) / 0.51 m (rear)
+881tixc 45° / 35° below the horizon
+tlqg0bb Documented architecture; geometry matched to photographs
+cqwuza3 12 · three banks of four
+4yemir2 Educational interior; no manufacturing drawing recovered
+b1cr0e3 Reconstruction
+5qi6jmm Based on Phoenix documents; fine detail approximate
+evtstx7 Documented architecture; fine geometry matched to photographs
+rlaatrg Sensors
+1hnei9q 26 per cell
+wscgnzu Lighting
+054jm3s Decagon
+hc6vau3 25 Ah per battery
+94qkewm 12 per eye
+023lmx9 1064 and 532 nm
+afrmy2v Based on documentation; fine details approximate
+xorcpj2 Geometry preserved · educational separation
+ax6ftnl Reconstruction based on documentation
+iypyzx9 Documented diameter
+9vmjs7m Documented architecture
+7aofgb4 Sensitive tilt
+0hba17y ≈30° above horizontal
+7eq0m8v Outer diameter
+1bhi7n9 Documented length
+gcgr0rq 4 engines
+koj8fkb Documented envelope
+bzctyng Spacecraft supports
+z8tcuy4 Documented descent engines
+wnz2kz7 Rated thrust per engine
+oflv9hg Mirror
+80uv87y Documented architecture · approximate detail
+68236cg Positions
+bsy5ill 3 filters + 1 clear
+4j3r5u0 Explanatory reconstruction
+d03qvsf About 1.5 m
+22npf6i Documented architecture · approximate fine dimensions
+bp7ub4w 37 inches / 0.9398 m
+uw9wv9t Flight, before separation
+dwt6bmk ¼ hp per wheel
+cuq6o3x Reduction
+dqnl12m 800 in the high-density model
+ne34rum 121 Ah per battery
+uclwxrr Motor
+1aw9h42 80:1 harmonic
+hesgh7q Galvanized steel, Ø 0.84 mm
+1dvni6g Inner stop
+h41k6pr Double wishbone
+4xnub04 Springs
+qbe4c2b Folding
+3utxdda Max. angles
+g53i08q Outer 22°, inner 50°
+59qjvhj Time from stop to stop
+1e94k45 Max. ≈ 14° of travel
+stsry0o Reverse
+q0qwa7r Only when stopped, < 1 km/h
+9t2zhbk Upper section
+qhmmbo2 Lower section
+03uvy06 Control and monitoring
+szub23l Sun shade
+nkuking Aluminum tube
+uuwir1j Nylon strap with Velcro
+mlisr0u Total payload
+pvl6skx ≈ 1,000 lb (documented)
+lfx4msk Empty mass
+8z924b9 Missions
+7q1wv31 Apollo 15, 16 and 17
+21i730a 29.4 × 29.4 × 10.4 cm basket
+mjwdb9x Adjustable angle, 17-7 PH steel
+mbj5xam Laminated Teflon, metal frame
+5ujvh2r 20 flat bags per dispenser
+4cfp02c 6061-T6 aluminum, 17-4 PH steel bit
+gfk27gn 3 sizes (0.2, 0.5 and 1.0)
+ia2vhmb Large base and lid
+56iyt5v Film
+1v5yz1q Lens
+2xj5g63 Mounting
+iz1aclq Mast on the console (area D1)
+pnwkrps ≈ 0.9 m (reconstructed)
+npem70b Pointing
+ee3k1qh Manual, at each stop
+sxi937f Communications manufacturer
+12ca3xe After deployment
+xr88a8t Control
+eex3gh5 Remote from Houston (pan, tilt, zoom)
+6ia1s26 Silver-zinc, not rechargeable
+odla9fn 121 Ah each
+tyxsr4d Average error on return
+rkf44dv Phase-change wax + radiators
+aoewl0x Track
+w3qmr7w Welded 2219 aluminum
+12tsxi5 Total vehicle mass
+l3f31vl 462 lb (210 kg) empty
+npx93q1 Lenses
+qmxmkfu 610 mm and 80 mm · f/5.6
+zzr7jm6 Shuttering
+11ak4kv Cutaway registered on the spacecraft · parts can be separated for study
+1csqcio Visual reconstruction from photos and drawings
+svutfho High resolution
+8kd34yy 610 mm · focal-plane shutter
+jmh1g04 Medium resolution
+xttos2p 80 mm · leaf shutter
+p00lvi5 Inferred reconstruction (not verified)
+ogxgodt Velocity/height · image motion compensation
+iw7vvbd ≈ 200 ft (press release)
+x7rpv4r LO-I photos
+7bo5j6s ≈ 43 min per pair
+ncsxph4 Cells
+qsthp90 ≈ 375 W in full sun
+plf2x5h Per panel
+hd18rxl 5 isolated by diodes
+o2oim8z Chemistry
+1ka2tds Downlink
+rzzbmqi Uplink
+2quprsm Boom
+xey8w0a Step
+0cx5e9f Travel
+c7ll7zq Commands
+0bk6npc Aluminized Mylar + Dacron · 0.032 in
+tv8lq4x 35–85 °F in lunar orbit
+r4uyyop 262.5 lb usable
+i5gpw9p N₂O₄ · 2 tanks
+cyqwugw Aerozine 50 · 2 tanks
+dc15ymd Pressure
+nfqk3l6 Burns
+9inohi2 ≥ 4 · up to 710 s
+6y9sqjk Yaw
+cbl6wo1 20 (15 positions, 5 double)
+z0a7aoo Dosimeters
+3hm9mve Effective area
+if7mtto Sun + Canopus
+3fnv5j8 Axes
+gl00i5k Endurance
+fxmbwki Gyroscopes
+vs9erhy Base diameter
+kymasdo Educational color and level
+ohc04xl Nitrogen
+6o83w03 26 · two banks of 13
+64qma9k Nickel-cadmium
+uwaradk Assembly mass
+l4vc3y0 45° sphere-cone · hemispherical back
+frl2kww Nose radius
+mrzka6f Half-angle
+qig99n9 Shoulder radius
+jhepi92 ≈ 6 mm (INFERRED)
+mpspx16 ≈ 1 mm (INFERRED)
+2gxvt49 CG 90.2 mm from the nose
+jukxlc4 105.3 mm + 127 mm antenna
+rsgi2lw Operating temperature
+dufhsbx Design shock
+5nca7se up to ~60,000–80,000 g
+idllmj5 Mass per cell
+v7vxdps 20–25 Hz (sources differ)
+q0gogrl Operation
+m36g8rb ≈ 1.8 mm (INFERRED)
+r1xlecx Horizontal, out the side
+swm5z3o Sample
+dd1r74d Sampling subsystem
+9xloo2a Cup diameter
+rmm4afj Embedded nichrome
+0oq47zb Seal
+8rtgukg Pyrotechnic
+ee54ivp Laser
+xz3zq9y Sensitivity
+48n6zzy ≈ 0.1% water
+e4hm1r4 Laser (volume/mass)
+j5ttakt Input
+4ost13k Outputs
+f1huopj 40 × 24 mm multilayer ceramic
+xncin6r Quantity
+u0zmlev Accuracy
+fod3gc4 Technology
+cho7gzq Folded in a container · NASA, press kit p. 41
+1f1azdd ≈ 1 m (secondary source)
+e2b4kbf Modeled cross-section
+u7b6bzz 7 × 0.08 mm (INFERRED)
+fexbkhb Launch mass
+kran1id 2,328 kg (1,445 kg of propellant and gas)
+i2w6yef 2.48 m octagon
+l3n8gja Orbit insertion
+ngxqwey 1.397 m and 0.508 m alternating
+oh3qwc0 Between short faces
+ddwb7l0 Bays
+ww2n7ty bay 16
+hpickt6 With blanket
+xzcyluc bays 3, 7 and 11
+12p9jjo With louvers
+dgm6l8l bimetallic, unpowered
+xy48k6g Blades per louver
+myaoa3z 8 (reconstructed)
+7uwozt2 26 per battery
+ecc13qh 1.3 kN (1,323 N according to NSSDCA)
+w13u26o Propellant and control gas
+ygg3hex Management
+ksh8vp0 internal capillary devices
+fjcr981 Expansion
+hl73obl 34,800 cells of 2 × 2 cm
+yaqcnjy Power at Mars
+aiet1z9 Cell thickness
+3nnb2kw 5 per subpanel
+iecl2sf Nozzles
+fdqs062 12 nitrogen
+qkhi3ug Sun (acquisition, cruise), Canopus, 6 gyroscopes
+obwsx8p S-band and X-band; UHF 381 MHz from the lander
+dk6cq4v bay 9, −X axis
+70cmpy1 quadrifilar helix
+8kyc38p Science mass
+yfy53j6 Degrees of freedom
+po075x5 clock and cone
+pvz1wjq 2 vidicon
+qvt124u Transition
+qu1882h 4 → 3 points (6 fittings)
+0c9x89i 4 pyrotechnic nuts + springs
+0w3zalx Capsule diameter
+y801jwq stayed on VO-2
+9oky4f3 Dome radius
+k63up6d Ablator
+g7g01gb SLA-561 in phenolic honeycomb
+aoxu4n9 2 with diaphragm and N2
+9l240lc 3 (6 fittings)
+2aabpnp 16.2 m (53 ft) disk-gap-band
+pd85v2w ≈6 km, pyrotechnic mortar
+7dntaua Nominal diameter
+iavc6gk Landing
+q0ohqsk Tilt
+c90oe5x 8.2° (one leg on a rock)
+yp0j0x4 Sides
+y29p437 Mass on the surface
+ruhl882 GCSC memory
+sdi6tki 18,000 words of plated wire (2 channels)
+l7xnnf5 Inferred
+m7vvxtr Footpad triangle
+atyqq2a Absorption
+10dgzp8 crushable aluminum honeycomb
+rj2n0fz Cell (model)
+xnl4unu Diameter (model)
+6zmjs4n 276–2,667 N per engine
+3sw8zgf 83.9 kg of purified hydrazine
+vc8h0e6 18 per engine
+tvrx6pk steel ribbons formed into a tube
+og7bqyb 1.6 m extended (representative)
+qeg58jh Optical height
+4r9ox6h Experiments
+w6ljb35 temperature, wind speed and direction, pressure (sensor under the body)
+fw2mrys 20 W, two TWTAs
+v426yct Ground plane
+7qf1b9t Geometry

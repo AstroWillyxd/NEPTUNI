@@ -1,0 +1,350 @@
+{
+  "apollo-antenna.glb": {
+    "rawBytes": 7209256,
+    "compressedBytes": 853096
+  },
+  "apollo-ascent.glb": {
+    "rawBytes": 3925740,
+    "compressedBytes": 643972
+  },
+  "apollo-avionics.glb": {
+    "rawBytes": 5234264,
+    "compressedBytes": 330912
+  },
+  "apollo-descent.glb": {
+    "rawBytes": 11944956,
+    "compressedBytes": 749128
+  },
+  "apollo-detail.glb": {
+    "rawBytes": 2694836,
+    "compressedBytes": 404660
+  },
+  "apollo-exterior-mobile.glb": {
+    "compressedBytes": 1876596
+  },
+  "apollo-exterior.glb": {
+    "rawBytes": 8234284,
+    "compressedBytes": 1886408
+  },
+  "apollo-legs.glb": {
+    "rawBytes": 2848880,
+    "compressedBytes": 245376
+  },
+  "ds2-aftbody.glb": {
+    "rawBytes": 7478804,
+    "compressedBytes": 729620
+  },
+  "ds2-exterior.glb": {
+    "rawBytes": 1616212,
+    "compressedBytes": 262940
+  },
+  "ds2-forebody.glb": {
+    "rawBytes": 5065012,
+    "compressedBytes": 573880
+  },
+  "insight-antenna.glb": {
+    "rawBytes": 6620540,
+    "compressedBytes": 789580
+  },
+  "insight-arm.glb": {
+    "rawBytes": 9634364,
+    "compressedBytes": 854456
+  },
+  "insight-avionics.glb": {
+    "rawBytes": 16031280,
+    "compressedBytes": 1916952
+  },
+  "insight-detail.glb": {
+    "rawBytes": 4051528,
+    "compressedBytes": 525424
+  },
+  "insight-exterior-mobile.glb": {
+    "compressedBytes": 2572296
+  },
+  "insight-exterior.glb": {
+    "rawBytes": 10817108,
+    "compressedBytes": 8237636
+  },
+  "insight-legs.glb": {
+    "rawBytes": 6166532,
+    "compressedBytes": 397924
+  },
+  "insight-seis.glb": {
+    "rawBytes": 2709880,
+    "compressedBytes": 406824
+  },
+  "insight-solar.glb": {
+    "rawBytes": 7215976,
+    "compressedBytes": 1077612
+  },
+  "lrv-antenna.glb": {
+    "rawBytes": 9045200,
+    "compressedBytes": 997472
+  },
+  "lrv-camera.glb": {
+    "rawBytes": 11846628,
+    "compressedBytes": 1282572
+  },
+  "lrv-chassis.glb": {
+    "rawBytes": 1596392,
+    "compressedBytes": 287876
+  },
+  "lrv-exterior-mobile.glb": {
+    "rawBytes": 31639444,
+    "compressedBytes": 2438200
+  },
+  "lrv-exterior.glb": {
+    "rawBytes": 54863868,
+    "compressedBytes": 3666116
+  },
+  "lrv-seats.glb": {
+    "rawBytes": 2752428,
+    "compressedBytes": 433908
+  },
+  "lrv-wheels.glb": {
+    "rawBytes": 15348868,
+    "compressedBytes": 1524016
+  },
+  "lrv17-exterior-mobile.glb": {
+    "rawBytes": 31798808,
+    "compressedBytes": 2483332
+  },
+  "lrv17-exterior.glb": {
+    "rawBytes": 55023232,
+    "compressedBytes": 3711256
+  },
+  "mariner-antenna.glb": {
+    "rawBytes": 7131564,
+    "compressedBytes": 845092
+  },
+  "mariner-avionics.glb": {
+    "rawBytes": 13153004,
+    "compressedBytes": 1210780
+  },
+  "mariner-camera.glb": {
+    "rawBytes": 13491676,
+    "compressedBytes": 1181432
+  },
+  "mariner-exterior.glb": {
+    "rawBytes": 13751968,
+    "compressedBytes": 1380028
+  },
+  "mariner-propulsion.glb": {
+    "rawBytes": 7969844,
+    "compressedBytes": 703568
+  },
+  "mariner-solar.glb": {
+    "rawBytes": 6133432,
+    "compressedBytes": 741692
+  },
+  "mer-antenna.glb": {
+    "rawBytes": 6258108,
+    "compressedBytes": 707116
+  },
+  "mer-arm.glb": {
+    "rawBytes": 13180524,
+    "compressedBytes": 1119396
+  },
+  "mer-avionics.glb": {
+    "rawBytes": 10718348,
+    "compressedBytes": 1087124
+  },
+  "mer-detail.glb": {
+    "rawBytes": 7030068,
+    "compressedBytes": 943108
+  },
+  "mer-exterior-mobile.glb": {
+    "compressedBytes": 1345448
+  },
+  "mer-exterior.glb": {
+    "rawBytes": 9075884,
+    "compressedBytes": 8604460
+  },
+  "mer-pancam.glb": {
+    "rawBytes": 15420264,
+    "compressedBytes": 1788948
+  },
+  "mer-solar.glb": {
+    "rawBytes": 4458904,
+    "compressedBytes": 591692
+  },
+  "mer-wheels.glb": {
+    "rawBytes": 5404840,
+    "compressedBytes": 571616
+  },
+  "orbiter-antenna.glb": {
+    "rawBytes": 7076752,
+    "compressedBytes": 794404
+  },
+  "orbiter-avionics.glb": {
+    "rawBytes": 12520448,
+    "compressedBytes": 1153360
+  },
+  "orbiter-camera.glb": {
+    "rawBytes": 9180664,
+    "compressedBytes": 934148
+  },
+  "orbiter-exterior-mobile.glb": {
+    "rawBytes": 60809084,
+    "compressedBytes": 6821660
+  },
+  "orbiter-exterior.glb": {
+    "rawBytes": 65920756,
+    "compressedBytes": 7199364
+  },
+  "orbiter-propulsion.glb": {
+    "rawBytes": 26014592,
+    "compressedBytes": 1359932
+  },
+  "orbiter-solar.glb": {
+    "rawBytes": 9336936,
+    "compressedBytes": 1191232
+  },
+  "phoenix-arm.glb": {
+    "rawBytes": 28592324,
+    "compressedBytes": 2695712
+  },
+  "phoenix-avionics.glb": {
+    "rawBytes": 18930496,
+    "compressedBytes": 1874604
+  },
+  "phoenix-detail.glb": {
+    "rawBytes": 4618756,
+    "compressedBytes": 624416
+  },
+  "phoenix-exterior-mobile.glb": {
+    "rawBytes": 57976356,
+    "compressedBytes": 8355772
+  },
+  "phoenix-exterior.glb": {
+    "rawBytes": 57976356,
+    "compressedBytes": 8355772
+  },
+  "phoenix-legs.glb": {
+    "rawBytes": 6795240,
+    "compressedBytes": 446924
+  },
+  "phoenix-meca.glb": {
+    "rawBytes": 12817124,
+    "compressedBytes": 1576280
+  },
+  "phoenix-met.glb": {
+    "rawBytes": 8767176,
+    "compressedBytes": 1113480
+  },
+  "phoenix-solar.glb": {
+    "rawBytes": 6518536,
+    "compressedBytes": 772356
+  },
+  "phoenix-ssi.glb": {
+    "rawBytes": 8067576,
+    "compressedBytes": 913260
+  },
+  "phoenix-tega.glb": {
+    "rawBytes": 10873744,
+    "compressedBytes": 1112860
+  },
+  "surveyor-avionics.glb": {
+    "rawBytes": 29667980,
+    "compressedBytes": 1582412
+  },
+  "surveyor-camera.glb": {
+    "rawBytes": 10196076,
+    "compressedBytes": 1191228
+  },
+  "surveyor-exterior.glb": {
+    "rawBytes": 32421184,
+    "compressedBytes": 3482796
+  },
+  "surveyor-legs.glb": {
+    "rawBytes": 1968048,
+    "compressedBytes": 269632
+  },
+  "surveyor-sampler.glb": {
+    "rawBytes": 10130256,
+    "compressedBytes": 863296
+  },
+  "surveyor-solar.glb": {
+    "rawBytes": 4128568,
+    "compressedBytes": 516072
+  },
+  "viking-antenna.glb": {
+    "rawBytes": 8391480,
+    "compressedBytes": 987420
+  },
+  "viking-avionics.glb": {
+    "rawBytes": 18675180,
+    "compressedBytes": 2277316
+  },
+  "viking-biology.glb": {
+    "rawBytes": 6899556,
+    "compressedBytes": 791864
+  },
+  "viking-camera.glb": {
+    "rawBytes": 13933688,
+    "compressedBytes": 1267320
+  },
+  "viking-chemistry.glb": {
+    "rawBytes": 6971536,
+    "compressedBytes": 767588
+  },
+  "viking-detail.glb": {
+    "compressedBytes": 221200
+  },
+  "viking-exterior-mobile.glb": {
+    "rawBytes": 32606868,
+    "compressedBytes": 5009452
+  },
+  "viking-exterior.glb": {
+    "rawBytes": 44022676,
+    "compressedBytes": 6089156
+  },
+  "viking-legs.glb": {
+    "rawBytes": 6443588,
+    "compressedBytes": 712964
+  },
+  "viking-meteorology.glb": {
+    "rawBytes": 5228372,
+    "compressedBytes": 569764
+  },
+  "viking-propulsion.glb": {
+    "rawBytes": 7833600,
+    "compressedBytes": 996452
+  },
+  "viking-rtg.glb": {
+    "rawBytes": 4709236,
+    "compressedBytes": 600024
+  },
+  "viking-sampler.glb": {
+    "rawBytes": 7201728,
+    "compressedBytes": 1246172
+  },
+  "surveyor-antenna.glb": {
+    "rawBytes": 458136,
+    "compressedBytes": 83464
+  },
+  "surveyor-battery.glb": {
+    "rawBytes": 399652,
+    "compressedBytes": 68264
+  },
+  "surveyor-exterior-mobile.glb": {
+    "rawBytes": 31266876,
+    "compressedBytes": 3309612
+  },
+  "surveyor-propulsion.glb": {
+    "rawBytes": 16018604,
+    "compressedBytes": 1269956
+  },
+  "surveyor-sensors.glb": {
+    "rawBytes": 430196,
+    "compressedBytes": 91680
+  },
+  "orbiter-structure.glb": {
+    "rawBytes": 5596592,
+    "compressedBytes": 1024148
+  },
+  "phoenix-propulsion.glb": {
+    "rawBytes": 6382092,
+    "compressedBytes": 353284
+  }
+}

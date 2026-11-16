@@ -1,0 +1,172 @@
+{
+ "orbiter-exterior": {
+  "rawBytes": 29912032,
+  "triangles": 308617,
+  "draws": 219,
+  "bounds": {
+   "min": [
+    -2.5779,
+    -0.0677,
+    -1.5586
+   ],
+   "max": [
+    2.884,
+    1.6221,
+    1.5586
+   ]
+  }
+ },
+ "orbiter-camera": {
+  "rawBytes": 10096168,
+  "triangles": 103425,
+  "draws": 160,
+  "bounds": {
+   "min": [
+    -0.3514,
+    0.0155,
+    -0.255
+   ],
+   "max": [
+    0.3514,
+    0.7245,
+    0.665
+   ]
+  }
+ },
+ "orbiter-thermal": {
+  "rawBytes": 4075352,
+  "triangles": 42268,
+  "draws": 12,
+  "bounds": {
+   "min": [
+    -0.7578,
+    -0.016,
+    -0.7578
+   ],
+   "max": [
+    0.7578,
+    1.474,
+    0.9456
+   ]
+  }
+ },
+ "orbiter-exterior-mobile": {
+  "rawBytes": 22189164,
+  "triangles": 228387,
+  "draws": 196,
+  "bounds": {
+   "min": [
+    -2.5779,
+    -0.0677,
+    -1.5586
+   ],
+   "max": [
+    2.884,
+    1.6221,
+    1.5586
+   ]
+  }
+ },
+ "orbiter-solar": {
+  "rawBytes": 15049076,
+  "triangles": 153760,
+  "draws": 290,
+  "bounds": {
+   "min": [
+    -1.6956,
+    -0.0677,
+    -1.6956
+   ],
+   "max": [
+    1.6956,
+    0.1526,
+    1.6956
+   ]
+  }
+ },
+ "orbiter-antenna": {
+  "rawBytes": 11133840,
+  "triangles": 114780,
+  "draws": 115,
+  "bounds": {
+   "min": [
+    -2.5779,
+    -0.0014,
+    -0.6386
+   ],
+   "max": [
+    2.884,
+    0.4678,
+    0.4649
+   ]
+  }
+ },
+ "orbiter-avionics": {
+  "rawBytes": 10436024,
+  "triangles": 106916,
+  "draws": 181,
+  "bounds": {
+   "min": [
+    -0.4724,
+    -0.028,
+    -0.442
+   ],
+   "max": [
+    0.7153,
+    1.435,
+    0.442
+   ]
+  }
+ },
+ "orbiter-propulsion": {
+  "rawBytes": 14353664,
+  "triangles": 147476,
+  "draws": 183,
+  "bounds": {
+   "min": [
+    -0.5464,
+    0.842,
+    -0.5464
+   ],
+   "max": [
+    0.5464,
+    1.6221,
+    0.5464
+   ]
+  }
+ },
+ "orbiter-structure": {
+  "rawBytes": 5424760,
+  "triangles": 55652,
+  "draws": 83,
+  "bounds": {
+   "min": [
+    -0.75,
+    -0.014,
+    -0.75
+   ],
+   "max": [
+    0.75,
+    1.445,
+    0.75
+   ]
+  }
+ },
+ "orbiter-sensors": {
+  "rawBytes": 5253080,
+  "triangles": 52944,
+  "draws": 157,
+  "bounds": {
+   "min": [
+    -0.5514,
+    0.1243,
+    -0.5507
+   ],
+   "max": [
+    0.5514,
+    0.888,
+    0.546
+   ]
+  }
+ }
+}

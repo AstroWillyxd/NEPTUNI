@@ -1,0 +1,30 @@
+{
+  "apollo": {
+    "desktopBytes": 8234284,
+    "mobileBytes": 1876596,
+    "embeddedTextures": 3,
+    "maxTextureDimension": 1024,
+    "sameGeometry": true
+  },
+  "mer": {
+    "desktopBytes": 9075884,
+    "mobileBytes": 1345448,
+    "embeddedTextures": 11,
+    "maxTextureDimension": 1024,
+    "sameGeometry": true
+  },
+  "phoenix": {
+    "desktopBytes": 11297116,
+    "mobileBytes": 2814700,
+    "embeddedTextures": 14,
+    "maxTextureDimension": 1024,
+    "sameGeometry": true
+  },
+  "insight": {
+    "desktopBytes": 10817108,
+    "mobileBytes": 2572296,
+    "embeddedTextures": 11,
+    "maxTextureDimension": 1024,
+    "sameGeometry": true
+  }
+}

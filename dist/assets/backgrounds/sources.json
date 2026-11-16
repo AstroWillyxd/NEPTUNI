@@ -1,0 +1,143 @@
+[
+  {
+    "id": "spirit",
+    "page": "https://www.jpl.nasa.gov/images/pia17760-nasas-mars-rover-spirits-view-southward-from-husband-hill/",
+    "image": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA17760.jpg",
+    "credit": "NASA/JPL-Caltech/Cornell",
+    "title": "Gusev · vista de Spirit desde Husband Hill",
+    "asset": "assets/backgrounds/spirit.webp",
+    "mobileAsset": "assets/backgrounds/spirit-mobile.webp"
+  },
+  {
+    "id": "insight",
+    "page": "https://www.jpl.nasa.gov/images/pia23140-insight-sol-14-panorama/",
+    "image": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA23140.jpg",
+    "credit": "NASA/JPL-Caltech",
+    "title": "Elysium Planitia · panorama de InSight",
+    "crop": [
+      800,
+      0,
+      5600,
+      590
+    ],
+    "asset": "assets/backgrounds/insight.webp",
+    "mobileAsset": "assets/backgrounds/insight-mobile.webp"
+  },
+  {
+    "id": "viking1",
+    "page": "https://science.nasa.gov/photojournal/first-color-image-from-viking-lander-1/",
+    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia00/pia00563/PIA00563.jpg?crop=faces%2Cfocalpoint&fit=clip&h=512&w=563",
+    "credit": "NASA/JPL",
+    "title": "Chryse Planitia · primera imagen en color de Viking 1",
+    "asset": "assets/backgrounds/viking1.webp",
+    "mobileAsset": "assets/backgrounds/viking1-mobile.webp",
+    "context": "Archive PIA00563 photograph; soft backdrop only, not a simulated landing panorama. Native source resolution 563 × 512.",
+    "file": "viking1-first-color.jpg"
+  },
+  {
+    "id": "viking2",
+    "page": "https://science.nasa.gov/photojournal/rocky-martian-plain/",
+    "image": "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/photojournal/pia/pia00/pia00364/PIA00364.jpg?crop=faces%2Cfocalpoint&fit=clip&h=512&w=2131",
+    "file": "viking2-rocky-plain.jpg",
+    "credit": "NASA/JPL",
+    "title": "Utopia Planitia · vista de Viking 2",
+    "asset": "assets/backgrounds/viking2.webp",
+    "mobileAsset": "assets/backgrounds/viking2-mobile.webp"
+  },
+  {
+    "id": "phoenix",
+    "page": "https://www.jpl.nasa.gov/images/pia11734-full-circle-color-panorama-of-phoenix-landing-site-on-northern-mars/",
+    "image": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA11734.jpg",
+    "file": "phoenix-color-panorama-full.jpg",
+    "credit": "NASA/JPL-Caltech/University Arizona/Texas A&M",
+    "title": "Región polar de Marte · panorama de Phoenix",
+    "crop": [
+      18000,
+      0,
+      23750,
+      3100
+    ],
+    "asset": "assets/backgrounds/phoenix.webp",
+    "mobileAsset": "assets/backgrounds/phoenix-mobile.webp"
+  },
+  {
+    "id": "opportunity",
+    "page": "https://science.nasa.gov/resource/matijevic-hill-panorama-for-rovers-ninth-anniversary/",
+    "image": "https://assets.science.nasa.gov/content/dam/science/psd/mars/downloadable_items/3/6/36692_PIA16703_Sol3137B_Matijevic_Pan_L257atc.jpg",
+    "file": "opportunity-panorama-full.jpg",
+    "credit": "NASA/JPL-Caltech/Cornell/Arizona State University",
+    "title": "Matijevic Hill · panorama de Opportunity",
+    "crop": [
+      600,
+      0,
+      7400,
+      1781
+    ],
+    "asset": "assets/backgrounds/opportunity.webp",
+    "mobileAsset": "assets/backgrounds/opportunity-mobile.webp"
+  },
+  {
+    "id": "moon-orbit",
+    "page": "https://science.nasa.gov/photojournal/limb-of-copernicus-impact-crater/",
+    "image": "https://assets.science.nasa.gov/content/dam/science/psd/photojournal/pia/pia00/pia00094/PIA00094.jpg",
+    "credit": "NASA/JPL/USGS",
+    "title": "Horizonte lunar · Copérnico · archivo Lunar Orbiter",
+    "asset": "assets/backgrounds/moon-orbit.webp",
+    "mobileAsset": "assets/backgrounds/moon-orbit-mobile.webp",
+    "context": "Archival lunar limb photograph. Context only; not a reconstruction of the Lunar Orbiter I trajectory."
+  },
+  {
+    "id": "mars-orbit",
+    "page": "https://www.jpl.nasa.gov/images/pia00407-global-color-views-of-mars/",
+    "image": "https://d2pn8kiwq2w21t.cloudfront.net/original_images/jpegPIA00407.jpg",
+    "credit": "NASA/JPL/USGS",
+    "title": "Marte · mosaico orbital de Viking",
+    "asset": "assets/backgrounds/mars-orbit.webp",
+    "mobileAsset": "assets/backgrounds/mars-orbit-mobile.webp"
+  },
+  {
+    "id": "apollo11",
+    "page": "https://science.nasa.gov/image-article/apod-2018-july-21-apollo-11-landing-site-panorama/",
+    "file": "apollo11-window-panorama.jpg",
+    "credit": "Neil Armstrong / Apollo 11 / NASA",
+    "title": "Superficie lunar · panorama de Apollo 11",
+    "crop": [
+      850,
+      585,
+      2020,
+      1070
+    ],
+    "asset": "assets/backgrounds/apollo11.webp",
+    "mobileAsset": "assets/backgrounds/apollo11-mobile.webp"
+  },
+  {
+    "id": "hadley",
+    "page": "https://science.nasa.gov/image-article/apod-2016-august-5-apollo-15-panorama/",
+    "file": "apollo15-hadley-panorama.jpg",
+    "credit": "Apollo 15 / USGS / NASA",
+    "title": "Hadley · referencia ambiental de Apollo 15",
+    "crop": [
+      1600,
+      0,
+      3900,
+      550
+    ],
+    "asset": "assets/backgrounds/hadley.webp",
+    "mobileAsset": "assets/backgrounds/hadley-mobile.webp"
+  },
+  {
+    "id": "pathfinder",
+    "page": "https://science.nasa.gov/photojournal/improved-mpf-360-degree-color-panorama/",
+    "file": "pathfinder-pia01466.jpg",
+    "credit": "NASA/JPL",
+    "title": "Ares Vallis · panorama de Mars Pathfinder",
+    "crop": [
+      1100,
+      0,
+      5300,
+      520
+    ],
+    "asset": "assets/backgrounds/pathfinder.webp",
+    "mobileAsset": "assets/backgrounds/pathfinder-mobile.webp"
+  }
+]

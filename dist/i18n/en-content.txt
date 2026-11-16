@@ -1,0 +1,458 @@
+# NEPTUNI · English · datos de las misiones (missions.js, mission-facts.js)
+2va34wr Descent stage
+vzrvagi The descent stage carried the landing engine and the landing gear. It remains on the Moon; the ascent stage lifted off with the astronauts.
+i78hwg2 Leg and footpad
+kzhbvbo Function
+b0ndx24 Spread the load
+xyqz6bj Configuration
+jhwmka8 Four footpads
+0oienka Descent engine
+9dn5pxa The throttleable engine made it possible to control the descent all the way to the surface.
+zqxug5e Throttleable chemical propulsion
+uz6l6op Ascent stage
+7f3ph47 This section held the cabin. It appears in the complete historic model, but it did not stay at the landing site.
+zr72ie6 Cabin
+iwlmedz Communications
+e3zkoop The antennas transmitted telemetry and voice during the mission.
+q6bezqc Radio link
+xbreska The lunar module talked to Earth and to the command module.
+jxo3i80 Mast and Pancam
+e4p9g5i Spirit and Opportunity used Pancam to take stereo panoramic images. These rovers did not carry Mastcam.
+tu6y9gb Stereo optics
+3d3n5a7 Two cameras made it possible to rebuild the shape of the surroundings.
+fru9ag4 System
+ghx1d4p Two cameras
+lu30gju Filters
+vcv0xuw Solar panels
+eqzluow The panels turned sunlight into electricity. Dust and lighting affected how much power they made.
+f36foyn Photovoltaic cells
+kevjkgm Power output depends on the available light and on how much dust covers the cells.
+m4fnjre Instrument arm
+j8j7jo6 The arm brought analysis instruments up to rocks and soil.
+84lba0y RAT tool
+puws4ar The abrasion tool scraped material off the surface of rocks.
+m2oy0g4 The alpha particle X-ray spectrometer studied the elements a material was made of.
+3zbv2s9 Mobility
+zd4vsw7 Six wheels and a rocker-bogie suspension let it cross rough terrain.
+pwwakri Wheel
+eacgw66 Wheels
+aztm4qj Cameras
+hbdx7st The lander's cameras observed the Martian ground and the area around the landing site.
+lvi12q3 Imaging system
+md169vl Sampling arm
+2dv9zod The arm dropped soil into the science experiments on board.
+59903yr The scoop picked up and carried samples.
+kzmvkt2 Viking used radioisotope thermoelectric generators, not solar panels.
+gmaqlz8 Thermoelectric conversion
+uvi5p7z Heat from the radioisotope was turned into electricity.
+1egclfj SEIS seismometer
+47qcyjs SEIS studied ground vibrations to investigate the interior of Mars. The arm set it down on the surface.
+xdwyycu Instrument protection
+gk3ov47 A cover reduced the effects of wind and temperature changes.
+3sm0xi7 Seismic sensors
+4kq64l6 Two round panels supplied electricity. Dust building up reduced the available power.
+l76nzkc Solar cells
+96qwosr The cells turn solar radiation into electricity.
+qmt6u8g Robotic arm
+rqe40l2 The arm placed the instruments on the ground. Its position in the model is a deployment setup.
+43daa1j Grapple mechanism
+snp5s7n It could lift and position instruments.
+e5qsg6j The arm dug into the ground of the Martian Arctic and collected samples for the instruments.
+xcd6xf5 Scoop
+scq0p4u It collected samples of soil and of the material under the surface.
+1t0t8dg Analysis oven
+tzfqgc5 Heating released volatile compounds.
+1qu7e3o Sunlight was the lander's power source.
+w41hmkv The wire-mesh wheels carried the astronauts over the regolith.
+89scv4c Wheel mesh
+3jpiodm The mesh and the traction bands adapted to the lunar ground.
+4uj6cx7 Four wheels
+a6blkoi Seats and controls
+c3n35nt The astronauts drove the vehicle from two open seats.
+pjfvdxc Driving control
+nk89kcc A hand controller let them steer and control the drive.
+9ag6a0o Directional antenna
+ti0361j The antenna transmitted images and data from the lunar explorations.
+dvrg6hw Reflector
+66muipx The reflector aimed the radio link.
+xqj3vsg Television camera
+7phtq7s Surveyor 3 sent back images of the terrain. Its camera was recovered by the Apollo 12 astronauts.
+36km6ue Optical system
+m8apccp The system had 25 mm and 100 mm lenses.
+x530iio Soil sampler
+2nf1hno The instrument dug into the regolith and tested its mechanical properties.
+qhzv548 Sampling scoop
+8fgv8ur Landing gear
+4yk3hlb Footpad
+hxfmwti Photographic system
+dw6o38c The system exposed film, developed it on board and sent scanned images to Earth.
+p6mbmef Film and scanner
+ex2bvtx The images were retrieved with a readout and transmission system.
+uizq5if Four panels powered the spacecraft during its orbital mission.
+8lw95mb Turning solar radiation into electricity.
+ghhe0gx Antenna
+u418xzw Telemetry
+33sklfd The radio link sent Earth the images of possible landing sites.
+zkorj7l It sent information and received commands from the mission.
+52nxxy9 Mariner 9 mapped Mars from orbit.
+snxaoqk Its observations documented volcanoes, canyons and the moons of Mars.
+3aix617 The panels powered the spacecraft.
+9z4og08 The spacecraft ran on solar power.
+5zfj5zh Communications antenna
+hrui8n0 The link sent images and science data to Earth.
+a4jyxvx The reflector aimed the radio signal.
+u3zpvz5 Sojourner used its APXS spectrometer to study what rocks and soil were made of.
+5mgfwtm Instrument head
+r5s6r38 The head moved up close to the material being analyzed.
+vi08ow7 Solar panel
+o9moraj The cells turned sunlight into electricity.
+5cmkybb Six wheels let this small rover move around.
+eabc9c8 The mobility system made it possible to study different rocks.
+unjlluz Aftbody
+9nmjt33 This part was meant to stay on the surface and relay information to Mars Global Surveyor. No signal was received from the probes.
+d3rwy5t The link was designed to send the data up to the orbiter.
+sgu371e Penetrator
+6769r9v The forebody was meant to pierce the ground and study the material below the surface.
+mp01ft6 Sampling drill
+a58oj5t A small drill was planned to collect material from below the surface.
+e2bf7tf Descent stage on the surface
+8b3gc8o Jul 21, 1969 · ascent liftoff
+9agcda1 The first crewed Moon landing left behind a descent stage and a new way of looking at our world.
+tbdnblk Inactive since 1982
+wbhhsoy A science station that opened a lasting window onto the surface of Mars.
+q615gx9 Inactive since 1980
+lneg6k8 Apr 1980 · end of transmissions
+hxsvzj4 An orbiter and a surface station studied Mars from two points of view.
+1izyspw Utopia Planitia · landing site
+bf01vm1 No contact since 1997
+0hma0bz Sep 27, 1997 · last contact with Pathfinder
+b0oo4wu A small rover showed that exploring Mars on wheels was possible.
+24pqjyi Ares Vallis · landing site
+k58ppxx Gusev Crater
+wmneych Inactive · mission closed in 2011
+mah6ic7 Mar 22, 2010 · last communication
+hjjy2jf Years of geological exploration before it got stuck in soft soil.
+xvpm4d4 Gusev Crater · final location, Troy
+u4bk6nk Inactive · mission closed in 2019
+7onvco2 Jun 10, 2018 · last communication
+anhmcht A journey of more than fourteen years that ended after a planet-wide dust storm.
+wloytg0 Endeavour Crater · Perseverance Valley
+z39rsd7 Inactive since 2008
+cuab4rk Nov 2, 2008 · last contact
+qy408hg A study of the soil and ice on the plains of the Martian Arctic.
+8m8coqq Inactive · mission closed in 2022
+38wx7dt Dec 15, 2022 · last communication
+7yn62l9 The observatory that listened to marsquakes to study the inside of Mars.
+9l85g72 4.5° N · 135.9° E (approx. region)
+6cdqbd0 Inactive · partly recovered
+997qpit A robotic probe later visited by the Apollo 12 astronauts.
+v4ma5bz Vehicle on the surface
+2ubxosy The first vehicle that extended how far astronauts could go on the Moon.
+62gdn07 Exploring the lunar highlands on wheels.
+5dqlbip The rover of the last crewed mission of the Apollo program.
+tq349jv Directed impact in 1966
+4bkzf5m Aug 14, 1966 · orbit insertion
+2l2ist7 It photographed possible landing sites before being steered into the surface.
+v96g9om 6.35° N · 160.71° E (NSSDCA; alternative reference: 6.7° N · 162° E)
+bialfcd Historic Martian orbit
+844ncjw Inactive since 1972
+l3ir8u7 Nov 14, 1971 (UTC) · orbit insertion
+d7ju9qr The first spacecraft to orbit another planet revealed how varied the Martian landscape is.
+dwzspqd No current location confirmed in this archive
+f4p7kwg Planned south polar region
+jnh79pr No signal · location not confirmed
+eak89bz Dec 3, 1999 · planned arrival
+eu0ztzx No contact after the planned arrival
+j6ev37j Scott and Amundsen were meant to pierce the Martian ground to test new technologies.
+dppjvoi Exact site unknown
+p62utmx United States · NASA
+o62xzqi The model shows the repair of the right rear fender with laminated maps, tape and clamps.
+=Cara oculta lunar => Lunar far side
+=Mare Tranquillitatis => Mare Tranquillitatis
+# mission-facts.js
+n9wlfwz Apollo 11 landed on the Moon on July 20, 1969. The descent stage stayed on the Moon; the ascent stage lifted off with Armstrong and Aldrin. The complete model does not show what was left intact at the site.
+tm8larc Spirit got stuck in soft ground in 2009. Its last communication was on March 22, 2010, and NASA closed the mission in 2011. It was struggling to get enough power and survive the Martian winter.
+i6s4kpk A planet-wide dust storm in 2018 cut the light reaching Opportunity's panels. The last communication was on June 10, 2018. After the recovery attempts, NASA declared the mission over in 2019.
+nzy55dr Dust piling up on the solar panels reduced InSight's power. The last communication was on December 15, 2022, and NASA declared the mission over that month. SEIS studied marsquakes.
+0xjzmmn Phoenix studied ice and soil in the Martian Arctic. Its last communication was on November 2, 2008. Winter cut the sunlight and worsened the thermal conditions of the lander.
+3vnfkp3 Viking 1 used radioisotope thermoelectric generators (RTGs), not solar panels. Its surface module stopped working on November 11, 1982, after a faulty command.
+hs0uwn1 The Viking 2 surface module used RTGs and stopped transmitting in April 1980. Viking 1 and Viking 2 landed in different places: Chryse Planitia and Utopia Planitia.
+n0m4thy Sojourner was NASA's first rover on Mars. It arrived with Mars Pathfinder on July 4, 1997. It analyzed rocks with the APXS and communicated through the landing module. Pathfinder's last contact was on September 27, 1997.
+t6361ms Surveyor 3 stayed in Oceanus Procellarum. Apollo 12 visited the probe in 1969 and recovered several parts, including the camera and the scoop, to study how the lunar environment had affected them.
+ymm8fsz Mariner 9 was the first spacecraft to orbit another planet. The mission ended on October 27, 1972. This archive has no current location or confirmed impact; a historic orbital prediction does not confirm its fate.
+ze7ks8d Lunar Orbiter 1 photographed possible Apollo sites. NASA steered the spacecraft into an impact on the Moon on October 29, 1966. The viewer shows the historic spacecraft, not intact remains at the impact site.
+o6en430 The Deep Space 2 microprobes Scott and Amundsen were meant to pierce the ground near the Martian south pole. No signal was received after the planned arrival on December 3, 1999. The exact site is unknown and the cause of the loss is not confirmed.
+mesvenj The Apollo 15 LRV was the first vehicle driven by astronauts on the Moon. It ran on batteries and had four wheels; it stayed on the surface when the exploration ended.
+zdzvkse The Apollo 16 LRV made it possible to explore the Descartes highlands. The battery-powered, four-wheeled rover stayed on the lunar surface.
+umd3o76 The Apollo 17 LRV was used at Taurus–Littrow. Its wire-mesh wheels and batteries carried the astronauts around; the vehicle stayed on the Moon.
+
+# mission-story.js
+b3s417n Directed impact on the Moon
+a6n00ci 80 days after launch
+pcazy8o days
+4m9i1yj October 29, 1966
+w4lzp43 Far side of the Moon
+ctupimt Lifetime from launch; 76 days in lunar orbit.
+s04l16y A lab in space
+282kxde No digital cameras: 70 mm film to find out where the Apollo missions could land.
+wqu0xx5 Photography from the inside
+8nj5dc9 Bimat developed the film on board. An analog scanner sent each image to Earth as a signal.
+6c8y2lk A look back home
+sm8hk22 It sent the first images of Earth from the Moon and photos to prepare the landings.
+de7sw51 The last command
+0m90dx9 The directed impact on October 29, 1966 avoided interfering with the next Lunar Orbiters.
+sswtbgm Silence at Chryse Planitia
+qnh7wic 2,307 days · 6 years and 116 days
+g0i2ywo November 11, 1982
+p44bnrs Chryse Planitia · Mars
+nchhshx The first look from Mars
+hifuzqj The scanning cameras sent the first photo from the surface of Mars. A new world, line by line.
+7k8silo The question of life
+je7fy9l The biology lab examined the soil for signs of life. The question is still open.
+nkeye4k Power for six years
+62qfqwu RTGs, batteries and cables kept going for six years a station meant to work for only 90 days.
+dx78lrc One command, then silence
+az2vtkf In 1982, an update overwrote the antenna pointing data. Viking 1 lost its link.
+ndqno7a Silence at Utopia Planitia
+auc47bk April 1980
+b2lb563 Utopia Planitia · Mars
+hi6vi30 Another Martian landscape
+n1wwolx Viking 2 observed Utopia Planitia: a second window to compare the soil, weather and landscape of Mars.
+rvmef5z Science under the cover
+2feweq0 The arm delivered samples to the lab. The RTGs powered the experiments and the electronics.
+0ohec80 The end of the station
+agflkj4 It stopped transmitting in April 1980. Its archive lets us keep studying Mars after the silence.
+xnu0t2h Silence on the Martian surface
+5mukmcg sols
+0on18x6 December 15, 2022
+wowrz67 Elysium Planitia · Mars
+ogsy31e A sol is a Martian day. The comparison uses sols in both bars.
+oj4jwwn NASA/JPL · End of the mission
+qy39o4s NASA · Durations in sols
+7mkt3lx The heartbeat of the red planet
+86ifttj SEIS listened to marsquakes. Its sensors helped measure the hidden crust, mantle and core of Mars.
+fjfx0p8 Listening through a cable
+gzre7ou The arm set SEIS down on the ground. The cable connected its delicate sensors to the lander's electronics.
+u72cwra When the light ran out
+rwp45hn Dust reduced the power. Its last selfie was in April 2022; the last contact, in December.
+glng2gx Silence at Troy
+0q7lpa5 March 22, 2010
+n84w11y Troy · Gusev crater · Mars
+czxjxjz NASA · 25 years of Mars exploration
+632ftar Reading the story in the rocks
+6hl6fll The cameras and the arm searched for ancient environments. Every rock was a page of Martian history.
+18hl96h Six wheels and a computer
+h340ff6 Motors, gearboxes and cables moved the rover. The electronics coordinated its trip across Gusev crater.
+b1obfss A winter with no answer
+5inaqwv Stuck in soft soil, it faced the winter with little power. Its last link came in 2010.
+cqc8on4 Silence at Perseverance Valley
+69ualu0 June 10, 2018
+o0l33ne Perseverance Valley · Endeavour crater · Mars
+1ww0hh4 A journey written in the rocks
+kzctuhz Its cameras searched for traces of ancient water on Mars and guided more than fourteen years of exploration.
+ofbgzaz Engineering that lasts
+d6pjmt7 Batteries, electronics and six wheels carried a journey far longer than the 90 sols of the original mission.
+badm41j The storm switched off the day
+jl0n5e9 A planet-wide storm hid the Sun in 2018. Short on power, the rover stopped communicating on June 10.
+aub4jgo Silence in the Martian Arctic
+06o3y6d November 2, 2008
+e6iyuue Vastitas Borealis · Mars
+v7hb5pr NASA · Phoenix history
+xub8ezn Digging for ice
+k8bgdtl The arm collected soil from the Martian Arctic. TEGA and MECA studied its properties and the ice nearby.
+ea1to93 A station under the cover
+7ef56fw Batteries and cables shared power among ovens, sensors and electronics. A lab on three legs.
+pm5xfh4 Winter reached the north
+39ve3wk The light faded and the cold grew stronger. Phoenix transmitted for the last time in November 2008.
+nyebat1 No link through Pathfinder
+o9c0sve September 27, 1997
+k5mv0a9 Ares Vallis · Mars
+nq78osi Last contact with the Pathfinder landing module, its link to Earth.
+3db5zfn NASA · Sojourner and its APXS
+al7c84r JPL · Sojourner's design and lifetime
+thj0uk0 The little explorer
+q2sw09y The APXS studied what rocks were made of. A rover of just 10.5 kg opened a huge path.
+jl6ul2d A brain protected from the cold
+90k2gdt The WEB box protected the circuit boards and batteries. Its cables carried signals and power to the wheels and instruments.
+vwdj5hg The silence of the go-between
+7meyx3z Pathfinder was its link to Earth. The last contact with the landing module came in September 1997.
+c79tlpd On the Moon · partly recovered
+hxykt7z May 4, 1967
+fckcn61 Oceanus Procellarum · Moon
+buzpkbl Looking before landing
+czxmwg4 Surveyor 3's camera examined the lunar terrain. The sampler tested how the regolith responded.
+9kyyoxw Powering a lunar probe
+xn8lzgj A solar panel, batteries and electronics compartments kept the instruments and the radio link running.
+oom68d9 A visit two years later
+yrtt01b Apollo 12 visited Surveyor 3 in 1969. It recovered the camera and other parts to study how the Moon had affected them.
+hie5rub Descent stage on the Moon
+302097d July 21, 1969 · ascent liftoff
+yl1gl3c Stage separation
+ceqdur2 Mare Tranquillitatis · Moon
+jxiokno The engine of the first step
+aj639pp The throttleable engine guided Eagle to its landing. Its descent stage stayed in the Sea of Tranquility.
+hcw0qzr Computing and its connections
+5rns2mu A computer, cables and radio coordinated the descent. The cabin protected Armstrong and Aldrin.
+xecenrn The return to Columbia
+sw0keh7 The ascent cabin lifted off with the astronauts and docked with Columbia. Then the crew let it go and returned to Earth aboard Columbia.
+nqvyh8n Mission over · current fate not confirmed
+mq5z163 October 27, 1972
+ayobyfb Historic Martian orbit · current position not confirmed
+iu1ymsr Mars from orbit
+30rqoqc The first orbiter of another planet revealed volcanoes, canyons and the moons of Mars with its cameras.
+3grbpcf A sequence between boards
+rxm9qs8 The sequencer, the wiring and solar power coordinated the observations and the transmissions to Earth.
+2u1h4gz The end of the link
+r9a5rv8 The mission ended in October 1972. This archive does not confirm a current location or an impact of the spacecraft.
+54lr7qh No signal after the planned arrival
+kxu5qkz Unknown · no signal
+f1d5tnn December 3, 1999 · planned arrival
+zamyl14 Planned arrival · no contact on the surface
+9zsr49t Planum Australe · Mars · exact site unknown
+xp0exby No telemetry was received to measure its real lifetime.
+oqe1e1h Getting below the surface
+p4gnhpw Scott and Amundsen were meant to pierce the ground. A drill would collect material from below the Martian surface.
+afkxipb A cable between two worlds
+5c06npg An umbilical would connect the buried penetrator to the aftbody, which held the batteries and the radio.
+rnoz0ac The signal that never came
+w71lv4e No signal was received. The cause of the loss and the exact location of the two probes are still unconfirmed.
+yi5lm66 Vehicle preserved on the lunar surface
+q6z40x7 · Moon
+8a8f39t End of the surface exploration
+nbjk9kx Widening the horizon
+rbhxa37 Power under the seats
+gl1kn6j Batteries, motors and cables made an electric vehicle for the Moon. One hand controller combined steering and control.
+9bci1gr Parked for history
+tr1d6yq It stayed at Taurus–Littrow, with a fender repaired using maps. It keeps the memory of the last Apollo route.
+swopl26 It stayed parked on the Moon. Its antenna and its tracks recall the routes that widened exploration.
+tjx0i7r The story is missing for
+wxsmr10 NASA mission archive
+
+# segunda pasada (frases sin tildes que el primer escáner no detectó)
+yv8s565 Press the name of any system to go straight inside it.
+42j8w52 Select a part to lift it and study it. Back puts it back in the assembly.
+fnjztkm Select an instrument to inspect it on the spacecraft itself.
+2khwuw9 Select a system to open its exploded view.
+0ea4uk5 . The component pages link their sources and identify the reconstructed details.
+2rjca1f The model could not be loaded.
+5esrrjv Component page available.
+xiuig5t Point the spacecraft using the Sun and Canopus and run the stored sequences.
+dd4z7f2 Explore freely, take the spacecraft apart or check the sources for each component.
+r186wwo The viewer's materials could not be compiled.
+umqf51q with the APXS.
+b0smf2f There's a rock right next to it. Plan a way around and finish with your back to Yogi.
+tt0n490 Turn left
+bsv2x8u Turn right
+3mpcmym Four mesh wheels extended the astronauts' reach and opened new places for science.
+1687i3k The footpads spread the load over the regolith during the landing.
+vnhdrj3 Armstrong and Aldrin lifted off from the Moon in this stage to rejoin Columbia.
+nfin82r Observations in several bands helped investigate rocks and soil.
+a8dojf0 The actuators controlled the rover's movement.
+095iwja The panoramas were sent to Earth to analyze the landscape.
+cbv6wbz The sensors recorded the movement of the ground.
+fhdrzxa TEGA heated samples to study the gases they released.
+dv3bhyr Two round panels powered the lander during the Martian summer.
+n5c7rtu The scoop was recovered by Apollo 12 to be studied on Earth.
+rj1zgry Three legs steadied the probe on the lunar surface.
+0klf8ax The footpads spread the load over the ground.
+2p8hoze The panel on top made electricity.
+nbbkppt It was the first time snow was seen falling on Mars. It evaporated before touching the ground.
+1xhxw0q Dust was expected to cover its panels within a few months.
+8bmy1k3 The plan was to drive about 600 meters in 90 sols.
+b0ui6zw It's a reminder that exploring involves risks: not every mission makes it.
+w17m3db Measuring the weather in two faraway places helps explain the climate of the whole planet.
+y6r7jso It used nuclear generators (RTGs), which don't depend on sunlight.
+4fiqpeb It was the longest distance covered in all the Apollo missions.
+xn0v440 It was the first landing in the lunar highlands. They brought back about 96 kg of samples.
+u5aqev2 The dry channels showed that Mars wasn't always a dry desert.
+s3vkyts They were looking for a piece of the Moon's original crust.
+a41ze23 The goal was to take people to the Moon, bring them back safely and collect the first lunar samples.
+e1si3vw It was the first US spacecraft to orbit the Moon.
+1do8n3k It wasn't in the main plan: the engineers turned the spacecraft to take it.
+nzh0byz They sent the data to Earth or to the Viking orbiter, which passed it on.
+ux5ra7t It dug trenches, scraped hard ice and carried the samples to the instruments.
+ox48mio Twelve engines slowed the spacecraft for a soft landing, guided by a radar.
+4t8hac4 With the rover, the astronauts traveled 26.7 km across the highlands.
+yv2h80w Four panels turned sunlight into electricity for the whole spacecraft.
+2nt9ih0 Folding aluminum seats with belts. It was driven with a T-shaped controller.
+wpnivd9 Tongs, rakes, sample bags and other tools for collecting rocks.
+zc2n7uj A three-part aluminum chassis that folded up for the trip.
+sr8wd92 It brought about 22 kg of lunar rock and dust back to Earth.
+t5gkjl1 Four legs with honeycomb shock absorbers that crushed to absorb the blow.
+vevk65y You're looking at the Surveyor 3 probe in Oceanus Procellarum, as it was before the Apollo 12 astronauts visited it and took some parts.
+upylra0 Three legs with shock absorbers to touch down gently.
+m32ukto They sent the scanned photos to the antennas on Earth.
+6z1njco Look at its six wheels.
+niw5ct3 Pick a part and I'll show it to you.
+bbexnot Pathfinder was Sojourner's ride and base.
+ay9stnl braked before the ground.
+thh5b7e This is the APXS: its lab.
+jnd3dbf The data is still in NASA's archive.
+pav8ip6 The radio is just one part. Pick a part: each new system adds to the hunter.
+68hl3e4 Spin the model while you read. Tap a part if you want to open it.
+szl9yr2 Pick another topic whenever you like.
+udrw7es Signal path
+qsu2l0c With this rover, the astronauts traveled 35.9 km across the Moon.
+4bjyisq See previous missions
+emxeb5t See more missions
+4r65n2d No parts. The photos came by radio.
+8dt6u8d The three astronauts, aboard Columbia, with about 22 kg of lunar samples.
+3o3ehge The LRV-1 parked at Hadley during Apollo 15.
+qeoda25 The rover, at Hadley.
+jrehqg2 The rover, at Descartes.
+dwa5ilb The samples from the highlands.
+mdjugol The samples, including the orange soil from Shorty.
+x9214ex No parts. Its data came by radio.
+djt73o0 The frost photos and the weather measurements.
+9xsa0ei A flight microprobe in the lab, before launch.
+pztgpy2 The rover, in Perseverance Valley.
+8ddgf2c Its photos and measurements, including the incomplete image from June 2018.
+mxoew9e InSight with its panels open during a test on Earth, before launch.
+919ajyb The SEIS records, available so other teams can keep studying the interior of Mars.
+qfxgy5k Wait for the model to load and try again.
+btc7jwh Postcard with the 3D model
+8jzldca The response doesn't contain a complete GLB file.
+7epptpn WebGL context unavailable: this browser can't start WebGL 2.
+vyh0h0o The browser couldn't create the WebGL 2 context the viewer needs. The error happens before the model is downloaded.
+5skg9k2 You can check the file or try loading it again.
+9x70hl1 Check the file and try loading it again.
+qntqmdw The mission page and the sources are still available while the viewer is checked.
+1q99ero You can check the model file or retry the viewer.
+y6mw92l Expand the viewer and the components list. Press Escape to exit.
+5tz05zf The main dimensions come from the cited source.
+=Explorar misión => Explore mission
+=Abrir misión => Open mission
+=Reducir visor => Shrink viewer
+=Reducir visor 3D => Shrink the 3D viewer
+
+# fuentes de «Narración» (mission-dialogues.js)
+=Cartografía y observaciones de Mariner 9 => Mariner 9 mapping and observations
+=Cronología de Deep Space 2 => Deep Space 2 timeline
+=Dossier técnico de Deep Space 2 => Deep Space 2 technical dossier
+=Informe de la misión Surveyor III => Surveyor III mission report
+=Última transmisión y archivo de Mariner 9 => Mariner 9's last transmission and archive
+=Diseño de Spirit y Opportunity => Design of Spirit and Opportunity
+=Instrumento SEIS => The SEIS instrument
+=Apollo 17 en Taurus–Littrow => Apollo 17 at Taurus–Littrow
+=Autorretrato de Opportunity, PIA18079 => Opportunity self-portrait, PIA18079
+=Informe de la misión Apollo 15 => Apollo 15 mission report
+=Informe de la misión Apollo 16 => Apollo 16 mission report
+=Informe de vuelo de Apollo 11 => Apollo 11 flight report
+=Informe sobre la reparación del guardabarros => Report on the fender repair
+=Instrumentos y experimentos Viking => Viking instruments and experiments
+=Navegación durante el alunizaje => Navigation during the landing
+=Primera foto de la Tierra desde la órbita lunar => First photo of Earth from lunar orbit
+=Resumen del programa Viking => Viking program summary
+=Visita de Apollo 12 a Surveyor III => Apollo 12's visit to Surveyor III
+=Diseño del Lunar Roving Vehicle => Design of the Lunar Roving Vehicle
+=Energía y último contacto de los rovers MER => Power and last contact of the MER rovers
+=Informe fotográfico de Lunar Orbiter I => Lunar Orbiter I photographic report
+=Descripción técnica de Sojourner => Technical description of Sojourner
+=Sistemas del módulo Viking => Viking lander systems
+=Despliegue de SEIS => SEIS deployment
+=Instrumentos y operaciones de Phoenix => Phoenix instruments and operations
+=Resultados de Phoenix => Phoenix results
+=Resultados sobre el interior de Marte => Results on the interior of Mars
+=Sojourner y su espectrómetro APXS en Yogi => Sojourner and its APXS spectrometer on Yogi
+=Última transmisión de Pathfinder => Pathfinder's last transmission
+=Último contacto de InSight => InSight's last contact

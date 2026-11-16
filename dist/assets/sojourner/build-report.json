@@ -1,0 +1,105 @@
+{
+  "revision": "20261023-integration-v2",
+  "modelRevision": "20261022-v2",
+  "units": "metres",
+  "selectableParts": 39,
+  "clips": 7,
+  "assets": {
+    "high": {
+      "bytes": 2063504,
+      "sha256": "d7708d06d59d1c369a6b675dec3348fc5dc8d1d418bbb83828e9baff8b3f35e3",
+      "triangles": 167318,
+      "primitives": 223,
+      "clips": [
+        "DRIVE_FORWARD",
+        "TURN_IN_PLACE",
+        "ROCKER_BOGIE_CLIMB",
+        "APXS_DEPLOY_SOIL",
+        "APXS_DEPLOY_ROCK",
+        "MAE_COVER_CYCLE"
+      ]
+    },
+    "medium": {
+      "bytes": 1572080,
+      "sha256": "147536ce97fd958cab5c20d690f2ccb1bb619b6d5742db775b88bc184b24cae1",
+      "triangles": 80240,
+      "primitives": 218,
+      "clips": [
+        "DRIVE_FORWARD",
+        "TURN_IN_PLACE",
+        "ROCKER_BOGIE_CLIMB",
+        "APXS_DEPLOY_SOIL",
+        "APXS_DEPLOY_ROCK",
+        "MAE_COVER_CYCLE"
+      ]
+    },
+    "low": {
+      "bytes": 914444,
+      "sha256": "b29147d6862243ea0791da6ca03f4ab476531092cb209a32a8d38ddc1288467a",
+      "triangles": 41244,
+      "primitives": 177,
+      "clips": [
+        "DRIVE_FORWARD",
+        "TURN_IN_PLACE",
+        "ROCKER_BOGIE_CLIMB",
+        "APXS_DEPLOY_SOIL",
+        "APXS_DEPLOY_ROCK",
+        "MAE_COVER_CYCLE"
+      ]
+    },
+    "interior": {
+      "bytes": 799452,
+      "sha256": "651875aa3f96c85df2df4d5f05b14bd3a788eafbb2c1700500a401bd03ee47f8",
+      "triangles": 22456,
+      "primitives": 77,
+      "clips": []
+    },
+    "drive": {
+      "bytes": 308320,
+      "sha256": "0e4142dcd580a7f8f726097511c250cf6054b8cbadb0af0478b31980c700f26b",
+      "triangles": 10884,
+      "primitives": 16,
+      "clips": [
+        "GEARTRAIN_DEMO"
+      ]
+    },
+    "nomeshopt/medium": {
+      "bytes": 2267432,
+      "sha256": "db21960ada8eaab0cf1b2ff8ca3a0d824030f535cbd97bcc14c3c89a01ba29a6",
+      "triangles": 80240,
+      "primitives": 218,
+      "clips": [
+        "DRIVE_FORWARD",
+        "TURN_IN_PLACE",
+        "ROCKER_BOGIE_CLIMB",
+        "APXS_DEPLOY_SOIL",
+        "APXS_DEPLOY_ROCK",
+        "MAE_COVER_CYCLE"
+      ]
+    },
+    "nomeshopt/interior": {
+      "bytes": 997212,
+      "sha256": "19a0031586260db2cc95854ee974d7d1790f6362d0e5fcfec30e458da73f3602",
+      "triangles": 22456,
+      "primitives": 77,
+      "clips": []
+    },
+    "nomeshopt/drive": {
+      "bytes": 551812,
+      "sha256": "4103300ea4d6e2ed2703d1e2934a2c50ebb9ba11165a3bfe670903b00ebc1b46",
+      "triangles": 10884,
+      "primitives": 16,
+      "clips": [
+        "GEARTRAIN_DEMO"
+      ]
+    }
+  },
+  "limits": {
+    "ktx2": false,
+    "grossPanelAreaModel": 0.257,
+    "grossPanelAreaPDS": 0.22,
+    "flightCAD": false,
+    "deviceFPSMeasured": false,
+    "integratedGPUVerified": false
+  }
+}

@@ -1,0 +1,76 @@
+/*
+ * NEPTUNI · Neptunito — estilos del animador.
+ * Todas las clases llevan el prefijo "neptunito-" para no chocar con el sitio.
+ * El módulo solo escribe transform/opacity en línea; el resto vive aquí.
+ */
+
+/* Se añade al contenedor SOLO si su position es static (se quita en destroy()). */
+.neptunito-host { position: relative; }
+
+.neptunito-stage {
+  position: absolute;
+  inset: 0;
+  z-index: 5;                 /* se sobrescribe con config.zIndex */
+  pointer-events: none;       /* decorativo: nunca bloquea clics ni navegación */
+  user-select: none;
+  -webkit-user-select: none;
+  contain: layout style;
+  --neptunito-edge: 0px;      /* posición del borde que oculta (config.edge.x) */
+}
+
+/* Máscara real del borde izquierdo: todo lo que queda a la izquierda del borde no se pinta.
+   Arriba, abajo y a la derecha se deja margen para que el brinco no se recorte. */
+.neptunito-stage[data-clip="left"] {
+  clip-path: inset(-200vh -200vw -200vh var(--neptunito-edge));
+}
+.neptunito-stage[data-clip="box"] {
+  overflow: hidden;
+  clip-path: inset(0 0 0 var(--neptunito-edge));
+}
+
+.neptunito-stage[data-visible="false"] { visibility: hidden; }
+
+/* Desplazamiento horizontal del personaje. Su origen (0,0) es el punto de apoyo en el suelo. */
+.neptunito-mover {
+  position: absolute;
+  left: 0;
+  bottom: 0;                  /* se sobrescribe con la línea de suelo */
+  width: 0;
+  height: 0;
+  will-change: transform;
+}
+
+/* Elevación, giro y estirar/encoger; origen en el punto de apoyo. */
+.neptunito-lift {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  transform-origin: 0 0;
+  will-change: transform;
+}
+
+.neptunito-frame {
+  position: absolute;
+  display: block;
+  max-width: none;            /* neutraliza resets tipo img { max-width: 100% } */
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-user-drag: none;
+  image-rendering: auto;
+}
+
+/* Sombra de contacto: se queda en el suelo mientras el cuerpo salta. */
+.neptunito-shadow {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.55) 55%, rgba(0, 0, 0, 0) 100%);
+  opacity: 0;
+  transform-origin: 50% 50%;
+  will-change: transform, opacity;
+}

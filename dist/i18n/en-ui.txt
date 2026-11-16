@@ -1,0 +1,418 @@
+# NEPTUNI · English · interfaz (página, inicio, catálogo, ficha y visor)
+# Formato: «clave texto». La clave es el resumen de 7 caracteres del texto original en español.
+idevgtv NEPTUNI · Space archaeology
+gzfdy5z Skip to content
+71oawrt Menu
+17g3p7b Home
+6f8f1fv About us
+ab0mhxk Game
+4qd2hbn Museum of space archaeology
+tprznb4 Space keeps
+hz77v3u Travel across the Moon and Mars through the machines that made it there. See their photos, open up their parts and discover how they changed the way we explore.
+3io75jc Explore the missions
+tgc6vd4 Play with Sojourner
+vxelhil Hi, I'm Neptunito!
+y5p6fij Tap me to say hi.
+13uggw7 Scroll to explore
+jonys98 The museum in numbers
+50m2ctz Gallery on the move
+j2hug3x Every machine
+0zzhdli has a story
+p144ae9 Tap a mission to open its page and its 3D model. You can pause the gallery whenever you like.
+0o501ea Discover more 3D models
+31fs54u 15 missions on the Moon and Mars to spin and explore
+09cph6j Mission archive
+6c2nkdw Choose your next mission
+13yvyy3 All
+333zcx1 Moon
+zlqsoz4 Mars
+gd1k0jk 15 missions
+fs7i258 Years
+jtc5762 Explore the Moon and Mars
+cvyq5nv in 3D
+i9jrebu 15 real machines, rebuilt in 3D. Pick one, spin it and let Neptunito tell you its story.
+bvkbrlo Choose a destination
+5e7599i ← Back to the missions
+5m2pekz Another mission
+pb0bybj Mission story
+czvj3qk Overview
+q9cxb9n Mission archaeology
+mo9v786 Show labels
+hvh76k1 LRV-3 demonstrations
+nj6r8it Getting the 3D model ready…
+6o43p3l Back one part
+jeg4f3h Auto orbit
+ewzqsi7 Full view
+5ommehu Expand viewer
+wzhvldt Meet the spacecraft
+2koedqj The mission
+u8z869p The discoveries
+sj8z9ty The systems
+1lcztcq Read the story
+qenvjfs Show all
+52mozmp Back
+gmzxuf7 Topics
+12sj880 Continue
+te7lpz1 Components
+qrxoflz ← Previous level
+xrpc67c Spacecraft systems
+di6vkcw See it in the viewer ↑
+378uvgz Check the NASA source →
+8fh3got Mission sources
+f15sw1i Narration
+v13jkl4 Archive and reconstruction
+rxaetik Engineering also
+hkxq0r7 We are NEPTUNI. We bring together engineering, space exploration and science communication.
+556n7lf Understand the technology.
+z5g586j We built a museum of space archaeology to tell the stories of the equipment left behind on the Moon and Mars. We gather photographs, documents and interactive reconstructions to bring their engineering closer to more people.
+jvw7ovw The team
+4giewpy Explore
+l90u72m Sojourner game
+ee5i6zc Sources
+ah9ls9p NASA Technical Reports →
+09h6uz1 Back to top ↑
+o3ez8mk Independent project. Every mission page documents its sources and the limits of its reconstruction.
+ycduv7s Close
+ztvb2hs Educational reconstruction of the rover's mechanisms.
+wdqwwhg LRV-3 manual · NASA →
+opjdbhz NEPTUNI is an interactive museum of space archaeology. Explore 15 historic missions to the Moon and Mars.
+omaah4g NEPTUNI, home
+pp5ph6m Main navigation
+z4lpcmq Featured mission: Sojourner / Pathfinder
+bv2yag5 NEPTUNI in numbers
+9z3uiju Filter missions by destination
+itc3be9 Choose a year
+xvuip2x Featured missions
+z8jwu0k Previous featured mission
+7kc9dkm Choose a featured mission
+2viugz3 Next featured mission
+zirjn2f Pause the carousel
+ezm6l7o Say hi to Neptunito on the mission
+z8pt58d Parts of the overview
+caddlzx Previous part
+i12yll5 Next part
+zq02nc4 Mission viewer
+j9pxtqt Interactive 3D model
+on6tslo Viewer controls
+vl30cv7 Neptunito explains the mission
+v6dxb7l Mission topics
+k82tg3k Reading with Neptunito
+2tleoaw Spacecraft components
+qixyuxq NEPTUNI information and resources
+hcolnon LRV-3 mechanism viewer
+xwtahbj Open NEPTUNI with the local server
+y2cd6hn Close this tab and double-click
+tgyesi6 , inside the NEPTUNI folder. That way the missions and 3D models load.
+q58abp4 In the meantime, try the game →
+# app.js
+4q61ttp Archive photo
+ya9ohbg ">Open mission
+uipuhll Archive photograph
+ehctt7m Viewer status
+44sl9mc Check the file
+ynk1rwr Checking the download…
+z691h4g INSPECTION
+l5m3yj0 INTERIOR
+ano136k OVERVIEW / 3D
+6v6cd3z INSPECTION IN CONTEXT
+rakmi2j TECHNICAL CUTAWAY
+22gunxm TECHNICAL CUTAWAY /
+j1tcpus PBR RECONSTRUCTION
+3mb5i3s NASA EXTERIOR · PBR
+81gedpq Educational interiors specific to each assembly. The geometry, dimensions and wiring are not validated flight CAD.
+ae40g8p Lunar Orbiter I · flight configuration with the thermal blanket installed and the camera door open. Panels and antennas deployed. Fine geometry and interiors without public drawings are educational reconstructions.
+1rknr27 Phoenix rebuilt from documentation of its instruments and NASA/JPL photographs. Fine details without public drawings are approximate.
+97onpc3 Exterior rebuilt from NASA photographs and documentation. Undocumented details are visual approximations.
+t1jlolf Historic exterior from NASA 3D Resources.
+9bnh8co The cabin belonged to the ascent stage; only the descent stage stayed on the Moon.
+tm3qo2k Current orbital location not confirmed.
+e3sstsj Interior open · Press a label to go on to the component.
+x5hhnfa Deep Space 2 · capsule closed in the overview. Lid, antenna and finishes rebuilt from NASA/JPL photographs; see the reference images on the mission page. The interior and its divisions are educational.
+js2ucoh Select a part to lift it. Back puts it in place again; the probe stays transparent as a reference.
+750t4gj Closed capsule · select a system to see inside it.
+ykit3lq InSight · assemblies backed by NASA/JPL and the SEIS team. The views keep the lander as context; the exploded view is educational. The SEIS-AC card uses its published photograph. No circuit-board traces are invented without documentation.
+zwmwrcx InSight · exterior and colors from the NASA 3D resource. Inspection setup before deployment: SEIS, WTS and HP³ on the deck; arm raised. The shape of small details is not certified flight CAD.
+ld0adg2 Select a system. The spacecraft stays as a reference during the inspection.
+ojorirc Phoenix · each instrument keeps its position on the lander. Parts lift when you select them and the harnesses follow their connectors. See the sources: board layouts and other details without drawings are educational.
+cy3m3zb Phoenix · arm extended with aluminum links and titanium fittings; TEGA with inlets on two faces. Deck and instruments based on NASA/JPL and PDS. Representative pose; internal details without public drawings are marked as educational.
+ss5fp4x Tap a part to lift it. The spacecraft stays transparent as a reference; «Back» brings the assembly together.
+iljhilp Viking · cutaways based on NASA RP-1027. Boards, traces, windings and internal ducts without complete drawings are educational; check the evidence for each component.
+0fdvkb9 Viking · surface configuration rebuilt from NASA figures 21, 23, 72 and 93. Tanks and engines outside the body; antennas on their mounts. Antenna and sampler orientation are representative, not the state on a specific sol.
+8azbzqt The system separates and the spacecraft stays as a reference. «Reassemble» brings its parts back together.
+30s49n0 Surveyor III · step-by-step exploded view based on JPL TR 32-1177 and NASA SP-184. Each part shows its reference. Traces, optical prescriptions and internal details without public drawings are marked as educational.
+k49kt8p Surveyor III · surface configuration before Apollo 12. Includes the auxiliary battery, Canopus sensor, three verniers and their six tanks. The central retro-rocket, already separated, is studied in the flight propulsion view.
+nsg528f Getting the exterior ready…
+uxfgf3j · educational interior
+bqlsdzr The model took too long to load.
+qn748hm NASA · Mission page
+cey7vkl Archive photograph ·
+r33rmjo Viewer background ·
+01u3tl8 Lander background ·
+ib25xti Technical reference documentation
+7od6ya4 LRV-3 manual · NASA
+cyerp8b Source ·
+adi8b09 Open Components next to the viewer to go through the systems and read how they work.
+jb6upid Check the component source →
+vovijrp Pause orbit
+p80yela Hide labels
+# nx-home.js
+f9j4qso Sojourner and the rock Yogi
+spskey5 Sojourner placed its instrument on rocks to find out what they were made of.
+p2sjw1z Its arm dug a trench and uncovered bits of ice that turned from solid to vapor in four days.
+hyj5lmi It found tiny spheres of hematite, nicknamed «blueberries», in the rocks of Meridiani Planum.
+3ahc72r Illustration of InSight at Elysium Planitia
+cjqgqax Illustration
+cjjw0ho Its arm lowered the SEIS seismometer to the ground and covered it with a shield against wind and cold.
+9uzneth Go to the game
+9hsjdgb New
+zb4xqlu Photo
+3ae4407 Featured mission ·
+946812q Did you know…?
+rolc7tv " target="_blank" rel="noopener noreferrer">NASA · source
+xrqc2lq Play the carousel
+cumottg The age of robots
+wi7z2eg Viking and the Apollo rovers
+o6dm2kl The first steps
+yyel9x9 Open page →
+# nx-ficha.js
+0kfn39c Meet the rover
+h3fsym2 3D view: a reconstruction made with NASA photos and documents.
+gdxcr4b Look for it on the model
+nuu55qi Now it's your turn
+e9nd7hv Drag to spin the model and pinch or use the wheel to zoom in. «Show labels» names the parts.
+hwxf1qp Now it's your turn! Spin the model and zoom in.
+1qleshk Mission facts
+hw8j3hk Here are the exact dates, in case you want to check them.
+ihxcbpz What happened next?
+11u8h7o See what stayed at the site and what made it back to us.
+z95x4v8 Its mission
+5qy03fb Why was it sent?
+xtcrc7s Journey and destination
+3sney0i It traveled to
+5n1o7dh Look at this real photo from the mission!
+xxzfq5l Why was it a milestone?
+fjrhqkf How did it end?
+k9kufaa No data
+3w5w8td This mission did not manage to send data.
+vyh4njb Why were they studying it?
+o6mhwjh Why did it matter?
+40l6or0 Its systems
+i9cxbak Mechanisms in motion
+9onb8wx See demonstrations of the LRV-3 mechanisms
+gb41q8w You can also see its mechanisms in motion.
+qarijn0 Technical documentation of the model
+itrbvl1 See what stayed on Mars and what made it back to us.
+fnt0ffc Look here
+vpu6o3a Destination
+26z1elm Place
+e0473i1 Arrival
+4pdyzpz End
+g6gekbq Status
+pqt2o10 Stayed at the site
+vnf7xq1 Came back to Earth
+17q43d7 Kept in the archive
+jjhybx1 See archive photo
+xje75qq The viewer shows a 3D reconstruction made with NASA photos and documents.
+41dxdvc landing module
+so1yo47 mission team
+4y817md Continuous reading
+wrrnhfu Topic complete ✓
+pb50u4r Step by step
+hjsogkj Finish
+518hk7o Next topic
+w0e8ho3 When a paragraph names a part, tap its ◎ button and I'll show it to you.
+qzrpk89 The whole topic
+7spvybz Read at your own pace. Tap a ◎ button and I'll show you that part.
+fbx0yj7 All done!
+xh6ywk5 You finished «
+8ox4o0c ». Shall we move on to another topic?
+gpm85xz We're done!
+2jlb9a4 continuous reading
+xbdrl33 Shall we pick up where you left off?
+qg8ootn Resume
+c2e7maq Look here!
+qa6ospl It's from the same episode. The credit is below.
+# nx-viewer-fx.js
+dk3l00s systems discovered
+qpc26xn Scanning… 0%
+hiiv63w all the systems!
+1rushio You discovered every system on this spacecraft! Tap one to see it again.
+n2uyc87 the spacecraft
+65lefsc Count the
+oghksql main systems
+xdn0wa9 of
+qcxgd3v turn on «Show labels» or tap the model
+6az74em Undiscovered system
+tsawknu Mission complete!
+40n4q65 You discovered the
+koaw1dt New system!
+gur7tzj Part
+rden1hz Take a postcard photo of the model
+xa5zm5p Your postcard photo
+rejtpsr Save photo ⬇
+0zsq31o No photo
+# nx-home-motion.js
+mzp2r80 Look! That's Sojourner, next to the rock Yogi.
+tjfgsbv historic missions
+fl6x76s with a 3D model to spin
+k9mh5l8 on Mars
+bo7eju9 robots, rovers and probes
+zsatbgs on the Moon
+w9xf9q6 from Lunar Orbiter to Apollo
+7mt5hnj years of exploration
+vhzvnha Resume gallery
+i2z63e0 Pause gallery
+# fleet-viewer.js
+ulbhf6w Loading canceled
+y0g674t 3D. Drag to orbit. With the viewer focused: Shift and arrows to orbit, arrows to pan, + and − to zoom in or out, Home or Escape to go back. Select a component to open it.
+i4zpnk3 Select a component of
+uvzt7av Overview
+f8kkz4q Close cutaway
+svsguwg Hide
+0a0gje0 Turn filters
+9f9hv0s Simulate impact absorption
+mbj6613 Back
+7vnx6al 3D model options
+nxlz7fj Go back to the previous assembly and put the parts back in place
+n9srvdi Spread out parts
+7b4kfhz Show assembly
+3uwjdka Move scanning mirror
+zqoo11g Reset demonstration
+t16oz95 Stop demonstration
+yii5psr This assembly could not be opened. Select it to try again.
+g5j37gm The graphics connection was interrupted.
+vyxz20r Putting the assembly back together…
+616trfh The browser interrupted the viewer's rendering.
+# neptunito.js
+f53o1wj That wave deserves confetti!
+n6bpa8z Crew ready for liftoff!
+z4k5zbh So nice to see you here!
+
+# index.html (segunda pasada)
+c3gu976 3D models
+jgzv84d great stories.
+f1v9x3a 3D models ·
+r81bi7p Listen
+vcakze3 Drag to spin. Pinch or use the wheel to zoom in.
+2cttt68 To start, pick one of the four buttons.
+nwmfess Earlier messages
+7fu0v3k has a memory.
+u7jxsy5 Preserve history.
+qi0108e A project for the NASA Space Apps Challenge 2026.
+y8ghilj Email
+sm2tr8k A museum to discover the stories left behind on the Moon and Mars.
+hidvuu2 Contact
+4ncfftc Say hi to Neptunito
+# twin, fondos, fotos del catálogo
+u91vxor DOCUMENTED
+sizkwmd reconstruction reference
+c6lmjxl Hadley · Apollo 15 reference
+eqytgn3 Gusev · view from Husband Hill
+nq5dlfz Chryse Planitia · Viking 1 in color
+74n05l6 Martian Arctic · Phoenix
+t9r0ply Copernicus · PIA00094 · Lunar Orbiter program archive
+6z75o3b Earth and the lunar limb · Lunar Orbiter I frame 1102 H (Aug 23, 1966) · illustrative background, rotated
+wsiz4g1 Mars · south polar region, the planned target of DS2 (illustrative orbital view, not the arrival site)
+ee7cui1 Generated from the NASA 3D Resources global map of Mars (NASA)
+5yrwvni Mars from orbit · mosaic from the Viking orbiters (PIA00407)
+yvnw6t4 Mars · Viking mosaic
+zmiyrum Earth above the Moon's horizon in a photograph taken by Lunar Orbiter 1
+qzd5p8h NASA Ames / LOIRP · Earth from lunar orbit, 2008 restoration
+atf3b9h Apollo 12 astronaut next to the landing gear of Surveyor 3
+gspzzhk The lunar module Eagle on the ground of the Sea of Tranquility
+k73dvwy The Apollo 15 lunar vehicle parked on the regolith
+vko7sn4 Mariner 9 during preparations for its thermal vacuum test
+ii4orl5 NASA/JPL-Caltech · Preparing the thermal vacuum test
+5k4ti71 The Apollo 16 rover on the lunar surface next to the lunar module Orion
+nbphyox The Apollo 17 rover with its antenna deployed on the ground of Taurus–Littrow
+ucrd3x0 Viking 1 hardware held up by a platform during integration on Earth
+rzqf492 Viking 2 hardware at the integration facility
+ds099bd Sojourner and its six wheels next to the rock Yogi on Mars
+o64n7s5 Deep Space 2 flight microprobe photographed in the lab
+hquinly NASA/JPL · Flight microprobe
+q298ion Spirit and Opportunity during rover testing in High Bay 1 before launch
+i98ci8f NASA/JPL-Caltech · Spirit and Opportunity testing, PIA23244
+7wbpmmt Testing on Earth
+ozi6896 Opportunity with its wheels and mast deployed during mobility tests at Kennedy Space Center
+1nebc95 NASA · Opportunity mobility tests, March 21, 2003
+i0c8vzl The Phoenix lander with both round solar panels deployed during a test on Earth
+zyxxm2p NASA/JPL/University of Arizona/Lockheed Martin · Phoenix testing, PIA09701
+ymgqrpf InSight with both solar panels open during pre-launch tests on Earth
+4e9ex81 NASA/JPL-Caltech/Lockheed Martin Space · InSight testing, PIA22739
+3pijuq3 Go back to the previous size. You can also press Escape.
+ow31ciz Expand the 3D viewer
+ty5hwax The 3D graphics could not start
+ktsmpk3 The browser allowed WebGL 1 but not WebGL 2, which this viewer needs. The error happens before the model is downloaded.
+6b6e8l9 Try NEPTUNI in a separate tab. If it happens there too, check your browser's graphics acceleration. The mission page and the sources are still available.
+l0uplx3 The 3D file could not be accessed
+6gxqzug Check that you opened NEPTUNI with the account that has access. Don't change the site's permissions to fix a graphics error.
+155qjgo The model could not be downloaded
+x50nqae The download does not contain a complete model
+cxrdqo3 The response is not a valid, complete GLB file. It could be an error page or an incomplete download.
+0jcuaj8 Loading took too long
+5mr7054 Downloading or preparing the model did not finish in the time available.
+jeh4vr5 Check your connection and try loading it again.
+5zhwe7w The materials could not be drawn
+j2gl2g5 The browser started the graphics but failed to compile one of the model's materials.
+olwlubg This is a rendering error, not an access denial. You can check the file and retry the viewer.
+e32ahi4 The graphics connection was interrupted
+12p70k6 The browser lost the graphics context while displaying the model.
+wt5ftw6 The viewer will resume if the browser recovers the graphics. You can also try again.
+67engga This reconstruction could not be shown
+4sd3rkn Component source →
+9tq1i94 Mission source →
+k3z8ymi Loading the 3D model…
+n0fe9br This part's page is available.
+kg0x1lq Countdown
+510ggkm Liftoff!
+hyashoh Milestone!
+vtt052e Eureka!
+vn9h5oc Neptunito, NEPTUNI's mascot
+tf6y7th A block up to 20 cm high under the front left wheel. Angles solved with all six wheels touching; educational timing.
+43o8t6l PMA azimuth and elevation within the documented range (370° / −104° to +90°). Mini-TES points with the same elevation.
+88qqwn1 the microscope (MI)
+oov0xq7 the APXS
+h2o2rl9 the Mössbauer spectrometer
+q38hp11 the RAT
+718rr7y HGA pointing with its two-axis gimbal. The angle limits are not published in the sources consulted.
+wqk5ldx RAT: the grinding wheel spins and revolves around the axis (slowed down: 1.5 rev/s and 0.25 rev/s compared with ≈50 rev/s and 0–2 rpm in reality).
+1cqb6vq Rocker-bogie over a block
+cdwmnms Passive joint with differential
+8prijpr Turn in place
+kl6phki Front/rear steering and drive
+owsfl45 Mast sweep
+hkmqccq IDD: place the MI
+yue6rrh IDD: place the APXS
+vk00b0x IDD: place the Mössbauer
+4pb38of RAT: grinding (educational)
+mjcrr0p Point the HGA
+zutu7a3 View from below
+o7farsl Orbit under the rover
+kb83lxd View from below: the suspension, the wheel actuators and the IDD stowage bay. Drag to keep orbiting.
+i74zhoe Getting the demonstrations ready…
+orxd12q Choose a demonstration or tap a part of the rover.
+# entradas escritas a mano (texto que el escáner no detecta como español)
+=Misión destacada => Featured mission
+=Imagen: => Image:
+=Destino: => Destination:
+=Lugar: => Place:
+=Llegada: => Arrival:
+=Final: => End:
+=Fuente: => Source:
+=Sigue leyendo => Keep reading
+=Foto => Photo
+=Pista: => Clue:
+=Idioma => Language
+=Explorar => Explore
+=Reintentar 3D => Retry 3D
+=sistemas descubiertos => systems discovered
+=Todas => All
+=Rover + lander => Rover + lander
+=Rover lunar => Lunar rover
+=Módulo lunar => Lunar module
+=Orbitador => Orbiter
+=Lander => Lander
+=Rover => Rover
+=Orbitador y lander => Orbiter and lander
+=Orbitador / impacto => Orbiter / impact
+=Dos microsondas => Two microprobes
